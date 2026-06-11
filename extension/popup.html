@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinguistAI</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+
+  <!-- ── Login view ─────────────────────────────────────────────────────── -->
+  <div id="login-view">
+    <header>
+      <div class="logo">
+        <span class="logo-icon">🌐</span>
+        <span class="logo-text">LinguistAI</span>
+      </div>
+    </header>
+    <div class="login-body">
+      <p class="login-tagline">Sign in to save words &amp; phrases</p>
+      <input id="email" type="email" placeholder="Email" autocomplete="email" />
+      <input id="password" type="password" placeholder="Password" autocomplete="current-password" />
+      <button id="login-btn">Sign In</button>
+      <p id="login-error" class="login-error"></p>
+    </div>
+  </div>
+
+  <!-- ── Main view (logged in) ──────────────────────────────────────────── -->
+  <div id="main-view" class="hidden">
+    <header>
+      <div class="logo">
+        <span class="logo-icon">🌐</span>
+        <span class="logo-text">LinguistAI</span>
+      </div>
+      <span class="saved-count" id="saved-count">0 saved</span>
+    </header>
+
+    <div class="user-bar">
+      <span id="user-email" class="user-email"></span>
+      <button id="signout-btn" class="signout-btn">Sign out</button>
+    </div>
+
+    <div class="settings">
+      <div class="setting-row">
+        <label for="source-lang">Reading in</label>
+        <select id="source-lang"></select>
+      </div>
+      <div class="setting-row">
+        <label for="target-lang">Translate to</label>
+        <select id="target-lang"></select>
+      </div>
+    </div>
+
+    <p class="section-label">Recently Saved</p>
+    <div id="recent-list" class="recent-list"></div>
+
+    <footer>
+      <button id="clear-btn" class="clear-btn">Clear Recent</button>
+      <span class="hint">Select text on any page</span>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

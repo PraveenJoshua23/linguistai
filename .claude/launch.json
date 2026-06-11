@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "linguistai",
+      "runtimeExecutable": "/Users/praveenjoshua/.nvm/versions/node/v24.16.0/bin/node",
+      "runtimeArgs": ["node_modules/.bin/ng", "serve", "--port", "4300"],
+      "port": 4300
+    }
+  ]
+}

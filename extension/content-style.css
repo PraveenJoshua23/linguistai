@@ -1,0 +1,212 @@
+/* All styles are scoped to LinguistAI elements. `all: initial` resets page inheritance. */
+
+#linguistai-actions {
+  all: initial;
+  position: absolute !important;
+  z-index: 2147483647 !important;
+  display: none;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 4px !important;
+  transform: translateX(-50%) translateY(-4px);
+  transition: opacity 0.12s, transform 0.12s;
+  opacity: 0;
+}
+
+#linguistai-actions.visible {
+  display: flex !important;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.lai-btn {
+  all: initial;
+  padding: 5px 12px !important;
+  border-radius: 20px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  white-space: nowrap !important;
+  border: none !important;
+  outline: none !important;
+  transition: background 0.12s, opacity 0.12s;
+  user-select: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18) !important;
+}
+
+#lai-translate-btn {
+  background: #6366f1 !important;
+  color: #fff !important;
+}
+
+#lai-translate-btn:hover:not(:disabled) { background: #4f46e5 !important; }
+
+.lai-btn-save {
+  background: #fff !important;
+  color: #6366f1 !important;
+  border: 1.5px solid #6366f1 !important;
+}
+
+.lai-btn-save:hover:not(:disabled) {
+  background: #eef2ff !important;
+}
+
+.lai-btn:disabled {
+  opacity: 0.65 !important;
+  cursor: default;
+}
+
+.lai-btn.error {
+  background: #dc2626 !important;
+  color: #fff !important;
+  border-color: #dc2626 !important;
+}
+
+/* ── Translation card ────────────────────────────────────────────── */
+
+#linguistai-card {
+  all: initial;
+  position: absolute !important;
+  z-index: 2147483647 !important;
+  width: 300px !important;
+  background: #fff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.16), 0 2px 8px rgba(0,0,0,0.08) !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-size: 14px !important;
+  color: #111827 !important;
+  display: none;
+  flex-direction: column !important;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.12s, transform 0.12s;
+  overflow: hidden !important;
+}
+
+#linguistai-card.visible {
+  display: flex !important;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.lai-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 10px 12px 0 !important;
+}
+
+.lai-langs {
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  color: #6366f1 !important;
+  background: #eef2ff !important;
+  padding: 2px 8px !important;
+  border-radius: 10px !important;
+  letter-spacing: 0.5px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.lai-close {
+  all: initial;
+  font-size: 13px !important;
+  color: #9ca3af !important;
+  cursor: pointer;
+  padding: 2px 5px !important;
+  border-radius: 4px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+.lai-close:hover { color: #374151 !important; background: #f3f4f6 !important; }
+
+.lai-original {
+  all: initial;
+  display: block !important;
+  padding: 8px 12px 4px !important;
+  color: #6b7280 !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  max-height: 64px !important;
+  overflow-y: auto !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.lai-translation-row {
+  display: flex !important;
+  align-items: baseline !important;
+  gap: 6px !important;
+  padding: 2px 12px 6px !important;
+}
+
+.lai-translation {
+  all: initial;
+  display: block !important;
+  color: #111827 !important;
+  font-size: 17px !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.lai-pos {
+  all: initial;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  color: #9ca3af !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  white-space: nowrap !important;
+}
+
+.lai-meaning {
+  all: initial;
+  display: block !important;
+  padding: 0 12px 6px !important;
+  color: #374151 !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.lai-translit {
+  all: initial;
+  display: block !important;
+  padding: 0 12px 6px !important;
+  color: #9ca3af !important;
+  font-size: 12px !important;
+  font-style: italic !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+.lai-save-action {
+  all: initial;
+  display: block !important;
+  width: calc(100% - 24px) !important;
+  margin: 4px 12px 10px !important;
+  padding: 8px !important;
+  background: #6366f1 !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  box-sizing: border-box !important;
+  transition: background 0.12s;
+}
+.lai-save-action:hover:not(:disabled) { background: #4f46e5 !important; }
+.lai-save-action:disabled { opacity: 0.75 !important; cursor: default; }
+
+.lai-msg {
+  all: initial;
+  display: block !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  padding: 0 12px 10px !important;
+  min-height: 18px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+.lai-msg.success { color: #059669 !important; }
+.lai-msg.error   { color: #dc2626 !important; }

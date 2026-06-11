@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "LinguistAI",
+  "version": "0.1.0",
+  "description": "Select text on any webpage to translate and add to your LinguistAI flashcards",
+  "permissions": ["contextMenus", "activeTab", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "css": ["content-style.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
