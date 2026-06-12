@@ -21,6 +21,8 @@ export interface Flashcard {
   repetitions: number;
   dueAt: string; // ISO timestamp
   lastReviewedAt: string | null;
+  // Optional custom deck assignment (one deck per card; null = unassigned).
+  deckId: string | null;
 }
 
 export interface ReviewInput {
@@ -112,6 +114,7 @@ export class FlashcardsService {
       repetitions: 0,
       dueAt: new Date().toISOString(),
       lastReviewedAt: null,
+      deckId: null,
     };
     this.cards.update(cards => [...cards, tempCard]);
 
@@ -188,6 +191,35 @@ export class FlashcardsService {
       repetitions: r.repetitions ?? 0,
       dueAt: r.due_at ?? new Date().toISOString(),
       lastReviewedAt: r.last_reviewed_at ?? null,
+      deckId: r.deck_id ?? null,
     };
+  }
+
+  /**
+   * Assign cards to a custom deck (or pass null to un-assign). Patches local
+   * state optimistically, then reconciles with the server response.
+   */
+  assignToDeck(cardIds: string[], deckId: string | null): void {
+    if (cardIds.length === 0) return;
+    const idSet = new Set(cardIds);
+    this.cards.update(cards => cards.map(c => idSet.has(c.id) ? { ...c, deckId } : c));
+
+    const userId = this.supabase.currentUser()?.id;
+    if (!userId) return;
+
+    this.http.post<any[]>(`${environment.apiBase}/saved-words/assign-deck`, {
+      userId, cardIds, deckId,
+    }).subscribe({
+      next: (rows) => {
+        const updated = new Map(rows.map(r => [r.id, this.toCard(r)]));
+        this.cards.update(cards => cards.map(c => updated.get(c.id) ?? c));
+      },
+      error: (e) => console.warn('Could not assign cards to deck:', e.message),
+    });
+  }
+
+  /** Locally clear assignment for a deck that was just deleted. */
+  onDeckDeleted(deckId: string): void {
+    this.cards.update(cards => cards.map(c => c.deckId === deckId ? { ...c, deckId: null } : c));
   }
 }
