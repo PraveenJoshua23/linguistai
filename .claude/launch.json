@@ -6,6 +6,12 @@
       "runtimeExecutable": "/Users/praveenjoshua/.nvm/versions/node/v24.16.0/bin/node",
       "runtimeArgs": ["node_modules/.bin/ng", "serve", "--port", "4300"],
       "port": 4300
+    },
+    {
+      "name": "api",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd server && exec /Users/praveenjoshua/.nvm/versions/node/v24.16.0/bin/node src/index.js"],
+      "port": 3000
     }
   ]
 }

@@ -1,0 +1,5508 @@
+{
+ "id": "english",
+ "language": "English",
+ "name": "English Essentials",
+ "description": "500 essential English words for everyday life",
+ "cards": [
+  {
+   "word": "apple",
+   "romanization": null,
+   "meaning": "a round fruit with red or green skin",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often eaten raw",
+   "examples": [
+    "She packed an apple for lunch."
+   ]
+  },
+  {
+   "word": "bread",
+   "romanization": null,
+   "meaning": "a staple food made from flour and water",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "usually baked",
+   "examples": [
+    "He toasted two slices of bread."
+   ]
+  },
+  {
+   "word": "coffee",
+   "romanization": null,
+   "meaning": "a hot drink made from roasted coffee beans",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served hot or cold",
+   "examples": [
+    "She drinks coffee every morning."
+   ]
+  },
+  {
+   "word": "water",
+   "romanization": null,
+   "meaning": "clear liquid essential for life",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "drink to stay hydrated",
+   "examples": [
+    "He filled his bottle with water."
+   ]
+  },
+  {
+   "word": "cheese",
+   "romanization": null,
+   "meaning": "a dairy product made from curdled milk",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "comes in many varieties",
+   "examples": [
+    "They added cheese to the pizza."
+   ]
+  },
+  {
+   "word": "rice",
+   "romanization": null,
+   "meaning": "small white grains cooked as a staple food",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "common in Asian cuisine",
+   "examples": [
+    "She served rice with the curry."
+   ]
+  },
+  {
+   "word": "soup",
+   "romanization": null,
+   "meaning": "a liquid dish made by boiling ingredients",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served hot or cold",
+   "examples": [
+    "The restaurant's tomato soup is delicious."
+   ]
+  },
+  {
+   "word": "juice",
+   "romanization": null,
+   "meaning": "a drink made by extracting liquid from fruit",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often served fresh",
+   "examples": [
+    "He ordered orange juice at breakfast."
+   ]
+  },
+  {
+   "word": "salad",
+   "romanization": null,
+   "meaning": "a mixture of raw vegetables, often with dressing",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served as a side",
+   "examples": [
+    "She prepared a green salad for dinner."
+   ]
+  },
+  {
+   "word": "tea",
+   "romanization": null,
+   "meaning": "a hot beverage made by steeping tea leaves",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "popular worldwide",
+   "examples": [
+    "They enjoyed tea in the afternoon."
+   ]
+  },
+  {
+   "word": "egg",
+   "romanization": null,
+   "meaning": "the oval reproductive body of a bird, eaten as food",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "can be boiled, fried, scrambled",
+   "examples": [
+    "He had a boiled egg for breakfast."
+   ]
+  },
+  {
+   "word": "butter",
+   "romanization": null,
+   "meaning": "a solid dairy product used as a spread or cooking fat",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "softens at room temperature",
+   "examples": [
+    "She spread butter on the toast."
+   ]
+  },
+  {
+   "word": "pasta",
+   "romanization": null,
+   "meaning": "Italian noodles made from wheat dough",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served with sauce",
+   "examples": [
+    "They cooked spaghetti pasta for dinner."
+   ]
+  },
+  {
+   "word": "milk",
+   "romanization": null,
+   "meaning": "a white liquid produced by mammals, used as a drink",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "rich in calcium",
+   "examples": [
+    "The child drank a glass of milk."
+   ]
+  },
+  {
+   "word": "fish",
+   "romanization": null,
+   "meaning": "aquatic animal eaten as food",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "can be grilled or fried",
+   "examples": [
+    "He ordered grilled fish at the restaurant."
+   ]
+  },
+  {
+   "word": "sugar",
+   "romanization": null,
+   "meaning": "sweet crystalline substance used to sweeten foods",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "adds sweetness",
+   "examples": [
+    "She added a spoonful of sugar to her coffee."
+   ]
+  },
+  {
+   "word": "honey",
+   "romanization": null,
+   "meaning": "sweet syrup made by bees from flower nectar",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "natural sweetener",
+   "examples": [
+    "He drizzled honey over the toast."
+   ]
+  },
+  {
+   "word": "vegetable",
+   "romanization": null,
+   "meaning": "a plant or part of a plant used as food",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often cooked or raw",
+   "examples": [
+    "Carrots are a popular vegetable."
+   ]
+  },
+  {
+   "word": "pizza",
+   "romanization": null,
+   "meaning": "a flatbread topped with sauce, cheese, and toppings",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "common fast‑food dish",
+   "examples": [
+    "We ordered a large pepperoni pizza for dinner."
+   ]
+  },
+  {
+   "word": "chicken",
+   "romanization": null,
+   "meaning": "meat from a domestic fowl",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "cooked in many ways",
+   "examples": [
+    "She grilled chicken breasts for the salad."
+   ]
+  },
+  {
+   "word": "beef",
+   "romanization": null,
+   "meaning": "meat from cattle",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used in stews and roasts",
+   "examples": [
+    "The restaurant serves a spicy beef stir‑fry."
+   ]
+  },
+  {
+   "word": "pork",
+   "romanization": null,
+   "meaning": "meat from a pig",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often roasted or fried",
+   "examples": [
+    "He sliced pork chops for the barbecue."
+   ]
+  },
+  {
+   "word": "tomato",
+   "romanization": null,
+   "meaning": "a red, edible fruit used as a vegetable",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "great in sauces",
+   "examples": [
+    "Tomato soup is perfect on a cold day."
+   ]
+  },
+  {
+   "word": "banana",
+   "romanization": null,
+   "meaning": "a long, curved yellow fruit",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "high in potassium",
+   "examples": [
+    "She ate a banana after her run."
+   ]
+  },
+  {
+   "word": "orange",
+   "romanization": null,
+   "meaning": "a round citrus fruit with a thick skin",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "rich in vitamin C",
+   "examples": [
+    "He squeezed fresh orange juice for breakfast."
+   ]
+  },
+  {
+   "word": "chocolate",
+   "romanization": null,
+   "meaning": "a sweet made from cocoa beans",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often eaten as a treat",
+   "examples": [
+    "She bought a bar of dark chocolate."
+   ]
+  },
+  {
+   "word": "soda",
+   "romanization": null,
+   "meaning": "a carbonated soft drink",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served chilled",
+   "examples": [
+    "He opened a cold soda with his burger."
+   ]
+  },
+  {
+   "word": "sandwich",
+   "romanization": null,
+   "meaning": "two slices of bread with filling",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "portable meal",
+   "examples": [
+    "I packed a turkey sandwich for lunch."
+   ]
+  },
+  {
+   "word": "steak",
+   "romanization": null,
+   "meaning": "a thick slice of meat, usually beef",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often grilled",
+   "examples": [
+    "The steak was cooked medium‑rare."
+   ]
+  },
+  {
+   "word": "bacon",
+   "romanization": null,
+   "meaning": "cured strips of pork belly",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "crispy when fried",
+   "examples": [
+    "He added bacon to his scrambled eggs."
+   ]
+  },
+  {
+   "word": "yogurt",
+   "romanization": null,
+   "meaning": "a creamy dairy product made by fermentation",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often flavored",
+   "examples": [
+    "She topped her granola with strawberry yogurt."
+   ]
+  },
+  {
+   "word": "cereal",
+   "romanization": null,
+   "meaning": "breakfast grains served with milk",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "quick morning meal",
+   "examples": [
+    "He poured milk over his cereal."
+   ]
+  },
+  {
+   "word": "ketchup",
+   "romanization": null,
+   "meaning": "a sweet tomato sauce for dipping",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "common condiment",
+   "examples": [
+    "She added ketchup to her fries."
+   ]
+  },
+  {
+   "word": "pepper",
+   "romanization": null,
+   "meaning": "a spice made from dried peppercorns",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "adds heat",
+   "examples": [
+    "A pinch of pepper brightened the soup."
+   ]
+  },
+  {
+   "word": "garlic",
+   "romanization": null,
+   "meaning": "a pungent bulb used as seasoning",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used in many cuisines",
+   "examples": [
+    "Garlic roasted potatoes are delicious."
+   ]
+  },
+  {
+   "word": "wine",
+   "romanization": null,
+   "meaning": "an alcoholic drink made from fermented grapes",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served with meals",
+   "examples": [
+    "They enjoyed a glass of red wine with dinner."
+   ]
+  },
+  {
+   "word": "fruit",
+   "romanization": null,
+   "meaning": "the edible part of a plant that is sweet or tart",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "generic term for many foods",
+   "examples": [
+    "She ate a piece of fruit after lunch."
+   ]
+  },
+  {
+   "word": "meat",
+   "romanization": null,
+   "meaning": "edible flesh of animals",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "general term, includes many types",
+   "examples": [
+    "Grilled meat is popular at barbecues."
+   ]
+  },
+  {
+   "word": "ham",
+   "romanization": null,
+   "meaning": "cured pork from the hind leg",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often sliced for sandwiches",
+   "examples": [
+    "He added ham to the omelette."
+   ]
+  },
+  {
+   "word": "turkey",
+   "romanization": null,
+   "meaning": "large bird commonly roasted",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "popular for holidays",
+   "examples": [
+    "We served turkey for dinner."
+   ]
+  },
+  {
+   "word": "shrimp",
+   "romanization": null,
+   "meaning": "small marine crustaceans used as food",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often boiled or fried",
+   "examples": [
+    "The pasta was topped with garlic shrimp."
+   ]
+  },
+  {
+   "word": "sauce",
+   "romanization": null,
+   "meaning": "liquid seasoning served with food",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "can be sweet or savory",
+   "examples": [
+    "She drizzled chocolate sauce over the cake."
+   ]
+  },
+  {
+   "word": "spice",
+   "romanization": null,
+   "meaning": "plant-derived flavoring agent",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "adds heat or aroma",
+   "examples": [
+    "Cinnamon is a popular spice for desserts."
+   ]
+  },
+  {
+   "word": "salt",
+   "romanization": null,
+   "meaning": "mineral used to enhance flavor",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "use sparingly",
+   "examples": [
+    "A pinch of salt brings out the soup’s taste."
+   ]
+  },
+  {
+   "word": "vinegar",
+   "romanization": null,
+   "meaning": "acidic liquid made from fermented alcohol",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used in dressings",
+   "examples": [
+    "She made a salad dressing with vinegar and oil."
+   ]
+  },
+  {
+   "word": "cream",
+   "romanization": null,
+   "meaning": "thick dairy product, rich and smooth",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used in sauces and desserts",
+   "examples": [
+    "Add a spoonful of cream to the coffee."
+   ]
+  },
+  {
+   "word": "ice cream",
+   "romanization": null,
+   "meaning": "frozen sweet dessert made from dairy",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served cold",
+   "examples": [
+    "Kids love vanilla ice cream on hot days."
+   ]
+  },
+  {
+   "word": "beer",
+   "romanization": null,
+   "meaning": "alcoholic drink made from fermented grains",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often served chilled",
+   "examples": [
+    "He ordered a cold beer after work."
+   ]
+  },
+  {
+   "word": "smoothie",
+   "romanization": null,
+   "meaning": "blended drink of fruit and liquid",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "healthy breakfast option",
+   "examples": [
+    "She prepared a strawberry banana smoothie."
+   ]
+  },
+  {
+   "word": "biscuit",
+   "romanization": null,
+   "meaning": "small baked bread, often sweet or savory",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "common snack",
+   "examples": [
+    "He dunked a biscuit in his tea."
+   ]
+  },
+  {
+   "word": "cracker",
+   "romanization": null,
+   "meaning": "thin, crisp baked snack",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often eaten with cheese",
+   "examples": [
+    "She spread hummus on a cracker."
+   ]
+  },
+  {
+   "word": "curry",
+   "romanization": null,
+   "meaning": "spiced sauce or dish originating from South Asia",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served with rice or bread",
+   "examples": [
+    "We had chicken curry for dinner."
+   ]
+  },
+  {
+   "word": "pie",
+   "romanization": null,
+   "meaning": "baked dish with a crust and filling",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sweet or savory varieties",
+   "examples": [
+    "Apple pie is a classic dessert."
+   ]
+  },
+  {
+   "word": "cake",
+   "romanization": null,
+   "meaning": "sweet baked dessert, often layered",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "celebrated at parties",
+   "examples": [
+    "She baked a chocolate cake for the birthday."
+   ]
+  },
+  {
+   "word": "noodles",
+   "romanization": null,
+   "meaning": "long, thin strips of dough, usually boiled",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "common in many cuisines",
+   "examples": [
+    "She cooked the noodles in a spicy sauce."
+   ]
+  },
+  {
+   "word": "broth",
+   "romanization": null,
+   "meaning": "clear soup made by simmering meat or vegetables",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "base for many dishes",
+   "examples": [
+    "The doctor recommended warm broth for recovery."
+   ]
+  },
+  {
+   "word": "lemonade",
+   "romanization": null,
+   "meaning": "a sweetened drink made from lemon juice and water",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "refreshing summer drink",
+   "examples": [
+    "Kids love cold lemonade on hot days."
+   ]
+  },
+  {
+   "word": "burger",
+   "romanization": null,
+   "meaning": "a sandwich with a cooked patty of meat or veggie",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served with buns and toppings",
+   "examples": [
+    "He ordered a cheeseburger with extra pickles."
+   ]
+  },
+  {
+   "word": "fries",
+   "romanization": null,
+   "meaning": "thin strips of deep‑fried potatoes",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often served as a side",
+   "examples": [
+    "She dipped the fries in ketchup."
+   ]
+  },
+  {
+   "word": "toast",
+   "romanization": null,
+   "meaning": "sliced bread browned by heat",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "can be topped with spreads",
+   "examples": [
+    "He spread butter on his toast."
+   ]
+  },
+  {
+   "word": "jam",
+   "romanization": null,
+   "meaning": "sweet spread made from fruit and sugar",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used on bread or toast",
+   "examples": [
+    "She added strawberry jam to her scone."
+   ]
+  },
+  {
+   "word": "pudding",
+   "romanization": null,
+   "meaning": "soft, sweet dessert, often custard‑like",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served chilled or warm",
+   "examples": [
+    "Chocolate pudding is his favorite dessert."
+   ]
+  },
+  {
+   "word": "syrup",
+   "romanization": null,
+   "meaning": "thick, sweet liquid used as a topping",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "common on pancakes",
+   "examples": [
+    "Maple syrup drizzles over the pancakes."
+   ]
+  },
+  {
+   "word": "airport",
+   "romanization": null,
+   "meaning": "a place where planes take off and land",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "travel hub",
+   "examples": [
+    "We arrived at the airport early."
+   ]
+  },
+  {
+   "word": "passport",
+   "romanization": null,
+   "meaning": "official document for international travel",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "identification required",
+   "examples": [
+    "Don't forget your passport at the check‑in desk."
+   ]
+  },
+  {
+   "word": "ticket",
+   "romanization": null,
+   "meaning": "proof of purchase for travel",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "shows seat and time",
+   "examples": [
+    "She printed her train ticket at home."
+   ]
+  },
+  {
+   "word": "luggage",
+   "romanization": null,
+   "meaning": "bags and suitcases for a trip",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "carry‑on or checked",
+   "examples": [
+    "His luggage was delayed at the airport."
+   ]
+  },
+  {
+   "word": "boarding",
+   "romanization": null,
+   "meaning": "getting on a plane or train",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "process before departure",
+   "examples": [
+    "Boarding will start in ten minutes."
+   ]
+  },
+  {
+   "word": "reservation",
+   "romanization": null,
+   "meaning": "pre‑booked accommodation or transport",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "confirm in advance",
+   "examples": [
+    "I made a hotel reservation for Friday night."
+   ]
+  },
+  {
+   "word": "itinerary",
+   "romanization": null,
+   "meaning": "planned route or schedule of travel",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "detailed travel plan",
+   "examples": [
+    "The tour guide gave us the itinerary for the day."
+   ]
+  },
+  {
+   "word": "customs",
+   "romanization": null,
+   "meaning": "officials checking goods at borders",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "declare items",
+   "examples": [
+    "We waited in line for customs after landing."
+   ]
+  },
+  {
+   "word": "tourist",
+   "romanization": null,
+   "meaning": "person traveling for pleasure",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "often visits attractions",
+   "examples": [
+    "The city is full of tourists in summer."
+   ]
+  },
+  {
+   "word": "guidebook",
+   "romanization": null,
+   "meaning": "book with travel information and tips",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "helps plan trips",
+   "examples": [
+    "She consulted her guidebook before exploring."
+   ]
+  },
+  {
+   "word": "exchange",
+   "romanization": null,
+   "meaning": "changing one currency for another",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "currency conversion",
+   "examples": [
+    "You can exchange dollars for euros at the kiosk."
+   ]
+  },
+  {
+   "word": "delay",
+   "romanization": null,
+   "meaning": "late arrival or departure",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "unexpected hold‑up",
+   "examples": [
+    "The flight suffered a two‑hour delay."
+   ]
+  },
+  {
+   "word": "check‑in",
+   "romanization": null,
+   "meaning": "registering before travel",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "hand over documents",
+   "examples": [
+    "We need to check‑in online before the flight."
+   ]
+  },
+  {
+   "word": "map",
+   "romanization": null,
+   "meaning": "drawing showing locations and routes",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "navigation aid",
+   "examples": [
+    "A city map helped us find the museum."
+   ]
+  },
+  {
+   "word": "souvenir",
+   "romanization": null,
+   "meaning": "keepsake bought while traveling",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "memory of trip",
+   "examples": [
+    "She bought a postcard as a souvenir."
+   ]
+  },
+  {
+   "word": "hostel",
+   "romanization": null,
+   "meaning": "budget shared accommodation for travelers",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "cheaper than hotels",
+   "examples": [
+    "Backpackers often stay in hostels."
+   ]
+  },
+  {
+   "word": "travel",
+   "romanization": null,
+   "meaning": "to go from one place to another",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "journeying",
+   "examples": [
+    "We love to travel during holidays."
+   ]
+  },
+  {
+   "word": "explore",
+   "romanization": null,
+   "meaning": "to discover new places",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "investigate surroundings",
+   "examples": [
+    "They plan to explore the old town tomorrow."
+   ]
+  },
+  {
+   "word": "flight",
+   "romanization": null,
+   "meaning": "A journey by air from one place to another",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Used for any airplane trip",
+   "examples": [
+    "Our flight to Paris departs at nine o'clock."
+   ]
+  },
+  {
+   "word": "gate",
+   "romanization": null,
+   "meaning": "The area where passengers board a plane",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Check the number before boarding",
+   "examples": [
+    "Meet me at gate 22 before boarding."
+   ]
+  },
+  {
+   "word": "departure",
+   "romanization": null,
+   "meaning": "The act of leaving, especially a scheduled one",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Often shown on timetables",
+   "examples": [
+    "The departure of the train is delayed by ten minutes."
+   ]
+  },
+  {
+   "word": "arrival",
+   "romanization": null,
+   "meaning": "The act of reaching a destination",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Opposite of departure",
+   "examples": [
+    "Your arrival time is scheduled for 3 p.m."
+   ]
+  },
+  {
+   "word": "terminal",
+   "romanization": null,
+   "meaning": "A building where travelers start or end trips",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Large airports have several terminals",
+   "examples": [
+    "We need to go to Terminal B for our flight."
+   ]
+  },
+  {
+   "word": "security",
+   "romanization": null,
+   "meaning": "The process of checking people and luggage for safety",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "You must pass security before boarding",
+   "examples": [
+    "Security asked me to take out my laptop."
+   ]
+  },
+  {
+   "word": "baggage",
+   "romanization": null,
+   "meaning": "Suitcases and bags carried while traveling",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Often stored in the cargo hold",
+   "examples": [
+    "My baggage was delayed at the airport."
+   ]
+  },
+  {
+   "word": "carry‑on",
+   "romanization": null,
+   "meaning": "A small bag allowed in the cabin",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Fits in the overhead bin",
+   "examples": [
+    "She packed all her essentials in a carry‑on."
+   ]
+  },
+  {
+   "word": "flight attendant",
+   "romanization": null,
+   "meaning": "A crew member who assists passengers on a plane",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Provides safety instructions",
+   "examples": [
+    "The flight attendant demonstrated how to use the oxygen mask."
+   ]
+  },
+  {
+   "word": "layover",
+   "romanization": null,
+   "meaning": "A short stop between flights",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "May require changing planes",
+   "examples": [
+    "We have a two‑hour layover in Dubai."
+   ]
+  },
+  {
+   "word": "timetable",
+   "romanization": null,
+   "meaning": "A schedule of departure and arrival times",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Check it for updates",
+   "examples": [
+    "The train timetable shows the next service at 6 am."
+   ]
+  },
+  {
+   "word": "check‑out",
+   "romanization": null,
+   "meaning": "To leave a hotel and settle the bill",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "Done at the reception desk",
+   "examples": [
+    "We will check‑out of the hotel tomorrow morning."
+   ]
+  },
+  {
+   "word": "accommodation",
+   "romanization": null,
+   "meaning": "A place to stay while traveling",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Can be hotels, B&Bs, etc.",
+   "examples": [
+    "We booked accommodation near the city centre."
+   ]
+  },
+  {
+   "word": "rental car",
+   "romanization": null,
+   "meaning": "A vehicle hired for temporary use",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Useful for flexible travel",
+   "examples": [
+    "We picked up a rental car at the airport."
+   ]
+  },
+  {
+   "word": "visa",
+   "romanization": null,
+   "meaning": "Official permission to enter a country",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Required for many foreign trips",
+   "examples": [
+    "She applied for a tourist visa last month."
+   ]
+  },
+  {
+   "word": "sightseeing",
+   "romanization": null,
+   "meaning": "Visiting interesting places as a tourist",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Often done on foot or by bus",
+   "examples": [
+    "We spent the afternoon sightseeing around the old town."
+   ]
+  },
+  {
+   "word": "journey",
+   "romanization": null,
+   "meaning": "The act of traveling from one place to another",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "Can refer to long trips",
+   "examples": [
+    "The journey across the desert took three days."
+   ]
+  },
+  {
+   "word": "crowd",
+   "romanization": null,
+   "meaning": "A large number of people gathered together",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "May cause delays at stations",
+   "examples": [
+    "The crowd at the station made it hard to move quickly."
+   ]
+  },
+  {
+   "word": "hotel",
+   "romanization": null,
+   "meaning": "a place where people pay to stay overnight",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "book in advance",
+   "examples": [
+    "We booked a hotel near the beach."
+   ]
+  },
+  {
+   "word": "train",
+   "romanization": null,
+   "meaning": "a series of connected railway cars pulled by a locomotive",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "often faster than bus",
+   "examples": [
+    "The train to the city leaves at 9 a.m."
+   ]
+  },
+  {
+   "word": "bus",
+   "romanization": null,
+   "meaning": "a large motor vehicle carrying passengers by road",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "common public transport",
+   "examples": [
+    "She took the bus to the museum."
+   ]
+  },
+  {
+   "word": "station",
+   "romanization": null,
+   "meaning": "a place where trains or buses stop to pick up passengers",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "look for signs",
+   "examples": [
+    "The station is only a ten‑minute walk away."
+   ]
+  },
+  {
+   "word": "platform",
+   "romanization": null,
+   "meaning": "the area beside the tracks where passengers wait",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "watch the edge",
+   "examples": [
+    "He waited on platform 3 for his train."
+   ]
+  },
+  {
+   "word": "conductor",
+   "romanization": null,
+   "meaning": "the person who checks tickets on a train",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "often wears a badge",
+   "examples": [
+    "The conductor asked to see my ticket."
+   ]
+  },
+  {
+   "word": "backpack",
+   "romanization": null,
+   "meaning": "a bag carried on the back with shoulder straps",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "good for hands‑free travel",
+   "examples": [
+    "She packed her camera in a small backpack."
+   ]
+  },
+  {
+   "word": "local",
+   "romanization": null,
+   "meaning": "relating to people or things from the area you are visiting",
+   "pos": "ADJ",
+   "category": "Travel",
+   "note": "use local customs",
+   "examples": [
+    "We tried some local dishes for dinner."
+   ]
+  },
+  {
+   "word": "cash",
+   "romanization": null,
+   "meaning": "money in the form of coins or banknotes",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "use for small purchases",
+   "examples": [
+    "I kept some cash for the taxi."
+   ]
+  },
+  {
+   "word": "budget",
+   "romanization": null,
+   "meaning": "an estimate of income and expenditure for a period",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "plan your spending",
+   "examples": [
+    "Our travel budget is 500 dollars per week."
+   ]
+  },
+  {
+   "word": "room",
+   "romanization": null,
+   "meaning": "a separate space within a building for sleeping",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "check amenities",
+   "examples": [
+    "Our hotel room had a great view of the river."
+   ]
+  },
+  {
+   "word": "key",
+   "romanization": null,
+   "meaning": "a small metal instrument used to open a lock",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "keep it safe",
+   "examples": [
+    "The front desk gave us a key for our room."
+   ]
+  },
+  {
+   "word": "receipt",
+   "romanization": null,
+   "meaning": "a written proof of payment",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "keep for refunds",
+   "examples": [
+    "She kept the receipt for the train ticket."
+   ]
+  },
+  {
+   "word": "schedule",
+   "romanization": null,
+   "meaning": "a plan that lists times of events",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "check it daily",
+   "examples": [
+    "The bus schedule shows departures every 30 minutes."
+   ]
+  },
+  {
+   "word": "transfer",
+   "romanization": null,
+   "meaning": "to change from one mode of transport to another",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "often at hubs",
+   "examples": [
+    "We had a quick transfer at the central station."
+   ]
+  },
+  {
+   "word": "stopover",
+   "romanization": null,
+   "meaning": "a short stay in a place while traveling to another destination",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "use to break long trips",
+   "examples": [
+    "Our flight includes a six‑hour stopover in Dubai."
+   ]
+  },
+  {
+   "word": "route",
+   "romanization": null,
+   "meaning": "the path or course taken to get from one place to another",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "plan the best route",
+   "examples": [
+    "The scenic route along the coast is popular."
+   ]
+  },
+  {
+   "word": "border",
+   "romanization": null,
+   "meaning": "the line separating two countries",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "crossing may need documents",
+   "examples": [
+    "We drove to the border to enter the neighboring country."
+   ]
+  },
+  {
+   "word": "guide",
+   "romanization": null,
+   "meaning": "person who shows visitors around",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "often hired locally",
+   "examples": [
+    "Our guide explained the history of the cathedral."
+   ]
+  },
+  {
+   "word": "trip",
+   "romanization": null,
+   "meaning": "a short journey or vacation",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "can be leisure or business",
+   "examples": [
+    "We planned a weekend trip to the coast."
+   ]
+  },
+  {
+   "word": "vacation",
+   "romanization": null,
+   "meaning": "a period of time spent away from work for rest",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "usually longer than a weekend",
+   "examples": [
+    "She took a two‑week vacation in Spain."
+   ]
+  },
+  {
+   "word": "cruise",
+   "romanization": null,
+   "meaning": "a leisurely voyage on a ship",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "often includes multiple stops",
+   "examples": [
+    "They booked a Caribbean cruise for their anniversary."
+   ]
+  },
+  {
+   "word": "tour",
+   "romanization": null,
+   "meaning": "organized visit to places of interest",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "can be guided or self‑guided",
+   "examples": [
+    "The city tour covered all the major museums."
+   ]
+  },
+  {
+   "word": "motel",
+   "romanization": null,
+   "meaning": "a roadside hotel for motorists",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "typically cheaper than hotels",
+   "examples": [
+    "We stayed at a motel near the highway."
+   ]
+  },
+  {
+   "word": "plane",
+   "romanization": null,
+   "meaning": "aircraft used for passenger travel",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "short for airplane",
+   "examples": [
+    "The plane took off just after sunrise."
+   ]
+  },
+  {
+   "word": "seatbelt",
+   "romanization": null,
+   "meaning": "safety strap that fastens a passenger in a seat",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "mandatory on flights",
+   "examples": [
+    "Please fasten your seatbelt during takeoff."
+   ]
+  },
+  {
+   "word": "boarding pass",
+   "romanization": null,
+   "meaning": "document allowing a passenger to board a plane",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "must be shown at gate",
+   "examples": [
+    "She printed her boarding pass at home."
+   ]
+  },
+  {
+   "word": "head",
+   "romanization": null,
+   "meaning": "the upper part of the body containing the brain",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "common body part",
+   "examples": [
+    "She hit her head on the low ceiling."
+   ]
+  },
+  {
+   "word": "heart",
+   "romanization": null,
+   "meaning": "the organ that pumps blood through the body",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "central to circulation",
+   "examples": [
+    "His heart beats faster when he runs."
+   ]
+  },
+  {
+   "word": "stomach",
+   "romanization": null,
+   "meaning": "the organ where food is digested",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "often mentioned with pain",
+   "examples": [
+    "My stomach hurts after that spicy meal."
+   ]
+  },
+  {
+   "word": "fever",
+   "romanization": null,
+   "meaning": "a temporary increase in body temperature",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "sign of infection",
+   "examples": [
+    "She ran a fever of 39°C last night."
+   ]
+  },
+  {
+   "word": "cough",
+   "romanization": null,
+   "meaning": "a sudden expulsion of air from the lungs",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "common symptom",
+   "examples": [
+    "A dry cough kept him awake."
+   ]
+  },
+  {
+   "word": "injury",
+   "romanization": null,
+   "meaning": "damage to a part of the body",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "result of accident",
+   "examples": [
+    "He sustained a knee injury during the game."
+   ]
+  },
+  {
+   "word": "medicine",
+   "romanization": null,
+   "meaning": "a substance used to treat illness",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "often prescribed",
+   "examples": [
+    "The doctor gave her some medicine for the infection."
+   ]
+  },
+  {
+   "word": "doctor",
+   "romanization": null,
+   "meaning": "a medical professional who diagnoses and treats patients",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "healthcare provider",
+   "examples": [
+    "You should see a doctor if the pain persists."
+   ]
+  },
+  {
+   "word": "hospital",
+   "romanization": null,
+   "meaning": "a place where sick people receive treatment",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "large medical facility",
+   "examples": [
+    "He was admitted to the hospital after the accident."
+   ]
+  },
+  {
+   "word": "pain",
+   "romanization": null,
+   "meaning": "an unpleasant feeling caused by injury or illness",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "subjective intensity",
+   "examples": [
+    "She felt a sharp pain in her back."
+   ]
+  },
+  {
+   "word": "symptom",
+   "romanization": null,
+   "meaning": "a sign indicating a disease or condition",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "observable indicator",
+   "examples": [
+    "Fever and rash are common symptoms of the flu."
+   ]
+  },
+  {
+   "word": "treatment",
+   "romanization": null,
+   "meaning": "medical care given to a patient",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "includes therapy",
+   "examples": [
+    "The treatment lasted for three weeks."
+   ]
+  },
+  {
+   "word": "virus",
+   "romanization": null,
+   "meaning": "a microscopic infectious agent that replicates inside living cells",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "causes many illnesses",
+   "examples": [
+    "The flu is caused by a virus."
+   ]
+  },
+  {
+   "word": "bacteria",
+   "romanization": null,
+   "meaning": "tiny single-celled organisms that can cause infections",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "often harmful",
+   "examples": [
+    "Antibiotics target bacteria, not viruses."
+   ]
+  },
+  {
+   "word": "blood",
+   "romanization": null,
+   "meaning": "the red liquid that circulates in the body",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "carries oxygen",
+   "examples": [
+    "A doctor took a sample of his blood."
+   ]
+  },
+  {
+   "word": "immune",
+   "romanization": null,
+   "meaning": "resistant to a disease or infection",
+   "pos": "ADJ",
+   "category": "Body & Health",
+   "note": "protective response",
+   "examples": [
+    "Vaccination helps the body become immune."
+   ]
+  },
+  {
+   "word": "diet",
+   "romanization": null,
+   "meaning": "the kinds of food a person regularly eats",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "affects health",
+   "examples": [
+    "A balanced diet improves overall wellbeing."
+   ]
+  },
+  {
+   "word": "exercise",
+   "romanization": null,
+   "meaning": "physical activity that improves fitness",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "promotes health",
+   "examples": [
+    "Regular exercise reduces the risk of heart disease."
+   ]
+  },
+  {
+   "word": "muscle",
+   "romanization": null,
+   "meaning": "tissue that can contract to produce movement",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "found throughout the body",
+   "examples": [
+    "She strained a muscle while lifting weights."
+   ]
+  },
+  {
+   "word": "bone",
+   "romanization": null,
+   "meaning": "hard part of the skeleton supporting the body",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "protects organs and stores minerals",
+   "examples": [
+    "The doctor set his broken bone in a cast."
+   ]
+  },
+  {
+   "word": "joint",
+   "romanization": null,
+   "meaning": "place where two bones meet",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "allows movement",
+   "examples": [
+    "Knee joints can become stiff with age."
+   ]
+  },
+  {
+   "word": "fracture",
+   "romanization": null,
+   "meaning": "a break in a bone",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "requires medical attention",
+   "examples": [
+    "She suffered a hairline fracture in her wrist."
+   ]
+  },
+  {
+   "word": "allergy",
+   "romanization": null,
+   "meaning": "immune reaction to a normally harmless substance",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "causes sneezing, itching, etc.",
+   "examples": [
+    "He has a pollen allergy during spring."
+   ]
+  },
+  {
+   "word": "vaccine",
+   "romanization": null,
+   "meaning": "substance that stimulates immunity against disease",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "given by injection",
+   "examples": [
+    "Children receive a flu vaccine each year."
+   ]
+  },
+  {
+   "word": "wellness",
+   "romanization": null,
+   "meaning": "state of being in good health",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "holistic health concept",
+   "examples": [
+    "She practices yoga for overall wellness."
+   ]
+  },
+  {
+   "word": "fatigue",
+   "romanization": null,
+   "meaning": "extreme tiredness",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "can be physical or mental",
+   "examples": [
+    "Long work hours led to chronic fatigue."
+   ]
+  },
+  {
+   "word": "nausea",
+   "romanization": null,
+   "meaning": "feeling of wanting to vomit",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "often caused by illness",
+   "examples": [
+    "He felt nausea after the motion ride."
+   ]
+  },
+  {
+   "word": "dizziness",
+   "romanization": null,
+   "meaning": "sensation of spinning or unsteadiness",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "may indicate low blood pressure",
+   "examples": [
+    "She experienced dizziness when standing up quickly."
+   ]
+  },
+  {
+   "word": "breath",
+   "romanization": null,
+   "meaning": "air taken in or expelled from lungs",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "essential for life",
+   "examples": [
+    "He took a deep breath before speaking."
+   ]
+  },
+  {
+   "word": "sneeze",
+   "romanization": null,
+   "meaning": "expel air sharply through nose and mouth",
+   "pos": "VERB",
+   "category": "Body & Health",
+   "note": "triggered by irritants",
+   "examples": [
+    "She tried to hold back a sneeze during the meeting."
+   ]
+  },
+  {
+   "word": "rash",
+   "romanization": null,
+   "meaning": "irregular red skin irritation",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "often itchy",
+   "examples": [
+    "The allergic reaction left a red rash on his arm."
+   ]
+  },
+  {
+   "word": "cholesterol",
+   "romanization": null,
+   "meaning": "fatty substance in blood affecting heart health",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "monitor levels regularly",
+   "examples": [
+    "High cholesterol can lead to artery blockage."
+   ]
+  },
+  {
+   "word": "nutrition",
+   "romanization": null,
+   "meaning": "process of obtaining food needed for health",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "balanced diet provides proper nutrition",
+   "examples": [
+    "Proper nutrition supports growth and recovery."
+   ]
+  },
+  {
+   "word": "therapy",
+   "romanization": null,
+   "meaning": "treatment intended to relieve or heal",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "includes physical and mental forms",
+   "examples": [
+    "Physical therapy helped him regain mobility."
+   ]
+  },
+  {
+   "word": "clinic",
+   "romanization": null,
+   "meaning": "facility where patients receive outpatient care",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "smaller than a hospital",
+   "examples": [
+    "She booked an appointment at the local clinic."
+   ]
+  },
+  {
+   "word": "pharmacy",
+   "romanization": null,
+   "meaning": "store where medicines are dispensed",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "you can get prescriptions filled",
+   "examples": [
+    "He stopped by the pharmacy for his prescription."
+   ]
+  },
+  {
+   "word": "eye",
+   "romanization": null,
+   "meaning": "the organ that sees",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "used for sight",
+   "examples": [
+    "She rubbed her eye after the dust got in it."
+   ]
+  },
+  {
+   "word": "ear",
+   "romanization": null,
+   "meaning": "the organ for hearing",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "has outer and inner parts",
+   "examples": [
+    "He whispered into my ear during the movie."
+   ]
+  },
+  {
+   "word": "nose",
+   "romanization": null,
+   "meaning": "the part of the face for smelling and breathing",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "center of the face",
+   "examples": [
+    "She blew her nose to clear the congestion."
+   ]
+  },
+  {
+   "word": "throat",
+   "romanization": null,
+   "meaning": "the passage that leads from the mouth to the esophagus",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "often mentioned with sore",
+   "examples": [
+    "His throat felt scratchy after the long run."
+   ]
+  },
+  {
+   "word": "tooth",
+   "romanization": null,
+   "meaning": "one of the hard structures in the mouth used for chewing",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "singular; plural teeth",
+   "examples": [
+    "I chipped my tooth while biting an apple."
+   ]
+  },
+  {
+   "word": "skin",
+   "romanization": null,
+   "meaning": "the outer covering of the body",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "protects internal organs",
+   "examples": [
+    "She applied sunscreen to protect her skin."
+   ]
+  },
+  {
+   "word": "dentist",
+   "romanization": null,
+   "meaning": "a professional who treats teeth and gums",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "visit twice a year",
+   "examples": [
+    "My dentist scheduled a cleaning for next Thursday."
+   ]
+  },
+  {
+   "word": "toothache",
+   "romanization": null,
+   "meaning": "pain in a tooth",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "often needs dental care",
+   "examples": [
+    "He couldn't sleep because of a sharp toothache."
+   ]
+  },
+  {
+   "word": "cold",
+   "romanization": null,
+   "meaning": "a mild viral infection of the nose and throat",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "common in winter",
+   "examples": [
+    "She stayed home to recover from a cold."
+   ]
+  },
+  {
+   "word": "flu",
+   "romanization": null,
+   "meaning": "influenza, a contagious respiratory illness",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "causes fever and aches",
+   "examples": [
+    "The flu kept him in bed for a week."
+   ]
+  },
+  {
+   "word": "infection",
+   "romanization": null,
+   "meaning": "the invasion of the body by harmful microorganisms",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "may need antibiotics",
+   "examples": [
+    "The cut developed an infection after a few days."
+   ]
+  },
+  {
+   "word": "sprain",
+   "romanization": null,
+   "meaning": "injury to a ligament caused by stretching or tearing",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "common in ankles",
+   "examples": [
+    "She twisted her ankle and got a sprain."
+   ]
+  },
+  {
+   "word": "bruise",
+   "romanization": null,
+   "meaning": "discoloration of the skin from a minor injury",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "often purple or blue",
+   "examples": [
+    "He had a bruise on his knee after falling off the bike."
+   ]
+  },
+  {
+   "word": "sweat",
+   "romanization": null,
+   "meaning": "moisture excreted by the skin to cool the body",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "produced during exercise",
+   "examples": [
+    "His shirt was soaked with sweat after the marathon."
+   ]
+  },
+  {
+   "word": "vomit",
+   "romanization": null,
+   "meaning": "to expel stomach contents through the mouth",
+   "pos": "VERB",
+   "category": "Body & Health",
+   "note": "often due to illness",
+   "examples": [
+    "She had to vomit after eating spoiled food."
+   ]
+  },
+  {
+   "word": "diarrhea",
+   "romanization": null,
+   "meaning": "frequent, watery bowel movements",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "can cause dehydration",
+   "examples": [
+    "He missed work because of a bout of diarrhea."
+   ]
+  },
+  {
+   "word": "migraine",
+   "romanization": null,
+   "meaning": "a severe, throbbing headache often with nausea",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "sensitivity to light",
+   "examples": [
+    "Bright lights made her migraine worse."
+   ]
+  },
+  {
+   "word": "pulse",
+   "romanization": null,
+   "meaning": "the rhythmic throbbing of arteries as blood flows",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "measured at wrist",
+   "examples": [
+    "The nurse checked his pulse before the exam."
+   ]
+  },
+  {
+   "word": "temperature",
+   "romanization": null,
+   "meaning": "the degree of heat measured in the body",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "used for health checks",
+   "examples": [
+    "The nurse took my temperature during the check‑up."
+   ]
+  },
+  {
+   "word": "nurse",
+   "romanization": null,
+   "meaning": "a person who cares for patients in a medical setting",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "provides daily care",
+   "examples": [
+    "The nurse changed my dressing after surgery."
+   ]
+  },
+  {
+   "word": "patient",
+   "romanization": null,
+   "meaning": "a person receiving medical care",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "receives treatment",
+   "examples": [
+    "The patient waited patiently for the doctor’s advice."
+   ]
+  },
+  {
+   "word": "syringe",
+   "romanization": null,
+   "meaning": "a device for injecting fluids into the body",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "used for shots",
+   "examples": [
+    "The doctor used a syringe to give me the flu shot."
+   ]
+  },
+  {
+   "word": "bandage",
+   "romanization": null,
+   "meaning": "a strip of cloth used to cover a wound",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "holds dressing in place",
+   "examples": [
+    "She wrapped a bandage around the cut on his finger."
+   ]
+  },
+  {
+   "word": "appointment",
+   "romanization": null,
+   "meaning": "a scheduled meeting with a professional",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "set in advance",
+   "examples": [
+    "I have a dentist appointment at 3 p.m."
+   ]
+  },
+  {
+   "word": "prescription",
+   "romanization": null,
+   "meaning": "a written order for medication",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "needs doctor’s approval",
+   "examples": [
+    "The pharmacist filled my prescription for antibiotics."
+   ]
+  },
+  {
+   "word": "check‑up",
+   "romanization": null,
+   "meaning": "a routine medical examination",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "regular health review",
+   "examples": [
+    "She goes for an annual check‑up each spring."
+   ]
+  },
+  {
+   "word": "profit",
+   "romanization": null,
+   "meaning": "the money earned after costs are deducted",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "used in finance contexts",
+   "examples": [
+    "The company reported a higher profit this quarter."
+   ]
+  },
+  {
+   "word": "revenue",
+   "romanization": null,
+   "meaning": "total income from sales before expenses",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "often in reports",
+   "examples": [
+    "Quarterly revenue increased by 10%."
+   ]
+  },
+  {
+   "word": "invest",
+   "romanization": null,
+   "meaning": "to put money into something expecting profit",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "long‑term focus",
+   "examples": [
+    "She decided to invest in renewable energy stocks."
+   ]
+  },
+  {
+   "word": "expense",
+   "romanization": null,
+   "meaning": "costs incurred in running a business",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "opposite of revenue",
+   "examples": [
+    "Travel expenses must be approved by HR."
+   ]
+  },
+  {
+   "word": "shareholder",
+   "romanization": null,
+   "meaning": "person who owns shares in a company",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "has voting rights",
+   "examples": [
+    "Shareholders voted on the new board members."
+   ]
+  },
+  {
+   "word": "contract",
+   "romanization": null,
+   "meaning": "legal agreement between parties",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "binding document",
+   "examples": [
+    "The supplier signed a two‑year contract."
+   ]
+  },
+  {
+   "word": "negotiate",
+   "romanization": null,
+   "meaning": "discuss to reach an agreement",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "often about price",
+   "examples": [
+    "We need to negotiate better terms with the vendor."
+   ]
+  },
+  {
+   "word": "deadline",
+   "romanization": null,
+   "meaning": "the latest time something can be completed",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "strict time limit",
+   "examples": [
+    "The project deadline is next Friday."
+   ]
+  },
+  {
+   "word": "strategy",
+   "romanization": null,
+   "meaning": "plan to achieve long‑term goals",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "guides decisions",
+   "examples": [
+    "Our growth strategy focuses on online sales."
+   ]
+  },
+  {
+   "word": "market",
+   "romanization": null,
+   "meaning": "group of potential customers",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "can be a sector",
+   "examples": [
+    "The company is expanding into the Asian market."
+   ]
+  },
+  {
+   "word": "launch",
+   "romanization": null,
+   "meaning": "to introduce a new product or service",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "first public release",
+   "examples": [
+    "They will launch the app next month."
+   ]
+  },
+  {
+   "word": "feedback",
+   "romanization": null,
+   "meaning": "information about performance or reactions",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "used for improvement",
+   "examples": [
+    "Customer feedback helped redesign the website."
+   ]
+  },
+  {
+   "word": "invoice",
+   "romanization": null,
+   "meaning": "a bill listing goods or services provided",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "sent for payment",
+   "examples": [
+    "Please send the invoice by Friday."
+   ]
+  },
+  {
+   "word": "audit",
+   "romanization": null,
+   "meaning": "official examination of financial records",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "ensures compliance",
+   "examples": [
+    "The annual audit revealed no irregularities."
+   ]
+  },
+  {
+   "word": "merger",
+   "romanization": null,
+   "meaning": "combination of two companies into one",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "creates larger entity",
+   "examples": [
+    "The merger created the country's biggest retailer."
+   ]
+  },
+  {
+   "word": "stakeholder",
+   "romanization": null,
+   "meaning": "any person affected by a company's actions",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "broader than shareholders",
+   "examples": [
+    "Employees are key stakeholders in the project."
+   ]
+  },
+  {
+   "word": "outsourcing",
+   "romanization": null,
+   "meaning": "contracting work to external companies",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "often for cost savings",
+   "examples": [
+    "Outsourcing IT support reduced expenses."
+   ]
+  },
+  {
+   "word": "sales",
+   "romanization": null,
+   "meaning": "the exchange of goods for money",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "refers to total revenue",
+   "examples": [
+    "Our sales increased by ten percent last month."
+   ]
+  },
+  {
+   "word": "client",
+   "romanization": null,
+   "meaning": "a person or organization that buys services",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "customer in professional services",
+   "examples": [
+    "The client approved the project proposal."
+   ]
+  },
+  {
+   "word": "team",
+   "romanization": null,
+   "meaning": "a group of people working together",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "collaborative work unit",
+   "examples": [
+    "The team met to discuss the new timeline."
+   ]
+  },
+  {
+   "word": "report",
+   "romanization": null,
+   "meaning": "a document giving information",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal written update",
+   "examples": [
+    "Please submit the quarterly report by Friday."
+   ]
+  },
+  {
+   "word": "goal",
+   "romanization": null,
+   "meaning": "desired result or aim",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "target to achieve",
+   "examples": [
+    "Our goal is to expand into Europe next year."
+   ]
+  },
+  {
+   "word": "present",
+   "romanization": null,
+   "meaning": "to show or give something formally",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "formal delivery",
+   "examples": [
+    "She will present the findings at the meeting."
+   ]
+  },
+  {
+   "word": "manage",
+   "romanization": null,
+   "meaning": "to control or oversee something",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "lead or direct",
+   "examples": [
+    "He manages a team of twenty engineers."
+   ]
+  },
+  {
+   "word": "approve",
+   "romanization": null,
+   "meaning": "to officially accept or agree to",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "grant permission",
+   "examples": [
+    "The board will approve the budget tomorrow."
+   ]
+  },
+  {
+   "word": "order",
+   "romanization": null,
+   "meaning": "request for goods or services",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "purchase request",
+   "examples": [
+    "We placed an order for new laptops."
+   ]
+  },
+  {
+   "word": "price",
+   "romanization": null,
+   "meaning": "amount of money required to buy something",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "cost per unit",
+   "examples": [
+    "The price of the software has dropped."
+   ]
+  },
+  {
+   "word": "risk",
+   "romanization": null,
+   "meaning": "possibility of loss or harm",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "potential danger",
+   "examples": [
+    "We need to assess the risk before proceeding."
+   ]
+  },
+  {
+   "word": "trend",
+   "romanization": null,
+   "meaning": "general direction of change",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "popular movement",
+   "examples": [
+    "The current market trend favors online sales."
+   ]
+  },
+  {
+   "word": "support",
+   "romanization": null,
+   "meaning": "help or assistance provided",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "aid for tasks",
+   "examples": [
+    "The IT department offers technical support."
+   ]
+  },
+  {
+   "word": "update",
+   "romanization": null,
+   "meaning": "to bring information current",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "refresh data",
+   "examples": [
+    "Please update the client on the project status."
+   ]
+  },
+  {
+   "word": "review",
+   "romanization": null,
+   "meaning": "to examine or assess something",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "critical evaluation",
+   "examples": [
+    "The manager will review the proposal tomorrow."
+   ]
+  },
+  {
+   "word": "deliver",
+   "romanization": null,
+   "meaning": "to provide something as promised",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "fulfill a commitment",
+   "examples": [
+    "We must deliver the product by June."
+   ]
+  },
+  {
+   "word": "forecast",
+   "romanization": null,
+   "meaning": "prediction of future business conditions",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "based on data analysis",
+   "examples": [
+    "The sales forecast shows a 10% increase."
+   ]
+  },
+  {
+   "word": "proposal",
+   "romanization": null,
+   "meaning": "formal suggestion or plan",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "often written for approval",
+   "examples": [
+    "She drafted a proposal for the new project."
+   ]
+  },
+  {
+   "word": "meeting",
+   "romanization": null,
+   "meaning": "gathering to discuss business matters",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "schedule in advance",
+   "examples": [
+    "The weekly meeting starts at 9 a.m."
+   ]
+  },
+  {
+   "word": "agreement",
+   "romanization": null,
+   "meaning": "mutual understanding or contract",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "must be clear and written",
+   "examples": [
+    "Both parties signed the agreement yesterday."
+   ]
+  },
+  {
+   "word": "growth",
+   "romanization": null,
+   "meaning": "increase in size, number, or importance",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "often refers to revenue",
+   "examples": [
+    "The company experienced rapid growth last quarter."
+   ]
+  },
+  {
+   "word": "competition",
+   "romanization": null,
+   "meaning": "businesses offering similar products or services",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "monitor rivals regularly",
+   "examples": [
+    "Our competition launched a similar app."
+   ]
+  },
+  {
+   "word": "profitability",
+   "romanization": null,
+   "meaning": "ability to generate profit",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "key performance indicator",
+   "examples": [
+    "Improving profitability is our top priority."
+   ]
+  },
+  {
+   "word": "cashflow",
+   "romanization": null,
+   "meaning": "movement of money into and out of a business",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "positive cashflow is essential",
+   "examples": [
+    "The cashflow report shows a surplus this month."
+   ]
+  },
+  {
+   "word": "capital",
+   "romanization": null,
+   "meaning": "money or assets used to start a business",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "can be financial or human",
+   "examples": [
+    "They raised capital from investors."
+   ]
+  },
+  {
+   "word": "inventory",
+   "romanization": null,
+   "meaning": "list of goods or materials a business holds",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "track to avoid shortages",
+   "examples": [
+    "The inventory needs to be updated weekly."
+   ]
+  },
+  {
+   "word": "logistics",
+   "romanization": null,
+   "meaning": "management of the flow of goods",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "includes transport and storage",
+   "examples": [
+    "Logistics are crucial for timely delivery."
+   ]
+  },
+  {
+   "word": "branding",
+   "romanization": null,
+   "meaning": "process of creating a distinct image for a product",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "builds customer recognition",
+   "examples": [
+    "Strong branding helped the product stand out."
+   ]
+  },
+  {
+   "word": "promotion",
+   "romanization": null,
+   "meaning": "activities to increase sales or awareness",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "often involves discounts",
+   "examples": [
+    "The promotion boosted sales last month."
+   ]
+  },
+  {
+   "word": "customer",
+   "romanization": null,
+   "meaning": "person who buys goods or services",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "focus on satisfaction",
+   "examples": [
+    "Our customers expect fast service."
+   ]
+  },
+  {
+   "word": "product",
+   "romanization": null,
+   "meaning": "item offered for sale",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "must meet market needs",
+   "examples": [
+    "The new product launched successfully."
+   ]
+  },
+  {
+   "word": "service",
+   "romanization": null,
+   "meaning": "work performed for customers",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "quality affects loyalty",
+   "examples": [
+    "Their service is known for reliability."
+   ]
+  },
+  {
+   "word": "analysis",
+   "romanization": null,
+   "meaning": "detailed examination of data",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "supports decision‑making",
+   "examples": [
+    "Market analysis revealed new opportunities."
+   ]
+  },
+  {
+   "word": "margin",
+   "romanization": null,
+   "meaning": "difference between cost and selling price",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "expressed as a percentage",
+   "examples": [
+    "Our profit margin improved after reducing costs."
+   ]
+  },
+  {
+   "word": "quotation",
+   "romanization": null,
+   "meaning": "written price estimate for goods or services",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "sent to potential buyers",
+   "examples": [
+    "She requested a quotation before deciding on the supplier."
+   ]
+  },
+  {
+   "word": "quarter",
+   "romanization": null,
+   "meaning": "three‑month period in a fiscal year",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "used for reporting",
+   "examples": [
+    "The sales increased in the second quarter."
+   ]
+  },
+  {
+   "word": "break‑even",
+   "romanization": null,
+   "meaning": "no profit or loss; revenues equal costs",
+   "pos": "ADJ",
+   "category": "Business",
+   "note": "point of financial balance",
+   "examples": [
+    "The startup reached break‑even after six months."
+   ]
+  },
+  {
+   "word": "outlay",
+   "romanization": null,
+   "meaning": "amount of money spent on something",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "often a large expense",
+   "examples": [
+    "The initial outlay for the equipment was high."
+   ]
+  },
+  {
+   "word": "turnover",
+   "romanization": null,
+   "meaning": "total sales or revenue of a business",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "gross income measure",
+   "examples": [
+    "Their annual turnover exceeded one million dollars."
+   ]
+  },
+  {
+   "word": "benchmark",
+   "romanization": null,
+   "meaning": "standard or point of reference for comparison",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "used to gauge performance",
+   "examples": [
+    "We set a benchmark to measure quarterly growth."
+   ]
+  },
+  {
+   "word": "pipeline",
+   "romanization": null,
+   "meaning": "series of projects or products in development",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "future revenue source",
+   "examples": [
+    "The sales pipeline looks promising for next year."
+   ]
+  },
+  {
+   "word": "synergy",
+   "romanization": null,
+   "meaning": "combined effect greater than individual parts",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "often from mergers",
+   "examples": [
+    "The partnership created synergy that boosted productivity."
+   ]
+  },
+  {
+   "word": "leverage",
+   "romanization": null,
+   "meaning": "use something to achieve a greater result",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "apply resources strategically",
+   "examples": [
+    "We can leverage our brand to enter new markets."
+   ]
+  },
+  {
+   "word": "streamline",
+   "romanization": null,
+   "meaning": "make a process more efficient",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "remove unnecessary steps",
+   "examples": [
+    "The manager streamlined the approval workflow."
+   ]
+  },
+  {
+   "word": "allocate",
+   "romanization": null,
+   "meaning": "distribute resources for a specific purpose",
+   "pos": "VERB",
+   "category": "Business",
+   "note": "assign budgets or staff",
+   "examples": [
+    "They allocated extra funds to the research department."
+   ]
+  },
+  {
+   "word": "happiness",
+   "romanization": null,
+   "meaning": "feeling of joy and contentment",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive emotion, lasting",
+   "examples": [
+    "She felt a surge of happiness when she received the news."
+   ]
+  },
+  {
+   "word": "sadness",
+   "romanization": null,
+   "meaning": "feeling of sorrow or unhappiness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "often temporary",
+   "examples": [
+    "His sadness was obvious after the loss of his pet."
+   ]
+  },
+  {
+   "word": "anger",
+   "romanization": null,
+   "meaning": "strong feeling of displeasure or hostility",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "can lead to aggressive actions",
+   "examples": [
+    "She couldn't hide her anger at the unfair decision."
+   ]
+  },
+  {
+   "word": "fear",
+   "romanization": null,
+   "meaning": "anxiety caused by danger or threat",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "often triggers avoidance",
+   "examples": [
+    "His fear of heights kept him from climbing the tower."
+   ]
+  },
+  {
+   "word": "surprise",
+   "romanization": null,
+   "meaning": "sudden feeling of astonishment",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "unexpected event",
+   "examples": [
+    "The surprise party made her cry with joy."
+   ]
+  },
+  {
+   "word": "love",
+   "romanization": null,
+   "meaning": "deep affection or strong liking",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "broad, positive emotion",
+   "examples": [
+    "They fell in love during their college years."
+   ]
+  },
+  {
+   "word": "hate",
+   "romanization": null,
+   "meaning": "intense dislike or hostility",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "strong negative feeling",
+   "examples": [
+    "He couldn't hide his hate for the corrupt system."
+   ]
+  },
+  {
+   "word": "pride",
+   "romanization": null,
+   "meaning": "feeling of self‑respect and satisfaction",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive when balanced",
+   "examples": [
+    "She took pride in completing the marathon."
+   ]
+  },
+  {
+   "word": "jealousy",
+   "romanization": null,
+   "meaning": "resentful feeling towards another's advantage",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "often about relationships",
+   "examples": [
+    "His jealousy rose when she talked to his rival."
+   ]
+  },
+  {
+   "word": "anxiety",
+   "romanization": null,
+   "meaning": "worry or unease about future events",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "can be chronic",
+   "examples": [
+    "She felt anxiety before the job interview."
+   ]
+  },
+  {
+   "word": "excitement",
+   "romanization": null,
+   "meaning": "enthusiastic and eager feeling",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "anticipation of something fun",
+   "examples": [
+    "The children were full of excitement for the trip."
+   ]
+  },
+  {
+   "word": "frustration",
+   "romanization": null,
+   "meaning": "feeling of being upset due to obstacles",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "caused by unmet goals",
+   "examples": [
+    "His frustration grew when the computer kept crashing."
+   ]
+  },
+  {
+   "word": "disappointment",
+   "romanization": null,
+   "meaning": "sadness caused by unmet expectations",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "often mild",
+   "examples": [
+    "She felt disappointment after the concert was canceled."
+   ]
+  },
+  {
+   "word": "relief",
+   "romanization": null,
+   "meaning": "comfort after a stressful situation ends",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive release of tension",
+   "examples": [
+    "He sighed in relief when the exam was over."
+   ]
+  },
+  {
+   "word": "guilt",
+   "romanization": null,
+   "meaning": "feeling of responsibility for a wrongdoing",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "often leads to remorse",
+   "examples": [
+    "She felt guilt for forgetting his birthday."
+   ]
+  },
+  {
+   "word": "embarrassment",
+   "romanization": null,
+   "meaning": "feeling of self‑conscious discomfort",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "caused by social awkwardness",
+   "examples": [
+    "His slip on the stage caused great embarrassment."
+   ]
+  },
+  {
+   "word": "envy",
+   "romanization": null,
+   "meaning": "desire for another's possessions or qualities",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "comparative to jealousy",
+   "examples": [
+    "She felt envy when her friend bought a new car."
+   ]
+  },
+  {
+   "word": "contentment",
+   "romanization": null,
+   "meaning": "satisfaction with one's situation",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "calm, lasting happiness",
+   "examples": [
+    "He smiled with contentment after a simple dinner."
+   ]
+  },
+  {
+   "word": "joy",
+   "romanization": null,
+   "meaning": "a feeling of great pleasure",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, intense feeling",
+   "examples": [
+    "She felt pure joy when she saw the sunrise."
+   ]
+  },
+  {
+   "word": "sorrow",
+   "romanization": null,
+   "meaning": "deep sadness or grief",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "often long-lasting",
+   "examples": [
+    "His heart was filled with sorrow after the loss."
+   ]
+  },
+  {
+   "word": "terror",
+   "romanization": null,
+   "meaning": "extreme fear",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "intense, often sudden",
+   "examples": [
+    "The sudden crash caused terror among the passengers."
+   ]
+  },
+  {
+   "word": "awe",
+   "romanization": null,
+   "meaning": "a feeling of reverential respect mixed with wonder",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "admiration and amazement",
+   "examples": [
+    "The Grand Canyon inspired a sense of awe."
+   ]
+  },
+  {
+   "word": "disgust",
+   "romanization": null,
+   "meaning": "strong feeling of revulsion",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "negative, repulsive reaction",
+   "examples": [
+    "He felt disgust at the messy kitchen."
+   ]
+  },
+  {
+   "word": "melancholy",
+   "romanization": null,
+   "meaning": "a gentle, lingering sadness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "soft, reflective mood",
+   "examples": [
+    "A melancholy tune played in the background."
+   ]
+  },
+  {
+   "word": "irritation",
+   "romanization": null,
+   "meaning": "a feeling of slight anger or annoyance",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "mild, often temporary",
+   "examples": [
+    "Her constant tapping caused irritation."
+   ]
+  },
+  {
+   "word": "optimism",
+   "romanization": null,
+   "meaning": "hopeful and confident outlook",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive expectation",
+   "examples": [
+    "His optimism helped the team stay motivated."
+   ]
+  },
+  {
+   "word": "dread",
+   "romanization": null,
+   "meaning": "a feeling of great fear or apprehension",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "anticipatory fear",
+   "examples": [
+    "She felt dread before the exam."
+   ]
+  },
+  {
+   "word": "hope",
+   "romanization": null,
+   "meaning": "desire for a positive future",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "forward-looking optimism",
+   "examples": [
+    "Hope kept them moving forward."
+   ]
+  },
+  {
+   "word": "admiration",
+   "romanization": null,
+   "meaning": "respect and warm approval",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive regard",
+   "examples": [
+    "He expressed admiration for her bravery."
+   ]
+  },
+  {
+   "word": "resentment",
+   "romanization": null,
+   "meaning": "bitter indignation at unfair treatment",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "long‑lasting bitterness",
+   "examples": [
+    "She felt resentment after being ignored."
+   ]
+  },
+  {
+   "word": "nostalgia",
+   "romanization": null,
+   "meaning": "a sentimental longing for the past",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "pleasant, bittersweet memory",
+   "examples": [
+    "Listening to old songs gave him nostalgia."
+   ]
+  },
+  {
+   "word": "boredom",
+   "romanization": null,
+   "meaning": "state of being uninterested and weary",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "lack of stimulation",
+   "examples": [
+    "The lecture caused boredom among students."
+   ]
+  },
+  {
+   "word": "curiosity",
+   "romanization": null,
+   "meaning": "desire to learn or know something",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "inquisitive interest",
+   "examples": [
+    "Her curiosity led her to explore new topics."
+   ]
+  },
+  {
+   "word": "compassion",
+   "romanization": null,
+   "meaning": "sympathetic concern for others' suffering",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "empathy with action",
+   "examples": [
+    "He showed compassion to the homeless man."
+   ]
+  },
+  {
+   "word": "loneliness",
+   "romanization": null,
+   "meaning": "sad feeling of being alone",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "isolated emotional state",
+   "examples": [
+    "After moving, she struggled with loneliness."
+   ]
+  },
+  {
+   "word": "serenity",
+   "romanization": null,
+   "meaning": "calm and peaceful feeling",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "tranquil, untroubled state",
+   "examples": [
+    "The garden offered a sense of serenity."
+   ]
+  },
+  {
+   "word": "delight",
+   "romanization": null,
+   "meaning": "great pleasure or enjoyment",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, strong feeling",
+   "examples": [
+    "She felt a sudden delight when she saw the surprise cake."
+   ]
+  },
+  {
+   "word": "grief",
+   "romanization": null,
+   "meaning": "deep sorrow, especially after a loss",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "serious, often long‑lasting",
+   "examples": [
+    "He was overwhelmed by grief after his father's funeral."
+   ]
+  },
+  {
+   "word": "amusement",
+   "romanization": null,
+   "meaning": "the state of being entertained or finding something funny",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "light, playful feeling",
+   "examples": [
+    "The children's laughter showed their amusement at the clown's tricks."
+   ]
+  },
+  {
+   "word": "annoyance",
+   "romanization": null,
+   "meaning": "a feeling of slight irritation or bother",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "mild, everyday irritation",
+   "examples": [
+    "Her constant tapping became a source of annoyance."
+   ]
+  },
+  {
+   "word": "apprehension",
+   "romanization": null,
+   "meaning": "anxiety or fear about something that might happen",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "anticipatory worry",
+   "examples": [
+    "He felt apprehension before the job interview."
+   ]
+  },
+  {
+   "word": "satisfaction",
+   "romanization": null,
+   "meaning": "contentment from achieving or receiving something desired",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, fulfilling feeling",
+   "examples": [
+    "She felt great satisfaction after finishing the marathon."
+   ]
+  },
+  {
+   "word": "sympathy",
+   "romanization": null,
+   "meaning": "feeling compassion for someone else's misfortune",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "empathetic concern",
+   "examples": [
+    "He offered his sympathy to the family after the accident."
+   ]
+  },
+  {
+   "word": "pity",
+   "romanization": null,
+   "meaning": "feeling sorrow for someone's suffering",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "often gentle concern",
+   "examples": [
+    "She felt pity for the stray dog shivering in the rain."
+   ]
+  },
+  {
+   "word": "trust",
+   "romanization": null,
+   "meaning": "confident belief in someone's reliability",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, relational emotion",
+   "examples": [
+    "Their long friendship built deep trust between them."
+   ]
+  },
+  {
+   "word": "shame",
+   "romanization": null,
+   "meaning": "painful feeling of humiliation caused by wrongdoing",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "negative, self‑directed",
+   "examples": [
+    "He felt shame after being caught cheating on the test."
+   ]
+  },
+  {
+   "word": "regret",
+   "romanization": null,
+   "meaning": "sadness about something that has happened or been done",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "reflective, often past‑focused",
+   "examples": [
+    "She expressed regret for missing her friend's birthday."
+   ]
+  },
+  {
+   "word": "wonder",
+   "romanization": null,
+   "meaning": "a feeling of amazement and curiosity",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, awe‑like but not listed",
+   "examples": [
+    "The child looked at the night sky with pure wonder."
+   ]
+  },
+  {
+   "word": "relaxation",
+   "romanization": null,
+   "meaning": "the state of being free from tension or anxiety",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "calm, restorative feeling",
+   "examples": [
+    "A warm bath brought her much needed relaxation."
+   ]
+  },
+  {
+   "word": "eagerness",
+   "romanization": null,
+   "meaning": "strong desire or enthusiasm to do something",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, anticipatory",
+   "examples": [
+    "His eagerness to travel was obvious from his packed suitcase."
+   ]
+  },
+  {
+   "word": "contempt",
+   "romanization": null,
+   "meaning": "disrespectful feeling toward someone or something",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "strong negative disdain",
+   "examples": [
+    "She looked at the broken promise with contempt."
+   ]
+  },
+  {
+   "word": "gratitude",
+   "romanization": null,
+   "meaning": "thankful appreciation for kindness received",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, appreciative feeling",
+   "examples": [
+    "He wrote a note expressing his gratitude for the help."
+   ]
+  },
+  {
+   "word": "confidence",
+   "romanization": null,
+   "meaning": "belief in one's own abilities or qualities",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, self‑assured feeling",
+   "examples": [
+    "Her confidence grew after mastering the piano piece."
+   ]
+  },
+  {
+   "word": "affection",
+   "romanization": null,
+   "meaning": "a gentle feeling of fondness or love",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "warm, caring emotion",
+   "examples": [
+    "He showed affection by hugging his sister tightly."
+   ]
+  },
+  {
+   "word": "nervous",
+   "romanization": null,
+   "meaning": "feeling uneasy or worried",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "common before events",
+   "examples": [
+    "She felt nervous before the interview."
+   ]
+  },
+  {
+   "word": "embarrassed",
+   "romanization": null,
+   "meaning": "feeling self‑conscious or ashamed",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "after a social slip",
+   "examples": [
+    "He was embarrassed when he tripped onstage."
+   ]
+  },
+  {
+   "word": "lonely",
+   "romanization": null,
+   "meaning": "feeling sad because one is alone",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "social isolation feeling",
+   "examples": [
+    "After moving, she felt lonely in the new city."
+   ]
+  },
+  {
+   "word": "proud",
+   "romanization": null,
+   "meaning": "feeling deep pleasure from achievements",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "positive self‑esteem",
+   "examples": [
+    "He was proud of his daughter's graduation."
+   ]
+  },
+  {
+   "word": "jealous",
+   "romanization": null,
+   "meaning": "feeling envy over another's advantages",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "comparative feeling",
+   "examples": [
+    "She felt jealous of her friend's promotion."
+   ]
+  },
+  {
+   "word": "relieved",
+   "romanization": null,
+   "meaning": "feeling comfort after a worry ends",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "after stress passes",
+   "examples": [
+    "They were relieved when the storm stopped."
+   ]
+  },
+  {
+   "word": "anxious",
+   "romanization": null,
+   "meaning": "feeling uneasy about something uncertain",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "anticipatory worry",
+   "examples": [
+    "He felt anxious about the upcoming exam."
+   ]
+  },
+  {
+   "word": "guilty",
+   "romanization": null,
+   "meaning": "feeling responsible for a wrongdoing",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "moral remorse",
+   "examples": [
+    "She felt guilty for missing the meeting."
+   ]
+  },
+  {
+   "word": "forest",
+   "romanization": null,
+   "meaning": "a large area covered with trees",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often natural, not planted",
+   "examples": [
+    "The forest was quiet after the rain."
+   ]
+  },
+  {
+   "word": "mountain",
+   "romanization": null,
+   "meaning": "a high natural elevation of the earth's surface",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "usually steep",
+   "examples": [
+    "She hiked to the top of the mountain."
+   ]
+  },
+  {
+   "word": "river",
+   "romanization": null,
+   "meaning": "a large natural stream of water flowing in a channel",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "flows toward a sea",
+   "examples": [
+    "The river cuts through the valley."
+   ]
+  },
+  {
+   "word": "lake",
+   "romanization": null,
+   "meaning": "a large inland body of standing water",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often fresh water",
+   "examples": [
+    "They swam in the clear lake."
+   ]
+  },
+  {
+   "word": "ocean",
+   "romanization": null,
+   "meaning": "the vast body of salt water covering most of Earth",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "largest water body",
+   "examples": [
+    "The ship crossed the Atlantic ocean."
+   ]
+  },
+  {
+   "word": "beach",
+   "romanization": null,
+   "meaning": "a pebbly or sandy shore by a sea or lake",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "popular for recreation",
+   "examples": [
+    "Children built sandcastles on the beach."
+   ]
+  },
+  {
+   "word": "desert",
+   "romanization": null,
+   "meaning": "a dry, barren area with little rainfall",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "very little vegetation",
+   "examples": [
+    "Camels can survive in the desert."
+   ]
+  },
+  {
+   "word": "valley",
+   "romanization": null,
+   "meaning": "a low area between hills or mountains",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often has a river",
+   "examples": [
+    "The village lies in a green valley."
+   ]
+  },
+  {
+   "word": "cave",
+   "romanization": null,
+   "meaning": "a natural underground chamber",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often dark and cool",
+   "examples": [
+    "Bats roosted in the cave."
+   ]
+  },
+  {
+   "word": "waterfall",
+   "romanization": null,
+   "meaning": "water flowing over a vertical drop",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often scenic",
+   "examples": [
+    "The waterfall created a misty spray."
+   ]
+  },
+  {
+   "word": "island",
+   "romanization": null,
+   "meaning": "a landmass surrounded by water",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "can be small or large",
+   "examples": [
+    "They vacationed on a tropical island."
+   ]
+  },
+  {
+   "word": "cliff",
+   "romanization": null,
+   "meaning": "a steep rock face",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "edges drop sharply",
+   "examples": [
+    "The lighthouse stands on a cliff."
+   ]
+  },
+  {
+   "word": "rainforest",
+   "romanization": null,
+   "meaning": "a dense forest with high rainfall",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "rich biodiversity",
+   "examples": [
+    "Many exotic birds live in the rainforest."
+   ]
+  },
+  {
+   "word": "glacier",
+   "romanization": null,
+   "meaning": "a large, slow-moving mass of ice",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "found in polar regions",
+   "examples": [
+    "The glacier carved the valley."
+   ]
+  },
+  {
+   "word": "volcano",
+   "romanization": null,
+   "meaning": "a mountain that can erupt lava",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "erupts with ash",
+   "examples": [
+    "The volcano erupted last night."
+   ]
+  },
+  {
+   "word": "plain",
+   "romanization": null,
+   "meaning": "a broad area of flat land",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "few hills",
+   "examples": [
+    "The herd grazed on the open plain."
+   ]
+  },
+  {
+   "word": "tide",
+   "romanization": null,
+   "meaning": "the regular rise and fall of sea level",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "caused by moon’s gravity",
+   "examples": [
+    "The tide was high at noon."
+   ]
+  },
+  {
+   "word": "storm",
+   "romanization": null,
+   "meaning": "a violent weather disturbance with wind and rain",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "can be severe",
+   "examples": [
+    "A thunderstorm rolled across the sky."
+   ]
+  },
+  {
+   "word": "tree",
+   "romanization": null,
+   "meaning": "a tall plant with a trunk and branches",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "common in many habitats",
+   "examples": [
+    "The tree provided shade during the picnic."
+   ]
+  },
+  {
+   "word": "hill",
+   "romanization": null,
+   "meaning": "a small natural elevation of the land",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "lower than a mountain",
+   "examples": [
+    "We rolled a ball down the hill."
+   ]
+  },
+  {
+   "word": "meadow",
+   "romanization": null,
+   "meaning": "a field of grass and wildflowers",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often used for grazing",
+   "examples": [
+    "She enjoyed a walk through the meadow."
+   ]
+  },
+  {
+   "word": "grassland",
+   "romanization": null,
+   "meaning": "a large open area covered with grasses",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "few trees, many animals",
+   "examples": [
+    "Bison roam the North American grasslands."
+   ]
+  },
+  {
+   "word": "canyon",
+   "romanization": null,
+   "meaning": "a deep narrow valley with steep sides",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "formed by river erosion",
+   "examples": [
+    "The river cut a spectacular canyon."
+   ]
+  },
+  {
+   "word": "shore",
+   "romanization": null,
+   "meaning": "the land along the edge of a sea or lake",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "where water meets land",
+   "examples": [
+    "Children built sandcastles on the shore."
+   ]
+  },
+  {
+   "word": "reef",
+   "romanization": null,
+   "meaning": "a ridge of rock or coral near the water's surface",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "rich marine life",
+   "examples": [
+    "Snorkelers explored the colorful reef."
+   ]
+  },
+  {
+   "word": "cloud",
+   "romanization": null,
+   "meaning": "a visible mass of water droplets in the sky",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "varies in shape and height",
+   "examples": [
+    "A dark cloud signaled the coming rain."
+   ]
+  },
+  {
+   "word": "sunrise",
+   "romanization": null,
+   "meaning": "the time when the sun appears above the horizon",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "morning start",
+   "examples": [
+    "We watched the sunrise from the hilltop."
+   ]
+  },
+  {
+   "word": "sunset",
+   "romanization": null,
+   "meaning": "the time when the sun disappears below the horizon",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "evening end",
+   "examples": [
+    "The sky turned orange at sunset."
+   ]
+  },
+  {
+   "word": "rain",
+   "romanization": null,
+   "meaning": "water droplets falling from clouds",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "common weather",
+   "examples": [
+    "Rain soaked the garden after the storm."
+   ]
+  },
+  {
+   "word": "snow",
+   "romanization": null,
+   "meaning": "frozen water crystals falling from the sky",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "cold precipitation",
+   "examples": [
+    "Children made a snowman in the backyard."
+   ]
+  },
+  {
+   "word": "wind",
+   "romanization": null,
+   "meaning": "air moving horizontally across the earth's surface",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "can be gentle or strong",
+   "examples": [
+    "The wind rattled the windows during the night."
+   ]
+  },
+  {
+   "word": "earthquake",
+   "romanization": null,
+   "meaning": "a sudden shaking of the ground",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "caused by tectonic movement",
+   "examples": [
+    "The earthquake knocked down several trees."
+   ]
+  },
+  {
+   "word": "rock",
+   "romanization": null,
+   "meaning": "a solid piece of mineral material",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "found in many landscapes",
+   "examples": [
+    "He skipped a flat rock across the water."
+   ]
+  },
+  {
+   "word": "soil",
+   "romanization": null,
+   "meaning": "the upper layer of earth where plants grow",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "rich in nutrients",
+   "examples": [
+    "Farmers test the soil before planting crops."
+   ]
+  },
+  {
+   "word": "breeze",
+   "romanization": null,
+   "meaning": "a gentle wind",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "light and pleasant",
+   "examples": [
+    "A cool breeze drifted through the trees."
+   ]
+  },
+  {
+   "word": "habitat",
+   "romanization": null,
+   "meaning": "the natural environment where a species lives",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "supports life",
+   "examples": [
+    "The forest provides a habitat for many birds."
+   ]
+  },
+  {
+   "word": "sky",
+   "romanization": null,
+   "meaning": "the space above the earth where clouds and the sun appear",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "used for weather and scenery",
+   "examples": [
+    "The sky turned pink at dusk."
+   ]
+  },
+  {
+   "word": "sun",
+   "romanization": null,
+   "meaning": "the star that gives Earth light and heat",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "central to day-time",
+   "examples": [
+    "The sun was bright on the summer afternoon."
+   ]
+  },
+  {
+   "word": "moon",
+   "romanization": null,
+   "meaning": "the natural satellite that orbits Earth",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "visible at night",
+   "examples": [
+    "The full moon illuminated the field."
+   ]
+  },
+  {
+   "word": "star",
+   "romanization": null,
+   "meaning": "a luminous point in the night sky",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "plural often used figuratively",
+   "examples": [
+    "We could see many stars on the clear night."
+   ]
+  },
+  {
+   "word": "sand",
+   "romanization": null,
+   "meaning": "tiny grains of rock found on beaches and deserts",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "can be dry or wet",
+   "examples": [
+    "The children built a castle out of sand."
+   ]
+  },
+  {
+   "word": "leaf",
+   "romanization": null,
+   "meaning": "the flat, green part of a plant that makes food",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often falls in autumn",
+   "examples": [
+    "A single leaf fell onto the path."
+   ]
+  },
+  {
+   "word": "bark",
+   "romanization": null,
+   "meaning": "the outer covering of a tree trunk",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "protects the tree",
+   "examples": [
+    "The bark of the oak was rough."
+   ]
+  },
+  {
+   "word": "moss",
+   "romanization": null,
+   "meaning": "small, soft green plants that grow in damp places",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often covers rocks",
+   "examples": [
+    "Moss covered the north side of the stone wall."
+   ]
+  },
+  {
+   "word": "pond",
+   "romanization": null,
+   "meaning": "a small body of still water",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "found in gardens or woods",
+   "examples": [
+    "A frog jumped into the pond."
+   ]
+  },
+  {
+   "word": "creek",
+   "romanization": null,
+   "meaning": "a small, narrow stream of water",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "smaller than a river",
+   "examples": [
+    "We followed the creek through the forest."
+   ]
+  },
+  {
+   "word": "prairie",
+   "romanization": null,
+   "meaning": "a large open area of grassland",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "found especially in North America",
+   "examples": [
+    "Bison once roamed the prairie."
+   ]
+  },
+  {
+   "word": "marsh",
+   "romanization": null,
+   "meaning": "wetland with soft, water‑logged ground and vegetation",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often has reeds",
+   "examples": [
+    "Birds nested in the marsh."
+   ]
+  },
+  {
+   "word": "wave",
+   "romanization": null,
+   "meaning": "a moving ridge of water on the sea or a lake",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "caused by wind",
+   "examples": [
+    "The wave crashed against the rocks."
+   ]
+  },
+  {
+   "word": "peak",
+   "romanization": null,
+   "meaning": "the highest point of a mountain or hill",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often used metaphorically",
+   "examples": [
+    "We reached the peak just before sunset."
+   ]
+  },
+  {
+   "word": "trail",
+   "romanization": null,
+   "meaning": "a narrow path through a natural area",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "used for hiking",
+   "examples": [
+    "The trail led us to a hidden waterfall."
+   ]
+  },
+  {
+   "word": "wildlife",
+   "romanization": null,
+   "meaning": "animals and plants living in their natural environment",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "includes all species",
+   "examples": [
+    "The park protects local wildlife."
+   ]
+  },
+  {
+   "word": "flora",
+   "romanization": null,
+   "meaning": "the plant life of a particular region",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "collective term",
+   "examples": [
+    "The island's flora includes many rare orchids."
+   ]
+  },
+  {
+   "word": "fauna",
+   "romanization": null,
+   "meaning": "the animal life of a particular region",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "collective term",
+   "examples": [
+    "The desert's fauna adapts to extreme heat."
+   ]
+  },
+  {
+   "word": "climate",
+   "romanization": null,
+   "meaning": "the typical weather conditions of a region",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "refers to long-term patterns",
+   "examples": [
+    "The climate in this area is mild year-round."
+   ]
+  },
+  {
+   "word": "season",
+   "romanization": null,
+   "meaning": "one of the four periods of the year (spring, summer, autumn, winter)",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "based on temperature and daylight",
+   "examples": [
+    "Winter is my favorite season because I love snow."
+   ]
+  },
+  {
+   "word": "humidity",
+   "romanization": null,
+   "meaning": "the amount of moisture in the air",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "high humidity feels muggy",
+   "examples": [
+    "High humidity made the hike feel exhausting."
+   ]
+  },
+  {
+   "word": "precipitation",
+   "romanization": null,
+   "meaning": "any form of water falling from the sky, like rain or snow",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "includes rain, snow, sleet",
+   "examples": [
+    "Heavy precipitation caused flooding in the town."
+   ]
+  },
+  {
+   "word": "drought",
+   "romanization": null,
+   "meaning": "a long period with very little rain",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "leads to water shortage",
+   "examples": [
+    "The prolonged drought damaged the crops."
+   ]
+  },
+  {
+   "word": "flood",
+   "romanization": null,
+   "meaning": "an overflow of water that covers normally dry land",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "often follows heavy rain",
+   "examples": [
+    "After the storm, the river caused a severe flood."
+   ]
+  },
+  {
+   "word": "hurricane",
+   "romanization": null,
+   "meaning": "a very strong tropical storm with high winds",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "also called a cyclone",
+   "examples": [
+    "The hurricane destroyed many houses along the coast."
+   ]
+  },
+  {
+   "word": "earth",
+   "romanization": null,
+   "meaning": "the planet we live on; ground or soil",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "used for planet or ground",
+   "examples": [
+    "Scientists study the earth to understand climate change."
+   ]
+  },
+  {
+   "word": "today",
+   "romanization": null,
+   "meaning": "the present day",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "refers to current day",
+   "examples": [
+    "I have a meeting today."
+   ]
+  },
+  {
+   "word": "tomorrow",
+   "romanization": null,
+   "meaning": "the day after today",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "future day, soon",
+   "examples": [
+    "We will travel tomorrow."
+   ]
+  },
+  {
+   "word": "yesterday",
+   "romanization": null,
+   "meaning": "the day before today",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "past day, recent",
+   "examples": [
+    "She called me yesterday."
+   ]
+  },
+  {
+   "word": "now",
+   "romanization": null,
+   "meaning": "at this moment",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "immediate time",
+   "examples": [
+    "I need it now."
+   ]
+  },
+  {
+   "word": "later",
+   "romanization": null,
+   "meaning": "after some time",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "not immediately",
+   "examples": [
+    "I'll finish it later."
+   ]
+  },
+  {
+   "word": "soon",
+   "romanization": null,
+   "meaning": "in a short time",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "near future",
+   "examples": [
+    "The train will arrive soon."
+   ]
+  },
+  {
+   "word": "always",
+   "romanization": null,
+   "meaning": "at all times",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "without exception",
+   "examples": [
+    "She always smiles."
+   ]
+  },
+  {
+   "word": "often",
+   "romanization": null,
+   "meaning": "many times",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "frequent occurrence",
+   "examples": [
+    "We often go hiking."
+   ]
+  },
+  {
+   "word": "rarely",
+   "romanization": null,
+   "meaning": "seldom",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "infrequent",
+   "examples": [
+    "He rarely eats dessert."
+   ]
+  },
+  {
+   "word": "sometimes",
+   "romanization": null,
+   "meaning": "occasionally",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "not always",
+   "examples": [
+    "Sometimes I work late."
+   ]
+  },
+  {
+   "word": "never",
+   "romanization": null,
+   "meaning": "not ever",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "zero occurrence",
+   "examples": [
+    "She never drinks coffee."
+   ]
+  },
+  {
+   "word": "before",
+   "romanization": null,
+   "meaning": "earlier than a time",
+   "pos": "PREP",
+   "category": "Time",
+   "note": "preceding event",
+   "examples": [
+    "Finish it before dinner."
+   ]
+  },
+  {
+   "word": "after",
+   "romanization": null,
+   "meaning": "later than a time",
+   "pos": "PREP",
+   "category": "Time",
+   "note": "following event",
+   "examples": [
+    "We can talk after class."
+   ]
+  },
+  {
+   "word": "during",
+   "romanization": null,
+   "meaning": "throughout a period",
+   "pos": "PREP",
+   "category": "Time",
+   "note": "inside the time span",
+   "examples": [
+    "He slept during the movie."
+   ]
+  },
+  {
+   "word": "until",
+   "romanization": null,
+   "meaning": "up to the point when",
+   "pos": "PREP",
+   "category": "Time",
+   "note": "time limit",
+   "examples": [
+    "Wait here until I return."
+   ]
+  },
+  {
+   "word": "already",
+   "romanization": null,
+   "meaning": "by this time",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "earlier than expected",
+   "examples": [
+    "She has already left."
+   ]
+  },
+  {
+   "word": "still",
+   "romanization": null,
+   "meaning": "continuing up to now",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "ongoing situation",
+   "examples": [
+    "It's still raining."
+   ]
+  },
+  {
+   "word": "early",
+   "romanization": null,
+   "meaning": "before the usual time",
+   "pos": "ADJ",
+   "category": "Time",
+   "note": "ahead of schedule",
+   "examples": [
+    "I arrived early for the interview."
+   ]
+  },
+  {
+   "word": "morning",
+   "romanization": null,
+   "meaning": "the early part of the day",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for daily routines",
+   "examples": [
+    "I drink coffee every morning."
+   ]
+  },
+  {
+   "word": "evening",
+   "romanization": null,
+   "meaning": "the period after afternoon and before night",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "often used with activities",
+   "examples": [
+    "We go for a walk in the evening."
+   ]
+  },
+  {
+   "word": "night",
+   "romanization": null,
+   "meaning": "the time of darkness between sunset and sunrise",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "refers to sleep time",
+   "examples": [
+    "She works night shifts at the hospital."
+   ]
+  },
+  {
+   "word": "week",
+   "romanization": null,
+   "meaning": "a period of seven days",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "common planning unit",
+   "examples": [
+    "The project will finish in two weeks."
+   ]
+  },
+  {
+   "word": "month",
+   "romanization": null,
+   "meaning": "a period of about four weeks",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for longer timelines",
+   "examples": [
+    "My birthday is next month."
+   ]
+  },
+  {
+   "word": "year",
+   "romanization": null,
+   "meaning": "a period of twelve months",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for age or dates",
+   "examples": [
+    "She has lived here for five years."
+   ]
+  },
+  {
+   "word": "decade",
+   "romanization": null,
+   "meaning": "a period of ten years",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "often for historical context",
+   "examples": [
+    "Technology changed a lot in the last decade."
+   ]
+  },
+  {
+   "word": "century",
+   "romanization": null,
+   "meaning": "a period of one hundred years",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for long‑term history",
+   "examples": [
+    "The museum displays artifacts from the 19th century."
+   ]
+  },
+  {
+   "word": "hour",
+   "romanization": null,
+   "meaning": "a period of 60 minutes",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "short time unit",
+   "examples": [
+    "The meeting will last an hour."
+   ]
+  },
+  {
+   "word": "minute",
+   "romanization": null,
+   "meaning": "a period of 60 seconds",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "very short duration",
+   "examples": [
+    "Give me a minute to finish this."
+   ]
+  },
+  {
+   "word": "second",
+   "romanization": null,
+   "meaning": "the basic unit of time; a moment",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for quick actions",
+   "examples": [
+    "He answered in a second."
+   ]
+  },
+  {
+   "word": "weekend",
+   "romanization": null,
+   "meaning": "Saturday and Sunday together",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "time for rest",
+   "examples": [
+    "We plan trips on the weekend."
+   ]
+  },
+  {
+   "word": "midnight",
+   "romanization": null,
+   "meaning": "12 o’clock at night",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "often for deadlines",
+   "examples": [
+    "The train leaves at midnight."
+   ]
+  },
+  {
+   "word": "recently",
+   "romanization": null,
+   "meaning": "a short time ago",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "used for recent past events",
+   "examples": [
+    "She recently moved to a new city."
+   ]
+  },
+  {
+   "word": "lately",
+   "romanization": null,
+   "meaning": "in the recent past",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "refers to recent time period",
+   "examples": [
+    "I've been feeling tired lately."
+   ]
+  },
+  {
+   "word": "currently",
+   "romanization": null,
+   "meaning": "at the present time",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "describes present situation",
+   "examples": [
+    "He is currently studying for exams."
+   ]
+  },
+  {
+   "word": "formerly",
+   "romanization": null,
+   "meaning": "in the past, before now",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "used for previous state",
+   "examples": [
+    "She formerly worked as a teacher."
+   ]
+  },
+  {
+   "word": "previously",
+   "romanization": null,
+   "meaning": "before the time being discussed",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "indicates earlier time",
+   "examples": [
+    "The company previously owned that brand."
+   ]
+  },
+  {
+   "word": "immediately",
+   "romanization": null,
+   "meaning": "without any delay",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "prompt action required",
+   "examples": [
+    "Please call me back immediately."
+   ]
+  },
+  {
+   "word": "eventually",
+   "romanization": null,
+   "meaning": "in the end, after a period",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "outcome after delay",
+   "examples": [
+    "They eventually found the missing keys."
+   ]
+  },
+  {
+   "word": "ultimately",
+   "romanization": null,
+   "meaning": "in the final result",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "final conclusion emphasized",
+   "examples": [
+    "Ultimately, the decision is yours."
+   ]
+  },
+  {
+   "word": "occasionally",
+   "romanization": null,
+   "meaning": "sometimes, not often",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "infrequent occurrence",
+   "examples": [
+    "We go hiking occasionally."
+   ]
+  },
+  {
+   "word": "frequently",
+   "romanization": null,
+   "meaning": "often, many times",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "high frequency",
+   "examples": [
+    "She frequently visits her grandparents."
+   ]
+  },
+  {
+   "word": "generally",
+   "romanization": null,
+   "meaning": "in most cases, usually",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "broad statement",
+   "examples": [
+    "Generally, cats are independent animals."
+   ]
+  },
+  {
+   "word": "typically",
+   "romanization": null,
+   "meaning": "in a usual way",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "common pattern described",
+   "examples": [
+    "He typically drinks coffee in the morning."
+   ]
+  },
+  {
+   "word": "seldom",
+   "romanization": null,
+   "meaning": "rarely, not often",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "low frequency",
+   "examples": [
+    "She seldom eats fast food."
+   ]
+  },
+  {
+   "word": "moment",
+   "romanization": null,
+   "meaning": "a very short period of time",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "brief point in time",
+   "examples": [
+    "Wait a moment, please."
+   ]
+  },
+  {
+   "word": "instant",
+   "romanization": null,
+   "meaning": "a very brief period",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "immediate point in time",
+   "examples": [
+    "In an instant, the lights went out."
+   ]
+  },
+  {
+   "word": "period",
+   "romanization": null,
+   "meaning": "a length or portion of time",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "defined time span",
+   "examples": [
+    "The Jurassic period lasted millions of years."
+   ]
+  },
+  {
+   "word": "interval",
+   "romanization": null,
+   "meaning": "a pause or break between events",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "time gap indicated",
+   "examples": [
+    "There was a short interval between the shows."
+   ]
+  },
+  {
+   "word": "future",
+   "romanization": null,
+   "meaning": "the time that is to come",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for upcoming events",
+   "examples": [
+    "She is planning for the future."
+   ]
+  },
+  {
+   "word": "past",
+   "romanization": null,
+   "meaning": "the time that has already happened",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "refers to previous events",
+   "examples": [
+    "He often thinks about the past."
+   ]
+  },
+  {
+   "word": "era",
+   "romanization": null,
+   "meaning": "a long period of history",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for distinct historical periods",
+   "examples": [
+    "The Victorian era was known for its architecture."
+   ]
+  },
+  {
+   "word": "age",
+   "romanization": null,
+   "meaning": "a distinct period in history",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "often used with adjectives",
+   "examples": [
+    "The digital age has changed communication."
+   ]
+  },
+  {
+   "word": "day",
+   "romanization": null,
+   "meaning": "a 24‑hour period",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "basic unit of time",
+   "examples": [
+    "We will meet again in a day."
+   ]
+  },
+  {
+   "word": "date",
+   "romanization": null,
+   "meaning": "a specific day of the month or year",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for appointments",
+   "examples": [
+    "What is the date of the meeting?"
+   ]
+  },
+  {
+   "word": "time",
+   "romanization": null,
+   "meaning": "the measured period in which events occur",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "general concept of duration",
+   "examples": [
+    "Time flies when you're having fun."
+   ]
+  },
+  {
+   "word": "occasion",
+   "romanization": null,
+   "meaning": "a particular event or moment",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "often special or rare",
+   "examples": [
+    "It was a happy occasion for everyone."
+   ]
+  },
+  {
+   "word": "timeline",
+   "romanization": null,
+   "meaning": "a visual representation of events in chronological order",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "shows sequence of events",
+   "examples": [
+    "The timeline shows the company’s growth."
+   ]
+  },
+  {
+   "word": "noon",
+   "romanization": null,
+   "meaning": "midday, 12:00 PM",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "midpoint of the day",
+   "examples": [
+    "We have lunch at noon."
+   ]
+  },
+  {
+   "word": "anytime",
+   "romanization": null,
+   "meaning": "at whatever time is convenient",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "offers flexibility",
+   "examples": [
+    "Call me anytime you need help."
+   ]
+  },
+  {
+   "word": "ever",
+   "romanization": null,
+   "meaning": "at any time",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "used in questions or negatives",
+   "examples": [
+    "Have you ever been to Paris?"
+   ]
+  },
+  {
+   "word": "once",
+   "romanization": null,
+   "meaning": "one time only",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "refers to a single occurrence",
+   "examples": [
+    "She visited the museum once last year."
+   ]
+  },
+  {
+   "word": "afternoon",
+   "romanization": null,
+   "meaning": "the time after noon until evening",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "often used for appointments",
+   "examples": [
+    "We have a meeting scheduled for Thursday afternoon."
+   ]
+  },
+  {
+   "word": "hello",
+   "romanization": null,
+   "meaning": "a greeting used when meeting someone",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal, friendly",
+   "examples": [
+    "Hello, how are you today?"
+   ]
+  },
+  {
+   "word": "hi",
+   "romanization": null,
+   "meaning": "a short, informal greeting",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "very casual",
+   "examples": [
+    "Hi! Nice to see you again."
+   ]
+  },
+  {
+   "word": "good morning",
+   "romanization": null,
+   "meaning": "a greeting used before noon",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "formal or polite",
+   "examples": [
+    "Good morning, everyone."
+   ]
+  },
+  {
+   "word": "good afternoon",
+   "romanization": null,
+   "meaning": "a greeting used after noon",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "polite, daytime",
+   "examples": [
+    "Good afternoon, may I help you?"
+   ]
+  },
+  {
+   "word": "good evening",
+   "romanization": null,
+   "meaning": "a greeting used in the evening",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "formal or polite",
+   "examples": [
+    "Good evening, how was your day?"
+   ]
+  },
+  {
+   "word": "good night",
+   "romanization": null,
+   "meaning": "a farewell said before sleeping",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "used when parting at night",
+   "examples": [
+    "Good night, see you tomorrow!"
+   ]
+  },
+  {
+   "word": "hey",
+   "romanization": null,
+   "meaning": "a casual way to attract attention",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "very informal",
+   "examples": [
+    "Hey, did you finish the report?"
+   ]
+  },
+  {
+   "word": "how are you",
+   "romanization": null,
+   "meaning": "asks about someone's wellbeing",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "common small talk",
+   "examples": [
+    "How are you doing after the trip?"
+   ]
+  },
+  {
+   "word": "nice to meet you",
+   "romanization": null,
+   "meaning": "expresses pleasure at meeting someone",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "first-time introductions",
+   "examples": [
+    "Nice to meet you, I've heard a lot about you."
+   ]
+  },
+  {
+   "word": "pleased to meet you",
+   "romanization": null,
+   "meaning": "formal way to say nice to meet you",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "polite, formal",
+   "examples": [
+    "Pleased to meet you, Ms. Lee."
+   ]
+  },
+  {
+   "word": "how's it going",
+   "romanization": null,
+   "meaning": "asks how someone is doing, informal",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "friendly, casual",
+   "examples": [
+    "How's it going? Did you enjoy the concert?"
+   ]
+  },
+  {
+   "word": "what's up",
+   "romanization": null,
+   "meaning": "asks what is happening, informal",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "very casual",
+   "examples": [
+    "What's up? Any plans for the weekend?"
+   ]
+  },
+  {
+   "word": "greetings",
+   "romanization": null,
+   "meaning": "a formal way to say hello",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "used in speeches",
+   "examples": [
+    "Greetings, ladies and gentlemen."
+   ]
+  },
+  {
+   "word": "welcome",
+   "romanization": null,
+   "meaning": "expresses pleasure at someone's arrival",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "used when receiving guests",
+   "examples": [
+    "Welcome to our home!"
+   ]
+  },
+  {
+   "word": "cheers",
+   "romanization": null,
+   "meaning": "a friendly toast or thanks",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal, British",
+   "examples": [
+    "Cheers for helping me move!"
+   ]
+  },
+  {
+   "word": "take care",
+   "romanization": null,
+   "meaning": "a farewell wishing safety",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "used when parting",
+   "examples": [
+    "Alright, take care!"
+   ]
+  },
+  {
+   "word": "see you later",
+   "romanization": null,
+   "meaning": "a casual goodbye, expecting future meeting",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal",
+   "examples": [
+    "See you later, have a good day!"
+   ]
+  },
+  {
+   "word": "good to see you",
+   "romanization": null,
+   "meaning": "expresses pleasure at meeting again",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "friendly, familiar",
+   "examples": [
+    "Good to see you again after so long!"
+   ]
+  },
+  {
+   "word": "thanks",
+   "romanization": null,
+   "meaning": "expression of gratitude",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal, friendly",
+   "examples": [
+    "Thanks for helping me with the project."
+   ]
+  },
+  {
+   "word": "thank you",
+   "romanization": null,
+   "meaning": "polite expression of gratitude",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "slightly formal",
+   "examples": [
+    "Thank you for the wonderful gift."
+   ]
+  },
+  {
+   "word": "sorry",
+   "romanization": null,
+   "meaning": "apology or regret",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "use for minor mistakes",
+   "examples": [
+    "Sorry I’m late to the meeting."
+   ]
+  },
+  {
+   "word": "excuse me",
+   "romanization": null,
+   "meaning": "polite request for attention or forgiveness",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "before interrupting",
+   "examples": [
+    "Excuse me, could you repeat that?"
+   ]
+  },
+  {
+   "word": "congratulations",
+   "romanization": null,
+   "meaning": "praise for an achievement",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "formal or informal",
+   "examples": [
+    "Congratulations on your promotion!"
+   ]
+  },
+  {
+   "word": "farewell",
+   "romanization": null,
+   "meaning": "formal goodbye",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "used in speeches",
+   "examples": [
+    "We wish you farewell and success."
+   ]
+  },
+  {
+   "word": "goodbye",
+   "romanization": null,
+   "meaning": "standard parting phrase",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "neutral, everyday use",
+   "examples": [
+    "Goodbye, see you tomorrow."
+   ]
+  },
+  {
+   "word": "see you",
+   "romanization": null,
+   "meaning": "informal parting, expecting next meeting",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "short and casual",
+   "examples": [
+    "See you at the cafe later."
+   ]
+  },
+  {
+   "word": "see you soon",
+   "romanization": null,
+   "meaning": "parting with expectation of near meeting",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "friendly, optimistic",
+   "examples": [
+    "It was great chatting—see you soon!"
+   ]
+  },
+  {
+   "word": "nice to see you",
+   "romanization": null,
+   "meaning": "pleased to meet again",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "warm, informal",
+   "examples": [
+    "Hey, nice to see you after so long!"
+   ]
+  },
+  {
+   "word": "long time no see",
+   "romanization": null,
+   "meaning": "expressing that it’s been a while",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "colloquial, friendly",
+   "examples": [
+    "Long time no see, how have you been?"
+   ]
+  },
+  {
+   "word": "what’s new",
+   "romanization": null,
+   "meaning": "asking about recent events",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "casual conversation starter",
+   "examples": [
+    "What’s new with you these days?"
+   ]
+  },
+  {
+   "word": "how have you been",
+   "romanization": null,
+   "meaning": "inquire about someone’s recent wellbeing",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "used after absence",
+   "examples": [
+    "How have you been since we last met?"
+   ]
+  },
+  {
+   "word": "how’s everything",
+   "romanization": null,
+   "meaning": "ask about overall situation",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal, caring",
+   "examples": [
+    "How’s everything going at work?"
+   ]
+  },
+  {
+   "word": "take it easy",
+   "romanization": null,
+   "meaning": "relax or don’t stress",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "friendly farewell",
+   "examples": [
+    "Take it easy after the exam!"
+   ]
+  },
+  {
+   "word": "all the best",
+   "romanization": null,
+   "meaning": "wish someone success",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "formal or semi‑formal",
+   "examples": [
+    "All the best for your new job!"
+   ]
+  },
+  {
+   "word": "nice meeting you",
+   "romanization": null,
+   "meaning": "pleased to have met someone",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "post‑introduction, polite",
+   "examples": [
+    "Nice meeting you, hope we work together soon."
+   ]
+  },
+  {
+   "word": "friend",
+   "romanization": null,
+   "meaning": "a person you know and like",
+   "pos": "NOUN",
+   "category": "Greetings & Social",
+   "note": "informal, for acquaintances",
+   "examples": [
+    "Hey friend, glad you could join us!"
+   ]
+  },
+  {
+   "word": "buddy",
+   "romanization": null,
+   "meaning": "a close friend, often male",
+   "pos": "NOUN",
+   "category": "Greetings & Social",
+   "note": "casual, friendly tone",
+   "examples": [
+    "What’s up, buddy? Ready for the game?"
+   ]
+  },
+  {
+   "word": "mate",
+   "romanization": null,
+   "meaning": "a companion or friend",
+   "pos": "NOUN",
+   "category": "Greetings & Social",
+   "note": "common in British English",
+   "examples": [
+    "Thanks for the help, mate!"
+   ]
+  },
+  {
+   "word": "everyone",
+   "romanization": null,
+   "meaning": "all the people present",
+   "pos": "PRON",
+   "category": "Greetings & Social",
+   "note": "inclusive address",
+   "examples": [
+    "Good morning, everyone!"
+   ]
+  },
+  {
+   "word": "folks",
+   "romanization": null,
+   "meaning": "people in general; often used informally",
+   "pos": "NOUN",
+   "category": "Greetings & Social",
+   "note": "friendly, informal",
+   "examples": [
+    "How are you all doing, folks?"
+   ]
+  },
+  {
+   "word": "people",
+   "romanization": null,
+   "meaning": "human beings in general",
+   "pos": "NOUN",
+   "category": "Greetings & Social",
+   "note": "neutral, broad scope",
+   "examples": [
+    "People are gathering in the lobby."
+   ]
+  },
+  {
+   "word": "guys",
+   "romanization": null,
+   "meaning": "informal term for a group of people",
+   "pos": "NOUN",
+   "category": "Greetings & Social",
+   "note": "can address mixed gender",
+   "examples": [
+    "Hey guys, let’s start the meeting."
+   ]
+  },
+  {
+   "word": "all",
+   "romanization": null,
+   "meaning": "every person or thing",
+   "pos": "PRON",
+   "category": "Greetings & Social",
+   "note": "used for emphasis",
+   "examples": [
+    "All, please be quiet for the presentation."
+   ]
+  },
+  {
+   "word": "hey there",
+   "romanization": null,
+   "meaning": "a friendly greeting",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "casual, upbeat",
+   "examples": [
+    "Hey there! How’s your day going?"
+   ]
+  },
+  {
+   "word": "how’s life",
+   "romanization": null,
+   "meaning": "asking about someone’s well‑being",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal, conversational",
+   "examples": [
+    "How’s life treating you these days?"
+   ]
+  },
+  {
+   "word": "nice work",
+   "romanization": null,
+   "meaning": "praise for a job well done",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "encouraging, positive",
+   "examples": [
+    "Nice work on the report!"
+   ]
+  },
+  {
+   "word": "well done",
+   "romanization": null,
+   "meaning": "congratulating someone’s achievement",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "formal or informal",
+   "examples": [
+    "Well done on passing the exam!"
+   ]
+  },
+  {
+   "word": "congrats",
+   "romanization": null,
+   "meaning": "short form of congratulations",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "cheerful, brief",
+   "examples": [
+    "Congrats on your promotion!"
+   ]
+  },
+  {
+   "word": "be well",
+   "romanization": null,
+   "meaning": "a wish for good health",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "polite, slightly formal",
+   "examples": [
+    "Take care and be well!"
+   ]
+  },
+  {
+   "word": "good luck",
+   "romanization": null,
+   "meaning": "a wish for success",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "used before events",
+   "examples": [
+    "Good luck with your interview!"
+   ]
+  },
+  {
+   "word": "best wishes",
+   "romanization": null,
+   "meaning": "a friendly expression of goodwill",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "often in letters",
+   "examples": [
+    "Best wishes for your new home!"
+   ]
+  },
+  {
+   "word": "see ya",
+   "romanization": null,
+   "meaning": "informal goodbye",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "very casual",
+   "examples": [
+    "I’ve got to go, see ya!"
+   ]
+  },
+  {
+   "word": "hello there",
+   "romanization": null,
+   "meaning": "A friendly way to say hello",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Casual, slightly informal",
+   "examples": [
+    "Hello there, can I help you with anything?"
+   ]
+  },
+  {
+   "word": "good day",
+   "romanization": null,
+   "meaning": "Polite greeting used during the day",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Formal, British usage",
+   "examples": [
+    "Good day, may I speak to the manager?"
+   ]
+  },
+  {
+   "word": "howdy",
+   "romanization": null,
+   "meaning": "Informal greeting, especially in the US South",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Very casual, regional",
+   "examples": [
+    "Howdy! Long time since we last talked."
+   ]
+  },
+  {
+   "word": "pleasure",
+   "romanization": null,
+   "meaning": "Expression of enjoyment meeting someone",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Often follows a name",
+   "examples": [
+    "Pleasure to meet you, Dr. Smith."
+   ]
+  },
+  {
+   "word": "salutations",
+   "romanization": null,
+   "meaning": "Formal greeting or expression of goodwill",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Old‑fashioned, formal",
+   "examples": [
+    "Salutations, and thank you for joining us today."
+   ]
+  },
+  {
+   "word": "what's happening",
+   "romanization": null,
+   "meaning": "Casual way to ask how someone is",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Very informal, youthful",
+   "examples": [
+    "What's happening? You look excited!"
+   ]
+  },
+  {
+   "word": "how's everything",
+   "romanization": null,
+   "meaning": "Casual inquiry about someone's wellbeing",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Friendly, informal",
+   "examples": [
+    "How's everything with your new job?"
+   ]
+  },
+  {
+   "word": "how do you do",
+   "romanization": null,
+   "meaning": "Formal greeting, not a question",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Very formal, rarely used",
+   "examples": [
+    "How do you do, Professor Lee?"
+   ]
+  },
+  {
+   "word": "what's the word",
+   "romanization": null,
+   "meaning": "Informal way to ask for news",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Slang, friendly",
+   "examples": [
+    "What's the word about the upcoming concert?"
+   ]
+  },
+  {
+   "word": "nice seeing you",
+   "romanization": null,
+   "meaning": "Friendly farewell after meeting",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Casual, polite",
+   "examples": [
+    "Nice seeing you, let's catch up soon!"
+   ]
+  },
+  {
+   "word": "how's life treating you",
+   "romanization": null,
+   "meaning": "Informal way to ask about someone's wellbeing",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Conversational, friendly",
+   "examples": [
+    "How's life treating you since you moved?"
+   ]
+  },
+  {
+   "word": "what brings you here",
+   "romanization": null,
+   "meaning": "Polite way to ask someone's purpose",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Curious, polite",
+   "examples": [
+    "What brings you here today?"
+   ]
+  }
+ ]
+}

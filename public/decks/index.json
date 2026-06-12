@@ -1,0 +1,56 @@
+[
+  {
+    "id": "korean",
+    "language": "Korean",
+    "name": "Korean Essentials",
+    "description": "500 essential Korean words for everyday life",
+    "file": "korean.json",
+    "count": 500,
+    "categories": [
+      "Food & Drink",
+      "Travel",
+      "Body & Health",
+      "Business",
+      "Emotions",
+      "Nature",
+      "Time",
+      "Greetings & Social"
+    ]
+  },
+  {
+    "id": "japanese",
+    "language": "Japanese",
+    "name": "Japanese Essentials",
+    "description": "500 essential Japanese words for everyday life",
+    "file": "japanese.json",
+    "count": 500,
+    "categories": [
+      "Food & Drink",
+      "Travel",
+      "Body & Health",
+      "Business",
+      "Emotions",
+      "Nature",
+      "Time",
+      "Greetings & Social"
+    ]
+  },
+  {
+    "id": "english",
+    "language": "English",
+    "name": "English Essentials",
+    "description": "500 essential English words for everyday life",
+    "file": "english.json",
+    "count": 500,
+    "categories": [
+      "Food & Drink",
+      "Travel",
+      "Body & Health",
+      "Business",
+      "Emotions",
+      "Nature",
+      "Time",
+      "Greetings & Social"
+    ]
+  }
+]

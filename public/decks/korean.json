@@ -1,0 +1,5508 @@
+{
+ "id": "korean",
+ "language": "Korean",
+ "name": "Korean Essentials",
+ "description": "500 essential Korean words for everyday life",
+ "cards": [
+  {
+   "word": "밥",
+   "romanization": "bap",
+   "meaning": "cooked rice; meal",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "basic staple food",
+   "examples": [
+    "밥을 먹고 싶어요. — I want to eat rice."
+   ]
+  },
+  {
+   "word": "김치",
+   "romanization": "gimchi",
+   "meaning": "fermented cabbage dish",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "spicy side dish",
+   "examples": [
+    "김치를 매일 먹어요. — I eat kimchi every day."
+   ]
+  },
+  {
+   "word": "물",
+   "romanization": "mul",
+   "meaning": "water",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "drinkable liquid",
+   "examples": [
+    "물을 한 잔 주세요. — Please give me a glass of water."
+   ]
+  },
+  {
+   "word": "우유",
+   "romanization": "uyu",
+   "meaning": "milk",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "dairy beverage",
+   "examples": [
+    "아침에 우유를 마셨어요. — I drank milk in the morning."
+   ]
+  },
+  {
+   "word": "커피",
+   "romanization": "keopi",
+   "meaning": "coffee",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "caffeinated drink",
+   "examples": [
+    "카페에서 커피를 주문했어요. — I ordered coffee at the cafe."
+   ]
+  },
+  {
+   "word": "차",
+   "romanization": "cha",
+   "meaning": "tea",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "hot or cold beverage",
+   "examples": [
+    "녹차 한 잔 주세요. — Please give me a cup of green tea."
+   ]
+  },
+  {
+   "word": "주스",
+   "romanization": "juseu",
+   "meaning": "juice",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "fruit drink",
+   "examples": [
+    "오렌지 주스를 마셨어요. — I drank orange juice."
+   ]
+  },
+  {
+   "word": "과일",
+   "romanization": "gwail",
+   "meaning": "fruit",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "edible plant product",
+   "examples": [
+    "과일을 많이 먹어요. — I eat a lot of fruit."
+   ]
+  },
+  {
+   "word": "빵",
+   "romanization": "ppang",
+   "meaning": "bread",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "baked staple",
+   "examples": [
+    "아침에 빵을 토스트했어요. — I toasted bread for breakfast."
+   ]
+  },
+  {
+   "word": "고기",
+   "romanization": "gogi",
+   "meaning": "meat",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "animal flesh",
+   "examples": [
+    "고기를 구워서 먹었어요. — I grilled meat and ate it."
+   ]
+  },
+  {
+   "word": "생선",
+   "romanization": "saengseon",
+   "meaning": "fish",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "aquatic protein",
+   "examples": [
+    "생선을 회로 먹어요. — I eat fish as sashimi."
+   ]
+  },
+  {
+   "word": "계란",
+   "romanization": "gyeran",
+   "meaning": "egg",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "bird ovum",
+   "examples": [
+    "계란을 풀어서 부쳤어요. — I scrambled the eggs."
+   ]
+  },
+  {
+   "word": "라면",
+   "romanization": "ramyeon",
+   "meaning": "instant noodles",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "quick snack",
+   "examples": [
+    "라면을 끓여 먹었어요. — I boiled ramen to eat."
+   ]
+  },
+  {
+   "word": "술",
+   "romanization": "sul",
+   "meaning": "alcoholic drink",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "includes soju, beer",
+   "examples": [
+    "친구와 술을 마셨어요. — I drank alcohol with a friend."
+   ]
+  },
+  {
+   "word": "소주",
+   "romanization": "soju",
+   "meaning": "Korean distilled spirit",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "clear, ~20% ABV",
+   "examples": [
+    "소주 한 잔 주세요. — Please give me a shot of soju."
+   ]
+  },
+  {
+   "word": "맥주",
+   "romanization": "maekju",
+   "meaning": "beer",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "fermented grain drink",
+   "examples": [
+    "맥주를 차게 마셨어요. — I drank cold beer."
+   ]
+  },
+  {
+   "word": "맛있다",
+   "romanization": "masitda",
+   "meaning": "to be tasty",
+   "pos": "VERB",
+   "category": "Food & Drink",
+   "note": "expresses good flavor",
+   "examples": [
+    "이 음식이 정말 맛있어요. — This food is really delicious."
+   ]
+  },
+  {
+   "word": "배고프다",
+   "romanization": "baegopda",
+   "meaning": "to be hungry",
+   "pos": "VERB",
+   "category": "Food & Drink",
+   "note": "state of needing food",
+   "examples": [
+    "배고파서 밥을 주문했어요. — I was hungry, so I ordered rice."
+   ]
+  },
+  {
+   "word": "김밥",
+   "romanization": "gimbap",
+   "meaning": "Korean rice roll",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Common snack, seaweed-wrapped",
+   "examples": [
+    "점심에 김밥을 사 먹었어요. — I bought and ate gimbap for lunch."
+   ]
+  },
+  {
+   "word": "떡",
+   "romanization": "tteok",
+   "meaning": "Rice cake",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Various types, often sweet",
+   "examples": [
+    "설날에 떡을 많이 만들어요. — We make a lot of tteok on Lunar New Year."
+   ]
+  },
+  {
+   "word": "국",
+   "romanization": "guk",
+   "meaning": "Soup or stew",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Served with rice",
+   "examples": [
+    "아침에 미역국을 마셨어요. — I had miyeok-guk for breakfast."
+   ]
+  },
+  {
+   "word": "반찬",
+   "romanization": "banchan",
+   "meaning": "Side dish",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Usually shared family-style",
+   "examples": [
+    "밥과 반찬을 같이 놓았다. — I placed rice and banchan together."
+   ]
+  },
+  {
+   "word": "라떼",
+   "romanization": "latte",
+   "meaning": "Milk coffee drink",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Often ordered at cafés",
+   "examples": [
+    "카페에서 바닐라 라떼를 마셨어요. — I drank a vanilla latte at the café."
+   ]
+  },
+  {
+   "word": "스프",
+   "romanization": "seupeu",
+   "meaning": "Soup (Western style)",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Instant or homemade",
+   "examples": [
+    "점심에 토마토 스프를 끓였어요. — I boiled tomato soup for lunch."
+   ]
+  },
+  {
+   "word": "샐러드",
+   "romanization": "saelleodeu",
+   "meaning": "Salad",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Usually with dressing",
+   "examples": [
+    "점심에 샐러드를 먹었어요. — I ate a salad for lunch."
+   ]
+  },
+  {
+   "word": "디저트",
+   "romanization": "dijeoteu",
+   "meaning": "Dessert",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Sweet treat after meals",
+   "examples": [
+    "식사 후에 디저트를 주문했어요. — I ordered dessert after the meal."
+   ]
+  },
+  {
+   "word": "아이스크림",
+   "romanization": "aiseukeurim",
+   "meaning": "Ice cream",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Cold frozen dessert",
+   "examples": [
+    "여름에 아이스크림을 많이 먹어요. — We eat a lot of ice cream in summer."
+   ]
+  },
+  {
+   "word": "주먹밥",
+   "romanization": "jumeokbap",
+   "meaning": "Rice ball",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Hand-shaped, portable",
+   "examples": [
+    "산책하면서 주먹밥을 먹었어요. — I ate a rice ball while walking."
+   ]
+  },
+  {
+   "word": "초밥",
+   "romanization": "chobap",
+   "meaning": "Sushi",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Japanese origin, popular",
+   "examples": [
+    "친구와 초밥을 먹으러 갔어요. — I went to eat sushi with a friend."
+   ]
+  },
+  {
+   "word": "핫도그",
+   "romanization": "hatdogeu",
+   "meaning": "Hot dog",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Street food favorite",
+   "examples": [
+    "축제에서 핫도그를 샀어요. — I bought a hot dog at the festival."
+   ]
+  },
+  {
+   "word": "튀김",
+   "romanization": "twigim",
+   "meaning": "Fried food",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Various ingredients battered",
+   "examples": [
+    "오징어 튀김이 아주 바삭했어요. — The fried squid was very crispy."
+   ]
+  },
+  {
+   "word": "된장찌개",
+   "romanization": "doenjangjjigae",
+   "meaning": "Soybean paste stew",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Hearty, often with tofu",
+   "examples": [
+    "저녁에 된장찌개를 끓였어요. — I made doenjang-jjigae for dinner."
+   ]
+  },
+  {
+   "word": "불고기",
+   "romanization": "bulgogi",
+   "meaning": "Marinated grilled beef",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Sweet‑savory flavor",
+   "examples": [
+    "불고기를 밥 위에 올렸어요. — I placed bulgogi on top of rice."
+   ]
+  },
+  {
+   "word": "김치찌개",
+   "romanization": "kimchijjigae",
+   "meaning": "Kimchi stew",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Spicy, comforting",
+   "examples": [
+    "추운 날에 김치찌개를 먹었어요. — I ate kimchi stew on a cold day."
+   ]
+  },
+  {
+   "word": "떡볶이",
+   "romanization": "tteokbokki",
+   "meaning": "Spicy rice‑cake dish",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Street‑food staple",
+   "examples": [
+    "친구와 떡볶이를 사 먹었어요. — I bought tteokbokki with a friend."
+   ]
+  },
+  {
+   "word": "과자",
+   "romanization": "gwaja",
+   "meaning": "Snack, pastry",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Often sweet or salty",
+   "examples": [
+    "영화 보면서 과자를 먹었어요. — I ate snacks while watching a movie."
+   ]
+  },
+  {
+   "word": "음료수",
+   "romanization": "eumryosu",
+   "meaning": "Beverage, drink",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Non‑alcoholic liquids",
+   "examples": [
+    "가게에서 음료수를 사 마셨어요. — I bought and drank a beverage at the store."
+   ]
+  },
+  {
+   "word": "김",
+   "romanization": "gim",
+   "meaning": "seaweed (nori)",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used as side or wrap",
+   "examples": [
+    "김을 구워서 밥에 올렸다. — I toasted seaweed and put it on rice."
+   ]
+  },
+  {
+   "word": "두부",
+   "romanization": "dubu",
+   "meaning": "tofu",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "soft soy curd",
+   "examples": [
+    "두부를 물에 씻고 조리한다. — Rinse the tofu and cook it."
+   ]
+  },
+  {
+   "word": "된장",
+   "romanization": "doenjang",
+   "meaning": "soybean paste",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used in soups, sauces",
+   "examples": [
+    "된장찌개는 한국의 전통 요리다. — Doenjang stew is a traditional Korean dish."
+   ]
+  },
+  {
+   "word": "고추",
+   "romanization": "gochu",
+   "meaning": "chili pepper",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "adds spiciness",
+   "examples": [
+    "고추를 썰어 김치에 넣는다. — Slice chilies and add them to kimchi."
+   ]
+  },
+  {
+   "word": "쌀",
+   "romanization": "ssal",
+   "meaning": "rice (uncooked)",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "staple grain",
+   "examples": [
+    "쌀을 씻은 후 물에 넣는다. — After washing the rice, put it in water."
+   ]
+  },
+  {
+   "word": "감자",
+   "romanization": "gamja",
+   "meaning": "potato",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "versatile tuber",
+   "examples": [
+    "감자를 얇게 썰어 튀긴다. — Thinly slice the potatoes and fry them."
+   ]
+  },
+  {
+   "word": "양파",
+   "romanization": "yangpa",
+   "meaning": "onion",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "adds flavor",
+   "examples": [
+    "양파를 다져서 볶는다. — Chop the onion and stir‑fry it."
+   ]
+  },
+  {
+   "word": "마늘",
+   "romanization": "maneul",
+   "meaning": "garlic",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "aromatic seasoning",
+   "examples": [
+    "마늘을 다진 뒤 고기에 넣는다. — Add minced garlic to the meat."
+   ]
+  },
+  {
+   "word": "버섯",
+   "romanization": "beoseot",
+   "meaning": "mushroom",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "edible fungi",
+   "examples": [
+    "버섯을 물에 불린 뒤 볶는다. — Soak the mushrooms and then stir‑fry them."
+   ]
+  },
+  {
+   "word": "오이",
+   "romanization": "oi",
+   "meaning": "cucumber",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "crisp, often raw",
+   "examples": [
+    "오이를 얇게 썰어 샐러드에 넣는다. — Slice cucumber thinly and add to salad."
+   ]
+  },
+  {
+   "word": "당근",
+   "romanization": "danggeun",
+   "meaning": "carrot",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sweet root vegetable",
+   "examples": [
+    "당근을 깍둑썰기해 찜한다. — Dice the carrots and steam them."
+   ]
+  },
+  {
+   "word": "시금치",
+   "romanization": "sigeumchi",
+   "meaning": "spinach",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "leafy green",
+   "examples": [
+    "시금치를 살짝 데쳐서 무친다. — Blanch the spinach briefly and toss it."
+   ]
+  },
+  {
+   "word": "멜론",
+   "romanization": "melon",
+   "meaning": "melon",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sweet fruit, often dessert",
+   "examples": [
+    "멜론을 차갑게 썰어 먹는다. — Slice the melon cold and eat it."
+   ]
+  },
+  {
+   "word": "바나나",
+   "romanization": "banana",
+   "meaning": "banana",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "soft, portable fruit",
+   "examples": [
+    "바나나를 껍질을 벗겨 바로 먹는다. — Peel the banana and eat it right away."
+   ]
+  },
+  {
+   "word": "토마토",
+   "romanization": "tomato",
+   "meaning": "tomato",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used fresh or cooked",
+   "examples": [
+    "토마토를 얇게 썰어 샌드위치에 넣는다. — Slice the tomato thinly and put it in a sandwich."
+   ]
+  },
+  {
+   "word": "오렌지",
+   "romanization": "orenji",
+   "meaning": "orange (fruit)",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "citrus, vitamin C",
+   "examples": [
+    "오렌지를 반으로 갈라 즙을 짠다. — Cut the orange in half and squeeze the juice."
+   ]
+  },
+  {
+   "word": "청국장",
+   "romanization": "cheonggukjang",
+   "meaning": "fermented soybean paste stew",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "strong aroma, nutritious",
+   "examples": [
+    "청국장은 아침에 따뜻하게 먹는다. — Cheonggukjang is eaten warm in the morning."
+   ]
+  },
+  {
+   "word": "소금",
+   "romanization": "sogeum",
+   "meaning": "salt",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "basic seasoning",
+   "examples": [
+    "소금을 약간 뿌려 간을 맞춘다. — Add a pinch of salt to season."
+   ]
+  },
+  {
+   "word": "파",
+   "romanization": "pa",
+   "meaning": "green onion",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used as garnish or seasoning",
+   "examples": [
+    "파를 썰어 김치에 넣어요. — Slice the green onion and add it to the kimchi."
+   ]
+  },
+  {
+   "word": "옥수수",
+   "romanization": "oksusu",
+   "meaning": "corn",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "can be boiled or grilled",
+   "examples": [
+    "여름에 옥수수를 구워 먹는다. — In summer, we grill corn to eat."
+   ]
+  },
+  {
+   "word": "콩",
+   "romanization": "kong",
+   "meaning": "bean",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used in soups or side dishes",
+   "examples": [
+    "콩을 물에 불려서 된장을 만든다. — Soak beans in water to make doenjang."
+   ]
+  },
+  {
+   "word": "사과",
+   "romanization": "sagwa",
+   "meaning": "apple",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "common fresh fruit",
+   "examples": [
+    "아침에 사과 하나를 먹었다. — I ate an apple in the morning."
+   ]
+  },
+  {
+   "word": "딸기",
+   "romanization": "ttalgi",
+   "meaning": "strawberry",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sweet seasonal fruit",
+   "examples": [
+    "딸기를 케이크에 올렸다. — I placed strawberries on the cake."
+   ]
+  },
+  {
+   "word": "배",
+   "romanization": "bae",
+   "meaning": "pear",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "crisp and juicy",
+   "examples": [
+    "배는 물처럼 시원하다. — Pears are as refreshing as water."
+   ]
+  },
+  {
+   "word": "비빔밥",
+   "romanization": "bibimbap",
+   "meaning": "mixed rice dish",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "mix with sauce before eating",
+   "examples": [
+    "비빔밥에 고추장을 넣어 비벼 먹는다. — Add gochujang to bibimbap and mix before eating."
+   ]
+  },
+  {
+   "word": "초콜릿",
+   "romanization": "chokollit",
+   "meaning": "chocolate",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sweet confectionery",
+   "examples": [
+    "초콜릿을 한 조각 주셨다. — He gave me a piece of chocolate."
+   ]
+  },
+  {
+   "word": "공항",
+   "romanization": "gonghang",
+   "meaning": "airport",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "travel hub",
+   "examples": [
+    "공항에 도착했어요. — I arrived at the airport."
+   ]
+  },
+  {
+   "word": "여권",
+   "romanization": "yeogwon",
+   "meaning": "passport",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "essential document",
+   "examples": [
+    "여권을 잃어버렸어요. — I lost my passport."
+   ]
+  },
+  {
+   "word": "택시",
+   "romanization": "taeksi",
+   "meaning": "taxi",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "for quick rides",
+   "examples": [
+    "택시를 잡았어요. — I caught a taxi."
+   ]
+  },
+  {
+   "word": "지하철",
+   "romanization": "jihacheol",
+   "meaning": "subway",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "urban transit",
+   "examples": [
+    "지하철을 타고 이동했어요. — I traveled by subway."
+   ]
+  },
+  {
+   "word": "버스",
+   "romanization": "beoseu",
+   "meaning": "bus",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "common public transport",
+   "examples": [
+    "버스를 타고 갈게요. — I'll go by bus."
+   ]
+  },
+  {
+   "word": "지도",
+   "romanization": "jido",
+   "meaning": "map",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "navigation aid",
+   "examples": [
+    "지도 없이 길을 못 찾겠어요. — I can't find the way without a map."
+   ]
+  },
+  {
+   "word": "예약",
+   "romanization": "yeyak",
+   "meaning": "reservation",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "book ahead",
+   "examples": [
+    "호텔 예약을 했어요. — I made a hotel reservation."
+   ]
+  },
+  {
+   "word": "체크인",
+   "romanization": "chekeu-in",
+   "meaning": "check‑in",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "airport process",
+   "examples": [
+    "온라인으로 체크인했어요. — I checked in online."
+   ]
+  },
+  {
+   "word": "출발",
+   "romanization": "chulbal",
+   "meaning": "departure",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "starting point",
+   "examples": [
+    "출발 시간이 바뀌었어요. — The departure time changed."
+   ]
+  },
+  {
+   "word": "도착",
+   "romanization": "dochak",
+   "meaning": "arrival",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "end point",
+   "examples": [
+    "우리의 도착은 오후 3시예요. — Our arrival is at 3 PM."
+   ]
+  },
+  {
+   "word": "짐",
+   "romanization": "jim",
+   "meaning": "luggage",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "bags, suitcases",
+   "examples": [
+    "짐이 너무 무거워요. — The luggage is too heavy."
+   ]
+  },
+  {
+   "word": "길찾기",
+   "romanization": "gilchatgi",
+   "meaning": "directions",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "finding a route",
+   "examples": [
+    "길찾기 앱을 사용했어요. — I used a directions app."
+   ]
+  },
+  {
+   "word": "관광객",
+   "romanization": "gwan-gwanggaek",
+   "meaning": "tourist",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "visitor",
+   "examples": [
+    "관광객이 많이 몰렸어요. — Many tourists crowded in."
+   ]
+  },
+  {
+   "word": "입국심사",
+   "romanization": "ipguk-simsa",
+   "meaning": "immigration check",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "border control",
+   "examples": [
+    "입국심사를 통과했어요. — I passed immigration."
+   ]
+  },
+  {
+   "word": "환전",
+   "romanization": "hwanjeon",
+   "meaning": "currency exchange",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "money conversion",
+   "examples": [
+    "공항에서 환전했어요. — I exchanged money at the airport."
+   ]
+  },
+  {
+   "word": "가이드",
+   "romanization": "gaideu",
+   "meaning": "guide",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "tour guide",
+   "examples": [
+    "가이드가 설명했어요. — The guide explained."
+   ]
+  },
+  {
+   "word": "관광지",
+   "romanization": "gwan-gwangji",
+   "meaning": "tourist spot",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "popular attraction",
+   "examples": [
+    "경복궁은 유명한 관광지예요. — Gyeongbokgung is a famous tourist spot."
+   ]
+  },
+  {
+   "word": "여행자보험",
+   "romanization": "yeohaengja boheom",
+   "meaning": "travel insurance",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "protects travelers",
+   "examples": [
+    "여행자보험을 들어두세요. — Get travel insurance."
+   ]
+  },
+  {
+   "word": "비행기",
+   "romanization": "bihaenggi",
+   "meaning": "airplane",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "transport mode for long trips",
+   "examples": [
+    "비행기 표를 샀어요. — I bought a plane ticket."
+   ]
+  },
+  {
+   "word": "여행",
+   "romanization": "yeohaeng",
+   "meaning": "travel, trip",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "general term for traveling",
+   "examples": [
+    "이번 여름에 여행을 갈 거예요. — I'm going to travel this summer."
+   ]
+  },
+  {
+   "word": "숙소",
+   "romanization": "sukso",
+   "meaning": "accommodation, lodging",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "places to stay overnight",
+   "examples": [
+    "숙소를 미리 예약했어요. — I booked the lodging in advance."
+   ]
+  },
+  {
+   "word": "호텔",
+   "romanization": "hotel",
+   "meaning": "hotel",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "common lodging option",
+   "examples": [
+    "호텔 방이 깨끗했어요. — The hotel room was clean."
+   ]
+  },
+  {
+   "word": "게스트하우스",
+   "romanization": "geseuteuhauseu",
+   "meaning": "guesthouse",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "budget-friendly stay",
+   "examples": [
+    "게스트하우스에서 현지인을 만났어요. — I met locals at the guesthouse."
+   ]
+  },
+  {
+   "word": "택시기사",
+   "romanization": "taeksigisa",
+   "meaning": "taxi driver",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "person driving a taxi",
+   "examples": [
+    "택시기사가 친절했어요. — The taxi driver was friendly."
+   ]
+  },
+  {
+   "word": "길",
+   "romanization": "gil",
+   "meaning": "road, street",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "general term for a way",
+   "examples": [
+    "길을 잃었어요. — I got lost on the road."
+   ]
+  },
+  {
+   "word": "표",
+   "romanization": "pyo",
+   "meaning": "ticket",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "used for transport or entry",
+   "examples": [
+    "기차 표를 샀어요. — I bought a train ticket."
+   ]
+  },
+  {
+   "word": "기차",
+   "romanization": "gicha",
+   "meaning": "train",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "rail transport",
+   "examples": [
+    "기차가 금방 도착했어요. — The train arrived quickly."
+   ]
+  },
+  {
+   "word": "역",
+   "romanization": "yeok",
+   "meaning": "station",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "train or subway stop",
+   "examples": [
+    "역에서 친구를 만났어요. — I met my friend at the station."
+   ]
+  },
+  {
+   "word": "입구",
+   "romanization": "ipgu",
+   "meaning": "entrance",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "where you go in",
+   "examples": [
+    "공원 입구가 붐볐어요. — The park entrance was crowded."
+   ]
+  },
+  {
+   "word": "출입국관리사무소",
+   "romanization": "churipguk gwanri samuso",
+   "meaning": "immigration office",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "official immigration desk",
+   "examples": [
+    "출입국관리사무소에서 서류를 제출했어요. — I submitted documents at the immigration office."
+   ]
+  },
+  {
+   "word": "여행가이드북",
+   "romanization": "yeohaeng gaideubuk",
+   "meaning": "travel guidebook",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "book with travel info",
+   "examples": [
+    "가이드북을 참고했어요. — I consulted the guidebook."
+   ]
+  },
+  {
+   "word": "통화",
+   "romanization": "tonghwa",
+   "meaning": "currency",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "money used in a country",
+   "examples": [
+    "현지 통화를 교환했어요. — I exchanged the local currency."
+   ]
+  },
+  {
+   "word": "환불",
+   "romanization": "hwanbul",
+   "meaning": "refund",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "money returned",
+   "examples": [
+    "호텔 예약을 취소하고 환불을 받았어요. — I canceled the hotel reservation and got a refund."
+   ]
+  },
+  {
+   "word": "관광버스",
+   "romanization": "gwangwangbeoseu",
+   "meaning": "tour bus",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "bus for sightseeing",
+   "examples": [
+    "관광버스를 타고 명소를 돌았어요. — We rode the tour bus to visit attractions."
+   ]
+  },
+  {
+   "word": "여행자",
+   "romanization": "yeohaengja",
+   "meaning": "traveler",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "person who travels",
+   "examples": [
+    "그는 열정적인 여행자예요. — He is an enthusiastic traveler."
+   ]
+  },
+  {
+   "word": "여행 일정",
+   "romanization": "yeohaeng iljeong",
+   "meaning": "travel itinerary",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "planned schedule",
+   "examples": [
+    "여행 일정을 미리 짰어요. — I prepared the travel itinerary in advance."
+   ]
+  },
+  {
+   "word": "짐가방",
+   "romanization": "jimgabang",
+   "meaning": "suitcase, luggage",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "container for belongings",
+   "examples": [
+    "짐가방을 공항에 두었어요. — I left my suitcase at the airport."
+   ]
+  },
+  {
+   "word": "공항버스",
+   "romanization": "gonghangbeoseu",
+   "meaning": "airport bus",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "bus to/from airport",
+   "examples": [
+    "공항버스를 타고 시내에 도착했어요. — I took the airport bus and arrived downtown."
+   ]
+  },
+  {
+   "word": "택시승차",
+   "romanization": "taegsiseungcha",
+   "meaning": "hailing a taxi",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "verb phrase for catching taxi",
+   "examples": [
+    "길에서 택시승차를 했어요. — I hailed a taxi on the street."
+   ]
+  },
+  {
+   "word": "수하물",
+   "romanization": "suhamool",
+   "meaning": "luggage",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "checked or carry-on bags",
+   "examples": [
+    "수하물을 잃어버리지 않게 조심하세요. — Be careful not to lose your luggage."
+   ]
+  },
+  {
+   "word": "여행지",
+   "romanization": "yeohaengji",
+   "meaning": "travel destination",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "places to visit",
+   "examples": [
+    "이곳은 유명한 여행지입니다. — This place is a famous travel destination."
+   ]
+  },
+  {
+   "word": "관광명소",
+   "romanization": "gwangwangmyeongso",
+   "meaning": "tourist attraction",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "popular sights",
+   "examples": [
+    "경복궁은 대표적인 관광명소예요. — Gyeongbokgung is a representative tourist attraction."
+   ]
+  },
+  {
+   "word": "여행일정",
+   "romanization": "yeohaeng iljeong",
+   "meaning": "travel itinerary",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "planned schedule",
+   "examples": [
+    "여행일정을 미리 짜두세요. — Prepare your travel itinerary in advance."
+   ]
+  },
+  {
+   "word": "여행경비",
+   "romanization": "yeohaeng gyeongbi",
+   "meaning": "travel expenses",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "budget for trip",
+   "examples": [
+    "여행경비를 절약하려고 해요. — I'm trying to save on travel expenses."
+   ]
+  },
+  {
+   "word": "여행보험",
+   "romanization": "yeohaeng boheom",
+   "meaning": "travel insurance",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "covers emergencies",
+   "examples": [
+    "여행보험에 가입하는 것이 좋습니다. — It's good to have travel insurance."
+   ]
+  },
+  {
+   "word": "입국",
+   "romanization": "ipguk",
+   "meaning": "entry into a country",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "arrival process",
+   "examples": [
+    "입국 절차가 복잡했어요. — The entry procedures were complicated."
+   ]
+  },
+  {
+   "word": "출국",
+   "romanization": "chulguk",
+   "meaning": "departure from a country",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "leaving the country",
+   "examples": [
+    "출국 전에 모든 서류를 확인하세요. — Check all documents before departure."
+   ]
+  },
+  {
+   "word": "여행가이드",
+   "romanization": "yeohaeng gaideu",
+   "meaning": "travel guide",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "person or book",
+   "examples": [
+    "여행가이드를 보고 계획을 세웠어요. — I made plans using a travel guide."
+   ]
+  },
+  {
+   "word": "여행동반자",
+   "romanization": "yeohaeng dongbanja",
+   "meaning": "travel companion",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "person traveling with you",
+   "examples": [
+    "여행동반자와 함께 사진을 찍었어요. — I took photos with my travel companion."
+   ]
+  },
+  {
+   "word": "숙박",
+   "romanization": "sukbak",
+   "meaning": "accommodation",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "stay overnight",
+   "examples": [
+    "숙박 예약을 미리 해야 해요. — You need to book accommodation in advance."
+   ]
+  },
+  {
+   "word": "환승",
+   "romanization": "hwansseung",
+   "meaning": "transfer (between transport)",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "changing vehicles",
+   "examples": [
+    "지하철에서 버스로 환승했어요. — I transferred from the subway to the bus."
+   ]
+  },
+  {
+   "word": "여행사진",
+   "romanization": "yeohaeng sajin",
+   "meaning": "travel photo",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "pictures taken while traveling",
+   "examples": [
+    "여행사진을 SNS에 올렸어요. — I posted travel photos on social media."
+   ]
+  },
+  {
+   "word": "여행일",
+   "romanization": "yeohaeng il",
+   "meaning": "travel day",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "specific day of trip",
+   "examples": [
+    "여행일은 다음 주 금요일이에요. — The travel day is next Friday."
+   ]
+  },
+  {
+   "word": "관광",
+   "romanization": "gwan-gwang",
+   "meaning": "tourism",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "general travel activity",
+   "examples": [
+    "서울에서 관광을 많이 했어요. — I did a lot of sightseeing in Seoul."
+   ]
+  },
+  {
+   "word": "여정",
+   "romanization": "yeo-jeong",
+   "meaning": "itinerary",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "planned travel route",
+   "examples": [
+    "우리의 여정은 3일간 이어졌다. — Our itinerary lasted three days."
+   ]
+  },
+  {
+   "word": "환전소",
+   "romanization": "hwan-jeon-so",
+   "meaning": "currency exchange office",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "where money is exchanged",
+   "examples": [
+    "공항 근처 환전소에서 원화를 샀다. — I bought Korean won at a currency exchange near the airport."
+   ]
+  },
+  {
+   "word": "안내판",
+   "romanization": "an-nae-pan",
+   "meaning": "information sign",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "helps with directions",
+   "examples": [
+    "역 입구에 큰 안내판이 있다. — There is a big information sign at the station entrance."
+   ]
+  },
+  {
+   "word": "탑승",
+   "romanization": "tap-seung",
+   "meaning": "boarding",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "getting on transport",
+   "examples": [
+    "탑승 시간이 곧 시작됩니다. — Boarding will start shortly."
+   ]
+  },
+  {
+   "word": "출입",
+   "romanization": "chul-ip",
+   "meaning": "entry/exit",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "access control point",
+   "examples": [
+    "출입 제한 구역에 들어가지 마세요. — Do not enter the restricted entry area."
+   ]
+  },
+  {
+   "word": "체크아웃",
+   "romanization": "che-keu-a-ut",
+   "meaning": "checkout",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "leaving accommodation",
+   "examples": [
+    "오전 11시에 체크아웃 해야 해요. — We have to check out at 11 a.m."
+   ]
+  },
+  {
+   "word": "수속",
+   "romanization": "su-sok",
+   "meaning": "procedure",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "formal processing step",
+   "examples": [
+    "비자 수속이 아직 끝나지 않았다. — The visa procedure is not finished yet."
+   ]
+  },
+  {
+   "word": "기내식",
+   "romanization": "gi-nae-sik",
+   "meaning": "in‑flight meal",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "served on airplanes",
+   "examples": [
+    "오늘 비행기의 기내식이 맛있었다. — The in‑flight meal on today’s plane was delicious."
+   ]
+  },
+  {
+   "word": "면세점",
+   "romanization": "myeon-se-jeom",
+   "meaning": "duty‑free shop",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "tax‑free shopping area",
+   "examples": [
+    "면세점에서 향수를 샀다. — I bought perfume at the duty‑free shop."
+   ]
+  },
+  {
+   "word": "머리",
+   "romanization": "meori",
+   "meaning": "head",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "body part, also hair",
+   "examples": [
+    "머리를 숙였어요. — She bowed her head."
+   ]
+  },
+  {
+   "word": "눈",
+   "romanization": "nun",
+   "meaning": "eye",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "organ of sight",
+   "examples": [
+    "눈이 아파요. — My eyes hurt."
+   ]
+  },
+  {
+   "word": "코",
+   "romanization": "ko",
+   "meaning": "nose",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "smell organ",
+   "examples": [
+    "코가 막혔어요. — My nose is blocked."
+   ]
+  },
+  {
+   "word": "입",
+   "romanization": "ip",
+   "meaning": "mouth",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "used for eating, speaking",
+   "examples": [
+    "입을 크게 벌렸어요. — He opened his mouth wide."
+   ]
+  },
+  {
+   "word": "귀",
+   "romanization": "gwi",
+   "meaning": "ear",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "hearing organ",
+   "examples": [
+    "귀가 울려요. — My ears are ringing."
+   ]
+  },
+  {
+   "word": "손",
+   "romanization": "son",
+   "meaning": "hand",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "upper limb",
+   "examples": [
+    "손을 씻어라. — Wash your hands."
+   ]
+  },
+  {
+   "word": "발",
+   "romanization": "bal",
+   "meaning": "foot",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "lower limb",
+   "examples": [
+    "발이 아파요. — My foot hurts."
+   ]
+  },
+  {
+   "word": "심장",
+   "romanization": "simjang",
+   "meaning": "heart",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "organ that pumps blood",
+   "examples": [
+    "심장이 두근거려요. — My heart is pounding."
+   ]
+  },
+  {
+   "word": "위",
+   "romanization": "wi",
+   "meaning": "stomach",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "digestive organ",
+   "examples": [
+    "위가 부었어요. — My stomach feels bloated."
+   ]
+  },
+  {
+   "word": "뇌",
+   "romanization": "noe",
+   "meaning": "brain",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "control center",
+   "examples": [
+    "뇌가 피곤해요. — My brain feels tired."
+   ]
+  },
+  {
+   "word": "피부",
+   "romanization": "pibu",
+   "meaning": "skin",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "outer covering",
+   "examples": [
+    "피부가 가렵다. — My skin is itchy."
+   ]
+  },
+  {
+   "word": "근육",
+   "romanization": "geunyuk",
+   "meaning": "muscle",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "body tissue for movement",
+   "examples": [
+    "근육을 늘려라. — Stretch your muscles."
+   ]
+  },
+  {
+   "word": "땀",
+   "romanization": "ttam",
+   "meaning": "sweat",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "fluid from skin",
+   "examples": [
+    "땀이 많이 나요. — I sweat a lot."
+   ]
+  },
+  {
+   "word": "감기",
+   "romanization": "gamgi",
+   "meaning": "cold (illness)",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "common respiratory illness",
+   "examples": [
+    "감기에 걸렸어요. — I caught a cold."
+   ]
+  },
+  {
+   "word": "두통",
+   "romanization": "dutong",
+   "meaning": "headache",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "pain in head",
+   "examples": [
+    "두통이 심해요. — My headache is severe."
+   ]
+  },
+  {
+   "word": "발열",
+   "romanization": "balyeol",
+   "meaning": "fever",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "elevated body temperature",
+   "examples": [
+    "발열이 있어요. — I have a fever."
+   ]
+  },
+  {
+   "word": "약",
+   "romanization": "yak",
+   "meaning": "medicine",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "drug for treatment",
+   "examples": [
+    "약을 먹었어요. — I took medicine."
+   ]
+  },
+  {
+   "word": "운동",
+   "romanization": "undong",
+   "meaning": "exercise",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "physical activity",
+   "examples": [
+    "운동을 매일 해요. — I exercise daily."
+   ]
+  },
+  {
+   "word": "치료",
+   "romanization": "chilyo",
+   "meaning": "treatment",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "medical context",
+   "examples": [
+    "병원에서 치료를 받았다. — I received treatment at the hospital."
+   ]
+  },
+  {
+   "word": "증상",
+   "romanization": "jeungsang",
+   "meaning": "symptom",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "observable sign",
+   "examples": [
+    "그는 감기 증상이 나타났다. — He showed cold symptoms."
+   ]
+  },
+  {
+   "word": "예방",
+   "romanization": "yebang",
+   "meaning": "prevention",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "act of preventing",
+   "examples": [
+    "감기는 예방이 중요하다. — Preventing colds is important."
+   ]
+  },
+  {
+   "word": "감염",
+   "romanization": "gamyeom",
+   "meaning": "infection",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "pathogen invasion",
+   "examples": [
+    "바이러스 감염에 주의하세요. — Be careful of viral infections."
+   ]
+  },
+  {
+   "word": "접종",
+   "romanization": "jeopjong",
+   "meaning": "vaccination",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "administering vaccine",
+   "examples": [
+    "독감 접종을 받았다. — I got a flu vaccination."
+   ]
+  },
+  {
+   "word": "수술",
+   "romanization": "susul",
+   "meaning": "surgery",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "operating procedure",
+   "examples": [
+    "그는 심장 수술을 받았다. — He underwent heart surgery."
+   ]
+  },
+  {
+   "word": "진단",
+   "romanization": "jindan",
+   "meaning": "diagnosis",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "identifying disease",
+   "examples": [
+    "의사가 진단을 내렸다. — The doctor made a diagnosis."
+   ]
+  },
+  {
+   "word": "복통",
+   "romanization": "boktong",
+   "meaning": "abdominal pain",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "stomach discomfort",
+   "examples": [
+    "복통 때문에 병원에 갔다. — I went to the hospital because of abdominal pain."
+   ]
+  },
+  {
+   "word": "피로",
+   "romanization": "pilo",
+   "meaning": "fatigue",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "feeling tired",
+   "examples": [
+    "오늘은 피로가 많이 쌓였다. — I accumulated a lot of fatigue today."
+   ]
+  },
+  {
+   "word": "면역",
+   "romanization": "myeonyuk",
+   "meaning": "immunity",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "body's defense",
+   "examples": [
+    "면역력을 높이기 위해 운동한다. — I exercise to boost immunity."
+   ]
+  },
+  {
+   "word": "알레르기",
+   "romanization": "allereugi",
+   "meaning": "allergy",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "hypersensitivity reaction",
+   "examples": [
+    "꽃가루 알레르기가 있다. — I have a pollen allergy."
+   ]
+  },
+  {
+   "word": "체온",
+   "romanization": "cheon",
+   "meaning": "body temperature",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "measure of heat",
+   "examples": [
+    "체온이 38도라서 열이 있다. — My body temperature is 38°C, so I have a fever."
+   ]
+  },
+  {
+   "word": "혈압",
+   "romanization": "hyeorab",
+   "meaning": "blood pressure",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "circulatory metric",
+   "examples": [
+    "혈압이 높아 진료를 받았다. — I saw a doctor because my blood pressure was high."
+   ]
+  },
+  {
+   "word": "심박수",
+   "romanization": "simbaksu",
+   "meaning": "heart rate",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "beats per minute",
+   "examples": [
+    "운동 후 심박수가 상승했다. — My heart rate rose after exercise."
+   ]
+  },
+  {
+   "word": "소화",
+   "romanization": "sohwa",
+   "meaning": "digestion",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "breakdown of food",
+   "examples": [
+    "소화가 잘 안 된다. — My digestion is not good."
+   ]
+  },
+  {
+   "word": "수분",
+   "romanization": "subun",
+   "meaning": "moisture/hydration",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "body water content",
+   "examples": [
+    "수분을 충분히 섭취하세요. — Make sure to drink enough water."
+   ]
+  },
+  {
+   "word": "진통제",
+   "romanization": "jintongje",
+   "meaning": "painkiller",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "relieves pain",
+   "examples": [
+    "두통에 진통제를 먹었다. — I took a painkiller for my headache."
+   ]
+  },
+  {
+   "word": "몸",
+   "romanization": "mom",
+   "meaning": "body",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "general term for body",
+   "examples": [
+    "그는 건강한 몸을 유지한다. — He maintains a healthy body."
+   ]
+  },
+  {
+   "word": "체중",
+   "romanization": "chejung",
+   "meaning": "body weight",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "used in health checkups",
+   "examples": [
+    "체중을 정기적으로 측정하세요. — Measure your body weight regularly."
+   ]
+  },
+  {
+   "word": "체형",
+   "romanization": "chehyeong",
+   "meaning": "body shape",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "refers to physique type",
+   "examples": [
+    "그녀는 균형 잡힌 체형을 가지고 있다. — She has a well-balanced body shape."
+   ]
+  },
+  {
+   "word": "혈액",
+   "romanization": "hyeoraek",
+   "meaning": "blood",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "circulatory fluid",
+   "examples": [
+    "혈액 검사를 받았다. — I had a blood test."
+   ]
+  },
+  {
+   "word": "뼈",
+   "romanization": "ppyeo",
+   "meaning": "bone",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "hard tissue inside body",
+   "examples": [
+    "뼈가 부러졌다. — My bone broke."
+   ]
+  },
+  {
+   "word": "치아",
+   "romanization": "chia",
+   "meaning": "tooth",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "singular or plural teeth",
+   "examples": [
+    "치아를 매일 닦아라. — Brush your teeth daily."
+   ]
+  },
+  {
+   "word": "혀",
+   "romanization": "hyeo",
+   "meaning": "tongue",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "muscle in mouth",
+   "examples": [
+    "혀를 깨끗이 씻어라. — Clean your tongue thoroughly."
+   ]
+  },
+  {
+   "word": "목",
+   "romanization": "mok",
+   "meaning": "neck",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "connects head and torso",
+   "examples": [
+    "목이 아프다. — My neck hurts."
+   ]
+  },
+  {
+   "word": "등",
+   "romanization": "deung",
+   "meaning": "back",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "upper posterior area",
+   "examples": [
+    "등을 펴고 걸어라. — Walk with your back straight."
+   ]
+  },
+  {
+   "word": "허리",
+   "romanization": "heori",
+   "meaning": "waist, lower back",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "midsection area",
+   "examples": [
+    "허리가 뻐근하다. — My waist feels stiff."
+   ]
+  },
+  {
+   "word": "무릎",
+   "romanization": "mureup",
+   "meaning": "knee",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "joint between thigh and shin",
+   "examples": [
+    "무릎을 다쳤다. — I injured my knee."
+   ]
+  },
+  {
+   "word": "팔",
+   "romanization": "pal",
+   "meaning": "arm",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "upper limb",
+   "examples": [
+    "팔을 들어 보세요. — Raise your arm."
+   ]
+  },
+  {
+   "word": "다리",
+   "romanization": "dari",
+   "meaning": "leg",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "lower limb",
+   "examples": [
+    "다리가 아프다. — My leg hurts."
+   ]
+  },
+  {
+   "word": "손목",
+   "romanization": "sonmok",
+   "meaning": "wrist",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "joint between hand and forearm",
+   "examples": [
+    "손목을 부러뜨렸다. — I broke my wrist."
+   ]
+  },
+  {
+   "word": "발목",
+   "romanization": "balmok",
+   "meaning": "ankle",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "joint between foot and leg",
+   "examples": [
+    "발목을 삐었다. — I sprained my ankle."
+   ]
+  },
+  {
+   "word": "폐",
+   "romanization": "pye",
+   "meaning": "lung",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "organ for breathing",
+   "examples": [
+    "폐가 건강하다. — The lungs are healthy."
+   ]
+  },
+  {
+   "word": "간",
+   "romanization": "gan",
+   "meaning": "liver",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "major detox organ",
+   "examples": [
+    "간 기능 검사를 받았다. — I had a liver function test."
+   ]
+  },
+  {
+   "word": "신장",
+   "romanization": "sinjang",
+   "meaning": "kidney",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "organ filters blood",
+   "examples": [
+    "신장이 잘 작동한다. — The kidneys are functioning well."
+   ]
+  },
+  {
+   "word": "감염증",
+   "romanization": "gam-yeomjeung",
+   "meaning": "infection disease",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "medical context term",
+   "examples": [
+    "감염증이 급격히 퍼졌다. — The infection disease spread rapidly."
+   ]
+  },
+  {
+   "word": "진료",
+   "romanization": "jinryo",
+   "meaning": "medical examination",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "used in clinics",
+   "examples": [
+    "오늘은 진료 예약이 있다. — I have a medical examination appointment today."
+   ]
+  },
+  {
+   "word": "예방접종",
+   "romanization": "yebangjeopjong",
+   "meaning": "vaccination",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "preventive measure",
+   "examples": [
+    "독감 예방접종을 맞았다. — I got a flu vaccination."
+   ]
+  },
+  {
+   "word": "진통",
+   "romanization": "jintong",
+   "meaning": "pain relief",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "relief from pain",
+   "examples": [
+    "진통이 필요해 보인다. — It seems you need pain relief."
+   ]
+  },
+  {
+   "word": "복구",
+   "romanization": "bokgu",
+   "meaning": "recovery",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "return to health",
+   "examples": [
+    "수술 후 복구가 빠르다. — Recovery after surgery is fast."
+   ]
+  },
+  {
+   "word": "증진",
+   "romanization": "jeungjin",
+   "meaning": "improvement",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "health enhancement",
+   "examples": [
+    "면역 증진을 위해 운동한다. — I exercise to improve immunity."
+   ]
+  },
+  {
+   "word": "검진",
+   "romanization": "geomjin",
+   "meaning": "screening check",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "regular health check",
+   "examples": [
+    "연례 검진을 받았다. — I had my annual health screening."
+   ]
+  },
+  {
+   "word": "재활",
+   "romanization": "jaehwal",
+   "meaning": "rehabilitation",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "post-injury therapy",
+   "examples": [
+    "다리 부상 후 재활을 시작했다. — I started rehabilitation after a leg injury."
+   ]
+  },
+  {
+   "word": "소독",
+   "romanization": "sodok",
+   "meaning": "disinfection",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "sterilizing surfaces",
+   "examples": [
+    "의료기구를 소독했다. — The medical instruments were disinfected."
+   ]
+  },
+  {
+   "word": "회사",
+   "romanization": "hoesa",
+   "meaning": "company",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "generic business entity",
+   "examples": [
+    "우리 회사는 내년에 신제품을 출시한다. — Our company will launch a new product next year."
+   ]
+  },
+  {
+   "word": "사업",
+   "romanization": "saeop",
+   "meaning": "business, venture",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "refers to activity",
+   "examples": [
+    "그는 새로운 사업을 시작했다. — He started a new business."
+   ]
+  },
+  {
+   "word": "이익",
+   "romanization": "iik",
+   "meaning": "profit",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "financial gain",
+   "examples": [
+    "이번 분기의 이익이 크게 늘었다. — The profit this quarter increased significantly."
+   ]
+  },
+  {
+   "word": "손실",
+   "romanization": "sons il",
+   "meaning": "loss",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "negative profit",
+   "examples": [
+    "지난 해는 큰 손실을 기록했다. — Last year recorded a large loss."
+   ]
+  },
+  {
+   "word": "고객",
+   "romanization": "gogaek",
+   "meaning": "customer",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "client, buyer",
+   "examples": [
+    "고객 만족도가 가장 중요하다. — Customer satisfaction is most important."
+   ]
+  },
+  {
+   "word": "계약",
+   "romanization": "gyeyak",
+   "meaning": "contract",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "legal agreement",
+   "examples": [
+    "우리 회사는 새로운 계약을 체결했다. — Our company signed a new contract."
+   ]
+  },
+  {
+   "word": "협상",
+   "romanization": "hyeopsang",
+   "meaning": "negotiation",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "bargaining process",
+   "examples": [
+    "가격 협상이 아직 진행 중이다. — Price negotiations are still ongoing."
+   ]
+  },
+  {
+   "word": "투자",
+   "romanization": "tuja",
+   "meaning": "investment",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "putting money in",
+   "examples": [
+    "외국인 투자가 늘고 있다. — Foreign investment is increasing."
+   ]
+  },
+  {
+   "word": "매출",
+   "romanization": "maechul",
+   "meaning": "sales revenue",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "income from sales",
+   "examples": [
+    "지난 달 매출이 사천만 원을 넘었다. — Last month's sales exceeded 40 million won."
+   ]
+  },
+  {
+   "word": "마케팅",
+   "romanization": "makaeting",
+   "meaning": "marketing",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "promotion activities",
+   "examples": [
+    "디지털 마케팅에 집중하고 있다. — We are focusing on digital marketing."
+   ]
+  },
+  {
+   "word": "인사",
+   "romanization": "insa",
+   "meaning": "HR, personnel",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "human resources",
+   "examples": [
+    "인사팀이 직원 교육을 담당한다. — The HR team handles employee training."
+   ]
+  },
+  {
+   "word": "보고서",
+   "romanization": "bogoseo",
+   "meaning": "report",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal document",
+   "examples": [
+    "오늘 회의에서 보고서를 발표했다. — I presented the report at today's meeting."
+   ]
+  },
+  {
+   "word": "회의",
+   "romanization": "hoeui",
+   "meaning": "meeting",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "gathering to discuss",
+   "examples": [
+    "내일 오전에 회의를 잡았다. — I scheduled a meeting for tomorrow morning."
+   ]
+  },
+  {
+   "word": "예산",
+   "romanization": "yesan",
+   "meaning": "budget",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "planned expenses",
+   "examples": [
+    "올해 예산을 초과하지 않도록 주의한다. — We must avoid exceeding this year's budget."
+   ]
+  },
+  {
+   "word": "전략",
+   "romanization": "jeonlyak",
+   "meaning": "strategy",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "planned approach",
+   "examples": [
+    "시장 진입 전략을 재검토했다. — We revisited our market entry strategy."
+   ]
+  },
+  {
+   "word": "협력",
+   "romanization": "hyeomnyeok",
+   "meaning": "collaboration",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "working together",
+   "examples": [
+    "다른 부서와 협력이 필요하다. — Collaboration with other departments is needed."
+   ]
+  },
+  {
+   "word": "승인",
+   "romanization": "seungin",
+   "meaning": "approval",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "official consent",
+   "examples": [
+    "예산 승인을 받았다. — The budget was approved."
+   ]
+  },
+  {
+   "word": "인수",
+   "romanization": "insu",
+   "meaning": "acquisition",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "company takeover",
+   "examples": [
+    "그 회사는 경쟁사를 인수했다. — The company acquired its competitor."
+   ]
+  },
+  {
+   "word": "직원",
+   "romanization": "jigwon",
+   "meaning": "employee",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "company staff member",
+   "examples": [
+    "우리 회사에 새로운 직원이 입사했다. — A new employee joined our company."
+   ]
+  },
+  {
+   "word": "매니저",
+   "romanization": "maenijeo",
+   "meaning": "manager",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "oversees a team",
+   "examples": [
+    "그 매니저는 프로젝트 진행을 관리한다. — The manager oversees the project progress."
+   ]
+  },
+  {
+   "word": "급여",
+   "romanization": "geupyeo",
+   "meaning": "salary",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "regular pay",
+   "examples": [
+    "이번 달 급여가 예상보다 높았다. — This month's salary was higher than expected."
+   ]
+  },
+  {
+   "word": "비용",
+   "romanization": "biyong",
+   "meaning": "cost",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "expenses incurred",
+   "examples": [
+    "프로젝트 비용을 절감해야 한다. — We need to reduce project costs."
+   ]
+  },
+  {
+   "word": "수익",
+   "romanization": "suyik",
+   "meaning": "revenue",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "income generated",
+   "examples": [
+    "신제품 출시 후 수익이 크게 늘었다. — Revenue increased significantly after the new product launch."
+   ]
+  },
+  {
+   "word": "시장",
+   "romanization": "sijang",
+   "meaning": "market",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "place of trade",
+   "examples": [
+    "해외 시장 진출을 계획하고 있다. — We are planning to enter the overseas market."
+   ]
+  },
+  {
+   "word": "제품",
+   "romanization": "jepum",
+   "meaning": "product",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "goods sold",
+   "examples": [
+    "우리 제품은 품질이 뛰어나다. — Our product has excellent quality."
+   ]
+  },
+  {
+   "word": "서비스",
+   "romanization": "seobiseu",
+   "meaning": "service",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "provided to customers",
+   "examples": [
+    "고객 만족을 위해 서비스를 개선한다. — We improve the service for customer satisfaction."
+   ]
+  },
+  {
+   "word": "공급",
+   "romanization": "gonggeup",
+   "meaning": "supply",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "provision of goods",
+   "examples": [
+    "원자재 공급이 지연되고 있다. — The raw material supply is delayed."
+   ]
+  },
+  {
+   "word": "물류",
+   "romanization": "mullyu",
+   "meaning": "logistics",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "movement of goods",
+   "examples": [
+    "물류 시스템을 자동화했다. — We automated the logistics system."
+   ]
+  },
+  {
+   "word": "회계",
+   "romanization": "hoegye",
+   "meaning": "accounting",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "financial record‑keeping",
+   "examples": [
+    "회계팀이 결산 보고서를 작성한다. — The accounting team prepares the financial statements."
+   ]
+  },
+  {
+   "word": "세금",
+   "romanization": "segeum",
+   "meaning": "tax",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "government levy",
+   "examples": [
+    "세금 신고 기한을 놓쳤다. — I missed the tax filing deadline."
+   ]
+  },
+  {
+   "word": "재무",
+   "romanization": "jaemu",
+   "meaning": "finance",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "financial management",
+   "examples": [
+    "재무 부서는 자금 운용을 담당한다. — The finance department handles fund management."
+   ]
+  },
+  {
+   "word": "프로젝트",
+   "romanization": "peurojekteu",
+   "meaning": "project",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "planned undertaking",
+   "examples": [
+    "새로운 프로젝트가 곧 시작된다. — A new project will start soon."
+   ]
+  },
+  {
+   "word": "일정",
+   "romanization": "iljeong",
+   "meaning": "schedule",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "planned timeline",
+   "examples": [
+    "프로젝트 일정을 조정해야 한다. — We need to adjust the project schedule."
+   ]
+  },
+  {
+   "word": "목표",
+   "romanization": "mokpyo",
+   "meaning": "goal",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "desired outcome",
+   "examples": [
+    "이번 분기의 판매 목표를 달성했다. — We achieved the sales goal for this quarter."
+   ]
+  },
+  {
+   "word": "경쟁",
+   "romanization": "gyeongjaeng",
+   "meaning": "competition",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "rivalry in market",
+   "examples": [
+    "경쟁이 치열해져 가격을 낮춰야 한다. — Competition is fierce, so we must lower prices."
+   ]
+  },
+  {
+   "word": "브랜드",
+   "romanization": "beuraendeu",
+   "meaning": "brand",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "company identity",
+   "examples": [
+    "우리 브랜드는 신뢰성을 강조한다. — Our brand emphasizes reliability."
+   ]
+  },
+  {
+   "word": "거래",
+   "romanization": "georae",
+   "meaning": "transaction",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal business deal",
+   "examples": [
+    "오늘 새로운 거래를 체결했다. — We closed a new transaction today."
+   ]
+  },
+  {
+   "word": "매입",
+   "romanization": "maeip",
+   "meaning": "purchase (of goods)",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "used for inventory buying",
+   "examples": [
+    "이번 달 매입량이 늘었다. — The purchase volume increased this month."
+   ]
+  },
+  {
+   "word": "판매",
+   "romanization": "panmae",
+   "meaning": "sale",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "selling goods or services",
+   "examples": [
+    "온라인 판매가 급증하고 있다. — Online sales are soaring."
+   ]
+  },
+  {
+   "word": "수출",
+   "romanization": "suchul",
+   "meaning": "export",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "selling abroad",
+   "examples": [
+    "우리 회사는 전자제품을 수출한다. — Our company exports electronic products."
+   ]
+  },
+  {
+   "word": "수입",
+   "romanization": "suip",
+   "meaning": "import",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "bringing goods in",
+   "examples": [
+    "원자재 수입 비용이 상승했다. — The cost of raw material imports rose."
+   ]
+  },
+  {
+   "word": "인턴",
+   "romanization": "inteon",
+   "meaning": "intern",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "temporary trainee",
+   "examples": [
+    "그는 이번 여름에 인턴으로 일한다. — He works as an intern this summer."
+   ]
+  },
+  {
+   "word": "연봉",
+   "romanization": "yeonbong",
+   "meaning": "annual salary",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "yearly compensation",
+   "examples": [
+    "그의 연봉은 8천만 원이다. — His annual salary is 80 million won."
+   ]
+  },
+  {
+   "word": "보너스",
+   "romanization": "boneoseu",
+   "meaning": "bonus",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "extra pay",
+   "examples": [
+    "성과에 따라 보너스를 지급한다. — Bonuses are paid based on performance."
+   ]
+  },
+  {
+   "word": "회의록",
+   "romanization": "hoeuirok",
+   "meaning": "meeting minutes",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "record of discussion",
+   "examples": [
+    "회의록을 모두에게 배포했다. — The meeting minutes were distributed to everyone."
+   ]
+  },
+  {
+   "word": "청구서",
+   "romanization": "cheongguseo",
+   "meaning": "invoice",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "billing document",
+   "examples": [
+    "고객에게 청구서를 보냈다. — We sent an invoice to the client."
+   ]
+  },
+  {
+   "word": "견적",
+   "romanization": "gyeonjeok",
+   "meaning": "quotation",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "price estimate",
+   "examples": [
+    "견적을 받아보고 결정하자. — Let's decide after receiving the quotation."
+   ]
+  },
+  {
+   "word": "결제",
+   "romanization": "gyeolje",
+   "meaning": "payment",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "settling a bill",
+   "examples": [
+    "온라인으로 결제했다. — I paid online."
+   ]
+  },
+  {
+   "word": "지출",
+   "romanization": "jichul",
+   "meaning": "expenditure",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "money spent",
+   "examples": [
+    "지출을 줄이는 방안을 찾고 있다. — We are looking for ways to reduce expenditures."
+   ]
+  },
+  {
+   "word": "수요",
+   "romanization": "suyo",
+   "meaning": "demand",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "market need",
+   "examples": [
+    "제품에 대한 수요가 급증했다. — Demand for the product surged."
+   ]
+  },
+  {
+   "word": "공급망",
+   "romanization": "gonggeupmang",
+   "meaning": "supply chain",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "logistics network",
+   "examples": [
+    "공급망 관리가 중요하다. — Supply chain management is crucial."
+   ]
+  },
+  {
+   "word": "재고",
+   "romanization": "jaego",
+   "meaning": "inventory",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "stock on hand",
+   "examples": [
+    "재고가 부족해서 주문을 못 받았다. — We couldn't take orders due to low inventory."
+   ]
+  },
+  {
+   "word": "인허가",
+   "romanization": "inheoga",
+   "meaning": "license/permit",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "official approval",
+   "examples": [
+    "사업 시작 전에 인허가를 받아야 한다. — You must obtain a permit before starting the business."
+   ]
+  },
+  {
+   "word": "주주",
+   "romanization": "juju",
+   "meaning": "shareholder",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "owns company stock",
+   "examples": [
+    "주주총회에서 의견을 제시했다. — He voiced his opinion at the shareholders' meeting."
+   ]
+  },
+  {
+   "word": "채권",
+   "romanization": "chaegwon",
+   "meaning": "bond (debt security)",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "fixed-income instrument",
+   "examples": [
+    "회사 채권을 매입했다. — We purchased corporate bonds."
+   ]
+  },
+  {
+   "word": "이사회",
+   "romanization": "isahoe",
+   "meaning": "board of directors",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal corporate governing body",
+   "examples": [
+    "이사회는 내년 전략을 논의했다. — The board of directors discussed next year's strategy."
+   ]
+  },
+  {
+   "word": "프레젠테이션",
+   "romanization": "peurejenteisyeon",
+   "meaning": "presentation",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal business talk",
+   "examples": [
+    "오늘 오후에 새로운 제품 프레젠테이션이 있다. — There is a presentation of the new product this afternoon."
+   ]
+  },
+  {
+   "word": "파트너",
+   "romanization": "pateuneo",
+   "meaning": "partner",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "business collaborator",
+   "examples": [
+    "그는 우리 회사의 주요 파트너다. — He is a key partner of our company."
+   ]
+  },
+  {
+   "word": "일정관리",
+   "romanization": "iljeonggwanri",
+   "meaning": "schedule management",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "organizing timelines",
+   "examples": [
+    "일정관리를 잘 해야 프로젝트가 늦지 않는다. — Good schedule management prevents project delays."
+   ]
+  },
+  {
+   "word": "예측",
+   "romanization": "yechuk",
+   "meaning": "forecast",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "predicting future trends",
+   "examples": [
+    "시장 예측이 정확하면 매출이 상승한다. — Accurate market forecasts boost sales."
+   ]
+  },
+  {
+   "word": "인센티브",
+   "romanization": "insentibeu",
+   "meaning": "incentive",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "motivation reward",
+   "examples": [
+    "우수 직원에게 인센티브를 지급한다. — We give incentives to outstanding employees."
+   ]
+  },
+  {
+   "word": "리스크",
+   "romanization": "riseukeu",
+   "meaning": "risk",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "potential danger",
+   "examples": [
+    "투자 전 리스크를 평가해야 한다. — Risks must be assessed before investing."
+   ]
+  },
+  {
+   "word": "슬픔",
+   "romanization": "seulpeum",
+   "meaning": "sadness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep emotional state",
+   "examples": [
+    "그는 큰 슬픔에 잠겼다. — He was immersed in deep sadness."
+   ]
+  },
+  {
+   "word": "기쁨",
+   "romanization": "gippeum",
+   "meaning": "joy",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, uplifting feeling",
+   "examples": [
+    "그녀는 성공에 큰 기쁨을 느꼈다. — She felt great joy at her success."
+   ]
+  },
+  {
+   "word": "분노",
+   "romanization": "bunno",
+   "meaning": "anger",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "intense, often sudden",
+   "examples": [
+    "그의 무례함에 나는 분노를 참을 수 없었다. — I couldn't contain my anger at his rudeness."
+   ]
+  },
+  {
+   "word": "두려움",
+   "romanization": "duryeoum",
+   "meaning": "fear",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "anticipatory anxiety",
+   "examples": [
+    "어두운 골목길은 두려움을 불러일으킨다. — The dark alley evokes fear."
+   ]
+  },
+  {
+   "word": "놀라움",
+   "romanization": "nollaum",
+   "meaning": "surprise",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "unexpected reaction",
+   "examples": [
+    "그 소식은 모두에게 놀라움을 줬다. — The news gave everyone a surprise."
+   ]
+  },
+  {
+   "word": "혐오",
+   "romanization": "hyeomo",
+   "meaning": "disgust",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "strong aversion",
+   "examples": [
+    "그는 쓰레기에 대한 혐오감을 느꼈다. — He felt disgust toward the trash."
+   ]
+  },
+  {
+   "word": "행복",
+   "romanization": "haengbok",
+   "meaning": "happiness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "lasting contentment",
+   "examples": [
+    "가족과 함께라면 행복을 느낀다. — I feel happiness when I'm with family."
+   ]
+  },
+  {
+   "word": "우울",
+   "romanization": "u-ul",
+   "meaning": "depression",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "persistent low mood",
+   "examples": [
+    "그는 오랫동안 우울에 시달렸다. — He suffered from depression for a long time."
+   ]
+  },
+  {
+   "word": "안도",
+   "romanization": "ando",
+   "meaning": "relief",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "after tension eases",
+   "examples": [
+    "시험 결과를 듣고 안도가 밀려왔다. — Relief washed over me after hearing the test results."
+   ]
+  },
+  {
+   "word": "걱정",
+   "romanization": "geokjeong",
+   "meaning": "worry",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "concern about future",
+   "examples": [
+    "그녀는 내일 면접이 걱정된다. — She is worried about tomorrow's interview."
+   ]
+  },
+  {
+   "word": "감동",
+   "romanization": "gamdong",
+   "meaning": "being moved",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep emotional impression",
+   "examples": [
+    "그 연설은 많은 사람에게 감동을 주었다. — The speech moved many people."
+   ]
+  },
+  {
+   "word": "짜증",
+   "romanization": "jjajeung",
+   "meaning": "annoyance",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "irritation, mild anger",
+   "examples": [
+    "교통 체증에 짜증이 났다. — I got annoyed by the traffic jam."
+   ]
+  },
+  {
+   "word": "부러움",
+   "romanization": "bureoum",
+   "meaning": "envy",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "desire for others' success",
+   "examples": [
+    "그의 성공을 부러워했다. — I envied his success."
+   ]
+  },
+  {
+   "word": "흐뭇함",
+   "romanization": "heumutham",
+   "meaning": "pleasure",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "quiet, satisfied feeling",
+   "examples": [
+    "작은 선물에 흐뭇함을 느꼈다. — I felt pleasure from the small gift."
+   ]
+  },
+  {
+   "word": "불안",
+   "romanization": "buran",
+   "meaning": "anxiety",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "uneasy anticipation",
+   "examples": [
+    "시험 전날 불안이 가득했다. — Anxiety filled me the night before the exam."
+   ]
+  },
+  {
+   "word": "감사",
+   "romanization": "gamsa",
+   "meaning": "gratitude",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "thankful feeling",
+   "examples": [
+    "그의 도움에 깊은 감사를 표했다. — I expressed deep gratitude for his help."
+   ]
+  },
+  {
+   "word": "슬리다",
+   "romanization": "seullida",
+   "meaning": "to feel sad",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "expresses mild sadness",
+   "examples": [
+    "그 소식을 듣고 마음이 슬렸다. — My heart felt sad upon hearing the news."
+   ]
+  },
+  {
+   "word": "기뻐하다",
+   "romanization": "gippeohada",
+   "meaning": "to rejoice",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "active expression of joy",
+   "examples": [
+    "그는 승리를 기뻐했다. — He rejoiced at the victory."
+   ]
+  },
+  {
+   "word": "아쉬움",
+   "romanization": "aswi‑um",
+   "meaning": "regret, lingering disappointment",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "subtle, not strong",
+   "examples": [
+    "그 영화를 놓쳐서 아쉬움이 남았다. — I felt a lingering regret for missing that movie."
+   ]
+  },
+  {
+   "word": "뿌듯함",
+   "romanization": "bbudeutham",
+   "meaning": "pride, sense of accomplishment",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive self‑satisfaction",
+   "examples": [
+    "시험에 합격하고 뿌듯함을 느꼈다. — I felt proud after passing the exam."
+   ]
+  },
+  {
+   "word": "안타까움",
+   "romanization": "antakkawoom",
+   "meaning": "pity, sorrowful sympathy",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "empathy for misfortune",
+   "examples": [
+    "그의 상황을 보니 안타까움이 들었다. — Seeing his situation made me feel pity."
+   ]
+  },
+  {
+   "word": "두근거림",
+   "romanization": "dugeungeorim",
+   "meaning": "heartbeat, nervous excitement",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "physical feeling of anticipation",
+   "examples": [
+    "첫 데이트 전에는 두근거림이 멈추지 않는다. — My heart keeps racing before the first date."
+   ]
+  },
+  {
+   "word": "감탄",
+   "romanization": "gamtan",
+   "meaning": "admiration, awe",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "expresses being impressed",
+   "examples": [
+    "그 풍경에 감탄을 금치 못했다. — I couldn't help admiring the scenery."
+   ]
+  },
+  {
+   "word": "초조함",
+   "romanization": "chojoham",
+   "meaning": "restlessness, anxiety",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "uneasy waiting",
+   "examples": [
+    "면접 결과를 기다리며 초조함이 늘었다. — My restlessness grew while waiting for the interview results."
+   ]
+  },
+  {
+   "word": "시큰둥함",
+   "romanization": "sikkeundungham",
+   "meaning": "indifference, coolness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "detached, unemotional",
+   "examples": [
+    "그는 사과를 받아도 시큰둥함을 보였다. — He showed indifference even after accepting the apology."
+   ]
+  },
+  {
+   "word": "불쾌감",
+   "romanization": "bulkwaegam",
+   "meaning": "displeasure, offense",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "mild irritation",
+   "examples": [
+    "그 말에 불쾌감을 느꼈다. — I felt offended by that remark."
+   ]
+  },
+  {
+   "word": "희열",
+   "romanization": "huiyeol",
+   "meaning": "exhilaration, thrill",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "intense joy",
+   "examples": [
+    "공연을 보고 큰 희열을 느꼈다. — I felt great exhilaration watching the performance."
+   ]
+  },
+  {
+   "word": "당황",
+   "romanization": "danghwang",
+   "meaning": "embarrassment, confusion",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "sudden surprise",
+   "examples": [
+    "예상치 못한 질문에 당황했다. — I was embarrassed by the unexpected question."
+   ]
+  },
+  {
+   "word": "그리움",
+   "romanization": "geurium",
+   "meaning": "longing, nostalgia",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "missing someone/something",
+   "examples": [
+    "오랜만에 고향을 보니 그리움이 밀려왔다. — Seeing my hometown after a long time filled me with longing."
+   ]
+  },
+  {
+   "word": "심적 고통",
+   "romanization": "simjeok gotong",
+   "meaning": "emotional pain",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep inner hurt",
+   "examples": [
+    "이별 후에 심적 고통이 크게 다가왔다. — After the breakup, emotional pain hit me hard."
+   ]
+  },
+  {
+   "word": "열정",
+   "romanization": "yeoljeong",
+   "meaning": "passion, fervor",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "strong drive",
+   "examples": [
+    "그는 음악에 대한 열정을 가지고 있다. — He has a passion for music."
+   ]
+  },
+  {
+   "word": "부담감",
+   "romanization": "budamgam",
+   "meaning": "sense of burden",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "feeling pressured",
+   "examples": [
+    "프로젝트 마감이 다가와 부담감이 커졌다. — The approaching project deadline increased my sense of burden."
+   ]
+  },
+  {
+   "word": "동경",
+   "romanization": "donggyeong",
+   "meaning": "admiration, yearning",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "idealized longing",
+   "examples": [
+    "그는 파리의 아름다움에 동경한다. — He longs for the beauty of Paris."
+   ]
+  },
+  {
+   "word": "안도감",
+   "romanization": "ando‑gam",
+   "meaning": "relief, comfort",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "after tension eases",
+   "examples": [
+    "시험이 끝나고 안도감이 들었다. — I felt relief after the exam ended."
+   ]
+  },
+  {
+   "word": "불안감",
+   "romanization": "buran‑gam",
+   "meaning": "unease, feeling of insecurity",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "persistent worry",
+   "examples": [
+    "새로운 환경에 대한 불안감이 있다. — I have an unease about the new environment."
+   ]
+  },
+  {
+   "word": "사랑",
+   "romanization": "sarang",
+   "meaning": "love",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep affectionate feeling",
+   "examples": [
+    "그는 가족을 사랑한다. — He loves his family."
+   ]
+  },
+  {
+   "word": "외로움",
+   "romanization": "oe- ro- um",
+   "meaning": "loneliness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "feeling of being alone",
+   "examples": [
+    "밤에 외로움을 많이 느꼈다. — I felt a lot of loneliness at night."
+   ]
+  },
+  {
+   "word": "질투",
+   "romanization": "jiltu",
+   "meaning": "jealousy",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "envy toward another's success",
+   "examples": [
+    "그는 친구의 성공에 질투했다. — He was jealous of his friend's success."
+   ]
+  },
+  {
+   "word": "서운함",
+   "romanization": "seou-nham",
+   "meaning": "soreness (hurt feelings)",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "feeling slight disappointment",
+   "examples": [
+    "그의 무시가 서운함을 남겼다. — His ignoring left a feeling of hurt."
+   ]
+  },
+  {
+   "word": "애정",
+   "romanization": "aejeong",
+   "meaning": "affection",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "warm, caring feeling",
+   "examples": [
+    "그녀는 아이들에게 애정을 보였다. — She showed affection to the children."
+   ]
+  },
+  {
+   "word": "연민",
+   "romanization": "yeonmin",
+   "meaning": "compassion",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "sympathetic feeling toward suffering",
+   "examples": [
+    "그는 어려운 이들의 고통에 연민을 느꼈다. — He felt compassion for those in hardship."
+   ]
+  },
+  {
+   "word": "흥분",
+   "romanization": "heungbun",
+   "meaning": "excitement",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "high emotional arousal",
+   "examples": [
+    "공연을 앞두고 흥분이 가득했다. — Excitement filled her before the performance."
+   ]
+  },
+  {
+   "word": "고마움",
+   "romanization": "gomawoom",
+   "meaning": "gratitude (feeling)",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "thankful feeling",
+   "examples": [
+    "그의 도움에 고마움을 표했다. — She expressed gratitude for his help."
+   ]
+  },
+  {
+   "word": "우정",
+   "romanization": "ujeong",
+   "meaning": "friendship",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "bond between friends",
+   "examples": [
+    "우리 사이의 우정은 변하지 않는다. — Our friendship never changes."
+   ]
+  },
+  {
+   "word": "동정",
+   "romanization": "dongjeong",
+   "meaning": "pity",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "sympathy for misfortune",
+   "examples": [
+    "그는 길 잃은 강아지에게 동정을 느꼈다. — He felt pity for the lost puppy."
+   ]
+  },
+  {
+   "word": "안타깝다",
+   "romanization": "antakapda",
+   "meaning": "to feel sorry",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "expresses regret or sorrow",
+   "examples": [
+    "그 소식을 듣고 안타깝다. — I feel sorry hearing that news."
+   ]
+  },
+  {
+   "word": "희망",
+   "romanization": "huimang",
+   "meaning": "hope",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "optimistic expectation",
+   "examples": [
+    "그는 내일을 위한 희망을 가지고 있다. — He has hope for tomorrow."
+   ]
+  },
+  {
+   "word": "불쾌",
+   "romanization": "bulkwae",
+   "meaning": "displeasure",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "feeling of discomfort",
+   "examples": [
+    "그 말은 나에게 불쾌했다. — Those words were displeasing to me."
+   ]
+  },
+  {
+   "word": "우울함",
+   "romanization": "u-ulham",
+   "meaning": "melancholy",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "sad, pensive mood",
+   "examples": [
+    "비 오는 날엔 우울함이 찾아온다. — Melancholy comes on rainy days."
+   ]
+  },
+  {
+   "word": "부담",
+   "romanization": "budam",
+   "meaning": "burden",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "sense of pressure",
+   "examples": [
+    "그 일은 큰 부담이 된다. — That task becomes a big burden."
+   ]
+  },
+  {
+   "word": "슬프다",
+   "romanization": "seulpeuda",
+   "meaning": "to feel sad",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "expresses personal sorrow",
+   "examples": [
+    "그 소식을 듣고 슬펐어요. — I felt sad when I heard the news."
+   ]
+  },
+  {
+   "word": "화나다",
+   "romanization": "hwanada",
+   "meaning": "to get angry",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "stronger than 짜증",
+   "examples": [
+    "그는 거짓말에 화났어요. — He got angry at the lie."
+   ]
+  },
+  {
+   "word": "두렵다",
+   "romanization": "duryeopda",
+   "meaning": "to feel fearful",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "inner fear, not panic",
+   "examples": [
+    "밤에 혼자 걷는 것이 두려워요. — I'm afraid of walking alone at night."
+   ]
+  },
+  {
+   "word": "불안해하다",
+   "romanization": "buranhaehada",
+   "meaning": "to feel uneasy",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "temporary anxiety",
+   "examples": [
+    "시험 전이라서 불안해했어요. — I felt uneasy because the exam was near."
+   ]
+  },
+  {
+   "word": "감격하다",
+   "romanization": "gamgikhada",
+   "meaning": "to be deeply moved",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "emotional admiration",
+   "examples": [
+    "그의 연설에 감격했어요. — I was deeply moved by his speech."
+   ]
+  },
+  {
+   "word": "서운하다",
+   "romanization": "seounhada",
+   "meaning": "to feel hurt (by neglect)",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "subtle disappointment",
+   "examples": [
+    "친구가 나를 안 불러서 서운했어요. — I felt hurt because my friend didn't invite me."
+   ]
+  },
+  {
+   "word": "열받다",
+   "romanization": "yeolbatda",
+   "meaning": "to get irritated",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "colloquial, strong irritation",
+   "examples": [
+    "교통 체증에 열받았어요. — I got irritated by the traffic jam."
+   ]
+  },
+  {
+   "word": "미안하다",
+   "romanization": "mianhada",
+   "meaning": "to feel sorry",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "apologetic feeling",
+   "examples": [
+    "늦게 와서 미안해요. — I'm sorry for arriving late."
+   ]
+  },
+  {
+   "word": "부끄럽다",
+   "romanization": "bukkeureopda",
+   "meaning": "to feel ashamed",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "embarrassment, modesty",
+   "examples": [
+    "실수해서 부끄러웠어요. — I felt ashamed because of my mistake."
+   ]
+  },
+  {
+   "word": "설레다",
+   "romanization": "seolleda",
+   "meaning": "to feel fluttery",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "anticipation excitement",
+   "examples": [
+    "첫 데이트가 기대돼서 설레요. — I'm fluttery because I'm looking forward to the first date."
+   ]
+  },
+  {
+   "word": "흥미롭다",
+   "romanization": "heungmirapda",
+   "meaning": "to find something interesting",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "positive curiosity",
+   "examples": [
+    "그 이야기는 정말 흥미롭다. — That story is really interesting."
+   ]
+  },
+  {
+   "word": "답답하다",
+   "romanization": "dapdapada",
+   "meaning": "to feel suffocated",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "frustration, claustrophobia",
+   "examples": [
+    "회의가 길어져서 답답했어요. — I felt suffocated because the meeting dragged on."
+   ]
+  },
+  {
+   "word": "산",
+   "romanization": "san",
+   "meaning": "mountain",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "common natural feature",
+   "examples": [
+    "우리 가족은 주말에 산에 갔어요. — My family went to the mountain on the weekend."
+   ]
+  },
+  {
+   "word": "강",
+   "romanization": "gang",
+   "meaning": "river",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "large watercourse",
+   "examples": [
+    "한강은 서울을 가로지른다. — The Han River runs through Seoul."
+   ]
+  },
+  {
+   "word": "바다",
+   "romanization": "bada",
+   "meaning": "sea",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "large saltwater body",
+   "examples": [
+    "바다에서 수영하는 것을 좋아한다. — I like swimming in the sea."
+   ]
+  },
+  {
+   "word": "숲",
+   "romanization": "sup",
+   "meaning": "forest",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "dense tree area",
+   "examples": [
+    "가을에 숲은 아름답다. — The forest is beautiful in autumn."
+   ]
+  },
+  {
+   "word": "하늘",
+   "romanization": "haneul",
+   "meaning": "sky",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "above the earth",
+   "examples": [
+    "오늘 하늘이 정말 파랗다. — The sky is really blue today."
+   ]
+  },
+  {
+   "word": "구름",
+   "romanization": "gureum",
+   "meaning": "cloud",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "floating water vapor",
+   "examples": [
+    "구름이 많이 끼었다. — It’s very cloudy."
+   ]
+  },
+  {
+   "word": "바람",
+   "romanization": "baram",
+   "meaning": "wind",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "moving air",
+   "examples": [
+    "바람이 시원하게 불어요. — The wind blows coolly."
+   ]
+  },
+  {
+   "word": "비",
+   "romanization": "bi",
+   "meaning": "rain",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "water falling from sky",
+   "examples": [
+    "비가 와서 우산을 썼다. — It rained, so I used an umbrella."
+   ]
+  },
+  {
+   "word": "돌",
+   "romanization": "dol",
+   "meaning": "rock",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "solid mineral piece",
+   "examples": [
+    "그는 강가에 큰 돌을 들었다. — He lifted a big rock by the river."
+   ]
+  },
+  {
+   "word": "꽃",
+   "romanization": "kkot",
+   "meaning": "flower",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "blossoming plant part",
+   "examples": [
+    "봄이면 공원에 꽃이 피어요. — Flowers bloom in the park in spring."
+   ]
+  },
+  {
+   "word": "나무",
+   "romanization": "namu",
+   "meaning": "tree",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "woody plant",
+   "examples": [
+    "그 나무는 100년 이상 되었다. — That tree is over 100 years old."
+   ]
+  },
+  {
+   "word": "해",
+   "romanization": "hae",
+   "meaning": "sun",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "star providing daylight",
+   "examples": [
+    "해가 뜨면 기분이 좋아진다. — I feel better when the sun rises."
+   ]
+  },
+  {
+   "word": "달",
+   "romanization": "dal",
+   "meaning": "moon",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "Earth's satellite",
+   "examples": [
+    "달빛이 밤을 밝힌다. — Moonlight brightens the night."
+   ]
+  },
+  {
+   "word": "섬",
+   "romanization": "seom",
+   "meaning": "island",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "land surrounded by water",
+   "examples": [
+    "제주도는 큰 섬이다. — Jeju is a large island."
+   ]
+  },
+  {
+   "word": "동굴",
+   "romanization": "donggul",
+   "meaning": "cave",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "underground chamber",
+   "examples": [
+    "동굴 안은 어둡고 습했다. — The cave interior was dark and damp."
+   ]
+  },
+  {
+   "word": "폭포",
+   "romanization": "pokpo",
+   "meaning": "waterfall",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "water falling over a cliff",
+   "examples": [
+    "여름에 폭포는 시원하다. — Waterfalls are cool in summer."
+   ]
+  },
+  {
+   "word": "해변",
+   "romanization": "haebyeon",
+   "meaning": "beach",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "shoreline of sea",
+   "examples": [
+    "해변에서 모래성을 만들었다. — We built a sandcastle on the beach."
+   ]
+  },
+  {
+   "word": "바위",
+   "romanization": "bawi",
+   "meaning": "rock",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "large natural stone",
+   "examples": [
+    "바위 위에 앉아 경치를 감상했다. — I sat on the rock and enjoyed the view."
+   ]
+  },
+  {
+   "word": "언덕",
+   "romanization": "eondeok",
+   "meaning": "hill",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "small elevation",
+   "examples": [
+    "언덕을 올라가면 마을이 보였다. — The village was visible after climbing the hill."
+   ]
+  },
+  {
+   "word": "계곡",
+   "romanization": "gyegok",
+   "meaning": "valley",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "narrow lowland",
+   "examples": [
+    "계곡 물이 차가워서 발을 씻었다. — I washed my feet in the cool valley stream."
+   ]
+  },
+  {
+   "word": "폭염",
+   "romanization": "pok-yeom",
+   "meaning": "heatwave",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "intense summer heat",
+   "examples": [
+    "폭염 때문에 나무 그늘을 찾아 헤맸다. — I wandered looking for tree shade because of the heatwave."
+   ]
+  },
+  {
+   "word": "눈송이",
+   "romanization": "nunsongi",
+   "meaning": "snowflake",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "individual snow piece",
+   "examples": [
+    "눈송이가 내 얼굴에 닿았다. — A snowflake touched my face."
+   ]
+  },
+  {
+   "word": "돌멩이",
+   "romanization": "dolmengi",
+   "meaning": "pebble",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "small stone",
+   "examples": [
+    "돌멩이를 주워서 물에 던졌다. — I picked up a pebble and tossed it into the water."
+   ]
+  },
+  {
+   "word": "폭풍",
+   "romanization": "pokpung",
+   "meaning": "storm",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "strong wind and rain",
+   "examples": [
+    "폭풍이 지나가고 하늘이 맑아졌다. — The storm passed and the sky cleared."
+   ]
+  },
+  {
+   "word": "오솔길",
+   "romanization": "osolgil",
+   "meaning": "forest path",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "narrow walking trail",
+   "examples": [
+    "오솔길을 따라 산책했다. — I took a walk along the forest path."
+   ]
+  },
+  {
+   "word": "연못",
+   "romanization": "yeonmot",
+   "meaning": "pond",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "small standing water",
+   "examples": [
+    "연못에 물고기가 헤엄친다. — Fish swim in the pond."
+   ]
+  },
+  {
+   "word": "폭설",
+   "romanization": "pokseol",
+   "meaning": "heavy snowfall",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "large amount of snow",
+   "examples": [
+    "폭설 때문에 도로가 막혔다. — The heavy snowfall blocked the road."
+   ]
+  },
+  {
+   "word": "이끼",
+   "romanization": "ikki",
+   "meaning": "moss",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "soft green plant",
+   "examples": [
+    "돌 위에 이끼가 푸르게 자란다. — Moss grows green on the stone."
+   ]
+  },
+  {
+   "word": "모래밭",
+   "romanization": "moraebat",
+   "meaning": "sandbank",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "area of loose sand",
+   "examples": [
+    "모래밭에서 아이들이 놀고 있다. — Children are playing on the sandbank."
+   ]
+  },
+  {
+   "word": "절벽",
+   "romanization": "jeolbyeok",
+   "meaning": "cliff",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "steep rock face",
+   "examples": [
+    "절벽 아래로 파도가 부딪힌다. — Waves crash against the cliff below."
+   ]
+  },
+  {
+   "word": "대지",
+   "romanization": "daeji",
+   "meaning": "earth, ground",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "soil or land",
+   "examples": [
+    "대지는 비를 머금고 촉촉했다. — The ground was moist, holding the rain."
+   ]
+  },
+  {
+   "word": "흙먼지",
+   "romanization": "heukmeonji",
+   "meaning": "dust",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "fine dry particles",
+   "examples": [
+    "흙먼지가 바람에 날렸다. — Dust rose in the wind."
+   ]
+  },
+  {
+   "word": "물결",
+   "romanization": "mulgyeol",
+   "meaning": "wave (water)",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "ripple on water",
+   "examples": [
+    "물결이 부드럽게 흔들렸다. — The waves swayed gently."
+   ]
+  },
+  {
+   "word": "해안",
+   "romanization": "haean",
+   "meaning": "coast",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "land meeting sea",
+   "examples": [
+    "해안을 따라 산책했다. — I walked along the coast."
+   ]
+  },
+  {
+   "word": "오아시스",
+   "romanization": "oasiseu",
+   "meaning": "oasis",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "desert water source",
+   "examples": [
+    "사막 한가운데 오아시스를 발견했다. — I discovered an oasis in the middle of the desert."
+   ]
+  },
+  {
+   "word": "풀",
+   "romanization": "pul",
+   "meaning": "grass",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "common ground cover",
+   "examples": [
+    "공원에 푸른 풀밭이 있다. — There is a green lawn in the park."
+   ]
+  },
+  {
+   "word": "별",
+   "romanization": "byeol",
+   "meaning": "star",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "celestial light",
+   "examples": [
+    "밤하늘에 별이 반짝인다. — Stars twinkle in the night sky."
+   ]
+  },
+  {
+   "word": "햇빛",
+   "romanization": "haetbit",
+   "meaning": "sunlight",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "bright daylight",
+   "examples": [
+    "아침 햇빛이 방을 가득 채운다. — Morning sunlight fills the room."
+   ]
+  },
+  {
+   "word": "달빛",
+   "romanization": "dalbit",
+   "meaning": "moonlight",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "soft night light",
+   "examples": [
+    "달빛이 호수 위에 비친다. — Moonlight reflects on the lake."
+   ]
+  },
+  {
+   "word": "모래",
+   "romanization": "morae",
+   "meaning": "sand",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "tiny grains",
+   "examples": [
+    "해변의 모래가 따뜻하다. — The sand on the beach is warm."
+   ]
+  },
+  {
+   "word": "이슬",
+   "romanization": "iseul",
+   "meaning": "dew",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "morning moisture",
+   "examples": [
+    "아침 이슬이 잎사귀에 맺힌다. — Morning dew clings to the leaves."
+   ]
+  },
+  {
+   "word": "파도",
+   "romanization": "pado",
+   "meaning": "wave",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "sea motion",
+   "examples": [
+    "파도가 해안에 부딪힌다. — Waves crash against the shore."
+   ]
+  },
+  {
+   "word": "조류",
+   "romanization": "joryu",
+   "meaning": "tide/current",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "water flow direction",
+   "examples": [
+    "조류가 강을 따라 흐른다. — The current flows along the river."
+   ]
+  },
+  {
+   "word": "산호",
+   "romanization": "sanho",
+   "meaning": "coral",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "marine organism",
+   "examples": [
+    "산호가 바다 속에서 색을 뿜는다. — Coral emits colors underwater."
+   ]
+  },
+  {
+   "word": "해조",
+   "romanization": "haejo",
+   "meaning": "seaweed",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "edible marine plant",
+   "examples": [
+    "해조는 김으로 많이 쓰인다. — Seaweed is often used to make kimchi."
+   ]
+  },
+  {
+   "word": "우박",
+   "romanization": "ubak",
+   "meaning": "hail",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "frozen rain",
+   "examples": [
+    "우박이 차창을 두드렸다. — Hail knocked on the car window."
+   ]
+  },
+  {
+   "word": "번개",
+   "romanization": "beongae",
+   "meaning": "lightning",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "electrical discharge",
+   "examples": [
+    "밤에 번개가 번쩍인다. — Lightning flashes at night."
+   ]
+  },
+  {
+   "word": "무지개",
+   "romanization": "mujigae",
+   "meaning": "rainbow",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "color arc after rain",
+   "examples": [
+    "비가 그친 뒤 무지개가 나타났다. — A rainbow appeared after the rain stopped."
+   ]
+  },
+  {
+   "word": "암석",
+   "romanization": "amseok",
+   "meaning": "rock",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "solid mineral",
+   "examples": [
+    "산의 암석이 오래된 흔적을 남긴다. — The mountain's rocks bear ancient marks."
+   ]
+  },
+  {
+   "word": "흙",
+   "romanization": "heuk",
+   "meaning": "soil",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "ground material",
+   "examples": [
+    "흙이 부드럽게 물을 흡수한다. — Soil absorbs water gently."
+   ]
+  },
+  {
+   "word": "조개",
+   "romanization": "jogae",
+   "meaning": "shellfish",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "marine edible",
+   "examples": [
+    "바닷가에서 조개를 줍는다. — We collect shells at the beach."
+   ]
+  },
+  {
+   "word": "호수",
+   "romanization": "hoseu",
+   "meaning": "lake",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "large inland water body",
+   "examples": [
+    "호수 주변을 산책했어요. — I took a walk around the lake."
+   ]
+  },
+  {
+   "word": "초원",
+   "romanization": "chowon",
+   "meaning": "grassland",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "open, flat area",
+   "examples": [
+    "초원에 말들이 뛰어다닌다. — Horses run across the grassland."
+   ]
+  },
+  {
+   "word": "들판",
+   "romanization": "deulp'an",
+   "meaning": "field",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "open countryside field",
+   "examples": [
+    "들판에 야채를 심었어요. — I planted vegetables in the field."
+   ]
+  },
+  {
+   "word": "석양",
+   "romanization": "seogyang",
+   "meaning": "sunset",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "evening sky colors",
+   "examples": [
+    "석양이 아름답게 물들었다. — The sunset turned beautifully colored."
+   ]
+  },
+  {
+   "word": "새벽",
+   "romanization": "saebyeok",
+   "meaning": "dawn",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "early morning hours",
+   "examples": [
+    "새벽에 새소리가 들렸다. — Birdsong was heard at dawn."
+   ]
+  },
+  {
+   "word": "저녁",
+   "romanization": "jeonyeok",
+   "meaning": "evening",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "time after sunset",
+   "examples": [
+    "저녁에 가족과 식사했어요. — I had dinner with my family in the evening."
+   ]
+  },
+  {
+   "word": "햇살",
+   "romanization": "haetsal",
+   "meaning": "sunlight",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "direct sun rays",
+   "examples": [
+    "햇살이 방 안을 가득 채웠다. — Sunlight filled the room."
+   ]
+  },
+  {
+   "word": "안개",
+   "romanization": "angae",
+   "meaning": "fog",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "low visibility moisture",
+   "examples": [
+    "아침 안개가 산을 감쌌다. — Morning fog covered the mountain."
+   ]
+  },
+  {
+   "word": "자연",
+   "romanization": "jayeon",
+   "meaning": "nature",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "the natural world",
+   "examples": [
+    "자연을 보호해야 한다. — We must protect nature."
+   ]
+  },
+  {
+   "word": "동물",
+   "romanization": "dongmul",
+   "meaning": "animal",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "living creature, non-human",
+   "examples": [
+    "동물원에 코끼리가 있다. — There is an elephant at the zoo."
+   ]
+  },
+  {
+   "word": "새",
+   "romanization": "sae",
+   "meaning": "bird",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "feathered flying animal",
+   "examples": [
+    "새가 나무 위에 앉아 있다. — A bird is perched on the tree."
+   ]
+  },
+  {
+   "word": "시간",
+   "romanization": "sigan",
+   "meaning": "time",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "general concept of time",
+   "examples": [
+    "시간이 얼마 남았어요? — How much time is left?"
+   ]
+  },
+  {
+   "word": "오늘",
+   "romanization": "oneul",
+   "meaning": "today",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "refers to current day",
+   "examples": [
+    "오늘 날씨가 좋네요. — The weather is nice today."
+   ]
+  },
+  {
+   "word": "내일",
+   "romanization": "naeil",
+   "meaning": "tomorrow",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "future day after today",
+   "examples": [
+    "내일 만나자. — Let's meet tomorrow."
+   ]
+  },
+  {
+   "word": "어제",
+   "romanization": "eoje",
+   "meaning": "yesterday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "past day before today",
+   "examples": [
+    "어제는 바빴어요. — I was busy yesterday."
+   ]
+  },
+  {
+   "word": "지금",
+   "romanization": "jigeum",
+   "meaning": "now",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "the present moment",
+   "examples": [
+    "지금 가야 해요. — I have to go now."
+   ]
+  },
+  {
+   "word": "잠시",
+   "romanization": "jamshi",
+   "meaning": "a moment, briefly",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "short duration",
+   "examples": [
+    "잠시만 기다려 주세요. — Please wait a moment."
+   ]
+  },
+  {
+   "word": "오전",
+   "romanization": "ojeon",
+   "meaning": "a.m., morning",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "before noon",
+   "examples": [
+    "오전 9시에 회의가 있어요. — The meeting is at 9 a.m."
+   ]
+  },
+  {
+   "word": "오후",
+   "romanization": "ohu",
+   "meaning": "p.m., afternoon",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "after noon",
+   "examples": [
+    "오후에 산책하자. — Let's take a walk in the afternoon."
+   ]
+  },
+  {
+   "word": "아침",
+   "romanization": "achim",
+   "meaning": "morning, breakfast",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "early part of day",
+   "examples": [
+    "아침에 커피를 마셔요. — I drink coffee in the morning."
+   ]
+  },
+  {
+   "word": "점심",
+   "romanization": "jeomsim",
+   "meaning": "lunch",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "midday meal",
+   "examples": [
+    "점심을 같이 먹을래? — Do you want to have lunch together?"
+   ]
+  },
+  {
+   "word": "밤",
+   "romanization": "bam",
+   "meaning": "night",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "dark hours",
+   "examples": [
+    "밤에 별을 봤어요. — I saw stars at night."
+   ]
+  },
+  {
+   "word": "주",
+   "romanization": "ju",
+   "meaning": "week",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "seven-day period",
+   "examples": [
+    "다음 주에 여행 갈 거예요. — I'll travel next week."
+   ]
+  },
+  {
+   "word": "월",
+   "romanization": "wol",
+   "meaning": "month",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "calendar month",
+   "examples": [
+    "이번 달은 바빠요. — This month is busy."
+   ]
+  },
+  {
+   "word": "년",
+   "romanization": "nyeon",
+   "meaning": "year",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "twelve-month period",
+   "examples": [
+    "내년에는 대학에 들어가요. — I'll enter university next year."
+   ]
+  },
+  {
+   "word": "시",
+   "romanization": "si",
+   "meaning": "hour (time)",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "clock hour",
+   "examples": [
+    "몇 시에 출발해요? — What time do we leave?"
+   ]
+  },
+  {
+   "word": "분",
+   "romanization": "bun",
+   "meaning": "minute",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "smaller time unit",
+   "examples": [
+    "5분만 기다려 주세요. — Please wait just five minutes."
+   ]
+  },
+  {
+   "word": "초",
+   "romanization": "cho",
+   "meaning": "second",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "very short time unit",
+   "examples": [
+    "10초 안에 답을 말해 주세요. — Give your answer within ten seconds."
+   ]
+  },
+  {
+   "word": "하루",
+   "romanization": "haru",
+   "meaning": "one day",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "generic 24‑hour period",
+   "examples": [
+    "하루 종일 비가 내렸다. — It rained all day."
+   ]
+  },
+  {
+   "word": "일주일",
+   "romanization": "ilju-il",
+   "meaning": "one week",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "seven days",
+   "examples": [
+    "일주일에 두 번 운동한다. — I exercise twice a week."
+   ]
+  },
+  {
+   "word": "월요일",
+   "romanization": "woryoil",
+   "meaning": "Monday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "first weekday",
+   "examples": [
+    "월요일에 회의가 있다. — There is a meeting on Monday."
+   ]
+  },
+  {
+   "word": "화요일",
+   "romanization": "hwayoil",
+   "meaning": "Tuesday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "second weekday",
+   "examples": [
+    "화요일은 수업이 없어요. — There are no classes on Tuesday."
+   ]
+  },
+  {
+   "word": "수요일",
+   "romanization": "suyoil",
+   "meaning": "Wednesday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "mid‑week",
+   "examples": [
+    "수요일에 친구를 만난다. — I meet a friend on Wednesday."
+   ]
+  },
+  {
+   "word": "목요일",
+   "romanization": "mogyoil",
+   "meaning": "Thursday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "fourth weekday",
+   "examples": [
+    "목요일에 발표가 있다. — There is a presentation on Thursday."
+   ]
+  },
+  {
+   "word": "금요일",
+   "romanization": "geumyoil",
+   "meaning": "Friday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "last weekday",
+   "examples": [
+    "금요일은 퇴근하고 술 마신다. — I drink after work on Friday."
+   ]
+  },
+  {
+   "word": "토요일",
+   "romanization": "toyoil",
+   "meaning": "Saturday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "weekend start",
+   "examples": [
+    "토요일에 여행을 갈 거야. — I’ll travel on Saturday."
+   ]
+  },
+  {
+   "word": "일요일",
+   "romanization": "iryoil",
+   "meaning": "Sunday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "weekend end",
+   "examples": [
+    "일요일엔 교회에 간다. — I go to church on Sunday."
+   ]
+  },
+  {
+   "word": "언제",
+   "romanization": "eonje",
+   "meaning": "when",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "question word",
+   "examples": [
+    "그는 언제 올까? — When will he come?"
+   ]
+  },
+  {
+   "word": "언제쯤",
+   "romanization": "eonjjeum",
+   "meaning": "around when",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "approximate time",
+   "examples": [
+    "그는 언제쯤 도착할까? — Around what time will he arrive?"
+   ]
+  },
+  {
+   "word": "언제까지",
+   "romanization": "eonjeggaji",
+   "meaning": "until when",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "deadline query",
+   "examples": [
+    "숙제는 언제까지 제출해야 해? — Until when must the homework be submitted?"
+   ]
+  },
+  {
+   "word": "언제부터",
+   "romanization": "eonjebuteo",
+   "meaning": "since when",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "starting point",
+   "examples": [
+    "그는 언제부터 한국어를 배웠나요? — Since when has he been learning Korean?"
+   ]
+  },
+  {
+   "word": "잠깐",
+   "romanization": "jamkkan",
+   "meaning": "a moment",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "short duration",
+   "examples": [
+    "잠깐만 기다려 주세요. — Please wait a moment."
+   ]
+  },
+  {
+   "word": "곧",
+   "romanization": "god",
+   "meaning": "soon",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "near future",
+   "examples": [
+    "곧 비가 올 거야. — It will rain soon."
+   ]
+  },
+  {
+   "word": "이따가",
+   "romanization": "ittaga",
+   "meaning": "later",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "later today",
+   "examples": [
+    "이따가 전화할게요. — I’ll call you later."
+   ]
+  },
+  {
+   "word": "바로",
+   "romanization": "baro",
+   "meaning": "right away",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "immediate",
+   "examples": [
+    "바로 가세요. — Go right away."
+   ]
+  },
+  {
+   "word": "지금부터",
+   "romanization": "jigeumbuteo",
+   "meaning": "from now",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "starting now",
+   "examples": [
+    "지금부터 시작합니다. — We’ll start from now."
+   ]
+  },
+  {
+   "word": "순간",
+   "romanization": "sungan",
+   "meaning": "moment",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "very brief point in time",
+   "examples": [
+    "그 순간을 절대 잊지 못했다. — I will never forget that moment."
+   ]
+  },
+  {
+   "word": "이따",
+   "romanization": "itta",
+   "meaning": "later, a little later",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "informal, short time later",
+   "examples": [
+    "이따 다시 전화할게요. — I’ll call again later."
+   ]
+  },
+  {
+   "word": "연중",
+   "romanization": "yeonjung",
+   "meaning": "throughout the year",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "year‑long period",
+   "examples": [
+    "연중 내내 비가 내렸다. — It rained throughout the year."
+   ]
+  },
+  {
+   "word": "계절",
+   "romanization": "gyejeol",
+   "meaning": "season",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "one of four seasons",
+   "examples": [
+    "계절마다 옷이 달라요. — Clothes change with each season."
+   ]
+  },
+  {
+   "word": "봄",
+   "romanization": "bom",
+   "meaning": "spring",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "season of blooming",
+   "examples": [
+    "봄이 되면 꽃이 피어요. — Flowers bloom when spring comes."
+   ]
+  },
+  {
+   "word": "여름",
+   "romanization": "yeoreum",
+   "meaning": "summer",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "hot season",
+   "examples": [
+    "여름에는 해수욕장을 자주 가요. — I often go to the beach in summer."
+   ]
+  },
+  {
+   "word": "가을",
+   "romanization": "gaeul",
+   "meaning": "autumn",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "season of falling leaves",
+   "examples": [
+    "가을에 단풍이 아름다워요. — The foliage is beautiful in autumn."
+   ]
+  },
+  {
+   "word": "겨울",
+   "romanization": "gyeoul",
+   "meaning": "winter",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "cold season",
+   "examples": [
+    "겨울에는 눈이 많이 와요. — It snows a lot in winter."
+   ]
+  },
+  {
+   "word": "과거",
+   "romanization": "gwageo",
+   "meaning": "past",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "time before now",
+   "examples": [
+    "과거를 돌아보는 것이 중요해요. — Reflecting on the past is important."
+   ]
+  },
+  {
+   "word": "현재",
+   "romanization": "hyeonjae",
+   "meaning": "present",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "the current moment",
+   "examples": [
+    "현재 상황을 정확히 파악해야 해요. — We must accurately assess the present situation."
+   ]
+  },
+  {
+   "word": "미래",
+   "romanization": "mirae",
+   "meaning": "future",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "time yet to come",
+   "examples": [
+    "미래를 위해 열심히 공부한다. — I study hard for the future."
+   ]
+  },
+  {
+   "word": "금방",
+   "romanization": "geumbang",
+   "meaning": "soon, right away",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "very short time later",
+   "examples": [
+    "금방 돌아올게요. — I’ll be back soon."
+   ]
+  },
+  {
+   "word": "곧바로",
+   "romanization": "godbareo",
+   "meaning": "immediately",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "without delay",
+   "examples": [
+    "그는 곧바로 사과했다. — He apologized immediately."
+   ]
+  },
+  {
+   "word": "잠시후",
+   "romanization": "jamshihu",
+   "meaning": "after a short while",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "a brief interval later",
+   "examples": [
+    "잠시후에 다시 시작하자. — Let’s start again after a short while."
+   ]
+  },
+  {
+   "word": "한참",
+   "romanization": "hancham",
+   "meaning": "a long time",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "for a while, often long",
+   "examples": [
+    "한참을 기다렸어요. — I waited for a long time."
+   ]
+  },
+  {
+   "word": "시각",
+   "romanization": "sigak",
+   "meaning": "specific time point",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for exact moments",
+   "examples": [
+    "그 시각에 회의가 시작됩니다. — The meeting starts at that time."
+   ]
+  },
+  {
+   "word": "시점",
+   "romanization": "sijom",
+   "meaning": "point in time",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "focus on reference point",
+   "examples": [
+    "그 사건은 1990년 시점이다. — The incident is at the 1990 point in time."
+   ]
+  },
+  {
+   "word": "시기",
+   "romanization": "sigi",
+   "meaning": "period",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "broader than moment",
+   "examples": [
+    "시험 준비 시기가 다가왔다. — The exam preparation period is approaching."
+   ]
+  },
+  {
+   "word": "시절",
+   "romanization": "sijeol",
+   "meaning": "era",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "often nostalgic",
+   "examples": [
+    "그 시절을 추억한다. — I reminisce about that era."
+   ]
+  },
+  {
+   "word": "시차",
+   "romanization": "sicha",
+   "meaning": "time difference",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "between zones",
+   "examples": [
+    "우리와 시차는 9시간이다. — The time difference with us is nine hours."
+   ]
+  },
+  {
+   "word": "시계",
+   "romanization": "sigye",
+   "meaning": "clock",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "device for telling time",
+   "examples": [
+    "새 시계를 샀다. — I bought a new clock."
+   ]
+  },
+  {
+   "word": "시간대",
+   "romanization": "sigan-dae",
+   "meaning": "time zone",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "geographic time area",
+   "examples": [
+    "한국은 동아시아 시간대에 있다. — Korea is in the East Asian time zone."
+   ]
+  },
+  {
+   "word": "연기",
+   "romanization": "yeongi",
+   "meaning": "postponement",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "formal delay",
+   "examples": [
+    "행사는 연기되었다. — The event was postponed."
+   ]
+  },
+  {
+   "word": "연장",
+   "romanization": "yeonjang",
+   "meaning": "extension",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "adding more time",
+   "examples": [
+    "마감 연장을 신청했다. — I applied for a deadline extension."
+   ]
+  },
+  {
+   "word": "지연",
+   "romanization": "jiyeon",
+   "meaning": "delay",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "unplanned slowdown",
+   "examples": [
+    "비행기 지연이 있었다. — There was a flight delay."
+   ]
+  },
+  {
+   "word": "시작",
+   "romanization": "sijak",
+   "meaning": "start",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "beginning point",
+   "examples": [
+    "수업 시작이 10시에 있다. — The class starts at 10 o'clock."
+   ]
+  },
+  {
+   "word": "종료",
+   "romanization": "jongnyo",
+   "meaning": "end",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "concluding point",
+   "examples": [
+    "프로젝트 종료일은 다음 주다. — The project end date is next week."
+   ]
+  },
+  {
+   "word": "안녕하세요",
+   "romanization": "annyeonghaseyo",
+   "meaning": "Hello (formal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite everyday greeting",
+   "examples": [
+    "안녕하세요, 오늘 기분이 어떠세요? — Hello, how are you feeling today?"
+   ]
+  },
+  {
+   "word": "안녕",
+   "romanization": "annyeong",
+   "meaning": "Hi/bye (informal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Casual among friends",
+   "examples": [
+    "안녕, 내일 보자! — Hi, see you tomorrow!"
+   ]
+  },
+  {
+   "word": "감사합니다",
+   "romanization": "gamsahamnida",
+   "meaning": "Thank you (formal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Shows gratitude politely",
+   "examples": [
+    "도와줘서 감사합니다. — Thank you for helping me."
+   ]
+  },
+  {
+   "word": "고마워",
+   "romanization": "gomawo",
+   "meaning": "Thanks (informal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Casual gratitude",
+   "examples": [
+    "선물 고마워! — Thanks for the gift!"
+   ]
+  },
+  {
+   "word": "죄송합니다",
+   "romanization": "joesonghamnida",
+   "meaning": "I’m sorry (formal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Apologize respectfully",
+   "examples": [
+    "늦어서 죄송합니다. — I’m sorry for being late."
+   ]
+  },
+  {
+   "word": "미안해",
+   "romanization": "mianhae",
+   "meaning": "Sorry (informal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Casual apology",
+   "examples": [
+    "그거 못해서 미안해. — I’m sorry I couldn’t do that."
+   ]
+  },
+  {
+   "word": "처음 뵙겠습니다",
+   "romanization": "cheoeum boepgesseumnida",
+   "meaning": "Nice to meet you (formal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "First meeting, polite",
+   "examples": [
+    "안녕하세요, 처음 뵙겠습니다. — Hello, nice to meet you."
+   ]
+  },
+  {
+   "word": "반갑습니다",
+   "romanization": "bangapseumnida",
+   "meaning": "Glad to meet you (formal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite, pleasant greeting",
+   "examples": [
+    "오랜만에 뵙게 되어 반갑습니다. — I’m glad to see you after a long time."
+   ]
+  },
+  {
+   "word": "잘 지냈어요?",
+   "romanization": "jal jinaesseoyo?",
+   "meaning": "How have you been?",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite inquiry",
+   "examples": [
+    "오래간만이야, 잘 지냈어요? — It’s been a while, how have you been?"
+   ]
+  },
+  {
+   "word": "잘 있었어요?",
+   "romanization": "jal isseosseoyo?",
+   "meaning": "Have you been well?",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Similar to ‘how are you’",
+   "examples": [
+    "오랜만이에요, 잘 있었어요? — Long time no see, have you been well?"
+   ]
+  },
+  {
+   "word": "수고하세요",
+   "romanization": "sugohaseyo",
+   "meaning": "Take care/keep it up (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Encouragement at work",
+   "examples": [
+    "오늘도 수고하세요! — Keep up the good work today!"
+   ]
+  },
+  {
+   "word": "수고했어요",
+   "romanization": "sugohaesseoyo",
+   "meaning": "Good job (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Praise after effort",
+   "examples": [
+    "프로젝트 마무리, 수고했어요. — The project is finished, good job."
+   ]
+  },
+  {
+   "word": "잘 가",
+   "romanization": "jal ga",
+   "meaning": "Bye (informal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Used when departing",
+   "examples": [
+    "다음에 또 보자, 잘 가! — See you next time, bye!"
+   ]
+  },
+  {
+   "word": "안녕히 가세요",
+   "romanization": "annyeonghi gaseyo",
+   "meaning": "Goodbye (to departing)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite farewell",
+   "examples": [
+    "저 먼저 갈게요, 안녕히 가세요. — I’ll go first, goodbye."
+   ]
+  },
+  {
+   "word": "안녕히 계세요",
+   "romanization": "annyeonghi gyeseyo",
+   "meaning": "Goodbye (to staying)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite when you leave",
+   "examples": [
+    "저는 먼저 가볼게요, 안녕히 계세요. — I’ll head out, please stay well."
+   ]
+  },
+  {
+   "word": "잠시만요",
+   "romanization": "jamsimanyo",
+   "meaning": "One moment, please",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Request to wait briefly",
+   "examples": [
+    "잠시만요, 곧 돌아올게요. — One moment, I’ll be right back."
+   ]
+  },
+  {
+   "word": "잠깐만요",
+   "romanization": "jamkkanmanyo",
+   "meaning": "Just a sec",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Very casual waiting",
+   "examples": [
+    "잠깐만요, 전화받고 올게요. — Just a sec, I’ll answer the call."
+   ]
+  },
+  {
+   "word": "다시 만나길 기대해요",
+   "romanization": "dasi mannagil gidaehaeyo",
+   "meaning": "Hope to see you again",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Warm farewell wish",
+   "examples": [
+    "오늘 즐거웠어요, 다시 만나길 기대해요! — Today was fun, I hope we meet again!"
+   ]
+  },
+  {
+   "word": "좋은 아침",
+   "romanization": "joeun achim",
+   "meaning": "good morning",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "use in the morning",
+   "examples": [
+    "좋은 아침이에요! — Good morning!"
+   ]
+  },
+  {
+   "word": "좋은 저녁",
+   "romanization": "joeun jeonyeok",
+   "meaning": "good evening",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "evening greeting",
+   "examples": [
+    "좋은 저녁이에요! — Good evening!"
+   ]
+  },
+  {
+   "word": "좋은 하루",
+   "romanization": "joeun haru",
+   "meaning": "have a good day",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "wish someone well",
+   "examples": [
+    "오늘 좋은 하루 되세요. — Have a good day today."
+   ]
+  },
+  {
+   "word": "오랜만이에요",
+   "romanization": "oraenmanieyo",
+   "meaning": "long time no see",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "after long absence",
+   "examples": [
+    "오랜만이에요! 어떻게 지냈어요? — Long time no see! How have you been?"
+   ]
+  },
+  {
+   "word": "잘 지내세요",
+   "romanization": "jal jinaeseyo",
+   "meaning": "take care",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "polite farewell",
+   "examples": [
+    "다음에 또 봐요, 잘 지내세요! — See you next time, take care!"
+   ]
+  },
+  {
+   "word": "다음에 봐요",
+   "romanization": "daeume bwayo",
+   "meaning": "see you later",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "future meeting",
+   "examples": [
+    "오늘은 여기까지, 다음에 봐요! — That's it for today, see you later!"
+   ]
+  },
+  {
+   "word": "반가워요",
+   "romanization": "bangawoyo",
+   "meaning": "nice to see you",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "casual greeting",
+   "examples": [
+    "오랜만이야, 반가워요! — Long time no see, nice to see you!"
+   ]
+  },
+  {
+   "word": "잘 가요",
+   "romanization": "jal gayo",
+   "meaning": "goodbye (to leaving person)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal farewell",
+   "examples": [
+    "그럼, 잘 가요! — Alright, goodbye!"
+   ]
+  },
+  {
+   "word": "잠시만요, 기다려 주세요",
+   "romanization": "jamsimanyo, gidaryeo juseyo",
+   "meaning": "please wait a moment",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "polite request",
+   "examples": [
+    "잠시만요, 기다려 주세요. — Please wait a moment."
+   ]
+  },
+  {
+   "word": "안녕히 주무세요",
+   "romanization": "annyeonghi jumuseyo",
+   "meaning": "good night (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "nighttime farewell",
+   "examples": [
+    "오늘도 고생했어요, 안녕히 주무세요! — You worked hard today, good night!"
+   ]
+  },
+  {
+   "word": "다음에 또 봐요",
+   "romanization": "daeume tto bwayo",
+   "meaning": "see you again next time",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "future meet",
+   "examples": [
+    "오늘 즐거웠어요, 다음에 또 봐요! — It was fun today, see you again next time!"
+   ]
+  },
+  {
+   "word": "잘 부탁드립니다",
+   "romanization": "jal butakdeurimnida",
+   "meaning": "please take care of me",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "formal request",
+   "examples": [
+    "처음 뵙겠습니다, 잘 부탁드립니다. — Nice to meet you, please take care of me."
+   ]
+  },
+  {
+   "word": "여보세요",
+   "romanization": "yeoboseyo",
+   "meaning": "Hello (on the phone)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Phone greeting",
+   "examples": [
+    "여보세요, 지금 통화 가능하나요? — Hello, are you available to talk now?"
+   ]
+  },
+  {
+   "word": "안녕하십니까",
+   "romanization": "annyeonghasimnikka",
+   "meaning": "Hello (formal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Very formal greeting",
+   "examples": [
+    "안녕하십니까, 오늘 회의 준비되셨나요? — Hello, are you prepared for today's meeting?"
+   ]
+  },
+  {
+   "word": "수고하셨습니다",
+   "romanization": "sugohasyeotseumnida",
+   "meaning": "Thanks for your effort",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "After work or service",
+   "examples": [
+    "오늘도 수고하셨습니다, 좋은 저녁 되세요. — Thank you for your effort today, have a good evening."
+   ]
+  },
+  {
+   "word": "잘 지내고 있어요?",
+   "romanization": "jal jinaego isseoyo?",
+   "meaning": "How have you been?",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Casual check‑in",
+   "examples": [
+    "오랜만이야, 잘 지내고 있어요? — Long time no see, how have you been?"
+   ]
+  },
+  {
+   "word": "뭐해요?",
+   "romanization": "mwohaeyo?",
+   "meaning": "What are you doing?",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Informal inquiry",
+   "examples": [
+    "지금 뭐해요? 같이 점심 먹을래요? — What are you doing now? Want to have lunch together?"
+   ]
+  },
+  {
+   "word": "오셨나요?",
+   "romanization": "osyeonnayo?",
+   "meaning": "Have you arrived?",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Welcoming arrival",
+   "examples": [
+    "손님이 오셨나요? — Has the guest arrived?"
+   ]
+  },
+  {
+   "word": "반갑다",
+   "romanization": "bangapda",
+   "meaning": "Glad to meet (informal)",
+   "pos": "VERB",
+   "category": "Greetings & Social",
+   "note": "Casual expression",
+   "examples": [
+    "오랜만에 만나서 정말 반갑다. — It's really nice to see you after so long."
+   ]
+  },
+  {
+   "word": "잘 지내",
+   "romanization": "jal jinae",
+   "meaning": "Take care (informal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Short farewell",
+   "examples": [
+    "다음에 또 보자, 잘 지내! — See you next time, take care!"
+   ]
+  },
+  {
+   "word": "천천히",
+   "romanization": "cheoncheonhi",
+   "meaning": "Slowly",
+   "pos": "ADV",
+   "category": "Greetings & Social",
+   "note": "Use when asking to slow down",
+   "examples": [
+    "천천히 말해 주세요. — Please speak slowly."
+   ]
+  },
+  {
+   "word": "고생했어요",
+   "romanization": "gosaenghaesseoyo",
+   "meaning": "You worked hard",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Acknowledging effort",
+   "examples": [
+    "시험 준비 많이 고생했어요, 수고했어요! — You worked hard preparing for the exam, good job!"
+   ]
+  },
+  {
+   "word": "괜찮아요",
+   "romanization": "gwaenchanhayo",
+   "meaning": "It's okay",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Reassuring response",
+   "examples": [
+    "미안해요, 괜찮아요. — I'm sorry, it's okay."
+   ]
+  },
+  {
+   "word": "잠시 후에",
+   "romanization": "jamshi hue",
+   "meaning": "In a moment",
+   "pos": "ADV",
+   "category": "Greetings & Social",
+   "note": "Temporal adverb",
+   "examples": [
+    "잠시 후에 다시 연락드릴게요. — I'll contact you again in a moment."
+   ]
+  },
+  {
+   "word": "안녕히",
+   "romanization": "annyeonghi",
+   "meaning": "peacefully",
+   "pos": "ADV",
+   "category": "Greetings & Social",
+   "note": "used in polite farewells",
+   "examples": [
+    "안녕히 주무세요. — Sleep peacefully."
+   ]
+  },
+  {
+   "word": "반가워",
+   "romanization": "bangawo",
+   "meaning": "glad to see you",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal greeting",
+   "examples": [
+    "오랜만에 만나서 반가워! — Nice to see you after a long time!"
+   ]
+  },
+  {
+   "word": "잘",
+   "romanization": "jal",
+   "meaning": "well",
+   "pos": "ADV",
+   "category": "Greetings & Social",
+   "note": "often with verbs",
+   "examples": [
+    "잘 지내? — Are you doing well?"
+   ]
+  },
+  {
+   "word": "어서",
+   "romanization": "eoseo",
+   "meaning": "quickly",
+   "pos": "ADV",
+   "category": "Greetings & Social",
+   "note": "encouraging",
+   "examples": [
+    "어서 오세요! — Come quickly!"
+   ]
+  },
+  {
+   "word": "다음",
+   "romanization": "daeum",
+   "meaning": "next",
+   "pos": "NOUN",
+   "category": "Greetings & Social",
+   "note": "refers to upcoming",
+   "examples": [
+    "다음에 봐요. — See you next time."
+   ]
+  },
+  {
+   "word": "다시",
+   "romanization": "dasi",
+   "meaning": "again",
+   "pos": "ADV",
+   "category": "Greetings & Social",
+   "note": "repeat action",
+   "examples": [
+    "다시 만나자. — Let's meet again."
+   ]
+  },
+  {
+   "word": "그럼",
+   "romanization": "geureom",
+   "meaning": "then",
+   "pos": "CONJ",
+   "category": "Greetings & Social",
+   "note": "transition word",
+   "examples": [
+    "그럼 다음에 보자. — Then let's meet next time."
+   ]
+  },
+  {
+   "word": "오래",
+   "romanization": "orae",
+   "meaning": "long time",
+   "pos": "ADV",
+   "category": "Greetings & Social",
+   "note": "duration",
+   "examples": [
+    "오래 기다렸어요. — I waited a long time."
+   ]
+  },
+  {
+   "word": "잘 지내셨나요",
+   "romanization": "jal jinaeshyeonnayo",
+   "meaning": "How have you been? (formal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite inquiry about health",
+   "examples": [
+    "오랜만이에요, 잘 지내셨나요? — Long time no see, how have you been?"
+   ]
+  },
+  {
+   "word": "다음에 뵈어요",
+   "romanization": "da-eume boeoyo",
+   "meaning": "See you next time",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Future meeting promise",
+   "examples": [
+    "오늘은 여기까지, 다음에 뵈어요! — That's all for today, see you next time!"
+   ]
+  },
+  {
+   "word": "천천히 말씀해 주세요",
+   "romanization": "cheoncheonhi malssumhae juseyo",
+   "meaning": "Please speak slowly",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Ask for slower speech",
+   "examples": [
+    "한국어가 어려워요, 천천히 말씀해 주세요. — Korean is hard, please speak slowly."
+   ]
+  },
+  {
+   "word": "다시 말씀해 주세요",
+   "romanization": "dasi malssumhae juseyo",
+   "meaning": "Please say that again",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Request repetition",
+   "examples": [
+    "잘 못 들었어요, 다시 말씀해 주세요. — I didn't hear well, please say that again."
+   ]
+  },
+  {
+   "word": "조심히 가세요",
+   "romanization": "josimhi gaseyo",
+   "meaning": "Go safely",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Farewell with safety wish",
+   "examples": [
+    "비가 오니 조심히 가세요. — It's raining, go safely."
+   ]
+  },
+  {
+   "word": "잠시만 기다려 주세요",
+   "romanization": "jamshim an gidaryeo juseyo",
+   "meaning": "Please wait a moment",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite waiting request",
+   "examples": [
+    "파일을 확인 중이니 잠시만 기다려 주세요. — Checking the file, please wait a moment."
+   ]
+  },
+  {
+   "word": "다음에 또 뵈어요",
+   "romanization": "da-eume tto boeoyo",
+   "meaning": "See you again next time",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Future meeting promise",
+   "examples": [
+    "오늘 즐거웠어요, 다음에 또 뵈어요! — Today was fun, see you again next time!"
+   ]
+  },
+  {
+   "word": "좋은 하루 되세요",
+   "romanization": "joeun haru doeseyo",
+   "meaning": "Have a nice day",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite daily wish",
+   "examples": [
+    "아침에 일어나서, 좋은 하루 되세요! — When you wake up, have a nice day!"
+   ]
+  },
+  {
+   "word": "조심히",
+   "romanization": "josimhi",
+   "meaning": "carefully",
+   "pos": "ADV",
+   "category": "Greetings & Social",
+   "note": "used when departing",
+   "examples": [
+    "조심히 가세요. — Go carefully."
+   ]
+  },
+  {
+   "word": "안녕히 계세요",
+   "romanization": "annyeonghi gyeseyo",
+   "meaning": "Stay well (to someone staying)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite farewell when they remain",
+   "examples": [
+    "친구가 떠나자 나는 ‘안녕히 계세요’라고 인사했다. — When my friend left, I said ‘Stay well.’"
+   ]
+  },
+  {
+   "word": "안녕히 주무세요",
+   "romanization": "annyeonghi jumuseyo",
+   "meaning": "Sleep well (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Used before bedtime",
+   "examples": [
+    "어머니가 아이에게 ‘안녕히 주무세요’라고 말씀하셨다. — Mother told the child, ‘Sleep well.’"
+   ]
+  },
+  {
+   "word": "잘 부탁드립니다",
+   "romanization": "jal butakdeurimnida",
+   "meaning": "Please take care of me",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Formal request for future help",
+   "examples": [
+    "새로운 팀에 들어가며 동료들에게 ‘잘 부탁드립니다’라고 말했다. — Joining the new team, I said ‘Please take care of me.’"
+   ]
+  },
+  {
+   "word": "천천히 말해 주세요",
+   "romanization": "cheoncheonhi malhae juseyo",
+   "meaning": "Please speak slowly",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Request for clarity",
+   "examples": [
+    "한국어가 서툴러서 ‘천천히 말해 주세요’라고 부탁했다. — Since my Korean is poor, I asked, ‘Please speak slowly.’"
+   ]
+  },
+  {
+   "word": "잠시 기다려 주세요",
+   "romanization": "jamshi gidaryeo juseyo",
+   "meaning": "Please wait a moment",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite short wait request",
+   "examples": [
+    "전화가 끊겨서 ‘잠시 기다려 주세요’라고 말했다. — The call dropped, so I said, ‘Please wait a moment.’"
+   ]
+  }
+ ]
+}

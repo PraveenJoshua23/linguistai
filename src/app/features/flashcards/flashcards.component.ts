@@ -3,6 +3,8 @@ import {
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FlashcardsService, Flashcard, ReviewInput } from './flashcards.service';
+import { PrebuiltDecksService } from './prebuilt-decks.service';
+import { CreateCardModalComponent } from './create-card-modal.component';
 import { PreferencesService } from '../../core/preferences/preferences.service';
 
 type Rating = 'still-learning' | 'getting-there' | 'mastered';
@@ -20,10 +22,16 @@ const TIPS = [
   'Don\'t skip "Still Learning" cards — reviewing them more frequently is exactly how spaced repetition works.',
 ];
 
+const DECK_FLAGS: Record<string, string> = {
+  Korean: '🇰🇷',
+  Japanese: '🇯🇵',
+  English: '🇬🇧',
+};
+
 @Component({
   selector: 'app-flashcards',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, CreateCardModalComponent],
   styles: [`
     .card-scene { perspective: 1000px; }
     .card-inner {
@@ -40,42 +48,42 @@ const TIPS = [
     .card-back { transform: rotateY(180deg); }
   `],
   template: `
-    @if (cards().length === 0) {
-      <div class="flex flex-col items-center justify-center h-full gap-4 text-gray-400 p-6">
-        <svg class="w-14 h-14 opacity-40" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
-        </svg>
-        <p class="text-lg font-semibold text-gray-600">No flashcards yet</p>
-        <p class="text-sm text-center max-w-xs text-gray-400">
-          Save words from the breakdown panel while translating and they'll appear here.
-        </p>
-        <a routerLink="/translate"
-          class="mt-2 px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors">
-          Start Translating
-        </a>
-      </div>
-
-    } @else if (!inSession() && !sessionDone()) {
-      <!-- Lobby: filter by language + category, then start -->
+    @if (!inSession() && !sessionDone()) {
+      <!-- Lobby: pick a study source (your cards or a prebuilt deck), then start -->
       <div class="flex flex-col gap-6 p-6 max-w-2xl mx-auto w-full">
-        <div>
-          <h1 class="text-xl font-bold text-gray-900">My Flashcards</h1>
-          <p class="text-sm text-gray-400 mt-0.5">{{ cards().length }} cards across {{ availableLanguages().length - 1 }} language{{ availableLanguages().length - 1 === 1 ? '' : 's' }}</p>
-        </div>
-
-        <!-- Review Due (spaced repetition) -->
-        <div class="rounded-2xl border border-blue-100 bg-blue-50/60 p-5 flex items-center gap-5">
-          <div class="flex flex-col">
-            <span class="text-3xl font-bold text-blue-600">{{ dueCount() }}</span>
-            <span class="text-sm text-gray-600">card{{ dueCount() === 1 ? '' : 's' }} due for review</span>
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h1 class="text-xl font-bold text-gray-900">Flashcards</h1>
+            <p class="text-sm text-gray-400 mt-0.5">
+              {{ cards().length }} of your card{{ cards().length === 1 ? '' : 's' }}
+              @if (decks().length > 0) {
+                · {{ decks().length }} prebuilt deck{{ decks().length === 1 ? '' : 's' }}
+              }
+            </p>
           </div>
-          <button (click)="startDueSession()"
-            [disabled]="dueCount() === 0"
-            class="ml-auto px-6 py-3 bg-blue-600 text-white text-sm font-semibold rounded-xl hover:bg-blue-700 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
-            {{ dueCount() === 0 ? 'All caught up 🎉' : 'Review Due' }}
+          <button (click)="showCreateModal.set(true)"
+            class="flex items-center gap-1.5 px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors shrink-0">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+            </svg>
+            Create Card
           </button>
         </div>
+
+        <!-- Review Due (spaced repetition over the user's own cards) -->
+        @if (cards().length > 0) {
+          <div class="rounded-2xl border border-blue-100 bg-blue-50/60 p-5 flex items-center gap-5">
+            <div class="flex flex-col">
+              <span class="text-3xl font-bold text-blue-600">{{ dueCount() }}</span>
+              <span class="text-sm text-gray-600">card{{ dueCount() === 1 ? '' : 's' }} due for review</span>
+            </div>
+            <button (click)="startDueSession()"
+              [disabled]="dueCount() === 0"
+              class="ml-auto px-6 py-3 bg-blue-600 text-white text-sm font-semibold rounded-xl hover:bg-blue-700 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
+              {{ dueCount() === 0 ? 'All caught up 🎉' : 'Review Due' }}
+            </button>
+          </div>
+        }
 
         <!-- Free Practice (does not affect review scheduling) -->
         <div class="flex items-center gap-2 pt-2">
@@ -83,23 +91,64 @@ const TIPS = [
           <span class="text-[11px] text-gray-400 normal-case">— doesn't change your due dates</span>
         </div>
 
-        <!-- Language tabs -->
+        <!-- Study source: own cards vs prebuilt decks -->
         <div class="flex flex-col gap-2">
-          <p class="text-xs font-bold tracking-wider text-gray-400 uppercase">Language</p>
+          <p class="text-xs font-bold tracking-wider text-gray-400 uppercase">Deck</p>
           <div class="flex flex-wrap gap-2">
-            @for (lang of availableLanguages(); track lang) {
-              <button (click)="selectLang(lang)"
+            <button (click)="selectSource('mine')"
+              class="px-4 py-1.5 rounded-full text-sm font-medium border transition-colors"
+              [class]="selectedSource() === 'mine'
+                ? 'bg-blue-600 text-white border-blue-600'
+                : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600'">
+              My Cards
+            </button>
+            @for (deck of decks(); track deck.id) {
+              <button (click)="selectSource(deck.id)"
                 class="px-4 py-1.5 rounded-full text-sm font-medium border transition-colors"
-                [class]="selectedLang() === lang
+                [class]="selectedSource() === deck.id
                   ? 'bg-blue-600 text-white border-blue-600'
                   : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600'">
-                {{ lang }}
+                {{ deckFlag(deck.language) }} {{ deck.name }}
               </button>
             }
           </div>
         </div>
 
-        <!-- Category chips -->
+        @if (selectedSource() === 'mine') {
+
+          @if (cards().length === 0) {
+            <div class="rounded-2xl border border-dashed border-gray-200 bg-gray-50/60 p-6 flex flex-col items-center gap-2 text-center">
+              <p class="text-sm font-semibold text-gray-600">No cards of your own yet</p>
+              <p class="text-xs text-gray-400 max-w-xs">
+                Save words from the breakdown panel while translating, create your own card, or practice a prebuilt deck above.
+              </p>
+              <a routerLink="/translate" class="mt-1 text-sm font-semibold text-blue-600 hover:text-blue-700">
+                Start Translating →
+              </a>
+            </div>
+          } @else {
+            <!-- Language tabs -->
+            <div class="flex flex-col gap-2">
+              <p class="text-xs font-bold tracking-wider text-gray-400 uppercase">Language</p>
+              <div class="flex flex-wrap gap-2">
+                @for (lang of availableLanguages(); track lang) {
+                  <button (click)="selectLang(lang)"
+                    class="px-4 py-1.5 rounded-full text-sm font-medium border transition-colors"
+                    [class]="selectedLang() === lang
+                      ? 'bg-blue-600 text-white border-blue-600'
+                      : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600'">
+                    {{ lang }}
+                  </button>
+                }
+              </div>
+            </div>
+          }
+
+        } @else if (selectedDeck(); as deck) {
+          <p class="text-sm text-gray-500 -mt-2">{{ deck.description }} · {{ deck.count }} words</p>
+        }
+
+        <!-- Category chips (own cards or selected deck) -->
         @if (availableCategories().length > 1) {
           <div class="flex flex-col gap-2">
             <p class="text-xs font-bold tracking-wider text-gray-400 uppercase">Category</p>
@@ -118,17 +167,23 @@ const TIPS = [
         }
 
         <!-- Card count + start -->
-        <div class="flex items-center gap-4 pt-2">
-          <div class="flex-1 bg-gray-50 rounded-xl p-4 text-center border border-gray-100">
-            <p class="text-3xl font-bold text-blue-600">{{ filteredCards().length }}</p>
-            <p class="text-sm text-gray-500 mt-0.5">cards selected</p>
+        @if (selectedSource() !== 'mine' || cards().length > 0) {
+          <div class="flex items-center gap-4 pt-2">
+            <div class="flex-1 bg-gray-50 rounded-xl p-4 text-center border border-gray-100">
+              @if (deckLoading()) {
+                <p class="text-sm text-gray-400 py-2.5">Loading deck…</p>
+              } @else {
+                <p class="text-3xl font-bold text-blue-600">{{ filteredCards().length }}</p>
+                <p class="text-sm text-gray-500 mt-0.5">cards selected</p>
+              }
+            </div>
+            <button (click)="startFiltered()"
+              [disabled]="filteredCards().length === 0"
+              class="flex-1 py-4 bg-white border border-blue-200 text-blue-600 text-sm font-semibold rounded-xl hover:bg-blue-50 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
+              Start Practice
+            </button>
           </div>
-          <button (click)="startFiltered()"
-            [disabled]="filteredCards().length === 0"
-            class="flex-1 py-4 bg-white border border-blue-200 text-blue-600 text-sm font-semibold rounded-xl hover:bg-blue-50 transition-colors disabled:opacity-40 disabled:cursor-not-allowed">
-            Start Practice
-          </button>
-        </div>
+        }
       </div>
 
     } @else if (sessionDone()) {
@@ -194,10 +249,10 @@ const TIPS = [
           <!-- Header -->
           <div class="flex items-start justify-between gap-4">
             <div class="flex flex-col gap-1.5">
-              <h1 class="text-xl font-bold text-gray-900">My Flashcards</h1>
+              <h1 class="text-xl font-bold text-gray-900">{{ sessionTitle() }}</h1>
               <div class="flex items-center gap-1.5 flex-wrap">
                 <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-700">
-                  {{ selectedLang() === 'All' ? 'All Languages' : selectedLang() }}
+                  {{ sessionLangLabel() }}
                 </span>
                 @if (selectedCategory() !== 'All') {
                   <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-100 text-indigo-700">
@@ -304,6 +359,28 @@ const TIPS = [
                 </button>
               }
             </div>
+
+            <!-- Prebuilt cards can be promoted into the user's own SRS rotation -->
+            @if (isPrebuiltCard()) {
+              <button (click)="saveCurrentToMyCards()"
+                [disabled]="currentCardSaved()"
+                class="flex items-center gap-1.5 px-4 py-2 rounded-lg border text-sm font-semibold transition-colors"
+                [class]="currentCardSaved()
+                  ? 'border-green-200 bg-green-50 text-green-600 cursor-default'
+                  : 'border-blue-200 bg-white text-blue-600 hover:bg-blue-50'">
+                @if (currentCardSaved()) {
+                  <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  </svg>
+                  In My Cards
+                } @else {
+                  <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                  </svg>
+                  Add to My Cards
+                }
+              </button>
+            }
           </div>
         </div>
 
@@ -356,17 +433,34 @@ const TIPS = [
         </div>
       </div>
     }
+
+    @if (showCreateModal()) {
+      <app-create-card-modal (closed)="showCreateModal.set(false)" />
+    }
   `,
 })
 export class FlashcardsComponent implements OnInit, OnDestroy {
   private readonly flashcardsSvc = inject(FlashcardsService);
+  private readonly prebuiltSvc = inject(PrebuiltDecksService);
   private readonly prefsSvc = inject(PreferencesService);
 
   readonly cards = this.flashcardsSvc.cards;
+  readonly decks = this.prebuiltSvc.decks;
   readonly dueCount = computed(() => this.flashcardsSvc.dueCards().length);
 
+  readonly showCreateModal = signal(false);
+
+  /** 'mine' = the user's own cards, otherwise a prebuilt deck id. */
+  readonly selectedSource = signal<string>('mine');
   readonly selectedLang = signal<string>('All');
   readonly selectedCategory = signal<string>('All');
+
+  readonly selectedDeck = computed(() =>
+    this.decks().find(d => d.id === this.selectedSource()) ?? null
+  );
+  readonly deckLoading = computed(() =>
+    this.prebuiltSvc.loadingDeck() === this.selectedSource()
+  );
 
   readonly availableLanguages = computed(() => {
     const langs = [...new Set(this.cards().map(c => c.language))].sort();
@@ -374,6 +468,10 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
   });
 
   readonly availableCategories = computed(() => {
+    const deck = this.selectedDeck();
+    if (deck) {
+      return ['All', ...[...deck.categories].sort()];
+    }
     const base = this.cards().filter(
       c => this.selectedLang() === 'All' || c.language === this.selectedLang()
     );
@@ -382,8 +480,12 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
   });
 
   readonly filteredCards = computed(() => {
-    return this.cards().filter(c => {
-      const langMatch = this.selectedLang() === 'All' || c.language === this.selectedLang();
+    const deck = this.selectedDeck();
+    const source = deck
+      ? this.prebuiltSvc.deckCards()[deck.id] ?? []
+      : this.cards();
+    return source.filter(c => {
+      const langMatch = deck || this.selectedLang() === 'All' || c.language === this.selectedLang();
       const catMatch = this.selectedCategory() === 'All' || c.category === this.selectedCategory();
       return langMatch && catMatch;
     });
@@ -398,6 +500,24 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
   readonly elapsedSeconds = signal(0);
   readonly currentTip = signal(TIPS[0]);
   readonly reviewedCardIds = signal<string[]>([]);
+
+  readonly sessionTitle = computed(() =>
+    this.selectedDeck()?.name ?? 'My Flashcards'
+  );
+  readonly sessionLangLabel = computed(() => {
+    const deck = this.selectedDeck();
+    if (deck) return deck.language;
+    return this.selectedLang() === 'All' ? 'All Languages' : this.selectedLang();
+  });
+
+  readonly isPrebuiltCard = computed(() =>
+    this.currentCard()?.card.id.startsWith('prebuilt:') ?? false
+  );
+  readonly currentCardSaved = computed(() => {
+    const card = this.currentCard()?.card;
+    if (!card) return false;
+    return this.flashcardsSvc.isAdded(card.word, card.language);
+  });
 
   // Next-review schedule shown on the completion screen (due sessions only).
   // Reads cards() so it updates reactively once submitReviews() patches state.
@@ -475,10 +595,6 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
     const sec = (s % 60).toString().padStart(2, '0');
     return `${m}:${sec}`;
   });
-  readonly uniqueLanguages = computed(() => {
-    const langs = [...new Set(this.cards().map(c => c.language))];
-    return langs.join(' · ');
-  });
   readonly stats = computed(() => [
     { label: 'Remaining', value: String(this.remaining()), color: 'text-gray-900' },
     { label: 'Accuracy', value: `${this.accuracyPct()}%`, color: 'text-blue-600' },
@@ -486,7 +602,7 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
   ]);
 
   ngOnInit(): void {
-    // Start at lobby so user can pick language/category first
+    this.prebuiltSvc.loadManifest();
   }
 
   ngOnDestroy(): void {
@@ -535,6 +651,18 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
     }
   }
 
+  deckFlag(language: string): string {
+    return DECK_FLAGS[language] ?? '🃏';
+  }
+
+  selectSource(source: string): void {
+    this.selectedSource.set(source);
+    this.selectedCategory.set('All');
+    if (source !== 'mine') {
+      this.prebuiltSvc.ensureDeckLoaded(source);
+    }
+  }
+
   selectLang(lang: string): void {
     this.selectedLang.set(lang);
     this.selectedCategory.set('All');
@@ -550,6 +678,19 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
 
   startFiltered(): void {
     this.beginSession(this.filteredCards(), 'practice');
+  }
+
+  saveCurrentToMyCards(): void {
+    const card = this.currentCard()?.card;
+    if (!card) return;
+    this.flashcardsSvc.createCard({
+      word: card.word,
+      language: card.language,
+      meaning: card.meaning,
+      explanation: card.explanation,
+      examples: card.examples,
+      pos: card.pos,
+    });
   }
 
   flip(): void {

@@ -6,7 +6,7 @@ import { SupabaseService } from '../../core/auth/supabase.service';
 import { PreferencesService } from '../../core/preferences/preferences.service';
 import { environment } from '../../../environments/environment';
 
-const LANGUAGES = [
+export const LANGUAGES = [
   'English', 'Spanish', 'French', 'German', 'Italian',
   'Portuguese', 'Dutch', 'Russian', 'Chinese', 'Japanese',
   'Korean', 'Arabic', 'Hindi', 'Turkish', 'Polish',
