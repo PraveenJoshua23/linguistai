@@ -28,6 +28,15 @@ export interface ReviewInput {
   grade: Grade;
 }
 
+export interface NewCardInput {
+  word: string;
+  language: string;
+  meaning: string;
+  explanation: string;
+  examples: string[];
+  pos: string;
+}
+
 @Injectable({ providedIn: 'root' })
 export class FlashcardsService {
   private readonly http = inject(HttpClient);
@@ -68,20 +77,35 @@ export class FlashcardsService {
   }
 
   addWord(word: BreakdownWord, language: string): void {
-    const exists = this.cards().some(c => c.word === word.word && c.language === language);
-    if (exists) return;
-
-    const userId = this.supabase.currentUser()?.id;
-
-    // Optimistically add to local state — new cards are due immediately.
-    const tempCard: Flashcard = {
-      id: crypto.randomUUID(),
+    this.createCard({
       word: word.word,
       language,
       meaning: word.meaning,
       explanation: word.explanation,
       examples: word.examples,
       pos: word.pos,
+    });
+  }
+
+  /**
+   * Add a card from any source (translator breakdown, prebuilt deck, or the
+   * user's own form). Returns false if the word already exists for that language.
+   */
+  createCard(input: NewCardInput): boolean {
+    const exists = this.cards().some(c => c.word === input.word && c.language === input.language);
+    if (exists) return false;
+
+    const userId = this.supabase.currentUser()?.id;
+
+    // Optimistically add to local state — new cards are due immediately.
+    const tempCard: Flashcard = {
+      id: crypto.randomUUID(),
+      word: input.word,
+      language: input.language,
+      meaning: input.meaning,
+      explanation: input.explanation,
+      examples: input.examples,
+      pos: input.pos,
       category: 'Other',
       easeFactor: 2.5,
       intervalDays: 0,
@@ -94,12 +118,12 @@ export class FlashcardsService {
     if (userId) {
       this.http.post<any>(`${environment.apiBase}/saved-words`, {
         userId,
-        word: word.word,
-        language,
-        meaning: word.meaning,
-        explanation: word.explanation,
-        examples: word.examples,
-        pos: word.pos,
+        word: input.word,
+        language: input.language,
+        meaning: input.meaning,
+        explanation: input.explanation,
+        examples: input.examples,
+        pos: input.pos,
       }).subscribe({
         next: (row) => {
           // Replace temp card with the DB-assigned id + persisted SRS state
@@ -110,6 +134,7 @@ export class FlashcardsService {
         error: (e) => console.warn('Could not persist flashcard:', e.message),
       });
     }
+    return true;
   }
 
   removeCard(id: string): void {

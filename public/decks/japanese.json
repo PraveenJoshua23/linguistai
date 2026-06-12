@@ -1,0 +1,5508 @@
+{
+ "id": "japanese",
+ "language": "Japanese",
+ "name": "Japanese Essentials",
+ "description": "500 essential Japanese words for everyday life",
+ "cards": [
+  {
+   "word": "ごはん",
+   "romanization": "gohan",
+   "meaning": "cooked rice; meal",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "basic staple food",
+   "examples": [
+    "毎朝ごはんを食べます。 — I eat rice every morning."
+   ]
+  },
+  {
+   "word": "みそしる",
+   "romanization": "misoshiru",
+   "meaning": "miso soup",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "common side dish",
+   "examples": [
+    "朝食にみそしるを飲む。 — I drink miso soup at breakfast."
+   ]
+  },
+  {
+   "word": "さかな",
+   "romanization": "sakana",
+   "meaning": "fish (food)",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "generic term for fish",
+   "examples": [
+    "焼きさかなが好きです。 — I like grilled fish."
+   ]
+  },
+  {
+   "word": "やさい",
+   "romanization": "yasai",
+   "meaning": "vegetable",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "plural sense implied",
+   "examples": [
+    "サラダにたくさんやさいを入れる。 — I put many vegetables in the salad."
+   ]
+  },
+  {
+   "word": "くだもの",
+   "romanization": "kudamono",
+   "meaning": "fruit",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "collective noun",
+   "examples": [
+    "デザートにくだものを食べた。 — I ate fruit for dessert."
+   ]
+  },
+  {
+   "word": "にく",
+   "romanization": "niku",
+   "meaning": "meat",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "generic meat",
+   "examples": [
+    "ステーキはとてもにくが多い。 — Steak has a lot of meat."
+   ]
+  },
+  {
+   "word": "たまご",
+   "romanization": "tamago",
+   "meaning": "egg",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often used in dishes",
+   "examples": [
+    "たまご焼きを作ります。 — I’m making a rolled omelette."
+   ]
+  },
+  {
+   "word": "おちゃ",
+   "romanization": "ocha",
+   "meaning": "tea",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "typically green tea",
+   "examples": [
+    "午後におちゃを飲む。 — I drink tea in the afternoon."
+   ]
+  },
+  {
+   "word": "コーヒー",
+   "romanization": "kōhī",
+   "meaning": "coffee",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "loanword",
+   "examples": [
+    "朝はコーヒーが必要だ。 — I need coffee in the morning."
+   ]
+  },
+  {
+   "word": "ビール",
+   "romanization": "bīru",
+   "meaning": "beer",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "loanword, alcoholic",
+   "examples": [
+    "友達とビールを飲んだ。 — I drank beer with friends."
+   ]
+  },
+  {
+   "word": "さしみ",
+   "romanization": "sashimi",
+   "meaning": "raw sliced fish",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served cold",
+   "examples": [
+    "新鮮なさしみが美味しい。 — Fresh sashimi is delicious."
+   ]
+  },
+  {
+   "word": "うどん",
+   "romanization": "udon",
+   "meaning": "thick wheat noodles",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "hot or cold",
+   "examples": [
+    "冬はうどんが恋しい。 — I crave udon in winter."
+   ]
+  },
+  {
+   "word": "そば",
+   "romanization": "soba",
+   "meaning": "buckwheat noodles",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often served with dipping sauce",
+   "examples": [
+    "昼にそばを食べた。 — I ate soba at lunch."
+   ]
+  },
+  {
+   "word": "ラーメン",
+   "romanization": "rāmen",
+   "meaning": "ramen noodles",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "Chinese‑style noodle soup",
+   "examples": [
+    "ラーメン屋に行こう。 — Let’s go to a ramen shop."
+   ]
+  },
+  {
+   "word": "おにぎり",
+   "romanization": "onigiri",
+   "meaning": "rice ball",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "handheld snack",
+   "examples": [
+    "遠足におにぎりを持った。 — I took rice balls on the picnic."
+   ]
+  },
+  {
+   "word": "たんぱくしつ",
+   "romanization": "tanpakushitsu",
+   "meaning": "protein",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "nutrient term",
+   "examples": [
+    "たんぱくしつが多い食べ物は肉です。 — Meat is high in protein."
+   ]
+  },
+  {
+   "word": "しょくひん",
+   "romanization": "shokuhin",
+   "meaning": "food product",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "generic term",
+   "examples": [
+    "新しいしょくひんが発売された。 — A new food product has been released."
+   ]
+  },
+  {
+   "word": "かんじょう",
+   "romanization": "kanjō",
+   "meaning": "flavor, taste",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sensory perception",
+   "examples": [
+    "このスープは深いかんじょうがある。 — This soup has a deep flavor."
+   ]
+  },
+  {
+   "word": "パン",
+   "romanization": "pan",
+   "meaning": "bread",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "generic term for baked bread",
+   "examples": [
+    "朝食にパンを食べた。 — I ate bread for breakfast."
+   ]
+  },
+  {
+   "word": "カレー",
+   "romanization": "kare-",
+   "meaning": "curry",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often served with rice",
+   "examples": [
+    "今日はカレーを作ります。 — I'm making curry today."
+   ]
+  },
+  {
+   "word": "寿司",
+   "romanization": "sushi",
+   "meaning": "sushi",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "raw fish over rice",
+   "examples": [
+    "寿司を食べに行きましょう。 — Let's go eat sushi."
+   ]
+  },
+  {
+   "word": "焼肉",
+   "romanization": "yakiniku",
+   "meaning": "grilled meat",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often cooked at table",
+   "examples": [
+    "友達と焼肉を楽しんだ。 — I enjoyed yakiniku with friends."
+   ]
+  },
+  {
+   "word": "お弁当",
+   "romanization": "obentou",
+   "meaning": "boxed lunch",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "portable meal",
+   "examples": [
+    "駅でお弁当を買った。 — I bought a bento at the station."
+   ]
+  },
+  {
+   "word": "みりん",
+   "romanization": "mirin",
+   "meaning": "sweet rice wine (cooking)",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "adds glaze",
+   "examples": [
+    "みりんを少し入れて煮る。 — Simmer with a splash of mirin."
+   ]
+  },
+  {
+   "word": "砂糖",
+   "romanization": "satou",
+   "meaning": "sugar",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sweetener",
+   "examples": [
+    "コーヒーに砂糖を入れた。 — I added sugar to my coffee."
+   ]
+  },
+  {
+   "word": "塩",
+   "romanization": "shio",
+   "meaning": "salt",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "basic seasoning",
+   "examples": [
+    "料理に塩を少し足す。 — Add a pinch of salt to the dish."
+   ]
+  },
+  {
+   "word": "醤油",
+   "romanization": "shouyu",
+   "meaning": "soy sauce",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "salty umami sauce",
+   "examples": [
+    "寿司に醤油をつけて食べる。 — Dip sushi in soy sauce."
+   ]
+  },
+  {
+   "word": "味噌",
+   "romanization": "miso",
+   "meaning": "fermented soybean paste",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "base for soups",
+   "examples": [
+    "味噌汁を作るのが好きだ。 — I like making miso soup."
+   ]
+  },
+  {
+   "word": "だし",
+   "romanization": "dashi",
+   "meaning": "stock broth",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "umami foundation",
+   "examples": [
+    "だしを取るのに昆布と鰹節を使う。 — Use kombu and katsuobushi to make dashi."
+   ]
+  },
+  {
+   "word": "お菓子",
+   "romanization": "okashi",
+   "meaning": "snack, confectionery",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sweet or salty treats",
+   "examples": [
+    "午後にお菓子を食べた。 — I ate a snack in the afternoon."
+   ]
+  },
+  {
+   "word": "アイスクリーム",
+   "romanization": "aisukurimu",
+   "meaning": "ice cream",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "cold dessert",
+   "examples": [
+    "夏にアイスクリームが欲しい。 — I want ice cream in summer."
+   ]
+  },
+  {
+   "word": "ジュース",
+   "romanization": "ju-su",
+   "meaning": "juice",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "fruit drink",
+   "examples": [
+    "オレンジジュースを飲んだ。 — I drank orange juice."
+   ]
+  },
+  {
+   "word": "水",
+   "romanization": "mizu",
+   "meaning": "water",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "basic beverage",
+   "examples": [
+    "喉が渇いたら水を飲む。 — Drink water when thirsty."
+   ]
+  },
+  {
+   "word": "お酒",
+   "romanization": "osake",
+   "meaning": "alcoholic drink",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "includes sake, beer, etc.",
+   "examples": [
+    "晩ごはん後にお酒を楽しむ。 — Enjoy alcohol after dinner."
+   ]
+  },
+  {
+   "word": "料理",
+   "romanization": "ryouri",
+   "meaning": "cooking, dish",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "preparing food",
+   "examples": [
+    "日本料理を学んでいる。 — I'm learning Japanese cuisine."
+   ]
+  },
+  {
+   "word": "食堂",
+   "romanization": "shokudou",
+   "meaning": "cafeteria, dining hall",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "public eating place",
+   "examples": [
+    "会社の食堂で昼ごはんを食べた。 — I ate lunch in the company cafeteria."
+   ]
+  },
+  {
+   "word": "たこ焼き",
+   "romanization": "takoyaki",
+   "meaning": "octopus balls",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "popular street snack",
+   "examples": [
+    "祭りでたこ焼きを食べた。 — I ate takoyaki at the festival."
+   ]
+  },
+  {
+   "word": "お好み焼き",
+   "romanization": "okonomiyaki",
+   "meaning": "savory pancake",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "customizable ingredients",
+   "examples": [
+    "広島はお好み焼きが有名だ。 — Hiroshima is famous for its okonomiyaki."
+   ]
+  },
+  {
+   "word": "すき焼き",
+   "romanization": "sukiyaki",
+   "meaning": "hot pot with beef",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sweet soy broth",
+   "examples": [
+    "家族ですき焼きを作った。 — We made sukiyaki with the family."
+   ]
+  },
+  {
+   "word": "しゃぶしゃぶ",
+   "romanization": "shabushabu",
+   "meaning": "thinly sliced meat boiled",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "served with dipping sauce",
+   "examples": [
+    "しゃぶしゃぶはヘルシーだ。 — Shabushabu is a healthy dish."
+   ]
+  },
+  {
+   "word": "かつ丼",
+   "romanization": "katsudon",
+   "meaning": "pork cutlet rice bowl",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "comfort food",
+   "examples": [
+    "試験後にかつ丼を食べた。 — I ate katsudon after the exam."
+   ]
+  },
+  {
+   "word": "おでん",
+   "romanization": "oden",
+   "meaning": "stewed winter dish",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "various ingredients",
+   "examples": [
+    "寒い日におでんが恋しい。 — I crave oden on cold days."
+   ]
+  },
+  {
+   "word": "だんご",
+   "romanization": "dango",
+   "meaning": "rice dumpling skewers",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often sweet",
+   "examples": [
+    "祭りでみたらしだんごを買った。 — I bought mitarashi dango at the festival."
+   ]
+  },
+  {
+   "word": "みたらし団子",
+   "romanization": "mitarashi dango",
+   "meaning": "sweet soy-glazed dango",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "popular snack",
+   "examples": [
+    "みたらし団子は甘くて美味しい。 — Mitarashi dango is sweet and tasty."
+   ]
+  },
+  {
+   "word": "かぼちゃ",
+   "romanization": "kabocha",
+   "meaning": "Japanese pumpkin",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used in soups",
+   "examples": [
+    "かぼちゃのスープを作った。 — I made pumpkin soup."
+   ]
+  },
+  {
+   "word": "きんぴら",
+   "romanization": "kinpira",
+   "meaning": "stir-fried root vegetables",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often with carrot",
+   "examples": [
+    "きんぴらごぼうはご飯に合う。 — Kinpira burdock goes well with rice."
+   ]
+  },
+  {
+   "word": "かんぴょう",
+   "romanization": "kanpyo",
+   "meaning": "dried gourd strips",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used in sushi rolls",
+   "examples": [
+    "かんぴょうは巻き寿司の具だ。 — Kanpyo is a filling for rolled sushi."
+   ]
+  },
+  {
+   "word": "たまねぎ",
+   "romanization": "tamanegi",
+   "meaning": "onion",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "basic seasoning",
+   "examples": [
+    "たまねぎを薄切りにした。 — I sliced the onion thinly."
+   ]
+  },
+  {
+   "word": "にんじん",
+   "romanization": "ninjin",
+   "meaning": "carrot",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "adds sweetness",
+   "examples": [
+    "にんじんはサラダに入れる。 — Carrots go into the salad."
+   ]
+  },
+  {
+   "word": "じゃがいも",
+   "romanization": "jagaimo",
+   "meaning": "potato",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "versatile staple",
+   "examples": [
+    "じゃがいもを茹でてマッシュした。 — I boiled potatoes and mashed them."
+   ]
+  },
+  {
+   "word": "しそ",
+   "romanization": "shiso",
+   "meaning": "perilla leaf",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "fresh aromatic herb",
+   "examples": [
+    "しそは刺身に添える。 — Shiso is served with sashimi."
+   ]
+  },
+  {
+   "word": "梅干し",
+   "romanization": "umeboshi",
+   "meaning": "pickled plum",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sour and salty",
+   "examples": [
+    "おにぎりに梅干しを入れた。 — I put umeboshi in the rice ball."
+   ]
+  },
+  {
+   "word": "納豆",
+   "romanization": "natto",
+   "meaning": "fermented soybeans",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "sticky, strong smell",
+   "examples": [
+    "納豆は朝食の定番だ。 — Natto is a staple breakfast."
+   ]
+  },
+  {
+   "word": "味噌汁",
+   "romanization": "miso shiru",
+   "meaning": "miso soup",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "daily staple",
+   "examples": [
+    "味噌汁は毎朝飲む。 — I drink miso soup every morning."
+   ]
+  },
+  {
+   "word": "りんご",
+   "romanization": "ringo",
+   "meaning": "apple",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "common snack fruit",
+   "examples": [
+    "朝食にりんごを食べました。 — I ate an apple for breakfast."
+   ]
+  },
+  {
+   "word": "バナナ",
+   "romanization": "banana",
+   "meaning": "banana",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "easy to peel",
+   "examples": [
+    "おやつにバナナを持って行きます。 — I’ll bring a banana as a snack."
+   ]
+  },
+  {
+   "word": "ぶどう",
+   "romanization": "budou",
+   "meaning": "grape",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "used for wine too",
+   "examples": [
+    "夏になるとぶどうが甘くなる。 — Grapes become sweet in summer."
+   ]
+  },
+  {
+   "word": "さくらんぼ",
+   "romanization": "sakuranbo",
+   "meaning": "cherry",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "seasonal fruit",
+   "examples": [
+    "デザートにさくらんぼを添えた。 — I added cherries to the dessert."
+   ]
+  },
+  {
+   "word": "豚肉",
+   "romanization": "buta-niku",
+   "meaning": "pork",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often grilled",
+   "examples": [
+    "豚肉のステーキを作った。 — I made a pork steak."
+   ]
+  },
+  {
+   "word": "鶏肉",
+   "romanization": "tori-niku",
+   "meaning": "chicken meat",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "versatile protein",
+   "examples": [
+    "鶏肉は煮ても焼いても美味しい。 — Chicken is tasty whether boiled or grilled."
+   ]
+  },
+  {
+   "word": "牛乳",
+   "romanization": "gyuunyuu",
+   "meaning": "milk",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "drink or cooking",
+   "examples": [
+    "毎朝牛乳を一杯飲む。 — I drink a glass of milk every morning."
+   ]
+  },
+  {
+   "word": "ヨーグルト",
+   "romanization": "yooguruto",
+   "meaning": "yogurt",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "often with fruit",
+   "examples": [
+    "朝食にヨーグルトと蜂蜜を食べた。 — I ate yogurt with honey for breakfast."
+   ]
+  },
+  {
+   "word": "チーズ",
+   "romanization": "chiizu",
+   "meaning": "cheese",
+   "pos": "NOUN",
+   "category": "Food & Drink",
+   "note": "adds richness",
+   "examples": [
+    "ピザにたっぷりチーズを乗せた。 — I loaded the pizza with plenty of cheese."
+   ]
+  },
+  {
+   "word": "空港",
+   "romanization": "kuukou",
+   "meaning": "airport",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "travel hub",
+   "examples": [
+    "明日のフライトは空港で待っています。 — I will be waiting at the airport for tomorrow's flight."
+   ]
+  },
+  {
+   "word": "切符",
+   "romanization": "kippu",
+   "meaning": "ticket",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "paper or e-ticket",
+   "examples": [
+    "駅で切符を買ってください。 — Please buy a ticket at the station."
+   ]
+  },
+  {
+   "word": "荷物",
+   "romanization": "nimotsu",
+   "meaning": "luggage",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "carry-on or checked",
+   "examples": [
+    "荷物は手荷物カウンターで預けます。 — I will check my luggage at the baggage counter."
+   ]
+  },
+  {
+   "word": "予約",
+   "romanization": "yoyaku",
+   "meaning": "reservation",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "booking in advance",
+   "examples": [
+    "ホテルの予約を済ませました。 — I have made a reservation at the hotel."
+   ]
+  },
+  {
+   "word": "チェックイン",
+   "romanization": "chekkuin",
+   "meaning": "check‑in",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "airport or hotel",
+   "examples": [
+    "チェックインは午後３時です。 — Check‑in is at 3 p.m."
+   ]
+  },
+  {
+   "word": "出発",
+   "romanization": "shuppatsu",
+   "meaning": "departure",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "start of journey",
+   "examples": [
+    "バスは８時に出発します。 — The bus departs at 8 o’clock."
+   ]
+  },
+  {
+   "word": "到着",
+   "romanization": "touchaku",
+   "meaning": "arrival",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "reaching destination",
+   "examples": [
+    "東京への到着は午後５時です。 — Arrival in Tokyo is at 5 p.m."
+   ]
+  },
+  {
+   "word": "乗り換え",
+   "romanization": "norikae",
+   "meaning": "transfer",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "changing trains/buses",
+   "examples": [
+    "乗り換えは駅のホームで行います。 — The transfer takes place on the station platform."
+   ]
+  },
+  {
+   "word": "地図",
+   "romanization": "chizu",
+   "meaning": "map",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "paper or digital",
+   "examples": [
+    "観光地の地図を持っていますか？ — Do you have a map of the tourist spots?"
+   ]
+  },
+  {
+   "word": "案内所",
+   "romanization": "annai jo",
+   "meaning": "information desk",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "help for tourists",
+   "examples": [
+    "駅の案内所で道を聞いた。 — I asked for directions at the station information desk."
+   ]
+  },
+  {
+   "word": "道案内",
+   "romanization": "michian'nai",
+   "meaning": "directions",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "giving route info",
+   "examples": [
+    "道案内をお願いできますか？ — Could you give me directions?"
+   ]
+  },
+  {
+   "word": "観光",
+   "romanization": "kankou",
+   "meaning": "sightseeing",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "tourist activity",
+   "examples": [
+    "今日は京都で観光する予定です。 — I plan to do sightseeing in Kyoto today."
+   ]
+  },
+  {
+   "word": "ホテル",
+   "romanization": "hoteru",
+   "meaning": "hotel",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "accommodation",
+   "examples": [
+    "このホテルはとても清潔です。 — This hotel is very clean."
+   ]
+  },
+  {
+   "word": "旅館",
+   "romanization": "ryokan",
+   "meaning": "Japanese inn",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "traditional lodging",
+   "examples": [
+    "旅館で温泉に入った。 — I soaked in the hot spring at the ryokan."
+   ]
+  },
+  {
+   "word": "タクシー",
+   "romanization": "takushii",
+   "meaning": "taxi",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "cab service",
+   "examples": [
+    "タクシーで空港へ行きました。 — I went to the airport by taxi."
+   ]
+  },
+  {
+   "word": "バス停",
+   "romanization": "basu tei",
+   "meaning": "bus stop",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "where buses halt",
+   "examples": [
+    "バス停は駅の前です。 — The bus stop is in front of the station."
+   ]
+  },
+  {
+   "word": "乗車券",
+   "romanization": "jousha ken",
+   "meaning": "boarding ticket",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "for trains/buses",
+   "examples": [
+    "乗車券を自動販売機で買った。 — I bought a boarding ticket from the vending machine."
+   ]
+  },
+  {
+   "word": "遅刻",
+   "romanization": "chikoku",
+   "meaning": "being late",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "tardiness",
+   "examples": [
+    "遅刻しないように早めに出発した。 — I left early to avoid being late."
+   ]
+  },
+  {
+   "word": "駅",
+   "romanization": "eki",
+   "meaning": "station",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "major transport hub",
+   "examples": [
+    "駅は毎朝混んでいる。 — The station is crowded every morning."
+   ]
+  },
+  {
+   "word": "パスポート",
+   "romanization": "pasupooto",
+   "meaning": "passport",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "required for international travel",
+   "examples": [
+    "パスポートを忘れないでください。 — Please don't forget your passport."
+   ]
+  },
+  {
+   "word": "目的地",
+   "romanization": "mokutekichi",
+   "meaning": "destination",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "final place of travel",
+   "examples": [
+    "目的地は京都です。 — The destination is Kyoto."
+   ]
+  },
+  {
+   "word": "案内板",
+   "romanization": "annai-ban",
+   "meaning": "information board",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "shows directions",
+   "examples": [
+    "駅の案内板を見てください。 — Please look at the station's information board."
+   ]
+  },
+  {
+   "word": "料金",
+   "romanization": "ryoukin",
+   "meaning": "fare, fee",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "cost of travel",
+   "examples": [
+    "料金は500円です。 — The fare is 500 yen."
+   ]
+  },
+  {
+   "word": "乗客",
+   "romanization": "joukyaku",
+   "meaning": "passenger",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "person riding transport",
+   "examples": [
+    "乗客は次第に増えてきた。 — The number of passengers gradually increased."
+   ]
+  },
+  {
+   "word": "時刻表",
+   "romanization": "jikokuhyou",
+   "meaning": "timetable",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "schedule of departures",
+   "examples": [
+    "時刻表で電車の時間を確認した。 — I checked the train times on the timetable."
+   ]
+  },
+  {
+   "word": "乗り遅れる",
+   "romanization": "noriokureru",
+   "meaning": "to miss (a vehicle)",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "arrive too late",
+   "examples": [
+    "電車に乗り遅れた。 — I missed the train."
+   ]
+  },
+  {
+   "word": "乗り込む",
+   "romanization": "norikomu",
+   "meaning": "to board, get on",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "enter a vehicle",
+   "examples": [
+    "バスに乗り込んだら座席を探した。 — After boarding the bus, I looked for a seat."
+   ]
+  },
+  {
+   "word": "行き先",
+   "romanization": "ikisaki",
+   "meaning": "where one is going",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "destination, route end",
+   "examples": [
+    "行き先を運転手に伝えた。 — I told the driver my destination."
+   ]
+  },
+  {
+   "word": "空港バス",
+   "romanization": "kuukou basu",
+   "meaning": "airport bus",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "shuttle to/from airport",
+   "examples": [
+    "空港バスでホテルに向かった。 — I went to the hotel by airport bus."
+   ]
+  },
+  {
+   "word": "荷物受取所",
+   "romanization": "nimotsu uketorijo",
+   "meaning": "baggage claim area",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "where luggage is collected",
+   "examples": [
+    "荷物受取所でスーツケースを受け取った。 — I collected my suitcase at the baggage claim area."
+   ]
+  },
+  {
+   "word": "免税店",
+   "romanization": "menzei ten",
+   "meaning": "duty‑free shop",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "shop for tax‑free goods",
+   "examples": [
+    "免税店で香水を買った。 — I bought perfume at the duty‑free shop."
+   ]
+  },
+  {
+   "word": "出国審査",
+   "romanization": "shukkoku shinsa",
+   "meaning": "departure immigration check",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "border control before leaving",
+   "examples": [
+    "出国審査はスムーズだった。 — The departure immigration check was smooth."
+   ]
+  },
+  {
+   "word": "入国審査",
+   "romanization": "nyuukoku shinsa",
+   "meaning": "arrival immigration check",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "border control upon entering",
+   "examples": [
+    "入国審査でパスポートを提示した。 — I presented my passport at the arrival immigration check."
+   ]
+  },
+  {
+   "word": "電車",
+   "romanization": "densha",
+   "meaning": "train",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "rail transport",
+   "examples": [
+    "電車で東京に行く。 — I go to Tokyo by train."
+   ]
+  },
+  {
+   "word": "乗り物",
+   "romanization": "norimono",
+   "meaning": "vehicle",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "means of transport",
+   "examples": [
+    "自転車は便利な乗り物だ。 — A bicycle is a convenient vehicle."
+   ]
+  },
+  {
+   "word": "乗り物酔い",
+   "romanization": "norimono yoi",
+   "meaning": "motion sickness",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "feeling sick on transport",
+   "examples": [
+    "乗り物酔いで吐きそうだった。 — I felt like vomiting from motion sickness."
+   ]
+  },
+  {
+   "word": "旅券",
+   "romanization": "ryoken",
+   "meaning": "passport (formal)",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "official document for travel",
+   "examples": [
+    "旅券を忘れないでください。 — Please don't forget your passport."
+   ]
+  },
+  {
+   "word": "乗車",
+   "romanization": "jousha",
+   "meaning": "boarding, ride",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "act of getting on transport",
+   "examples": [
+    "乗車前に切符を見せてください。 — Please show your ticket before boarding."
+   ]
+  },
+  {
+   "word": "降車",
+   "romanization": "kousha",
+   "meaning": "disembarking",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "getting off a vehicle",
+   "examples": [
+    "降車は次の駅です。 — Disembark at the next station."
+   ]
+  },
+  {
+   "word": "乗り換え口",
+   "romanization": "norikae-guchi",
+   "meaning": "transfer gate",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "where you change lines",
+   "examples": [
+    "乗り換え口は左側です。 — The transfer gate is on the left."
+   ]
+  },
+  {
+   "word": "行き",
+   "romanization": "iki",
+   "meaning": "outbound train/bus",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "direction toward destination",
+   "examples": [
+    "この電車は東京行きです。 — This train goes to Tokyo."
+   ]
+  },
+  {
+   "word": "帰り",
+   "romanization": "kaeri",
+   "meaning": "return trip",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "direction back home",
+   "examples": [
+    "帰りのバスは何時ですか？ — What time is the return bus?"
+   ]
+  },
+  {
+   "word": "乗客席",
+   "romanization": "joukyaku seki",
+   "meaning": "passenger seat",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "seat for travelers",
+   "examples": [
+    "乗客席は指定席です。 — The passenger seat is a reserved seat."
+   ]
+  },
+  {
+   "word": "駅前",
+   "romanization": "ekimae",
+   "meaning": "in front of the station",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "common meeting spot",
+   "examples": [
+    "駅前で待ち合わせしよう。 — Let's meet in front of the station."
+   ]
+  },
+  {
+   "word": "乗車券自動販売機",
+   "romanization": "joushaken jidouhanbaiki",
+   "meaning": "ticket vending machine",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "buy tickets yourself",
+   "examples": [
+    "乗車券自動販売機で切符を買った。 — I bought a ticket at the vending machine."
+   ]
+  },
+  {
+   "word": "乗り遅れ",
+   "romanization": "noriokure",
+   "meaning": "missed ride",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "failed to catch transport",
+   "examples": [
+    "乗り遅れに注意してください。 — Please be careful not to miss your ride."
+   ]
+  },
+  {
+   "word": "乗務員",
+   "romanization": "joumuin",
+   "meaning": "crew member",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "driver or attendant",
+   "examples": [
+    "乗務員に質問した。 — I asked the crew member a question."
+   ]
+  },
+  {
+   "word": "乗り物酔い止め",
+   "romanization": "norimono yoi tome",
+   "meaning": "motion sickness remedy",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "prevents travel sickness",
+   "examples": [
+    "乗り物酔い止めを持っていく。 — I will bring motion sickness medicine."
+   ]
+  },
+  {
+   "word": "乗車率",
+   "romanization": "jousha ritsu",
+   "meaning": "occupancy rate",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "how full a vehicle is",
+   "examples": [
+    "乗車率が高いです。 — The occupancy rate is high."
+   ]
+  },
+  {
+   "word": "乗務員証",
+   "romanization": "joumuin shou",
+   "meaning": "crew ID badge",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "identifies staff",
+   "examples": [
+    "乗務員証を見せてください。 — Please show your crew ID."
+   ]
+  },
+  {
+   "word": "乗り心地",
+   "romanization": "nori gokochi",
+   "meaning": "ride comfort",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "how smooth the ride feels",
+   "examples": [
+    "このバスは乗り心地がいい。 — This bus has a comfortable ride."
+   ]
+  },
+  {
+   "word": "乗車口",
+   "romanization": "jousha guchi",
+   "meaning": "boarding gate",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "entry point for passengers",
+   "examples": [
+    "乗車口は右側です。 — The boarding gate is on the right."
+   ]
+  },
+  {
+   "word": "乗り換え案内",
+   "romanization": "norikae annai",
+   "meaning": "transfer guide",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "instructions for changing lines",
+   "examples": [
+    "乗り換え案内を確認しよう。 — Let's check the transfer guide."
+   ]
+  },
+  {
+   "word": "切符売り場",
+   "romanization": "kippu uriba",
+   "meaning": "ticket counter",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "place to buy tickets",
+   "examples": [
+    "切符売り場で切符を買った。 — I bought a ticket at the ticket counter."
+   ]
+  },
+  {
+   "word": "案内",
+   "romanization": "annai",
+   "meaning": "information, guidance",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "general guidance",
+   "examples": [
+    "駅の案内を読んだ。 — I read the station information."
+   ]
+  },
+  {
+   "word": "行く",
+   "romanization": "iku",
+   "meaning": "to go",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "basic movement verb",
+   "examples": [
+    "次の駅へ行く。 — I go to the next station."
+   ]
+  },
+  {
+   "word": "帰る",
+   "romanization": "kaeru",
+   "meaning": "to return",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "go back home",
+   "examples": [
+    "ホテルに帰る。 — I return to the hotel."
+   ]
+  },
+  {
+   "word": "道",
+   "romanization": "michi",
+   "meaning": "road, way",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "general path",
+   "examples": [
+    "道に迷った。 — I got lost on the road."
+   ]
+  },
+  {
+   "word": "降りる",
+   "romanization": "oriru",
+   "meaning": "to get off",
+   "pos": "VERB",
+   "category": "Travel",
+   "note": "leave vehicle",
+   "examples": [
+    "駅で降りる。 — I get off at the station."
+   ]
+  },
+  {
+   "word": "旅行",
+   "romanization": "ryokō",
+   "meaning": "trip, travel",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "general travel activity",
+   "examples": [
+    "来月、家族と旅行に行きます。 — Next month, I'm going on a trip with my family."
+   ]
+  },
+  {
+   "word": "出張",
+   "romanization": "shucchō",
+   "meaning": "business trip",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "work-related travel",
+   "examples": [
+    "明日は出張で東京に行きます。 — Tomorrow I'm going to Tokyo on a business trip."
+   ]
+  },
+  {
+   "word": "観光客",
+   "romanization": "kankōkyaku",
+   "meaning": "tourist",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "visitor to sights",
+   "examples": [
+    "この街は観光客で賑わっています。 — This town is bustling with tourists."
+   ]
+  },
+  {
+   "word": "乗り場",
+   "romanization": "noriba",
+   "meaning": "boarding place",
+   "pos": "NOUN",
+   "category": "Travel",
+   "note": "where you board transport",
+   "examples": [
+    "バスの乗り場は駅の前です。 — The bus boarding area is in front of the station."
+   ]
+  },
+  {
+   "word": "頭",
+   "romanization": "atama",
+   "meaning": "head",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "body part, also leader",
+   "examples": [
+    "頭が痛いです。 — My head hurts."
+   ]
+  },
+  {
+   "word": "目",
+   "romanization": "me",
+   "meaning": "eye",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "sense organ",
+   "examples": [
+    "目が疲れた。 — My eyes are tired."
+   ]
+  },
+  {
+   "word": "耳",
+   "romanization": "mimi",
+   "meaning": "ear",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "hearing organ",
+   "examples": [
+    "耳が聞こえない。 — I can't hear."
+   ]
+  },
+  {
+   "word": "口",
+   "romanization": "kuchi",
+   "meaning": "mouth",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "used for speaking/eating",
+   "examples": [
+    "口が乾いた。 — My mouth is dry."
+   ]
+  },
+  {
+   "word": "鼻",
+   "romanization": "hana",
+   "meaning": "nose",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "smell organ",
+   "examples": [
+    "鼻が詰まっている。 — My nose is blocked."
+   ]
+  },
+  {
+   "word": "手",
+   "romanization": "te",
+   "meaning": "hand",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "limb for grasping",
+   "examples": [
+    "手が冷たい。 — My hand is cold."
+   ]
+  },
+  {
+   "word": "足",
+   "romanization": "ashi",
+   "meaning": "leg/foot",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "lower limb",
+   "examples": [
+    "足が痛いです。 — My leg hurts."
+   ]
+  },
+  {
+   "word": "背中",
+   "romanization": "senaka",
+   "meaning": "back",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "posterior torso",
+   "examples": [
+    "背中が痛む。 — My back hurts."
+   ]
+  },
+  {
+   "word": "胸",
+   "romanization": "mune",
+   "meaning": "chest",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "upper torso",
+   "examples": [
+    "胸がドキドキする。 — My chest is pounding."
+   ]
+  },
+  {
+   "word": "心臓",
+   "romanization": "shinzou",
+   "meaning": "heart (organ)",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "vital organ",
+   "examples": [
+    "心臓が速く鼓動する。 — My heart beats fast."
+   ]
+  },
+  {
+   "word": "血液",
+   "romanization": "ketsueki",
+   "meaning": "blood",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "circulatory fluid",
+   "examples": [
+    "血液が沸騰した。 — The blood boiled."
+   ]
+  },
+  {
+   "word": "骨",
+   "romanization": "hone",
+   "meaning": "bone",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "skeletal tissue",
+   "examples": [
+    "骨が折れた。 — The bone broke."
+   ]
+  },
+  {
+   "word": "皮膚",
+   "romanization": "hifu",
+   "meaning": "skin",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "outer covering",
+   "examples": [
+    "皮膚がかゆい。 — My skin itches."
+   ]
+  },
+  {
+   "word": "筋肉",
+   "romanization": "kinniku",
+   "meaning": "muscle",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "contractile tissue",
+   "examples": [
+    "筋肉が疲れた。 — My muscles are tired."
+   ]
+  },
+  {
+   "word": "胃",
+   "romanization": "i",
+   "meaning": "stomach",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "digestive organ",
+   "examples": [
+    "胃がむかむかする。 — My stomach feels queasy."
+   ]
+  },
+  {
+   "word": "腸",
+   "romanization": "chou",
+   "meaning": "intestine",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "digestive tract",
+   "examples": [
+    "腸が鳴っている。 — My intestines are rumbling."
+   ]
+  },
+  {
+   "word": "血圧",
+   "romanization": "ketsuatsu",
+   "meaning": "blood pressure",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "health metric",
+   "examples": [
+    "血圧が高いです。 — My blood pressure is high."
+   ]
+  },
+  {
+   "word": "熱",
+   "romanization": "netsu",
+   "meaning": "fever/heat",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "body temperature rise",
+   "examples": [
+    "熱が出た。 — I developed a fever."
+   ]
+  },
+  {
+   "word": "顔",
+   "romanization": "kao",
+   "meaning": "face",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "physical appearance",
+   "examples": [
+    "彼は笑顔で挨拶した。 — He greeted with a smiling face."
+   ]
+  },
+  {
+   "word": "髪",
+   "romanization": "kami",
+   "meaning": "hair",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "head hair",
+   "examples": [
+    "髪が長くなったね。 — Your hair has grown long."
+   ]
+  },
+  {
+   "word": "指",
+   "romanization": "yubi",
+   "meaning": "finger",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "any finger",
+   "examples": [
+    "指で時計を見る。 — He checks the time with his finger."
+   ]
+  },
+  {
+   "word": "舌",
+   "romanization": "shita",
+   "meaning": "tongue",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "inside mouth",
+   "examples": [
+    "舌が痛い。 — My tongue hurts."
+   ]
+  },
+  {
+   "word": "歯",
+   "romanization": "ha",
+   "meaning": "tooth",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "singular or plural",
+   "examples": [
+    "歯を磨くのを忘れた。 — I forgot to brush my teeth."
+   ]
+  },
+  {
+   "word": "喉",
+   "romanization": "nodo",
+   "meaning": "throat",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "neck area",
+   "examples": [
+    "喉が渇いた。 — My throat is dry."
+   ]
+  },
+  {
+   "word": "肩",
+   "romanization": "kata",
+   "meaning": "shoulder",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "upper arm joint",
+   "examples": [
+    "肩がこりやすい。 — My shoulders get stiff easily."
+   ]
+  },
+  {
+   "word": "肘",
+   "romanization": "hiji",
+   "meaning": "elbow",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "arm joint",
+   "examples": [
+    "肘をついて座った。 — He sat with his elbows on the desk."
+   ]
+  },
+  {
+   "word": "膝",
+   "romanization": "hiza",
+   "meaning": "knee",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "leg joint",
+   "examples": [
+    "膝が痛い。 — My knee hurts."
+   ]
+  },
+  {
+   "word": "足首",
+   "romanization": "ashikubi",
+   "meaning": "ankle",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "lower leg joint",
+   "examples": [
+    "足首を捻った。 — I twisted my ankle."
+   ]
+  },
+  {
+   "word": "爪",
+   "romanization": "tsume",
+   "meaning": "nail (finger or toe)",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "hard covering",
+   "examples": [
+    "爪が割れた。 — My nail cracked."
+   ]
+  },
+  {
+   "word": "汗",
+   "romanization": "ase",
+   "meaning": "sweat",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "fluid from skin",
+   "examples": [
+    "暑くて汗が出る。 — It's hot and I'm sweating."
+   ]
+  },
+  {
+   "word": "息",
+   "romanization": "iki",
+   "meaning": "breath",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "inhale/exhale",
+   "examples": [
+    "深く息を吸った。 — She took a deep breath."
+   ]
+  },
+  {
+   "word": "血管",
+   "romanization": "kekkann",
+   "meaning": "blood vessel",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "veins/arteries",
+   "examples": [
+    "血管が詰まると危険だ。 — A blocked blood vessel is dangerous."
+   ]
+  },
+  {
+   "word": "免疫",
+   "romanization": "men'eki",
+   "meaning": "immunity",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "body's defense",
+   "examples": [
+    "免疫力を高める食事。 — A diet that boosts immunity."
+   ]
+  },
+  {
+   "word": "病気",
+   "romanization": "byouki",
+   "meaning": "illness",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "general sickness",
+   "examples": [
+    "風邪は軽い病気だ。 — A cold is a mild illness."
+   ]
+  },
+  {
+   "word": "薬",
+   "romanization": "kusuri",
+   "meaning": "medicine",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "drug or remedy",
+   "examples": [
+    "薬を飲んで寝た。 — I took medicine and went to sleep."
+   ]
+  },
+  {
+   "word": "診察",
+   "romanization": "shinsatsu",
+   "meaning": "medical examination",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "doctor's check-up",
+   "examples": [
+    "診察の予約をした。 — I made an appointment for a medical examination."
+   ]
+  },
+  {
+   "word": "肝臓",
+   "romanization": "kanzō",
+   "meaning": "liver",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "detoxifies chemicals",
+   "examples": [
+    "肝臓の機能をチェックしました。 — I had my liver function checked."
+   ]
+  },
+  {
+   "word": "肺",
+   "romanization": "hai",
+   "meaning": "lung",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "involved in breathing",
+   "examples": [
+    "肺活量が大きい人は息が長く続く。 — People with large lung capacity can breathe longer."
+   ]
+  },
+  {
+   "word": "腎臓",
+   "romanization": "jinzō",
+   "meaning": "kidney",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "filters blood",
+   "examples": [
+    "腎臓の病気は早期発見が大切だ。 — Early detection is crucial for kidney disease."
+   ]
+  },
+  {
+   "word": "膵臓",
+   "romanization": "suizō",
+   "meaning": "pancreas",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "produces insulin",
+   "examples": [
+    "膵臓がうまく働かないと糖尿病になる。 — If the pancreas doesn't work well, diabetes develops."
+   ]
+  },
+  {
+   "word": "脳",
+   "romanization": "nō",
+   "meaning": "brain",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "controls body functions",
+   "examples": [
+    "脳の疲れを取るために散歩した。 — I took a walk to relieve brain fatigue."
+   ]
+  },
+  {
+   "word": "静脈",
+   "romanization": "jōmyaku",
+   "meaning": "vein",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "carries blood to heart",
+   "examples": [
+    "静脈注射は痛みが少ない。 — Vein injection causes less pain."
+   ]
+  },
+  {
+   "word": "動脈",
+   "romanization": "dōmyaku",
+   "meaning": "artery",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "carries blood from heart",
+   "examples": [
+    "動脈硬化は高血圧の原因になる。 — Arteriosclerosis can cause high blood pressure."
+   ]
+  },
+  {
+   "word": "体温",
+   "romanization": "taion",
+   "meaning": "body temperature",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "indicator of health",
+   "examples": [
+    "体温が38度を超えたら熱がある。 — If body temperature exceeds 38°C, you have a fever."
+   ]
+  },
+  {
+   "word": "体重",
+   "romanization": "taijū",
+   "meaning": "body weight",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "monitored for fitness",
+   "examples": [
+    "毎朝体重を測って記録する。 — I weigh myself every morning and record it."
+   ]
+  },
+  {
+   "word": "症状",
+   "romanization": "shōjō",
+   "meaning": "symptom",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "observable sign of illness",
+   "examples": [
+    "咳と発熱が主な症状です。 — Cough and fever are the main symptoms."
+   ]
+  },
+  {
+   "word": "風邪",
+   "romanization": "kaze",
+   "meaning": "common cold",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "viral upper respiratory infection",
+   "examples": [
+    "風邪をひいたら安静にしてください。 — If you catch a cold, please rest."
+   ]
+  },
+  {
+   "word": "インフルエンザ",
+   "romanization": "infuruenza",
+   "meaning": "influenza",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "seasonal viral flu",
+   "examples": [
+    "インフルエンザの予防接種を受けた。 — I got the influenza vaccine."
+   ]
+  },
+  {
+   "word": "アレルギー",
+   "romanization": "arerugī",
+   "meaning": "allergy",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "immune overreaction",
+   "examples": [
+    "花粉症はアレルギーの一種だ。 — Hay fever is a type of allergy."
+   ]
+  },
+  {
+   "word": "疲労",
+   "romanization": "hirō",
+   "meaning": "fatigue",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "physical or mental tiredness",
+   "examples": [
+    "長時間の仕事で疲労がたまった。 — Long work hours accumulated fatigue."
+   ]
+  },
+  {
+   "word": "睡眠",
+   "romanization": "suimin",
+   "meaning": "sleep",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "essential restorative process",
+   "examples": [
+    "十分な睡眠は健康に不可欠だ。 — Adequate sleep is essential for health."
+   ]
+  },
+  {
+   "word": "食欲",
+   "romanization": "shokuyoku",
+   "meaning": "appetite",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "desire to eat",
+   "examples": [
+    "風邪をひくと食欲がなくなる。 — When you catch a cold, you lose your appetite."
+   ]
+  },
+  {
+   "word": "水分",
+   "romanization": "suibun",
+   "meaning": "fluid/moisture",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "stay hydrated",
+   "examples": [
+    "運動後は水分補給が必要だ。 — After exercise, fluid intake is necessary."
+   ]
+  },
+  {
+   "word": "体調",
+   "romanization": "taichō",
+   "meaning": "physical condition",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "overall health status",
+   "examples": [
+    "今日は体調が良くて散歩した。 — I felt good today, so I went for a walk."
+   ]
+  },
+  {
+   "word": "体",
+   "romanization": "karada",
+   "meaning": "body (the whole organism)",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "general term for the body",
+   "examples": [
+    "体を動かすと血流が良くなる。 — Moving your body improves circulation."
+   ]
+  },
+  {
+   "word": "健康",
+   "romanization": "kenkō",
+   "meaning": "health",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "overall well‑being",
+   "examples": [
+    "健康のために毎朝散歩します。 — I take a walk every morning for my health."
+   ]
+  },
+  {
+   "word": "医者",
+   "romanization": "isha",
+   "meaning": "doctor",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "medical professional",
+   "examples": [
+    "体調が悪いときは医者に行きましょう。 — When you feel unwell, go to a doctor."
+   ]
+  },
+  {
+   "word": "診断",
+   "romanization": "shindan",
+   "meaning": "diagnosis",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "formal medical assessment",
+   "examples": [
+    "医者は風邪と診断した。 — The doctor diagnosed it as a cold."
+   ]
+  },
+  {
+   "word": "予防",
+   "romanization": "yobō",
+   "meaning": "prevention",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "act of preventing illness",
+   "examples": [
+    "手洗いは感染症の予防に有効です。 — Hand washing is effective for preventing infections."
+   ]
+  },
+  {
+   "word": "検査",
+   "romanization": "kensa",
+   "meaning": "examination, test",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "medical test",
+   "examples": [
+    "血液検査の結果が届きました。 — The results of the blood test have arrived."
+   ]
+  },
+  {
+   "word": "体温計",
+   "romanization": "taionkei",
+   "meaning": "thermometer",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "device to measure temperature",
+   "examples": [
+    "体温計で熱があるか確かめた。 — I checked with a thermometer to see if I had a fever."
+   ]
+  },
+  {
+   "word": "薬局",
+   "romanization": "yakkyoku",
+   "meaning": "pharmacy",
+   "pos": "NOUN",
+   "category": "Body & Health",
+   "note": "place to get medication",
+   "examples": [
+    "近くの薬局で風邪薬を買った。 — I bought cold medicine at the nearby pharmacy."
+   ]
+  },
+  {
+   "word": "会社",
+   "romanization": "kaisha",
+   "meaning": "company",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal business entity",
+   "examples": [
+    "彼は大手会社で働いている。 — He works at a major company."
+   ]
+  },
+  {
+   "word": "取引先",
+   "romanization": "torihikisaki",
+   "meaning": "client, business partner",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "external business relationship",
+   "examples": [
+    "取引先との会議は来週です。 — The meeting with the client is next week."
+   ]
+  },
+  {
+   "word": "会議",
+   "romanization": "kaigi",
+   "meaning": "meeting, conference",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal gathering",
+   "examples": [
+    "午前中に会議がある。 — There is a meeting in the morning."
+   ]
+  },
+  {
+   "word": "報告",
+   "romanization": "houkoku",
+   "meaning": "report",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal submission",
+   "examples": [
+    "上司に報告を提出した。 — I submitted the report to my boss."
+   ]
+  },
+  {
+   "word": "提出",
+   "romanization": "teishutsu",
+   "meaning": "submission",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "handing in documents",
+   "examples": [
+    "資料を提出してください。 — Please submit the documents."
+   ]
+  },
+  {
+   "word": "契約",
+   "romanization": "keiyaku",
+   "meaning": "contract",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "legal agreement",
+   "examples": [
+    "新しい契約を結んだ。 — We signed a new contract."
+   ]
+  },
+  {
+   "word": "納期",
+   "romanization": "nouki",
+   "meaning": "delivery deadline",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "time limit for delivery",
+   "examples": [
+    "納期は来月末です。 — The delivery deadline is the end of next month."
+   ]
+  },
+  {
+   "word": "売上",
+   "romanization": "uriage",
+   "meaning": "sales, revenue",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "financial term",
+   "examples": [
+    "今月の売上が伸びた。 — This month’s sales increased."
+   ]
+  },
+  {
+   "word": "利益",
+   "romanization": "rieki",
+   "meaning": "profit",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "net earnings",
+   "examples": [
+    "利益率が高い会社だ。 — It’s a company with a high profit margin."
+   ]
+  },
+  {
+   "word": "経費",
+   "romanization": "keihi",
+   "meaning": "expenses",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "business costs",
+   "examples": [
+    "出張経費を精算した。 — I settled the travel expenses."
+   ]
+  },
+  {
+   "word": "予算",
+   "romanization": "yosan",
+   "meaning": "budget",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "planned spending",
+   "examples": [
+    "来年度の予算を策定する。 — We will formulate next year’s budget."
+   ]
+  },
+  {
+   "word": "上司",
+   "romanization": "joushi",
+   "meaning": "supervisor, boss",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "higher-ranking employee",
+   "examples": [
+    "上司に相談した。 — I consulted my boss."
+   ]
+  },
+  {
+   "word": "部下",
+   "romanization": "buka",
+   "meaning": "subordinate",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "lower-ranking employee",
+   "examples": [
+    "部下に指示を出す。 — Give instructions to subordinates."
+   ]
+  },
+  {
+   "word": "提案",
+   "romanization": "teian",
+   "meaning": "proposal, suggestion",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "idea offered for consideration",
+   "examples": [
+    "新しい提案を考えた。 — I came up with a new proposal."
+   ]
+  },
+  {
+   "word": "承認",
+   "romanization": "shounin",
+   "meaning": "approval",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "official consent",
+   "examples": [
+    "上司の承認が必要だ。 — Supervisor’s approval is required."
+   ]
+  },
+  {
+   "word": "会計",
+   "romanization": "kaikei",
+   "meaning": "accounting, finance",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "financial department",
+   "examples": [
+    "会計部が予算を管理する。 — The accounting department manages the budget."
+   ]
+  },
+  {
+   "word": "取締役",
+   "romanization": "torishimariyaku",
+   "meaning": "director (company)",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "board member",
+   "examples": [
+    "彼は取締役に就任した。 — He was appointed as a director."
+   ]
+  },
+  {
+   "word": "株主",
+   "romanization": "kabunushi",
+   "meaning": "shareholder",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "owner of company stock",
+   "examples": [
+    "株主総会が開催された。 — The shareholders’ meeting was held."
+   ]
+  },
+  {
+   "word": "顧客",
+   "romanization": "kokyaku",
+   "meaning": "customer",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "client, buyer",
+   "examples": [
+    "顧客の要望を聞くことが重要です。 — It is important to listen to the customer's requests."
+   ]
+  },
+  {
+   "word": "販売",
+   "romanization": "hanbai",
+   "meaning": "sales",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "selling activities",
+   "examples": [
+    "新製品の販売が好調です。 — Sales of the new product are going well."
+   ]
+  },
+  {
+   "word": "在庫",
+   "romanization": "zaiko",
+   "meaning": "inventory",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "stock on hand",
+   "examples": [
+    "在庫が不足しているので発注してください。 — Please place an order because inventory is low."
+   ]
+  },
+  {
+   "word": "納品",
+   "romanization": "nouhin",
+   "meaning": "delivery of goods",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "supply to client",
+   "examples": [
+    "納品は来週の月曜日です。 — The delivery is scheduled for next Monday."
+   ]
+  },
+  {
+   "word": "請求",
+   "romanization": "seikyuu",
+   "meaning": "billing",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "request for payment",
+   "examples": [
+    "請求書をメールで送ります。 — I will send the invoice by email."
+   ]
+  },
+  {
+   "word": "支払",
+   "romanization": "shiharai",
+   "meaning": "payment",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "settlement of money",
+   "examples": [
+    "支払期限は今月末です。 — The payment deadline is the end of this month."
+   ]
+  },
+  {
+   "word": "利益率",
+   "romanization": "rieki-ritsu",
+   "meaning": "profit margin",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "percentage profit",
+   "examples": [
+    "利益率が上がれば会社は成長します。 — If the profit margin rises, the company will grow."
+   ]
+  },
+  {
+   "word": "市場",
+   "romanization": "shijou",
+   "meaning": "market",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "industry arena",
+   "examples": [
+    "新しい市場に参入する計画があります。 — We have a plan to enter a new market."
+   ]
+  },
+  {
+   "word": "競合",
+   "romanization": "kyougou",
+   "meaning": "competitor",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "rival business",
+   "examples": [
+    "競合の動向を常にチェックする。 — Always monitor competitors' movements."
+   ]
+  },
+  {
+   "word": "戦略",
+   "romanization": "senryaku",
+   "meaning": "strategy",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "planned approach",
+   "examples": [
+    "長期的な戦略を策定した。 — We formulated a long‑term strategy."
+   ]
+  },
+  {
+   "word": "改善",
+   "romanization": "kaizen",
+   "meaning": "improvement",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "continuous betterment",
+   "examples": [
+    "業務プロセスの改善が必要だ。 — We need to improve the business process."
+   ]
+  },
+  {
+   "word": "評価",
+   "romanization": "hyouka",
+   "meaning": "evaluation",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "assessment, rating",
+   "examples": [
+    "プロジェクトの評価結果を報告する。 — Report the evaluation results of the project."
+   ]
+  },
+  {
+   "word": "リスク",
+   "romanization": "risuku",
+   "meaning": "risk",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "potential danger",
+   "examples": [
+    "リスク管理は欠かせない。 — Risk management is essential."
+   ]
+  },
+  {
+   "word": "資金",
+   "romanization": "shikin",
+   "meaning": "funds",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "financial resources",
+   "examples": [
+    "資金調達が成功した。 — The fund‑raising was successful."
+   ]
+  },
+  {
+   "word": "承知",
+   "romanization": "shouchi",
+   "meaning": "acknowledgment",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "understanding, consent",
+   "examples": [
+    "ご要望は承知しました。 — I understand your request."
+   ]
+  },
+  {
+   "word": "期限",
+   "romanization": "kigen",
+   "meaning": "deadline",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "time limit",
+   "examples": [
+    "提出期限は明日です。 — The submission deadline is tomorrow."
+   ]
+  },
+  {
+   "word": "担当",
+   "romanization": "tantou",
+   "meaning": "person in charge",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "responsible staff",
+   "examples": [
+    "この案件は私が担当です。 — I am in charge of this case."
+   ]
+  },
+  {
+   "word": "協議",
+   "romanization": "kyougi",
+   "meaning": "consultation",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal discussion",
+   "examples": [
+    "価格について協議しましょう。 — Let's discuss the price."
+   ]
+  },
+  {
+   "word": "顧客満足",
+   "romanization": "kokyaku manzoku",
+   "meaning": "customer satisfaction",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "focus on service quality",
+   "examples": [
+    "顧客満足を高めるためにアンケートを実施した。 — We conducted a survey to improve customer satisfaction."
+   ]
+  },
+  {
+   "word": "営業",
+   "romanization": "eigyou",
+   "meaning": "sales; business operations",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "general business activity",
+   "examples": [
+    "新しい営業チームが今月から始まった。 — A new sales team started this month."
+   ]
+  },
+  {
+   "word": "納入",
+   "romanization": "nounyuu",
+   "meaning": "delivery; supply",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "goods delivered to client",
+   "examples": [
+    "納入が遅れたため、顧客からクレームが来た。 — We received a complaint because the delivery was delayed."
+   ]
+  },
+  {
+   "word": "原価",
+   "romanization": "genka",
+   "meaning": "cost price",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "production cost basis",
+   "examples": [
+    "原価を下げる方法を検討中だ。 — We are considering ways to lower the cost price."
+   ]
+  },
+  {
+   "word": "在庫管理",
+   "romanization": "zaiko kanri",
+   "meaning": "inventory management",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "tracking stock levels",
+   "examples": [
+    "在庫管理システムを新しく導入した。 — We introduced a new inventory management system."
+   ]
+  },
+  {
+   "word": "出荷",
+   "romanization": "shukka",
+   "meaning": "shipment",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "sending goods out",
+   "examples": [
+    "本日、全商品が出荷された。 — All products were shipped today."
+   ]
+  },
+  {
+   "word": "見積もり",
+   "romanization": "mitsumori",
+   "meaning": "estimate; quotation",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "price proposal",
+   "examples": [
+    "見積もりをメールで送ります。 — I will send the estimate by email."
+   ]
+  },
+  {
+   "word": "発注",
+   "romanization": "hacchuu",
+   "meaning": "order placement",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "requesting supplies",
+   "examples": [
+    "来週、部品の発注を行う予定だ。 — We plan to place an order for parts next week."
+   ]
+  },
+  {
+   "word": "取引",
+   "romanization": "torihiki",
+   "meaning": "transaction; deal",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "business exchange",
+   "examples": [
+    "新しい取引が成立した。 — A new deal has been concluded."
+   ]
+  },
+  {
+   "word": "資産",
+   "romanization": "shisan",
+   "meaning": "assets",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "company holdings",
+   "examples": [
+    "会社の資産総額は増加した。 — The company's total assets have increased."
+   ]
+  },
+  {
+   "word": "債務",
+   "romanization": "saimu",
+   "meaning": "liabilities; debt",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "financial obligations",
+   "examples": [
+    "債務の返済計画を見直す必要がある。 — We need to revise the debt repayment plan."
+   ]
+  },
+  {
+   "word": "予測",
+   "romanization": "yosoku",
+   "meaning": "forecast; prediction",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "future estimate",
+   "examples": [
+    "売上予測が前年を上回った。 — The sales forecast exceeded last year's."
+   ]
+  },
+  {
+   "word": "企画",
+   "romanization": "kikaku",
+   "meaning": "plan; project",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "creative proposal",
+   "examples": [
+    "新製品の企画会議が開催された。 — A planning meeting for a new product was held."
+   ]
+  },
+  {
+   "word": "承諾",
+   "romanization": "shoudaku",
+   "meaning": "consent; approval",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "formal agreement",
+   "examples": [
+    "取引先からの承諾を得た。 — We obtained consent from the business partner."
+   ]
+  },
+  {
+   "word": "調整",
+   "romanization": "chousei",
+   "meaning": "adjustment; coordination",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "aligning schedules",
+   "examples": [
+    "スケジュールの調整が必要だ。 — We need to adjust the schedule."
+   ]
+  },
+  {
+   "word": "進捗",
+   "romanization": "shinchoku",
+   "meaning": "progress",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "project status",
+   "examples": [
+    "プロジェクトの進捗は順調です。 — The project's progress is on schedule."
+   ]
+  },
+  {
+   "word": "撤退",
+   "romanization": "tettai",
+   "meaning": "withdrawal; retreat",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "exiting a market",
+   "examples": [
+    "不採算部門からの撤退を決定した。 — We decided to withdraw from the unprofitable division."
+   ]
+  },
+  {
+   "word": "経営",
+   "romanization": "keiei",
+   "meaning": "management; operation of a business",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "refers to overall business direction",
+   "examples": [
+    "彼は会社の経営を任されている。 — He is entrusted with the management of the company."
+   ]
+  },
+  {
+   "word": "投資",
+   "romanization": "toushi",
+   "meaning": "investment",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "money put into assets for profit",
+   "examples": [
+    "新しいプロジェクトに投資するべきだ。 — We should invest in the new project."
+   ]
+  },
+  {
+   "word": "株価",
+   "romanization": "kabuka",
+   "meaning": "stock price",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "price of a company's shares",
+   "examples": [
+    "今週の株価は上昇した。 — The stock price rose this week."
+   ]
+  },
+  {
+   "word": "株式",
+   "romanization": "kabushiki",
+   "meaning": "stock; share",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "units of ownership in a company",
+   "examples": [
+    "株式を購入する前に調査が必要だ。 — Research is needed before buying shares."
+   ]
+  },
+  {
+   "word": "財務",
+   "romanization": "zaimu",
+   "meaning": "finance; financial affairs",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "department handling money matters",
+   "examples": [
+    "財務部が予算案を作成した。 — The finance department prepared the budget draft."
+   ]
+  },
+  {
+   "word": "監査",
+   "romanization": "kansa",
+   "meaning": "audit",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "independent examination of accounts",
+   "examples": [
+    "外部監査が今年も実施された。 — An external audit was carried out again this year."
+   ]
+  },
+  {
+   "word": "税務",
+   "romanization": "zeimu",
+   "meaning": "tax affairs",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "related to taxes and compliance",
+   "examples": [
+    "税務署への申告を忘れないでください。 — Please don't forget to file the tax office declaration."
+   ]
+  },
+  {
+   "word": "労働",
+   "romanization": "roudou",
+   "meaning": "labor; work",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "human work effort",
+   "examples": [
+    "労働時間の管理は重要です。 — Managing working hours is important."
+   ]
+  },
+  {
+   "word": "福利厚生",
+   "romanization": "fukuri kousei",
+   "meaning": "employee benefits",
+   "pos": "NOUN",
+   "category": "Business",
+   "note": "perks provided to staff",
+   "examples": [
+    "福利厚生の充実が社員の満足度を上げる。 — Enhanced employee benefits increase staff satisfaction."
+   ]
+  },
+  {
+   "word": "喜び",
+   "romanization": "yorokobi",
+   "meaning": "joy",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive, often spontaneous",
+   "examples": [
+    "彼の成功は大きな喜びだ。 — His success is a great joy."
+   ]
+  },
+  {
+   "word": "悲しみ",
+   "romanization": "kanashimi",
+   "meaning": "sadness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep, lingering feeling",
+   "examples": [
+    "別れは悲しみを残す。 — Parting leaves sadness behind."
+   ]
+  },
+  {
+   "word": "怒り",
+   "romanization": "ikari",
+   "meaning": "anger",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "strong, can be sudden",
+   "examples": [
+    "不公平な扱いに怒りが湧いた。 — I felt anger at the unfair treatment."
+   ]
+  },
+  {
+   "word": "恐れ",
+   "romanization": "osore",
+   "meaning": "fear",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "often anticipatory",
+   "examples": [
+    "暗闇への恐れがある。 — I have a fear of the dark."
+   ]
+  },
+  {
+   "word": "驚き",
+   "romanization": "odoroki",
+   "meaning": "surprise",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "unexpected reaction",
+   "examples": [
+    "その結果に驚きが隠せなかった。 — I couldn't hide my surprise at the result."
+   ]
+  },
+  {
+   "word": "嬉しさ",
+   "romanization": "ureshisa",
+   "meaning": "happiness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "light, cheerful feeling",
+   "examples": [
+    "合格の知らせに嬉しさが溢れた。 — Joy overflowed at the news of passing."
+   ]
+  },
+  {
+   "word": "寂しさ",
+   "romanization": "sabishisa",
+   "meaning": "loneliness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "quiet, lingering emptiness",
+   "examples": [
+    "一人暮らしは寂しさを感じる。 — Living alone makes me feel lonely."
+   ]
+  },
+  {
+   "word": "嫉妬",
+   "romanization": "shitto",
+   "meaning": "jealousy",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "comparative envy",
+   "examples": [
+    "彼の才能に嫉妬した。 — I was jealous of his talent."
+   ]
+  },
+  {
+   "word": "恥ずかしさ",
+   "romanization": "hazukashisa",
+   "meaning": "embarrassment",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "shy, self‑conscious feeling",
+   "examples": [
+    "失敗して恥ずかしさが募った。 — My embarrassment grew after the mistake."
+   ]
+  },
+  {
+   "word": "安心",
+   "romanization": "anshin",
+   "meaning": "relief",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "peaceful, after worry",
+   "examples": [
+    "無事に帰ってきて安心した。 — I felt relief when he returned safely."
+   ]
+  },
+  {
+   "word": "不安",
+   "romanization": "fuan",
+   "meaning": "anxiety",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "uneasy, unsettled feeling",
+   "examples": [
+    "試験前は不安がつきまとう。 — Anxiety lingers before the exam."
+   ]
+  },
+  {
+   "word": "疲れ",
+   "romanization": "tsukare",
+   "meaning": "fatigue",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "physical or mental tiredness",
+   "examples": [
+    "長時間の会議で疲れがたまった。 — Fatigue built up after the long meeting."
+   ]
+  },
+  {
+   "word": "満足",
+   "romanization": "manzoku",
+   "meaning": "satisfaction",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "contentment, fulfilled",
+   "examples": [
+    "料理の味に満足した。 — I was satisfied with the taste of the dish."
+   ]
+  },
+  {
+   "word": "失望",
+   "romanization": "shitsubou",
+   "meaning": "disappointment",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "expectations unmet",
+   "examples": [
+    "結果に失望した。 — I was disappointed by the result."
+   ]
+  },
+  {
+   "word": "感動",
+   "romanization": "kandou",
+   "meaning": "being moved",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep emotional impact",
+   "examples": [
+    "映画のラストシーンに感動した。 — I was moved by the movie’s final scene."
+   ]
+  },
+  {
+   "word": "憎しみ",
+   "romanization": "nikushimi",
+   "meaning": "hatred",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "intense, hostile feeling",
+   "examples": [
+    "長年の憎しみが残っている。 — A long‑standing hatred remains."
+   ]
+  },
+  {
+   "word": "期待",
+   "romanization": "kitai",
+   "meaning": "expectation",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "hopeful anticipation",
+   "examples": [
+    "新製品に期待が高まる。 — Expectations rise for the new product."
+   ]
+  },
+  {
+   "word": "落胆",
+   "romanization": "rakutan",
+   "meaning": "dejection",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "disheartened, discouraged",
+   "examples": [
+    "結果が出ずに落胆した。 — I felt dejected when the results didn't come."
+   ]
+  },
+  {
+   "word": "楽しい",
+   "romanization": "tanoshii",
+   "meaning": "fun",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "positive feeling",
+   "examples": [
+    "この映画はとても楽しいです。 — This movie is very fun."
+   ]
+  },
+  {
+   "word": "悲しい",
+   "romanization": "kanashii",
+   "meaning": "sad",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "deep sorrow",
+   "examples": [
+    "彼の別れ話を聞いて悲しい。 — I feel sad hearing his farewell story."
+   ]
+  },
+  {
+   "word": "怒る",
+   "romanization": "okoru",
+   "meaning": "to get angry",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "express anger",
+   "examples": [
+    "彼は嘘をついたと怒った。 — He got angry because of the lie."
+   ]
+  },
+  {
+   "word": "怖い",
+   "romanization": "kowai",
+   "meaning": "scary",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "fearful feeling",
+   "examples": [
+    "夜道は怖い。 — The street at night is scary."
+   ]
+  },
+  {
+   "word": "驚く",
+   "romanization": "odoroku",
+   "meaning": "to be surprised",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "unexpected reaction",
+   "examples": [
+    "そのニュースに驚いた。 — I was surprised by that news."
+   ]
+  },
+  {
+   "word": "嬉しい",
+   "romanization": "ureshii",
+   "meaning": "happy",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "pleasant joy",
+   "examples": [
+    "合格してとても嬉しい。 — I'm very happy to have passed."
+   ]
+  },
+  {
+   "word": "寂しい",
+   "romanization": "sabishii",
+   "meaning": "lonely",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "feel alone",
+   "examples": [
+    "一人でいると寂しい。 — I feel lonely when I'm alone."
+   ]
+  },
+  {
+   "word": "嫉妬する",
+   "romanization": "shitto suru",
+   "meaning": "to be jealous",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "envy feeling",
+   "examples": [
+    "彼女は彼の成功に嫉妬した。 — She was jealous of his success."
+   ]
+  },
+  {
+   "word": "恥ずかしい",
+   "romanization": "hazukashii",
+   "meaning": "embarrassed",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "feeling of shame",
+   "examples": [
+    "ミスして恥ずかしい。 — I feel embarrassed for making a mistake."
+   ]
+  },
+  {
+   "word": "安心する",
+   "romanization": "anshin suru",
+   "meaning": "to feel relieved",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "relief after worry",
+   "examples": [
+    "試験が終わって安心した。 — I felt relieved after the exam ended."
+   ]
+  },
+  {
+   "word": "疲れる",
+   "romanization": "tsukareru",
+   "meaning": "to get tired",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "physical/mental fatigue",
+   "examples": [
+    "長時間働いて疲れた。 — I got tired after working long hours."
+   ]
+  },
+  {
+   "word": "憎む",
+   "romanization": "nikumu",
+   "meaning": "to hate",
+   "pos": "VERB",
+   "category": "Emotions",
+   "note": "strong dislike",
+   "examples": [
+    "彼を憎んでいる。 — I hate him."
+   ]
+  },
+  {
+   "word": "感謝",
+   "romanization": "kansha",
+   "meaning": "gratitude",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "formal thankfulness",
+   "examples": [
+    "彼の助けに感謝しています。 — I am grateful for his help."
+   ]
+  },
+  {
+   "word": "恨み",
+   "romanization": "urami",
+   "meaning": "resentment",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep lingering grudge",
+   "examples": [
+    "彼に対する恨みが消えない。 — I can't let go of my resentment toward him."
+   ]
+  },
+  {
+   "word": "安心感",
+   "romanization": "anshin kan",
+   "meaning": "sense of relief",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "feeling of safety",
+   "examples": [
+    "暖かい部屋に入ると安心感が広がる。 — A sense of relief spreads when I enter the warm room."
+   ]
+  },
+  {
+   "word": "焦り",
+   "romanization": "aseri",
+   "meaning": "impatience",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "nervous urgency",
+   "examples": [
+    "試験前に焦りが募る。 — My impatience builds before the exam."
+   ]
+  },
+  {
+   "word": "怠惰",
+   "romanization": "taida",
+   "meaning": "laziness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "habitual inactivity",
+   "examples": [
+    "怠惰な生活は健康に悪い。 — A lazy lifestyle is bad for health."
+   ]
+  },
+  {
+   "word": "感動的",
+   "romanization": "kandouteki",
+   "meaning": "moving, touching",
+   "pos": "ADJ",
+   "category": "Emotions",
+   "note": "evokes strong emotion",
+   "examples": [
+    "その映画は感動的だった。 — The movie was very moving."
+   ]
+  },
+  {
+   "word": "寛容",
+   "romanization": "kanyou",
+   "meaning": "tolerance",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "accepting differences",
+   "examples": [
+    "彼は寛容な人だ。 — He is a tolerant person."
+   ]
+  },
+  {
+   "word": "切望",
+   "romanization": "setsubou",
+   "meaning": "longing",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "intense desire",
+   "examples": [
+    "故郷への切望が募る。 — My longing for home grows stronger."
+   ]
+  },
+  {
+   "word": "恍惚",
+   "romanization": "koukotsu",
+   "meaning": "ecstasy",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "overwhelming joy",
+   "examples": [
+    "音楽に浸り、恍惚に満たされた。 — I was filled with ecstasy while immersed in the music."
+   ]
+  },
+  {
+   "word": "悲哀",
+   "romanization": "hiai",
+   "meaning": "sorrow",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep melancholy",
+   "examples": [
+    "戦争の悲哀を語る。 — He speaks of the sorrow of war."
+   ]
+  },
+  {
+   "word": "不快感",
+   "romanization": "fukaikan",
+   "meaning": "discomfort",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "mild unpleasantness",
+   "examples": [
+    "座席の硬さに不快感を覚える。 — I feel discomfort from the hardness of the seat."
+   ]
+  },
+  {
+   "word": "憂鬱",
+   "romanization": "yuutsu",
+   "meaning": "depression",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "gloomy mood",
+   "examples": [
+    "雨の日は憂鬱になる。 — I become gloomy on rainy days."
+   ]
+  },
+  {
+   "word": "満足感",
+   "romanization": "manzoku kan",
+   "meaning": "sense of satisfaction",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "contented feeling",
+   "examples": [
+    "仕事が終わり、満足感が湧いた。 — After finishing the work, a sense of satisfaction rose."
+   ]
+  },
+  {
+   "word": "焦燥",
+   "romanization": "shousou",
+   "meaning": "restlessness",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "uneasy agitation",
+   "examples": [
+    "待ち時間の長さに焦燥を覚える。 — I feel restlessness due to the long wait."
+   ]
+  },
+  {
+   "word": "哀れみ",
+   "romanization": "awaremi",
+   "meaning": "pity",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "sympathetic sorrow",
+   "examples": [
+    "彼の境遇に哀れみを抱く。 — I feel pity for his situation."
+   ]
+  },
+  {
+   "word": "欲求不満",
+   "romanization": "yokkyuu fuman",
+   "meaning": "frustration",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "unmet desire",
+   "examples": [
+    "欲求不満がたまっている。 — Frustration is building up."
+   ]
+  },
+  {
+   "word": "熱意",
+   "romanization": "netsui",
+   "meaning": "enthusiasm",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "passionate eagerness",
+   "examples": [
+    "彼は熱意を持ってプロジェクトに取り組む。 — He works on the project with enthusiasm."
+   ]
+  },
+  {
+   "word": "軽蔑",
+   "romanization": "keibetsu",
+   "meaning": "contempt",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "disdainful attitude",
+   "examples": [
+    "彼の行動に軽蔑を覚える。 — I feel contempt for his behavior."
+   ]
+  },
+  {
+   "word": "心配",
+   "romanization": "shinpai",
+   "meaning": "worry",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "common everyday concern",
+   "examples": [
+    "試験の結果が心配だ。 — I'm worried about the exam results."
+   ]
+  },
+  {
+   "word": "安堵",
+   "romanization": "ando",
+   "meaning": "relief",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "feeling after tension ends",
+   "examples": [
+    "合格の連絡を受けて安堵した。 — I felt relieved after receiving the acceptance notice."
+   ]
+  },
+  {
+   "word": "悔しさ",
+   "romanization": "kuyashisa",
+   "meaning": "regret",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "sharp feeling of disappointment",
+   "examples": [
+    "負けた後の悔しさは大きい。 — The regret after losing is intense."
+   ]
+  },
+  {
+   "word": "恐怖",
+   "romanization": "kyoufu",
+   "meaning": "fear",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep, often irrational fear",
+   "examples": [
+    "暗闇に対する恐怖がある。 — I have a fear of darkness."
+   ]
+  },
+  {
+   "word": "興奮",
+   "romanization": "koufun",
+   "meaning": "excitement",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "heightened emotional arousal",
+   "examples": [
+    "ライブの前に興奮して眠れなかった。 — I was so excited before the concert I couldn't sleep."
+   ]
+  },
+  {
+   "word": "憧れ",
+   "romanization": "akogare",
+   "meaning": "longing",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "admiring desire for something",
+   "examples": [
+    "彼のようになることが私の憧れだ。 — My longing is to become like him."
+   ]
+  },
+  {
+   "word": "哀愁",
+   "romanization": "aishuu",
+   "meaning": "nostalgia",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "sad, wistful feeling",
+   "examples": [
+    "古い写真を見ると哀愁が湧く。 — Seeing old photos evokes nostalgia."
+   ]
+  },
+  {
+   "word": "感激",
+   "romanization": "kangeki",
+   "meaning": "being moved",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "deep emotional appreciation",
+   "examples": [
+    "観客の拍手に感激した。 — I was moved by the audience's applause."
+   ]
+  },
+  {
+   "word": "羨望",
+   "romanization": "senbou",
+   "meaning": "envy",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "desire for another's good fortune",
+   "examples": [
+    "彼の成功に羨望を抱く。 — I feel envy toward his success."
+   ]
+  },
+  {
+   "word": "嫌悪",
+   "romanization": "ken'o",
+   "meaning": "disgust",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "strong aversion",
+   "examples": [
+    "虫に対する嫌悪感が強い。 — I have a strong disgust for insects."
+   ]
+  },
+  {
+   "word": "苛立ち",
+   "romanization": "iradachi",
+   "meaning": "irritation",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "short‑term annoyed feeling",
+   "examples": [
+    "渋滞で苛立ちが募る。 — I become increasingly irritated in traffic jams."
+   ]
+  },
+  {
+   "word": "恥",
+   "romanization": "haji",
+   "meaning": "shame",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "embarrassment about oneself",
+   "examples": [
+    "失敗して恥をかいた。 — I felt shame after making a mistake."
+   ]
+  },
+  {
+   "word": "安らぎ",
+   "romanization": "yasuragi",
+   "meaning": "peace",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "calm, soothing feeling",
+   "examples": [
+    "温泉で心の安らぎを得た。 — I found peace of mind at the hot spring."
+   ]
+  },
+  {
+   "word": "希望",
+   "romanization": "kibou",
+   "meaning": "hope",
+   "pos": "NOUN",
+   "category": "Emotions",
+   "note": "positive expectation for future",
+   "examples": [
+    "新しい仕事に希望を持っている。 — I have hope for the new job."
+   ]
+  },
+  {
+   "word": "山",
+   "romanization": "yama",
+   "meaning": "mountain",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "common natural feature",
+   "examples": [
+    "富士山は日本で一番高い山です。 — Mount Fuji is the tallest mountain in Japan."
+   ]
+  },
+  {
+   "word": "川",
+   "romanization": "kawa",
+   "meaning": "river",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "flowing water body",
+   "examples": [
+    "清流の川が森を流れています。 — A clear river flows through the forest."
+   ]
+  },
+  {
+   "word": "海",
+   "romanization": "umi",
+   "meaning": "sea",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "large saltwater body",
+   "examples": [
+    "夏は海で泳ぐのが好きです。 — I like swimming in the sea during summer."
+   ]
+  },
+  {
+   "word": "森",
+   "romanization": "mori",
+   "meaning": "forest",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "dense tree area",
+   "examples": [
+    "森の中で鹿が走っていた。 — A deer was running in the forest."
+   ]
+  },
+  {
+   "word": "空",
+   "romanization": "sora",
+   "meaning": "sky",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "above the earth",
+   "examples": [
+    "夜空に星が輝いている。 — Stars are shining in the night sky."
+   ]
+  },
+  {
+   "word": "雨",
+   "romanization": "ame",
+   "meaning": "rain",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "precipitation",
+   "examples": [
+    "雨が降って道路が濡れた。 — Rain fell and the road got wet."
+   ]
+  },
+  {
+   "word": "雪",
+   "romanization": "yuki",
+   "meaning": "snow",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "frozen precipitation",
+   "examples": [
+    "山頂には厚い雪が積もっている。 — Thick snow is piled on the mountain summit."
+   ]
+  },
+  {
+   "word": "風",
+   "romanization": "kaze",
+   "meaning": "wind",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "moving air",
+   "examples": [
+    "強い風が木の葉を揺らした。 — Strong wind swayed the leaves."
+   ]
+  },
+  {
+   "word": "太陽",
+   "romanization": "taiyou",
+   "meaning": "sun",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "star at day",
+   "examples": [
+    "太陽が昇ると暖かくなる。 — It gets warm when the sun rises."
+   ]
+  },
+  {
+   "word": "月",
+   "romanization": "tsuki",
+   "meaning": "moon",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "night celestial body",
+   "examples": [
+    "満月の夜はとても美しい。 — A full moon night is very beautiful."
+   ]
+  },
+  {
+   "word": "星",
+   "romanization": "hoshi",
+   "meaning": "star",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "celestial point of light",
+   "examples": [
+    "流れ星を見たら願い事をしよう。 — Make a wish when you see a shooting star."
+   ]
+  },
+  {
+   "word": "岩",
+   "romanization": "iwa",
+   "meaning": "rock",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "solid mineral mass",
+   "examples": [
+    "海岸の岩にカニが隠れている。 — Crabs hide among the rocks on the shore."
+   ]
+  },
+  {
+   "word": "砂",
+   "romanization": "suna",
+   "meaning": "sand",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "tiny grains of stone",
+   "examples": [
+    "砂浜で貝殻を集めた。 — I collected shells on the sandy beach."
+   ]
+  },
+  {
+   "word": "草",
+   "romanization": "kusa",
+   "meaning": "grass",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "green low plants",
+   "examples": [
+    "草原に野花が咲いている。 — Wildflowers bloom on the grassland."
+   ]
+  },
+  {
+   "word": "花",
+   "romanization": "hana",
+   "meaning": "flower",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "blossoming plant part",
+   "examples": [
+    "桜の花が春に満開になる。 — Cherry blossoms are in full bloom in spring."
+   ]
+  },
+  {
+   "word": "葉",
+   "romanization": "ha",
+   "meaning": "leaf",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "plant foliage",
+   "examples": [
+    "赤い葉が秋の風に舞う。 — Red leaves dance in the autumn wind."
+   ]
+  },
+  {
+   "word": "湖",
+   "romanization": "mizuumi",
+   "meaning": "lake",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "inland water body",
+   "examples": [
+    "湖の水は鏡のように静かだ。 — The lake's water is as still as a mirror."
+   ]
+  },
+  {
+   "word": "谷",
+   "romanization": "tani",
+   "meaning": "valley",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "low area between hills",
+   "examples": [
+    "谷を抜けると温泉が見える。 — A hot spring appears after passing through the valley."
+   ]
+  },
+  {
+   "word": "森林",
+   "romanization": "shinrin",
+   "meaning": "forest",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "general term for wooded area",
+   "examples": [
+    "春になると森林が緑に覆われる。 — In spring, the forest becomes covered in green."
+   ]
+  },
+  {
+   "word": "山岳",
+   "romanization": "sangaku",
+   "meaning": "mountain range",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "refers to multiple peaks",
+   "examples": [
+    "日本の山岳は登山者に人気だ。 — Japan's mountain ranges are popular with hikers."
+   ]
+  },
+  {
+   "word": "岩石",
+   "romanization": "ganshoku",
+   "meaning": "rock, stone",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "geological term",
+   "examples": [
+    "この岩石は何億年前のものだ。 — This rock dates back millions of years."
+   ]
+  },
+  {
+   "word": "滝",
+   "romanization": "taki",
+   "meaning": "waterfall",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "natural cascade of water",
+   "examples": [
+    "有名な滝は観光名所です。 — The famous waterfall is a tourist spot."
+   ]
+  },
+  {
+   "word": "泉",
+   "romanization": "izumi",
+   "meaning": "spring (water source)",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "natural water source",
+   "examples": [
+    "山の泉から清らかな水が流れる。 — Clear water flows from the mountain spring."
+   ]
+  },
+  {
+   "word": "谷間",
+   "romanization": "tanima",
+   "meaning": "valley, ravine",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "narrow low area",
+   "examples": [
+    "谷間には小さな村がある。 — A small village lies in the valley."
+   ]
+  },
+  {
+   "word": "沼",
+   "romanization": "numa",
+   "meaning": "marsh, swamp",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "wetland area",
+   "examples": [
+    "沼の周りには苔が生えている。 — Moss grows around the swamp."
+   ]
+  },
+  {
+   "word": "砂丘",
+   "romanization": "sakyū",
+   "meaning": "sand dune",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "wind‑formed sand hill",
+   "examples": [
+    "砂丘は海岸線に広がっている。 — Sand dunes stretch along the coastline."
+   ]
+  },
+  {
+   "word": "氷河",
+   "romanization": "hyōga",
+   "meaning": "glacier",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "large body of ice",
+   "examples": [
+    "氷河がゆっくりと後退している。 — The glacier is slowly retreating."
+   ]
+  },
+  {
+   "word": "雷",
+   "romanization": "kaminari",
+   "meaning": "thunder",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "sound of a storm",
+   "examples": [
+    "雷が鳴り響く夜だった。 — It was a night when thunder roared."
+   ]
+  },
+  {
+   "word": "雲",
+   "romanization": "kumo",
+   "meaning": "cloud",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "visible water vapor",
+   "examples": [
+    "空に白い雲が流れている。 — White clouds drift across the sky."
+   ]
+  },
+  {
+   "word": "霧",
+   "romanization": "kiri",
+   "meaning": "fog, mist",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "low‑lying moisture",
+   "examples": [
+    "朝の霧が山を包んだ。 — Morning fog enveloped the mountains."
+   ]
+  },
+  {
+   "word": "潮汐",
+   "romanization": "chōseki",
+   "meaning": "tide",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "rise and fall of sea level",
+   "examples": [
+    "潮汐の変化を観測する。 — Observe the changes in the tide."
+   ]
+  },
+  {
+   "word": "岩壁",
+   "romanization": "ganpeki",
+   "meaning": "cliff face",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "steep rock surface",
+   "examples": [
+    "岩壁にクライミングする人が多い。 — Many people climb the cliff face."
+   ]
+  },
+  {
+   "word": "岩礁",
+   "romanization": "ganshō",
+   "meaning": "rocky reef",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "submerged rocks",
+   "examples": [
+    "ダイビングは岩礁で楽しい。 — Diving is fun at the rocky reef."
+   ]
+  },
+  {
+   "word": "樹皮",
+   "romanization": "juhaku",
+   "meaning": "bark (of a tree)",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "outer covering of tree",
+   "examples": [
+    "樹皮から樹液が滴る。 — Sap drips from the tree bark."
+   ]
+  },
+  {
+   "word": "根",
+   "romanization": "ne",
+   "meaning": "root",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "underground part of plant",
+   "examples": [
+    "植物の根は土にしっかり張っている。 — The plant's roots are firmly anchored in the soil."
+   ]
+  },
+  {
+   "word": "草原",
+   "romanization": "sōgen",
+   "meaning": "grassland, prairie",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "open area of grasses",
+   "examples": [
+    "広い草原でピクニックをした。 — We had a picnic on the wide grassland."
+   ]
+  },
+  {
+   "word": "木",
+   "romanization": "ki",
+   "meaning": "tree",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "common for vegetation",
+   "examples": [
+    "庭に大きな木がある。 — There is a big tree in the garden."
+   ]
+  },
+  {
+   "word": "大地",
+   "romanization": "daichi",
+   "meaning": "the earth, ground",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "emphasizes vastness",
+   "examples": [
+    "大地が震えると地震になる。 — When the ground shakes, an earthquake occurs."
+   ]
+  },
+  {
+   "word": "大気",
+   "romanization": "taiki",
+   "meaning": "atmosphere",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "scientific term",
+   "examples": [
+    "大気汚染が深刻な問題だ。 — Air pollution is a serious problem."
+   ]
+  },
+  {
+   "word": "海岸",
+   "romanization": "kaigan",
+   "meaning": "seashore, coast",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "coastal area",
+   "examples": [
+    "海岸で貝殻を集めた。 — I collected shells on the coast."
+   ]
+  },
+  {
+   "word": "島",
+   "romanization": "shima",
+   "meaning": "island",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "land surrounded by water",
+   "examples": [
+    "沖縄は日本の大きな島です。 — Okinawa is a large Japanese island."
+   ]
+  },
+  {
+   "word": "湾",
+   "romanization": "wan",
+   "meaning": "bay",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "curved coastline",
+   "examples": [
+    "東京湾は船が多い。 — Tokyo Bay has many ships."
+   ]
+  },
+  {
+   "word": "浜",
+   "romanization": "hama",
+   "meaning": "beach, shore",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "sandy shore",
+   "examples": [
+    "浜で子供が遊んでいる。 — Children are playing on the beach."
+   ]
+  },
+  {
+   "word": "溪",
+   "romanization": "kei",
+   "meaning": "stream, ravine",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "small watercourse",
+   "examples": [
+    "山の溪は清らかだ。 — The mountain stream is clear."
+   ]
+  },
+  {
+   "word": "植物",
+   "romanization": "shokubutsu",
+   "meaning": "plant",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "general flora",
+   "examples": [
+    "この植物は日陰を好む。 — This plant prefers shade."
+   ]
+  },
+  {
+   "word": "動物",
+   "romanization": "doubutsu",
+   "meaning": "animal",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "general fauna",
+   "examples": [
+    "動物園には様々な動物がいる。 — The zoo has various animals."
+   ]
+  },
+  {
+   "word": "鳥",
+   "romanization": "tori",
+   "meaning": "bird",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "feathered creature",
+   "examples": [
+    "朝になると鳥がさえずる。 — Birds chirp in the morning."
+   ]
+  },
+  {
+   "word": "魚",
+   "romanization": "sakana",
+   "meaning": "fish",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "aquatic animal",
+   "examples": [
+    "川で魚を捕まえた。 — I caught fish in the river."
+   ]
+  },
+  {
+   "word": "虫",
+   "romanization": "mushi",
+   "meaning": "insect",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "small arthropod",
+   "examples": [
+    "夜になると虫の音が聞こえる。 — At night you can hear insects."
+   ]
+  },
+  {
+   "word": "蜂",
+   "romanization": "hachi",
+   "meaning": "bee",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "pollinator insect",
+   "examples": [
+    "蜂が花から花へ飛んでいる。 — Bees are flying from flower to flower."
+   ]
+  },
+  {
+   "word": "蜜",
+   "romanization": "mitsu",
+   "meaning": "nectar, honey",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "sweet substance",
+   "examples": [
+    "蜂は蜜を集めて巣に持ち帰る。 — Bees collect nectar and bring it to the hive."
+   ]
+  },
+  {
+   "word": "岸",
+   "romanization": "kishi",
+   "meaning": "shore, bank",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "edge of water",
+   "examples": [
+    "川の岸に座って景色を見る。 — I sit on the riverbank and watch the scenery."
+   ]
+  },
+  {
+   "word": "波",
+   "romanization": "nami",
+   "meaning": "wave",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "water movement",
+   "examples": [
+    "波が高くてサーフィンができる。 — The waves are high, perfect for surfing."
+   ]
+  },
+  {
+   "word": "潮",
+   "romanization": "shio",
+   "meaning": "tide, sea water",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "rising and falling sea level",
+   "examples": [
+    "潮が満ちると港は満杯になる。 — When the tide comes in, the harbor fills up."
+   ]
+  },
+  {
+   "word": "火山",
+   "romanization": "kazan",
+   "meaning": "volcano",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "mountain that erupts",
+   "examples": [
+    "富士山は活火山です。 — Mount Fuji is an active volcano."
+   ]
+  },
+  {
+   "word": "地震",
+   "romanization": "jishin",
+   "meaning": "earthquake",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "seismic shaking",
+   "examples": [
+    "昨日の地震で建物が揺れた。 — The building shook during yesterday's earthquake."
+   ]
+  },
+  {
+   "word": "火",
+   "romanization": "hi",
+   "meaning": "fire",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "combustion flame",
+   "examples": [
+    "キャンプで火を起こした。 — We started a fire at the campsite."
+   ]
+  },
+  {
+   "word": "氷",
+   "romanization": "kōri",
+   "meaning": "ice",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "frozen water",
+   "examples": [
+    "湖の氷が厚くなった。 — The lake's ice has become thick."
+   ]
+  },
+  {
+   "word": "湿地",
+   "romanization": "shitchi",
+   "meaning": "wetland",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "water‑logged land",
+   "examples": [
+    "湿地は多様な生物が暮らす。 — Wetlands are home to diverse organisms."
+   ]
+  },
+  {
+   "word": "温泉",
+   "romanization": "onsen",
+   "meaning": "hot spring",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "natural heated water",
+   "examples": [
+    "温泉でリラックスした。 — I relaxed in a hot spring."
+   ]
+  },
+  {
+   "word": "砂漠",
+   "romanization": "sabaku",
+   "meaning": "desert",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "arid landscape",
+   "examples": [
+    "サハラ砂漠は広大だ。 — The Sahara Desert is vast."
+   ]
+  },
+  {
+   "word": "霜",
+   "romanization": "shimo",
+   "meaning": "frost",
+   "pos": "NOUN",
+   "category": "Nature",
+   "note": "frozen dew",
+   "examples": [
+    "朝、窓に霜が付いていた。 — Frost was on the window in the morning."
+   ]
+  },
+  {
+   "word": "今",
+   "romanization": "ima",
+   "meaning": "now",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "refers to present moment",
+   "examples": [
+    "今、雨が降っています。 — It is raining now."
+   ]
+  },
+  {
+   "word": "今日",
+   "romanization": "kyou",
+   "meaning": "today",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "current day",
+   "examples": [
+    "今日は仕事が忙しいです。 — I am busy with work today."
+   ]
+  },
+  {
+   "word": "昨日",
+   "romanization": "kinou",
+   "meaning": "yesterday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "previous day",
+   "examples": [
+    "昨日、映画を見ました。 — I watched a movie yesterday."
+   ]
+  },
+  {
+   "word": "明日",
+   "romanization": "ashita",
+   "meaning": "tomorrow",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "next day",
+   "examples": [
+    "明日は早く起きます。 — I will wake up early tomorrow."
+   ]
+  },
+  {
+   "word": "朝",
+   "romanization": "asa",
+   "meaning": "morning",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "early part of day",
+   "examples": [
+    "朝ご飯を食べましたか？ — Did you eat breakfast?"
+   ]
+  },
+  {
+   "word": "昼",
+   "romanization": "hiru",
+   "meaning": "noon/afternoon",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "midday period",
+   "examples": [
+    "昼休みは何時ですか？ — What time is the lunch break?"
+   ]
+  },
+  {
+   "word": "夜",
+   "romanization": "yoru",
+   "meaning": "night/evening",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "later part of day",
+   "examples": [
+    "夜は星が綺麗です。 — The stars are beautiful at night."
+   ]
+  },
+  {
+   "word": "週末",
+   "romanization": "shuumatsu",
+   "meaning": "weekend",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "Saturday and Sunday",
+   "examples": [
+    "週末に旅行します。 — I will travel on the weekend."
+   ]
+  },
+  {
+   "word": "今週",
+   "romanization": "konshuu",
+   "meaning": "this week",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "current week",
+   "examples": [
+    "今週は忙しいです。 — I am busy this week."
+   ]
+  },
+  {
+   "word": "来週",
+   "romanization": "raishuu",
+   "meaning": "next week",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "following week",
+   "examples": [
+    "来週、会議があります。 — There is a meeting next week."
+   ]
+  },
+  {
+   "word": "先週",
+   "romanization": "senshuu",
+   "meaning": "last week",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "previous week",
+   "examples": [
+    "先週は旅行に行きました。 — I went on a trip last week."
+   ]
+  },
+  {
+   "word": "毎日",
+   "romanization": "mainichi",
+   "meaning": "every day",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "daily habit",
+   "examples": [
+    "毎日散歩します。 — I take a walk every day."
+   ]
+  },
+  {
+   "word": "毎月",
+   "romanization": "maitsuki",
+   "meaning": "every month",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "monthly recurrence",
+   "examples": [
+    "毎月レポートを提出します。 — I submit a report every month."
+   ]
+  },
+  {
+   "word": "時々",
+   "romanization": "tokidoki",
+   "meaning": "sometimes",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "occasionally",
+   "examples": [
+    "時々映画館に行きます。 — I sometimes go to the cinema."
+   ]
+  },
+  {
+   "word": "いつも",
+   "romanization": "itsumo",
+   "meaning": "always",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "habitual",
+   "examples": [
+    "彼はいつも笑っています。 — He is always smiling."
+   ]
+  },
+  {
+   "word": "遅い",
+   "romanization": "osoi",
+   "meaning": "late",
+   "pos": "ADJ",
+   "category": "Time",
+   "note": "not on time",
+   "examples": [
+    "バスが遅いです。 — The bus is late."
+   ]
+  },
+  {
+   "word": "早い",
+   "romanization": "hayai",
+   "meaning": "early",
+   "pos": "ADJ",
+   "category": "Time",
+   "note": "before usual time",
+   "examples": [
+    "早い時間に起きました。 — I woke up early."
+   ]
+  },
+  {
+   "word": "今度",
+   "romanization": "kondo",
+   "meaning": "next time/soon",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "upcoming occasion",
+   "examples": [
+    "今度、一緒に食事しましょう。 — Let's eat together next time."
+   ]
+  },
+  {
+   "word": "時間",
+   "romanization": "jikan",
+   "meaning": "time, duration",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "general time span",
+   "examples": [
+    "時間が足りない。 — I don't have enough time."
+   ]
+  },
+  {
+   "word": "週",
+   "romanization": "shuu",
+   "meaning": "week",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "count weeks",
+   "examples": [
+    "来週は旅行です。 — I have a trip next week."
+   ]
+  },
+  {
+   "word": "年",
+   "romanization": "nen",
+   "meaning": "year",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "calendar year",
+   "examples": [
+    "今年は忙しいです。 — This year is busy."
+   ]
+  },
+  {
+   "word": "旬",
+   "romanization": "jun",
+   "meaning": "season, in season",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "seasonal peak",
+   "examples": [
+    "この果物は今が旬です。 — This fruit is in season now."
+   ]
+  },
+  {
+   "word": "今晩",
+   "romanization": "konban",
+   "meaning": "this evening",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "same day night",
+   "examples": [
+    "今晩は映画を見ます。 — I'll watch a movie this evening."
+   ]
+  },
+  {
+   "word": "夕方",
+   "romanization": "yuugata",
+   "meaning": "dusk, early evening",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "around sunset",
+   "examples": [
+    "夕方に散歩しましょう。 — Let's take a walk in the early evening."
+   ]
+  },
+  {
+   "word": "午後",
+   "romanization": "gogo",
+   "meaning": "afternoon",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "post‑noon period",
+   "examples": [
+    "午後三時に会いましょう。 — Let's meet at 3 PM."
+   ]
+  },
+  {
+   "word": "午前",
+   "romanization": "gozen",
+   "meaning": "morning, before noon",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "pre‑noon period",
+   "examples": [
+    "午前中に仕事を終えた。 — I finished the work in the morning."
+   ]
+  },
+  {
+   "word": "期間",
+   "romanization": "kikan",
+   "meaning": "period, duration",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "span of time",
+   "examples": [
+    "滞在期間は二週間です。 — The stay lasts two weeks."
+   ]
+  },
+  {
+   "word": "直前",
+   "romanization": "chokuzen",
+   "meaning": "just before",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "immediately prior",
+   "examples": [
+    "試合の直前に雨が降った。 — It rained just before the match."
+   ]
+  },
+  {
+   "word": "直後",
+   "romanization": "chokugo",
+   "meaning": "just after",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "immediately after",
+   "examples": [
+    "授業の直後に質問した。 — I asked a question right after class."
+   ]
+  },
+  {
+   "word": "途中",
+   "romanization": "tochuu",
+   "meaning": "on the way, middle",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "mid‑process",
+   "examples": [
+    "途中で休憩しましょう。 — Let's take a break midway."
+   ]
+  },
+  {
+   "word": "以前",
+   "romanization": "izen",
+   "meaning": "before, earlier",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "earlier than",
+   "examples": [
+    "去年以前に住んでいた。 — I lived there before last year."
+   ]
+  },
+  {
+   "word": "以後",
+   "romanization": "igo",
+   "meaning": "after, since",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "from that point onward",
+   "examples": [
+    "卒業以後、東京に住んでいる。 — I've lived in Tokyo since graduation."
+   ]
+  },
+  {
+   "word": "先",
+   "romanization": "saki",
+   "meaning": "future, ahead",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "forward direction",
+   "examples": [
+    "先に進むべきだ。 — We should move forward."
+   ]
+  },
+  {
+   "word": "後",
+   "romanization": "ato",
+   "meaning": "later, after",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "subsequent time",
+   "examples": [
+    "食事の後で散歩した。 — We took a walk after the meal."
+   ]
+  },
+  {
+   "word": "昨晩",
+   "romanization": "さくばん",
+   "meaning": "last night",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "refers to previous night",
+   "examples": [
+    "昨晩は友達と食事した。 — I had dinner with a friend last night."
+   ]
+  },
+  {
+   "word": "今夜",
+   "romanization": "こんや",
+   "meaning": "tonight",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "same day evening",
+   "examples": [
+    "今夜は映画を見よう。 — Let's watch a movie tonight."
+   ]
+  },
+  {
+   "word": "深夜",
+   "romanization": "しんや",
+   "meaning": "late night",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "usually after 10 p.m.",
+   "examples": [
+    "深夜に電話が鳴った。 — The phone rang late at night."
+   ]
+  },
+  {
+   "word": "夜中",
+   "romanization": "よなか",
+   "meaning": "midnight",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "mid of the night",
+   "examples": [
+    "夜中に雨が降り始めた。 — It started raining around midnight."
+   ]
+  },
+  {
+   "word": "瞬間",
+   "romanization": "しゅんかん",
+   "meaning": "moment",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "very brief point",
+   "examples": [
+    "光が消える瞬間を見た。 — I saw the instant the light went out."
+   ]
+  },
+  {
+   "word": "永遠",
+   "romanization": "えいえん",
+   "meaning": "eternity",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "endless time",
+   "examples": [
+    "永遠に続くと信じた。 — I believed it would last forever."
+   ]
+  },
+  {
+   "word": "昔",
+   "romanization": "むかし",
+   "meaning": "long ago",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "distant past",
+   "examples": [
+    "昔はこの辺りは田んぼだった。 — Long ago, this area was rice fields."
+   ]
+  },
+  {
+   "word": "昔々",
+   "romanization": "むかしむかし",
+   "meaning": "once upon a time",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "fairy‑tale opener",
+   "examples": [
+    "昔々、王様がいた。 — Once upon a time, there was a king."
+   ]
+  },
+  {
+   "word": "将来",
+   "romanization": "しょうらい",
+   "meaning": "future",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "time ahead",
+   "examples": [
+    "将来は医者になりたい。 — I want to become a doctor in the future."
+   ]
+  },
+  {
+   "word": "過去",
+   "romanization": "かこ",
+   "meaning": "past",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "time that has passed",
+   "examples": [
+    "過去の出来事を忘れない。 — I don't forget past events."
+   ]
+  },
+  {
+   "word": "現在",
+   "romanization": "げんざい",
+   "meaning": "present",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "right now",
+   "examples": [
+    "現在、彼は東京にいる。 — He is in Tokyo at present."
+   ]
+  },
+  {
+   "word": "即座に",
+   "romanization": "そくざに",
+   "meaning": "immediately",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "no delay",
+   "examples": [
+    "即座に返事した。 — I replied immediately."
+   ]
+  },
+  {
+   "word": "間もなく",
+   "romanization": "まもなく",
+   "meaning": "soon",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "shortly forthcoming",
+   "examples": [
+    "列車は間もなく出発します。 — The train will depart soon."
+   ]
+  },
+  {
+   "word": "やがて",
+   "romanization": "やがて",
+   "meaning": "eventually",
+   "pos": "ADV",
+   "category": "Time",
+   "note": "after some time",
+   "examples": [
+    "やがて春が来る。 — Eventually spring will come."
+   ]
+  },
+  {
+   "word": "今後",
+   "romanization": "こんご",
+   "meaning": "hereafter",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "from now on",
+   "examples": [
+    "今後は注意します。 — I will be careful from now on."
+   ]
+  },
+  {
+   "word": "当日",
+   "romanization": "とうじつ",
+   "meaning": "the day itself",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "the specific day",
+   "examples": [
+    "当日は雨が降った。 — It rained on the day itself."
+   ]
+  },
+  {
+   "word": "前日",
+   "romanization": "ぜんじつ",
+   "meaning": "the day before",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "one day earlier",
+   "examples": [
+    "前日は会議があった。 — There was a meeting the day before."
+   ]
+  },
+  {
+   "word": "翌日",
+   "romanization": "よくじつ",
+   "meaning": "the next day",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "following day",
+   "examples": [
+    "翌日は休みだった。 — The next day was a holiday."
+   ]
+  },
+  {
+   "word": "時刻",
+   "romanization": "jikoku",
+   "meaning": "specific time point",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "used for exact times",
+   "examples": [
+    "電車は8時15分の時刻に出発します。 — The train departs at the time of 8:15."
+   ]
+  },
+  {
+   "word": "月曜",
+   "romanization": "getsuyou",
+   "meaning": "Monday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "abbreviation of 月曜日",
+   "examples": [
+    "月曜の会議は午後2時に始まります。 — The Monday meeting starts at 2 p.m."
+   ]
+  },
+  {
+   "word": "火曜",
+   "romanization": "kayou",
+   "meaning": "Tuesday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "abbreviation of 火曜日",
+   "examples": [
+    "火曜は英語の授業があります。 — There is an English class on Tuesday."
+   ]
+  },
+  {
+   "word": "水曜",
+   "romanization": "suiyou",
+   "meaning": "Wednesday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "abbreviation of 水曜日",
+   "examples": [
+    "水曜の昼食はカフェテリアで食べる。 — We eat Wednesday lunch in the cafeteria."
+   ]
+  },
+  {
+   "word": "木曜",
+   "romanization": "mokuyou",
+   "meaning": "Thursday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "abbreviation of 木曜日",
+   "examples": [
+    "木曜に新しいプロジェクトが始まります。 — The new project starts on Thursday."
+   ]
+  },
+  {
+   "word": "金曜",
+   "romanization": "kinyou",
+   "meaning": "Friday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "abbreviation of 金曜日",
+   "examples": [
+    "金曜は残業が多いです。 — Fridays often have a lot of overtime."
+   ]
+  },
+  {
+   "word": "土曜",
+   "romanization": "doyou",
+   "meaning": "Saturday",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "abbreviation of 土曜日",
+   "examples": [
+    "土曜は家族とドライブに行く。 — I go for a drive with my family on Saturday."
+   ]
+  },
+  {
+   "word": "先月",
+   "romanization": "sengetsu",
+   "meaning": "last month",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "refers to previous month",
+   "examples": [
+    "先月は旅行に行きました。 — I went traveling last month."
+   ]
+  },
+  {
+   "word": "来月",
+   "romanization": "raigetsu",
+   "meaning": "next month",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "refers to upcoming month",
+   "examples": [
+    "来月のプレゼンは重要です。 — The presentation next month is important."
+   ]
+  },
+  {
+   "word": "年末",
+   "romanization": "nenmatsu",
+   "meaning": "end of the year",
+   "pos": "NOUN",
+   "category": "Time",
+   "note": "often used for holiday season",
+   "examples": [
+    "年末には大掃除をします。 — We do a big cleaning at the end of the year."
+   ]
+  },
+  {
+   "word": "こんにちは",
+   "romanization": "konnichiwa",
+   "meaning": "Hello (daytime)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Used after morning",
+   "examples": [
+    "こんにちは、元気ですか？ — Hello, how are you?"
+   ]
+  },
+  {
+   "word": "おはようございます",
+   "romanization": "ohayou gozaimasu",
+   "meaning": "Good morning (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Formal morning greeting",
+   "examples": [
+    "おはようございます、今日はいい天気ですね。 — Good morning, the weather is nice today."
+   ]
+  },
+  {
+   "word": "こんばんは",
+   "romanization": "konbanwa",
+   "meaning": "Good evening",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Evening greeting",
+   "examples": [
+    "こんばんは、遅くまでお疲れ様です。 — Good evening, thanks for working late."
+   ]
+  },
+  {
+   "word": "さようなら",
+   "romanization": "sayounara",
+   "meaning": "Goodbye",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Farewell, often formal",
+   "examples": [
+    "それでは、さようなら。 — Well then, goodbye."
+   ]
+  },
+  {
+   "word": "またね",
+   "romanization": "mata ne",
+   "meaning": "See you later",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Casual, friendly",
+   "examples": [
+    "今日は楽しかったね。またね！ — Today was fun. See you later!"
+   ]
+  },
+  {
+   "word": "おやすみなさい",
+   "romanization": "oyasumi nasai",
+   "meaning": "Good night (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Before sleep",
+   "examples": [
+    "もう遅いから、おやすみなさい。 — It's late, so good night."
+   ]
+  },
+  {
+   "word": "どうも",
+   "romanization": "doumo",
+   "meaning": "Thanks / Hello (informal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Very versatile",
+   "examples": [
+    "どうも、手伝ってくれてありがとう。 — Thanks for helping me."
+   ]
+  },
+  {
+   "word": "はい",
+   "romanization": "hai",
+   "meaning": "Yes",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Affirmative response",
+   "examples": [
+    "はい、分かりました。 — Yes, I understand."
+   ]
+  },
+  {
+   "word": "いいえ",
+   "romanization": "iie",
+   "meaning": "No / You're welcome",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Negative or polite denial",
+   "examples": [
+    "いいえ、結構です。 — No, that's fine."
+   ]
+  },
+  {
+   "word": "すみません",
+   "romanization": "sumimasen",
+   "meaning": "Excuse me / Sorry",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Apology or attention",
+   "examples": [
+    "すみません、道を教えてください。 — Excuse me, could you tell me the way?"
+   ]
+  },
+  {
+   "word": "ありがとう",
+   "romanization": "arigatou",
+   "meaning": "Thank you (casual)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Informal gratitude",
+   "examples": [
+    "手伝ってくれて、ありがとう！ — Thanks for helping me!"
+   ]
+  },
+  {
+   "word": "ありがとうございます",
+   "romanization": "arigatou gozaimasu",
+   "meaning": "Thank you (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Formal gratitude",
+   "examples": [
+    "ご招待いただき、ありがとうございます。 — Thank you for the invitation."
+   ]
+  },
+  {
+   "word": "はじめまして",
+   "romanization": "hajimemashite",
+   "meaning": "Nice to meet you",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "First meeting",
+   "examples": [
+    "はじめまして、田中と申します。 — Nice to meet you, I'm Tanaka."
+   ]
+  },
+  {
+   "word": "よろしくお願いします",
+   "romanization": "yoroshiku onegaishimasu",
+   "meaning": "Please treat me well",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "After introductions",
+   "examples": [
+    "これからよろしくお願いします。 — I look forward to working with you."
+   ]
+  },
+  {
+   "word": "どういたしまして",
+   "romanization": "dou itashimashite",
+   "meaning": "You’re welcome",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Response to thanks",
+   "examples": [
+    "ありがとう。— どういたしまして。 — Thank you. — You’re welcome."
+   ]
+  },
+  {
+   "word": "おめでとうございます",
+   "romanization": "omedetou gozaimasu",
+   "meaning": "Congratulations (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Celebratory",
+   "examples": [
+    "ご卒業おめでとうございます！ — Congratulations on your graduation!"
+   ]
+  },
+  {
+   "word": "ごめんなさい",
+   "romanization": "gomen nasai",
+   "meaning": "I’m sorry (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Apology",
+   "examples": [
+    "遅れてごめんなさい。 — I’m sorry for being late."
+   ]
+  },
+  {
+   "word": "失礼します",
+   "romanization": "shitsurei shimasu",
+   "meaning": "Excuse me / I’ll be leaving",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Polite entry/exit",
+   "examples": [
+    "会議が終わったので、失礼します。 — The meeting is over, so I’ll excuse myself."
+   ]
+  },
+  {
+   "word": "おはよう",
+   "romanization": "ohayou",
+   "meaning": "good morning (casual)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "used before noon",
+   "examples": [
+    "朝、友達に『おはよう』と言った。 — In the morning, I said ‘good morning’ to my friend."
+   ]
+  },
+  {
+   "word": "お疲れ様",
+   "romanization": "otsukaresama",
+   "meaning": "thanks for your effort",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "after work or task",
+   "examples": [
+    "みんなで仕事が終わったら『お疲れ様』と言い合う。 — After finishing work together, we say ‘thanks for your effort.’"
+   ]
+  },
+  {
+   "word": "お元気ですか",
+   "romanization": "ogenki desu ka",
+   "meaning": "how are you?",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "polite inquiry",
+   "examples": [
+    "久しぶりに会って『お元気ですか』と聞いた。 — When we met after a long time, I asked ‘how are you?’"
+   ]
+  },
+  {
+   "word": "元気です",
+   "romanization": "genki desu",
+   "meaning": "I am fine",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "reply to お元気ですか",
+   "examples": [
+    "彼は『元気です』と答えた。 — He replied, ‘I’m fine.’"
+   ]
+  },
+  {
+   "word": "いかがですか",
+   "romanization": "ikaga desu ka",
+   "meaning": "how about it?",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "offering or asking opinion",
+   "examples": [
+    "この料理、いかがですか？ — How about this dish?"
+   ]
+  },
+  {
+   "word": "おめでとう",
+   "romanization": "omedetou",
+   "meaning": "congratulations",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "casual congratulation",
+   "examples": [
+    "試験に合格して『おめでとう』と言った。 — I said ‘congrats’ when he passed the exam."
+   ]
+  },
+  {
+   "word": "ご無沙汰",
+   "romanization": "gobusata",
+   "meaning": "long time no see",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "formal, written",
+   "examples": [
+    "ご無沙汰していますが、お変わりありませんか。 — It’s been a while; how have you been?"
+   ]
+  },
+  {
+   "word": "どうしたの",
+   "romanization": "doushita no",
+   "meaning": "what’s wrong?",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal concern",
+   "examples": [
+    "泣いている友達に『どうしたの』と尋ねた。 — I asked my crying friend, ‘What’s wrong?’"
+   ]
+  },
+  {
+   "word": "お先に失礼します",
+   "romanization": "osaki ni shitsurei shimasu",
+   "meaning": "excusing oneself first",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "leaving before others",
+   "examples": [
+    "残業中に『お先に失礼します』と言って帰った。 — I said ‘excuse me for leaving first’ and went home during overtime."
+   ]
+  },
+  {
+   "word": "お疲れ",
+   "romanization": "otsukare",
+   "meaning": "thanks for your effort (casual)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "short form of お疲れ様",
+   "examples": [
+    "同僚に『お疲れ』と声をかけた。 — I called out ‘good job’ to a colleague."
+   ]
+  },
+  {
+   "word": "どうもすみません",
+   "romanization": "doumo sumimasen",
+   "meaning": "very sorry",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "strong apology",
+   "examples": [
+    "遅刻して『どうもすみません』と言った。 — I said ‘I’m very sorry’ for being late."
+   ]
+  },
+  {
+   "word": "よろしく",
+   "romanization": "yoroshiku",
+   "meaning": "please treat me well",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "casual request",
+   "examples": [
+    "新しいプロジェクトで『よろしく』と挨拶した。 — I greeted with ‘please treat me well’ on the new project."
+   ]
+  },
+  {
+   "word": "失礼しました",
+   "romanization": "shitsurei shimashita",
+   "meaning": "excuse my rudeness",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "after interrupting",
+   "examples": [
+    "会議で話を遮り『失礼しました』と言った。 — I said ‘excuse my rudeness’ after cutting into the meeting."
+   ]
+  },
+  {
+   "word": "ごめんね",
+   "romanization": "gomen ne",
+   "meaning": "sorry (casual)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "friendly apology",
+   "examples": [
+    "誤って本を倒し『ごめんね』と言った。 — I said ‘sorry’ after accidentally knocking over a book."
+   ]
+  },
+  {
+   "word": "お大事に",
+   "romanization": "odaiji ni",
+   "meaning": "take care (when ill)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "well‑wishing",
+   "examples": [
+    "具合が悪い友達に『お大事に』と伝えた。 — I told my sick friend ‘take care.’"
+   ]
+  },
+  {
+   "word": "いってきます",
+   "romanization": "itte kimasu",
+   "meaning": "I’m leaving (home)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "said when departing",
+   "examples": [
+    "朝、家を出るとき『いってきます』と言う。 — In the morning, I say ‘I’m leaving’ when I go out."
+   ]
+  },
+  {
+   "word": "いってらっしゃい",
+   "romanization": "itterasshai",
+   "meaning": "go and come back safely",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "reply to いってきます",
+   "examples": [
+    "子どもが『いってきます』と言い、母は『いってらっしゃい』と送り出した。 — The child said ‘I’m leaving’ and the mother replied ‘go safely.’"
+   ]
+  },
+  {
+   "word": "ただいま",
+   "romanization": "tadaima",
+   "meaning": "I’m home",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "said on return",
+   "examples": [
+    "仕事から帰って『ただいま』と叫んだ。 — I shouted ‘I’m home’ after returning from work."
+   ]
+  },
+  {
+   "word": "やあ",
+   "romanization": "yā",
+   "meaning": "hey (casual greeting)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "informal, to friends",
+   "examples": [
+    "やあ、元気だった？ — Hey, how have you been?"
+   ]
+  },
+  {
+   "word": "やっほー",
+   "romanization": "yahhō",
+   "meaning": "hey! (cheerful)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "very informal, youthful",
+   "examples": [
+    "やっほー、久しぶり！ — Hey, long time no see!"
+   ]
+  },
+  {
+   "word": "ごきげんよう",
+   "romanization": "gokigen'yō",
+   "meaning": "good day (formal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "polite, old‑fashioned",
+   "examples": [
+    "ごきげんよう、お会いできて嬉しいです。 — Good day, I'm glad to meet you."
+   ]
+  },
+  {
+   "word": "やすやす",
+   "romanization": "yasuyasu",
+   "meaning": "take care (short)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "casual farewell",
+   "examples": [
+    "やすやす、また明日ね。 — Take care, see you tomorrow."
+   ]
+  },
+  {
+   "word": "どうもね",
+   "romanization": "dōmo ne",
+   "meaning": "see you (casual)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "friendly parting",
+   "examples": [
+    "それじゃ、どうもね！ — Well then, see you!"
+   ]
+  },
+  {
+   "word": "ごめん",
+   "romanization": "gomen",
+   "meaning": "sorry (informal)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "apology among peers",
+   "examples": [
+    "遅れてごめん。 — Sorry I'm late."
+   ]
+  },
+  {
+   "word": "はっ",
+   "romanization": "ha",
+   "meaning": "hey! (surprised)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "short exclamation",
+   "examples": [
+    "はっ、そこにいたのか！ — Hey, you were there!"
+   ]
+  },
+  {
+   "word": "ちわっす",
+   "romanization": "chiwassu",
+   "meaning": "hi (very slangy)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "young slang, male‑biased",
+   "examples": [
+    "ちわっす、元気？ — Hi, how's it going?"
+   ]
+  },
+  {
+   "word": "おつかれ",
+   "romanization": "otsukare",
+   "meaning": "thanks for your effort",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "after work, informal",
+   "examples": [
+    "今日は本当におつかれ。 — You really did a great job today."
+   ]
+  },
+  {
+   "word": "お先に",
+   "romanization": "osaki ni",
+   "meaning": "excuse me, leaving first",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "used when departing ahead",
+   "examples": [
+    "お先に失礼します。 — Excuse me, I'll be leaving first."
+   ]
+  },
+  {
+   "word": "ごちそうさま",
+   "romanization": "gochisōsama",
+   "meaning": "thanks for the meal",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "after eating",
+   "examples": [
+    "ごちそうさまでした、とても美味しかった。 — Thank you for the meal, it was delicious."
+   ]
+  },
+  {
+   "word": "いらっしゃい",
+   "romanization": "irasshai",
+   "meaning": "welcome (to a place)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "store greeting",
+   "examples": [
+    "いらっしゃい、何をお探しですか？ — Welcome, what are you looking for?"
+   ]
+  },
+  {
+   "word": "お久しぶり",
+   "romanization": "ohisashiburi",
+   "meaning": "long time no see (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "formal reunion",
+   "examples": [
+    "お久しぶりです、お変わりありませんか？ — Long time no see, how have you been?"
+   ]
+  },
+  {
+   "word": "お元気で",
+   "romanization": "ogenki de",
+   "meaning": "stay well",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "farewell wish",
+   "examples": [
+    "また会う日まで、お元気で。 — Until we meet again, stay well."
+   ]
+  },
+  {
+   "word": "どうぞ",
+   "romanization": "dōzo",
+   "meaning": "please (offering)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "offering something",
+   "examples": [
+    "どうぞ、お先に。 — Please, go ahead."
+   ]
+  },
+  {
+   "word": "ごめんください",
+   "romanization": "gomen kudasai",
+   "meaning": "may I come in?",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "knocking politely",
+   "examples": [
+    "ごめんください、失礼します。 — May I come in? Excuse me."
+   ]
+  },
+  {
+   "word": "ごきげん",
+   "romanization": "gokigen",
+   "meaning": "how are you (polite)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "formal, often with いかが",
+   "examples": [
+    "ごきげんいかがですか？ — How are you feeling?"
+   ]
+  },
+  {
+   "word": "どういたし",
+   "romanization": "douitashi",
+   "meaning": "you're welcome (short)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "abbrev of どういたしまして",
+   "examples": [
+    "どういたし、どういたし。 — You're welcome."
+   ]
+  },
+  {
+   "word": "ごちそう",
+   "romanization": "gochisou",
+   "meaning": "treat, feast",
+   "pos": "NOUN",
+   "category": "Greetings & Social",
+   "note": "used after meals",
+   "examples": [
+    "ごちそうさまでした！ — That was a feast!"
+   ]
+  },
+  {
+   "word": "やっほ",
+   "romanization": "yaho",
+   "meaning": "hi (casual)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "very informal greeting",
+   "examples": [
+    "やっほ、元気？ — Hey, how are you?"
+   ]
+  },
+  {
+   "word": "おっす",
+   "romanization": "ossu",
+   "meaning": "hey (male)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "rough, masculine",
+   "examples": [
+    "おっす、今日は何する？ — Hey, what are we doing today?"
+   ]
+  },
+  {
+   "word": "やあやあ",
+   "romanization": "yaa yaa",
+   "meaning": "hello (cheerful)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "friendly, upbeat",
+   "examples": [
+    "やあやあ、みんな集まったね。 — Hello everyone, we’re all gathered."
+   ]
+  },
+  {
+   "word": "おはっ",
+   "romanization": "ohah",
+   "meaning": "morning greeting (short)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "shortened informal",
+   "examples": [
+    "おはっ、今日も頑張ろう！ — Morning, let’s do our best today!"
+   ]
+  },
+  {
+   "word": "やっす",
+   "romanization": "yassu",
+   "meaning": "hey (very casual)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "slang, youthful",
+   "examples": [
+    "やっす、久しぶりだな。 — Hey, long time no see."
+   ]
+  },
+  {
+   "word": "ちょーす",
+   "romanization": "cho-su",
+   "meaning": "what’s up? (slang)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "very informal, male",
+   "examples": [
+    "ちょーす、元気？ — What’s up, you good?"
+   ]
+  },
+  {
+   "word": "ごっつ",
+   "romanization": "gottsu",
+   "meaning": "hey (regional)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "Kansai dialect",
+   "examples": [
+    "ごっつ、今日は何するん？ — Hey, what are we doing today?"
+   ]
+  },
+  {
+   "word": "おっはん",
+   "romanization": "ohhan",
+   "meaning": "good morning (cute)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "cutesy, often by kids",
+   "examples": [
+    "おっはん、今日は遊ぼう！ — Good morning, let’s play today!"
+   ]
+  },
+  {
+   "word": "やっぴ",
+   "romanization": "yappi",
+   "meaning": "hi (friendly)",
+   "pos": "INTJ",
+   "category": "Greetings & Social",
+   "note": "soft, informal",
+   "examples": [
+    "やっぴ、久しぶり！ — Hi, long time no see!"
+   ]
+  }
+ ]
+}

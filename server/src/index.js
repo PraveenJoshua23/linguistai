@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors({
   origin: (origin, callback) => {
-    if (!origin || origin === 'http://localhost:4200' || origin.startsWith('chrome-extension://')) {
+    if (!origin || /^http:\/\/localhost:\d+$/.test(origin) || origin.startsWith('chrome-extension://')) {
       callback(null, true);
     } else {
       callback(new Error('CORS not allowed'));
