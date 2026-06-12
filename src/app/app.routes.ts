@@ -45,6 +45,11 @@ export const routes: Routes = [
           import('./features/flashcards/flashcards.component').then(m => m.FlashcardsComponent),
       },
       {
+        path: 'grammar',
+        loadComponent: () =>
+          import('./features/grammar/grammar.component').then(m => m.GrammarComponent),
+      },
+      {
         path: 'subtitles',
         loadComponent: () =>
           import('./features/subtitles/subtitles.component').then(m => m.SubtitlesComponent),

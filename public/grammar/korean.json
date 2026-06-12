@@ -1,0 +1,894 @@
+{
+ "language": "Korean",
+ "name": "Korean Grammar",
+ "topics": [
+  {
+   "id": "topic-particle",
+   "title": "Topic Particle 은/는",
+   "level": "Beginner",
+   "summary": "The topic particle 은/는 marks what a sentence is about — use 은 after a consonant and 는 after a vowel.",
+   "explanation": "은/는 marks the topic, the thing the sentence is commenting on, often with a sense of contrast. Attach 은 to a noun ending in a consonant and 는 to a noun ending in a vowel. It differs from the subject particle 이/가, which simply marks the grammatical subject.",
+   "examples": [
+    {
+     "text": "저는 학생이에요.",
+     "romanization": "jeoneun haksaeng-ieyo.",
+     "translation": "I am a student."
+    },
+    {
+     "text": "책은 책상 위에 있어요.",
+     "romanization": "chaegeun chaeksang wie isseoyo.",
+     "translation": "The book is on the desk."
+    },
+    {
+     "text": "오늘은 날씨가 좋아요.",
+     "romanization": "oneureun nalssiga joayo.",
+     "translation": "Today the weather is nice."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "저___ 한국 사람이에요.",
+     "promptTranslation": "I am Korean.",
+     "options": [
+      "은",
+      "는",
+      "이",
+      "가"
+     ],
+     "answerIndex": 1,
+     "explanation": "저 ends in a vowel, so the topic particle 는 is used."
+    },
+    {
+     "prompt": "동생___ 키가 커요.",
+     "promptTranslation": "My younger sibling is tall.",
+     "options": [
+      "은",
+      "는",
+      "이",
+      "가"
+     ],
+     "answerIndex": 0,
+     "explanation": "동생 ends in a consonant, so 은 is used."
+    },
+    {
+     "prompt": "커피___ 맛있어요.",
+     "promptTranslation": "The coffee is delicious.",
+     "options": [
+      "은",
+      "는",
+      "이",
+      "가"
+     ],
+     "answerIndex": 1,
+     "explanation": "커피 ends in a vowel, so 는 is used."
+    },
+    {
+     "prompt": "산___ 높아요.",
+     "promptTranslation": "The mountain is high.",
+     "options": [
+      "은",
+      "는",
+      "이",
+      "가"
+     ],
+     "answerIndex": 0,
+     "explanation": "산 ends in a consonant, so 은 is used."
+    }
+   ]
+  },
+  {
+   "id": "subject-particle",
+   "title": "Subject Particle 이/가",
+   "level": "Beginner",
+   "summary": "The subject particle 이/가 marks the grammatical subject — use 이 after a consonant and 가 after a vowel.",
+   "explanation": "이/가 marks the subject that performs the action or is described. Attach 이 to a noun ending in a consonant and 가 to a noun ending in a vowel. Compared with 은/는, 이/가 often introduces new or specific information.",
+   "examples": [
+    {
+     "text": "친구가 왔어요.",
+     "romanization": "chinguga wasseoyo.",
+     "translation": "A friend came."
+    },
+    {
+     "text": "책이 책상 위에 있어요.",
+     "romanization": "chaegi chaeksang wie isseoyo.",
+     "translation": "The book is on the desk."
+    },
+    {
+     "text": "날씨가 좋아요.",
+     "romanization": "nalssiga joayo.",
+     "translation": "The weather is nice."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "학생___ 도서관에 있어요.",
+     "promptTranslation": "A student is in the library.",
+     "options": [
+      "이",
+      "가",
+      "은",
+      "는"
+     ],
+     "answerIndex": 0,
+     "explanation": "학생 ends in a consonant, so 이 is used."
+    },
+    {
+     "prompt": "바람___ 불어요.",
+     "promptTranslation": "The wind is blowing.",
+     "options": [
+      "이",
+      "가",
+      "은",
+      "는"
+     ],
+     "answerIndex": 0,
+     "explanation": "바람 ends in a consonant, so 이 is used."
+    },
+    {
+     "prompt": "아이___ 자고 있어요.",
+     "promptTranslation": "The child is sleeping.",
+     "options": [
+      "이",
+      "가",
+      "은",
+      "는"
+     ],
+     "answerIndex": 1,
+     "explanation": "아이 ends in a vowel, so 가 is used."
+    },
+    {
+     "prompt": "시간___ 없어요.",
+     "promptTranslation": "There is no time.",
+     "options": [
+      "이",
+      "가",
+      "은",
+      "는"
+     ],
+     "answerIndex": 0,
+     "explanation": "시간 ends in a consonant, so 이 is used."
+    }
+   ]
+  },
+  {
+   "id": "object-particle",
+   "title": "Object Particle 을/를",
+   "level": "Beginner",
+   "summary": "The object particle 을/를 marks the direct object — use 을 after a consonant and 를 after a vowel.",
+   "explanation": "을/를 marks the direct object, the thing the action is done to. Attach 을 to a noun ending in a consonant and 를 to a noun ending in a vowel.",
+   "examples": [
+    {
+     "text": "사과를 먹어요.",
+     "romanization": "sagwareul meogeoyo.",
+     "translation": "I eat an apple."
+    },
+    {
+     "text": "책을 읽어요.",
+     "romanization": "chaegeul ilgeoyo.",
+     "translation": "I read a book."
+    },
+    {
+     "text": "물을 마셔요.",
+     "romanization": "mureul masyeoyo.",
+     "translation": "I drink water."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "영화___ 봐요.",
+     "promptTranslation": "I watch a movie.",
+     "options": [
+      "을",
+      "를",
+      "이",
+      "가"
+     ],
+     "answerIndex": 1,
+     "explanation": "영화 ends in a vowel, so 를 is used."
+    },
+    {
+     "prompt": "밥___ 먹어요.",
+     "promptTranslation": "I eat (a meal).",
+     "options": [
+      "을",
+      "를",
+      "이",
+      "가"
+     ],
+     "answerIndex": 0,
+     "explanation": "밥 ends in a consonant, so 을 is used."
+    },
+    {
+     "prompt": "커피___ 마셔요.",
+     "promptTranslation": "I drink coffee.",
+     "options": [
+      "을",
+      "를",
+      "이",
+      "가"
+     ],
+     "answerIndex": 1,
+     "explanation": "커피 ends in a vowel, so 를 is used."
+    },
+    {
+     "prompt": "음식___ 만들어요.",
+     "promptTranslation": "I make food.",
+     "options": [
+      "을",
+      "를",
+      "이",
+      "가"
+     ],
+     "answerIndex": 0,
+     "explanation": "음식 ends in a consonant, so 을 is used."
+    }
+   ]
+  },
+  {
+   "id": "copula-ida",
+   "title": "The Copula 이다 (to be)",
+   "level": "Beginner",
+   "summary": "Use 이에요/예요 to say \"A is B\" in polite Korean.",
+   "explanation": "Place the copula after the noun that describes something. If the noun ends with a consonant, use 이에요; if it ends with a vowel, use 예요. This form is polite and works in everyday sentences. The ending stays attached directly to the noun.",
+   "examples": [
+    {
+     "text": "저는 학생이에요.",
+     "romanization": "jeoneun haksaeng-ieyo.",
+     "translation": "I am a student."
+    },
+    {
+     "text": "이 책은 재미있어요.",
+     "romanization": "i chaegeun jaemiisseoyo.",
+     "translation": "This book is interesting."
+    },
+    {
+     "text": "서울은 한국의 수도예요.",
+     "romanization": "Seoureun hangukui sudo-yeyo.",
+     "translation": "Seoul is the capital of Korea."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "그 사람은 선생___",
+     "promptTranslation": "That person is a teacher ___",
+     "options": [
+      "이에요",
+      "예요",
+      "이에다",
+      "이었어요"
+     ],
+     "answerIndex": 0,
+     "explanation": "선생 ends with a consonant, so the polite copula is 이에요."
+    },
+    {
+     "prompt": "이 책은 재미___",
+     "promptTranslation": "This book is interesting ___",
+     "options": [
+      "예요",
+      "이에요",
+      "이었어요",
+      "이에다"
+     ],
+     "answerIndex": 0,
+     "explanation": "재미 ends with a vowel, so the polite copula is 예요."
+    },
+    {
+     "prompt": "저는 학생___",
+     "promptTranslation": "I am a student ___",
+     "options": [
+      "이에요",
+      "예요",
+      "이었어요",
+      "이에다"
+     ],
+     "answerIndex": 0,
+     "explanation": "학생 ends with a consonant, so the correct form is 이에요."
+    },
+    {
+     "prompt": "서울은 한국의 수도___",
+     "promptTranslation": "Seoul is the capital of Korea ___",
+     "options": [
+      "예요",
+      "이에요",
+      "이었어요",
+      "이에다"
+     ],
+     "answerIndex": 0,
+     "explanation": "수도 ends with a vowel, so the polite copula is 예요."
+    }
+   ]
+  },
+  {
+   "id": "present-tense",
+   "title": "Present Tense -아요/어요",
+   "level": "Beginner",
+   "summary": "Polite present tense adds -아요 to ㅏ/ㅗ stems, -어요 to other stems, and -해요 to 하다 verbs.",
+   "explanation": "To make the polite present tense, attach -아요 to verb stems whose last vowel is ㅏ or ㅗ, and -어요 to other stems. Verbs ending in 하다 become 해요. For example 가다 → 가요, 먹다 → 먹어요, 공부하다 → 공부해요.",
+   "examples": [
+    {
+     "text": "저는 매일 운동해요.",
+     "romanization": "jeoneun maeil undonghaeyo.",
+     "translation": "I exercise every day."
+    },
+    {
+     "text": "친구가 책을 읽어요.",
+     "romanization": "chinguga chaegeul ilgeoyo.",
+     "translation": "My friend reads a book."
+    },
+    {
+     "text": "우리는 물을 마셔요.",
+     "romanization": "urineun mureul masyeoyo.",
+     "translation": "We drink water."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "저는 학교에 ___ . (가다)",
+     "promptTranslation": "I go to school.",
+     "options": [
+      "가요",
+      "가아요",
+      "거요",
+      "갸요"
+     ],
+     "answerIndex": 0,
+     "explanation": "가다 has the vowel ㅏ, so it becomes 가요."
+    },
+    {
+     "prompt": "동생이 밥을 ___ . (먹다)",
+     "promptTranslation": "My sibling eats.",
+     "options": [
+      "먹어요",
+      "먹아요",
+      "머거요",
+      "먹요"
+     ],
+     "answerIndex": 0,
+     "explanation": "먹다 has no ㅏ/ㅗ, so it takes -어요 → 먹어요."
+    },
+    {
+     "prompt": "우리는 한국어를 ___ . (공부하다)",
+     "promptTranslation": "We study Korean.",
+     "options": [
+      "공부해요",
+      "공부하요",
+      "공부어요",
+      "공부아요"
+     ],
+     "answerIndex": 0,
+     "explanation": "하다 verbs become 해요, so 공부하다 → 공부해요."
+    },
+    {
+     "prompt": "그 사람은 커피를 ___ . (마시다)",
+     "promptTranslation": "That person drinks coffee.",
+     "options": [
+      "마셔요",
+      "마시어요",
+      "마시아요",
+      "마시요"
+     ],
+     "answerIndex": 0,
+     "explanation": "마시다 + -어요 contracts to 마셔요."
+    }
+   ]
+  },
+  {
+   "id": "past-tense",
+   "title": "Past Tense -았/었어요",
+   "level": "Beginner",
+   "summary": "Polite past tense in Korean is formed with -았어요, -었어요, or -했어요.",
+   "explanation": "To make a verb polite past, add -았어요 after a vowel, -었어요 after a consonant, and -했어요 after 하다. The choice depends on the verb stem's final sound. This form is used in everyday conversation. Remember the vowel harmony: 아 afterㅏ orㅗ, 어 after other vowels.",
+   "examples": [
+    {
+     "text": "나는 어제 책을 읽었어요.",
+     "romanization": "Naneun eoje chaekeul ilgeosseoyo.",
+     "translation": "I read a book yesterday."
+    },
+    {
+     "text": "그녀는 밥을 먹었어요.",
+     "romanization": "Geunyeoneun babeul meogeosseoyo.",
+     "translation": "She ate rice."
+    },
+    {
+     "text": "우리는 영화를 봤어요.",
+     "romanization": "Urineun yeonghwareul bwasseoyo.",
+     "translation": "We watched a movie."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "어제 친구와 같이 카페에 ___ .",
+     "promptTranslation": "I ___ at a cafe with a friend yesterday.",
+     "options": [
+      "갔어요",
+      "갔었어요",
+      "가셨어요",
+      "가요"
+     ],
+     "answerIndex": 0,
+     "explanation": "Use -았어요 after the vowel ㄱ to form the past polite."
+    },
+    {
+     "prompt": "그는 매일 운동을 ___ .",
+     "promptTranslation": "He ___ exercise every day.",
+     "options": [
+      "했어요",
+      "하셨어요",
+      "했었어요",
+      "해요"
+     ],
+     "answerIndex": 0,
+     "explanation": "For 하다, the past polite is -했어요."
+    },
+    {
+     "prompt": "나는 아침에 일찍 ___ .",
+     "promptTranslation": "I ___ early in the morning.",
+     "options": [
+      "일어났어요",
+      "일어났어요?",
+      "일어났어요!",
+      "일어났어요."
+     ],
+     "answerIndex": 0,
+     "explanation": "The verb 일어나다 takes -았어요 because the stem ends with ㄴ (a consonant)."
+    },
+    {
+     "prompt": "그녀는 시험을 ___ .",
+     "promptTranslation": "She ___ the exam.",
+     "options": [
+      "봤어요",
+      "보셨어요",
+      "보았어요",
+      "보았어요?"
+     ],
+     "answerIndex": 0,
+     "explanation": "After the vowel ㅂ, use -았어요 for the past polite."
+    }
+   ]
+  },
+  {
+   "id": "negation",
+   "title": "Negation 안 and -지 않다",
+   "level": "Beginner",
+   "summary": "Negate a verb with 안 before it, or by attaching -지 않다 to the stem.",
+   "explanation": "There are two ways to negate. Put 안 directly before the verb (안 가요 = \"don’t go\"), or attach -지 않다 to the verb stem (가지 않아요). Both mean the same thing; 안 is more colloquial.",
+   "examples": [
+    {
+     "text": "저는 안 가요.",
+     "romanization": "jeoneun an gayo.",
+     "translation": "I don't go."
+    },
+    {
+     "text": "그녀는 밥을 안 먹어요.",
+     "romanization": "geunyeoneun babeul an meogeoyo.",
+     "translation": "She doesn't eat."
+    },
+    {
+     "text": "친구가 오지 않아요.",
+     "romanization": "chinguga oji anayo.",
+     "translation": "My friend doesn't come."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "저는 오늘 ___ 가요.",
+     "promptTranslation": "I don't go today.",
+     "options": [
+      "안",
+      "못",
+      "잘",
+      "또"
+     ],
+     "answerIndex": 0,
+     "explanation": "안 before the verb makes it negative: 안 가요."
+    },
+    {
+     "prompt": "그녀는 고기를 ___ 먹어요.",
+     "promptTranslation": "She doesn't eat meat.",
+     "options": [
+      "안",
+      "를",
+      "는",
+      "도"
+     ],
+     "answerIndex": 0,
+     "explanation": "안 먹어요 means \"doesn’t eat.\""
+    },
+    {
+     "prompt": "친구가 학교에 가지 ___ .",
+     "promptTranslation": "My friend doesn't go to school.",
+     "options": [
+      "않아요",
+      "못해요",
+      "있어요",
+      "말아요"
+     ],
+     "answerIndex": 0,
+     "explanation": "The -지 않다 pattern: 가지 않아요."
+    },
+    {
+     "prompt": "비가 오지 ___ .",
+     "promptTranslation": "It doesn't rain.",
+     "options": [
+      "않아요",
+      "없어요",
+      "아니요",
+      "말아요"
+     ],
+     "answerIndex": 0,
+     "explanation": "오지 않아요 means \"it doesn’t rain.\""
+    }
+   ]
+  },
+  {
+   "id": "existence",
+   "title": "Existence 있다 / 없다",
+   "level": "Beginner",
+   "summary": "Use 있다 and 없어요 to say something exists or does not exist.",
+   "explanation": "있다 means \"to exist\" or \"to have\" and is used with the polite ending 있어요. 없어요 is the negative form meaning \"does not exist\" or \"does not have.\" Place the verb after the location or object you are talking about. The sentence ends with the verb, not a particle.",
+   "examples": [
+    {
+     "text": "책상 위에 책이 있어요.",
+     "romanization": "chaeksang wi-e chaegi isseoyo.",
+     "translation": "There is a book on the desk."
+    },
+    {
+     "text": "냉장고 안에 우유가 없어요.",
+     "romanization": "naengjanggo an-e uyuga eopseoyo.",
+     "translation": "There is no milk in the refrigerator."
+    },
+    {
+     "text": "우리 집에 고양이가 있어요.",
+     "romanization": "uri jib-e goyang-i-ga isseoyo.",
+     "translation": "There is a cat in our house."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "책상 위에 펜 ___ .",
+     "promptTranslation": "There is a pen on the desk.",
+     "options": [
+      "있어요",
+      "없어요",
+      "있다",
+      "없다"
+     ],
+     "answerIndex": 0,
+     "explanation": "Use 있어요 to state that the pen exists."
+    },
+    {
+     "prompt": "냉장고에 우유 ___ .",
+     "promptTranslation": "There is milk in the refrigerator.",
+     "options": [
+      "없어요",
+      "있어요",
+      "없다",
+      "있다"
+     ],
+     "answerIndex": 0,
+     "explanation": "없어요 is the correct negative form because the sentence says there is no milk."
+    },
+    {
+     "prompt": "우리 집에 고양이 ___ .",
+     "promptTranslation": "There is a cat in our house.",
+     "options": [
+      "없어요",
+      "있어요",
+      "없다",
+      "있다"
+     ],
+     "answerIndex": 0,
+     "explanation": "없어요 is used to say the cat does not exist in the house."
+    },
+    {
+     "prompt": "공원에 나무 ___ .",
+     "promptTranslation": "There are trees in the park.",
+     "options": [
+      "있다",
+      "없다",
+      "있어요",
+      "없어요"
+     ],
+     "answerIndex": 0,
+     "explanation": "있다 is the plain form used to state existence of trees."
+    }
+   ]
+  },
+  {
+   "id": "location-particles",
+   "title": "Location Particles 에 / 에서",
+   "level": "Beginner",
+   "summary": "Use 에 for a destination or static location, and 에서 for the place where an action happens.",
+   "explanation": "에 marks a destination (가다/오다) or where something exists (있다/없다). 에서 marks the place where an action takes place. So you go 학교에 (to school) but study 학교에서 (at school).",
+   "examples": [
+    {
+     "text": "학교에 가요.",
+     "romanization": "hakgyo-e gayo.",
+     "translation": "I go to school."
+    },
+    {
+     "text": "도서관에서 공부해요.",
+     "romanization": "doseogwan-eseo gongbuhaeyo.",
+     "translation": "I study at the library."
+    },
+    {
+     "text": "집에 있어요.",
+     "romanization": "jibe isseoyo.",
+     "translation": "I am at home."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "도서관___ 책을 읽어요.",
+     "promptTranslation": "I read a book at the library.",
+     "options": [
+      "에",
+      "에서",
+      "은",
+      "는"
+     ],
+     "answerIndex": 1,
+     "explanation": "Reading is an action, so the place takes 에서."
+    },
+    {
+     "prompt": "학교___ 가요.",
+     "promptTranslation": "I go to school.",
+     "options": [
+      "에",
+      "에서",
+      "을",
+      "를"
+     ],
+     "answerIndex": 0,
+     "explanation": "가다 takes a destination, so 학교 takes 에."
+    },
+    {
+     "prompt": "공원___ 운동해요.",
+     "promptTranslation": "I exercise at the park.",
+     "options": [
+      "에",
+      "에서",
+      "은",
+      "는"
+     ],
+     "answerIndex": 1,
+     "explanation": "Exercising is an action done at the park, so 에서."
+    },
+    {
+     "prompt": "집___ 있어요.",
+     "promptTranslation": "I am at home.",
+     "options": [
+      "에",
+      "에서",
+      "을",
+      "를"
+     ],
+     "answerIndex": 0,
+     "explanation": "있다 marks a static location with 에."
+    }
+   ]
+  },
+  {
+   "id": "want-to",
+   "title": "Want to -고 싶다",
+   "level": "Intermediate",
+   "summary": "Use -고 싶다 after a verb stem to say you want to do something.",
+   "explanation": "Take the verb stem and add 고 싶다 to express desire. In polite speech, change 싶다 to 싶어요. The construction works with any action verb. Use the appropriate verb stem before 고.",
+   "examples": [
+    {
+     "text": "나는 책을 읽고 싶어요.",
+     "romanization": "naneun chaekeul ilggo sipeoyo.",
+     "translation": "I want to read a book."
+    },
+    {
+     "text": "친구와 영화를 보고 싶어요.",
+     "romanization": "chinguwa yeonghwaleul bogo sipeoyo.",
+     "translation": "I want to watch a movie with my friend."
+    },
+    {
+     "text": "내일 한국어를 공부하고 싶어요.",
+     "romanization": "naeil hangugeoreul gongbuhago sipeoyo.",
+     "translation": "I want to study Korean tomorrow."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "나는 커피를 ___ .",
+     "promptTranslation": "I want coffee.",
+     "options": [
+      "마시고 싶어요",
+      "먹고 싶어요",
+      "보다 싶어요",
+      "읽고 싶어요"
+     ],
+     "answerIndex": 0,
+     "explanation": "Use 마시고 싶어요 after 마시다 to express wanting to drink."
+    },
+    {
+     "prompt": "그녀는 여행을 ___ .",
+     "promptTranslation": "She wants to travel.",
+     "options": [
+      "가고 싶어요",
+      "보다 싶어요",
+      "듣고 싶어요",
+      "배우고 싶어요"
+     ],
+     "answerIndex": 0,
+     "explanation": "가고 싶어요 follows 가다 for wanting to travel."
+    },
+    {
+     "prompt": "우리는 내일 일찍 일어나 ___ .",
+     "promptTranslation": "We want to wake up early tomorrow.",
+     "options": [
+      "고 싶어요",
+      "고 싶다",
+      "고 싶습니다",
+      "고 싶어"
+     ],
+     "answerIndex": 0,
+     "explanation": "고 싶어요 is the polite form after 일어나다."
+    },
+    {
+     "prompt": "아이들이 공원에서 놀 ___ .",
+     "promptTranslation": "The children want to play in the park.",
+     "options": [
+      "고 싶어요",
+      "고 싶다",
+      "고 싶습니다",
+      "고 싶어"
+     ],
+     "answerIndex": 0,
+     "explanation": "놀고 싶어요 uses the verb 놀다 plus 고 싶어요."
+    }
+   ]
+  },
+  {
+   "id": "connective-go",
+   "title": "Connective -고 (and / then)",
+   "level": "Intermediate",
+   "summary": "-고 connects two actions or clauses in sequence, meaning “and then”.",
+   "explanation": "Place -고 after the verb stem to link it with the next action. It shows that the second action happens after the first. The two clauses share the same subject unless otherwise marked. Use -고 in informal and formal speech alike.",
+   "examples": [
+    {
+     "text": "아침에 일어나고 커피를 마셨어요.",
+     "romanization": "Achime ilonago keopireul masyeosseoyo.",
+     "translation": "I woke up in the morning and drank coffee."
+    },
+    {
+     "text": "친구를 만나고 영화를 봤어요.",
+     "romanization": "Chingureul mannago yeonghwareul bwasseoyo.",
+     "translation": "I met a friend and watched a movie."
+    },
+    {
+     "text": "숙제를 끝내고 집에 갔어요.",
+     "romanization": "Sukjereul kkeunnaego jibe gasseoyo.",
+     "translation": "I finished the homework and went home."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "밥을 먹___ 공부를 해요.",
+     "promptTranslation": "I eat ___ study.",
+     "options": [
+      "고",
+      "은",
+      "를",
+      "에"
+     ],
+     "answerIndex": 0,
+     "explanation": "-고 links the two actions, showing they happen sequentially."
+    },
+    {
+     "prompt": "책을 읽___ 음악을 들어요.",
+     "promptTranslation": "I read a book ___ listen to music.",
+     "options": [
+      "고",
+      "을",
+      "에",
+      "와"
+     ],
+     "answerIndex": 0,
+     "explanation": "-고 connects the verb ‘읽다’ with the following clause."
+    },
+    {
+     "prompt": "운동을 ___ 샤워를 해요.",
+     "promptTranslation": "I exercise ___ take a shower.",
+     "options": [
+      "고",
+      "은",
+      "를",
+      "에"
+     ],
+     "answerIndex": 0,
+     "explanation": "-고 is used to join the two actions in order."
+    },
+    {
+     "prompt": "문을 열___ 방에 들어갔어요.",
+     "promptTranslation": "I opened the door ___ entered the room.",
+     "options": [
+      "고",
+      "은",
+      "를",
+      "에"
+     ],
+     "answerIndex": 0,
+     "explanation": "-고 links opening the door with entering the room."
+    }
+   ]
+  },
+  {
+   "id": "honorifics",
+   "title": "Honorifics -(으)시-",
+   "level": "Intermediate",
+   "summary": "-(으)시- is added to verb stems to honorify the subject of the sentence.",
+   "explanation": "Attach -(으)시- directly after the verb stem when the subject is someone you respect. It works with all verb endings, including -아요/어요 and -습니다. The honorific does not change the meaning of the verb, only shows respect.",
+   "examples": [
+    {
+     "text": "할머니께서 차를 ___ 마셨어요.",
+     "romanization": "Halmeoni-kkeseo cha-reul ___ maseosseoyo.",
+     "translation": "Grandmother drank the tea."
+    },
+    {
+     "text": "선생님이 회의에서 ___ 발표하셨습니다.",
+     "romanization": "Seonsaengnim-i hoeui-eseo ___ balpyohasyeotseumnida.",
+     "translation": "The teacher gave a presentation at the meeting."
+    },
+    {
+     "text": "아버지가 집에 ___ 돌아오셨다.",
+     "romanization": "Abeoji-ga jib-e ___ doraoshyeotda.",
+     "translation": "Father returned home."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "할아버지께서 책을 ___ 읽으셨다.",
+     "promptTranslation": "Grandfather read the book.",
+     "options": [
+      "시",
+      "이",
+      "가",
+      "을"
+     ],
+     "answerIndex": 0,
+     "explanation": "-(으)시- is the honorific suffix to attach to 읽다."
+    },
+    {
+     "prompt": "교수님이 강의에서 ___ 설명하셨다.",
+     "promptTranslation": "The professor explained in the lecture.",
+     "options": [
+      "시",
+      "은",
+      "를",
+      "에"
+     ],
+     "answerIndex": 0,
+     "explanation": "-(으)시- honors the verb 설명하다."
+    },
+    {
+     "prompt": "사장님이 회의실에 ___ 들어오셨다.",
+     "promptTranslation": "The CEO entered the conference room.",
+     "options": [
+      "시",
+      "와",
+      "도",
+      "을"
+     ],
+     "answerIndex": 0,
+     "explanation": "-(으)시- is added to 들어오다 for respect."
+    },
+    {
+     "prompt": "어머니가 저녁을 ___ 준비하셨어요.",
+     "promptTranslation": "Mother prepared dinner.",
+     "options": [
+      "시",
+      "가",
+      "을",
+      "와"
+     ],
+     "answerIndex": 0,
+     "explanation": "-(으)시- honors the verb 준비하다."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,894 @@
+{
+ "language": "Japanese",
+ "name": "Japanese Grammar",
+ "topics": [
+  {
+   "id": "topic-particle-wa",
+   "title": "Topic Particle は",
+   "level": "Beginner",
+   "summary": "は marks the topic of a sentence — written は but pronounced \"wa\".",
+   "explanation": "は marks the topic, what the sentence is about. It is written with the hiragana は but pronounced \"wa\". The basic pattern is \"A は B です\" (As for A, it is B).",
+   "examples": [
+    {
+     "text": "私は学生です。",
+     "romanization": "watashi wa gakusei desu.",
+     "translation": "I am a student."
+    },
+    {
+     "text": "これはペンです。",
+     "romanization": "kore wa pen desu.",
+     "translation": "This is a pen."
+    },
+    {
+     "text": "今日は暑いです。",
+     "romanization": "kyō wa atsui desu.",
+     "translation": "Today is hot."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "彼___先生です。",
+     "promptTranslation": "He is a teacher.",
+     "options": [
+      "は",
+      "が",
+      "を",
+      "に"
+     ],
+     "answerIndex": 0,
+     "explanation": "は marks 彼 as the topic: \"As for him, he is a teacher.\""
+    },
+    {
+     "prompt": "この料理___おいしいです。",
+     "promptTranslation": "This dish is delicious.",
+     "options": [
+      "は",
+      "を",
+      "に",
+      "で"
+     ],
+     "answerIndex": 0,
+     "explanation": "は marks この料理 as the topic."
+    },
+    {
+     "prompt": "私の名前___田中です。",
+     "promptTranslation": "My name is Tanaka.",
+     "options": [
+      "は",
+      "が",
+      "を",
+      "の"
+     ],
+     "answerIndex": 0,
+     "explanation": "は marks 名前 as the topic."
+    },
+    {
+     "prompt": "日本___四季があります。",
+     "promptTranslation": "Japan has four seasons.",
+     "options": [
+      "は",
+      "を",
+      "に",
+      "で"
+     ],
+     "answerIndex": 0,
+     "explanation": "は sets 日本 as the topic: \"In Japan, there are four seasons.\""
+    }
+   ]
+  },
+  {
+   "id": "subject-particle-ga",
+   "title": "Subject Particle が",
+   "level": "Beginner",
+   "summary": "が marks the grammatical subject, often introducing new or identifying information.",
+   "explanation": "が marks the subject that performs an action or is newly introduced. Use it (rather than は) to answer \"who/what\" or to point out specific information. Verbs of existence, perception, and ability also take が.",
+   "examples": [
+    {
+     "text": "犬が走っています。",
+     "romanization": "inu ga hashitte imasu.",
+     "translation": "A dog is running."
+    },
+    {
+     "text": "雨が降っています。",
+     "romanization": "ame ga futte imasu.",
+     "translation": "It is raining."
+    },
+    {
+     "text": "私は日本語がわかります。",
+     "romanization": "watashi wa nihongo ga wakarimasu.",
+     "translation": "I understand Japanese."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "学生___図書館にいます。",
+     "promptTranslation": "A student is in the library.",
+     "options": [
+      "が",
+      "は",
+      "を",
+      "に"
+     ],
+     "answerIndex": 0,
+     "explanation": "が marks 学生 as the subject that exists there."
+    },
+    {
+     "prompt": "桜___きれいです。",
+     "promptTranslation": "The cherry blossoms are pretty.",
+     "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+     ],
+     "answerIndex": 0,
+     "explanation": "が marks 桜 as the subject being described."
+    },
+    {
+     "prompt": "だれ___来ましたか。",
+     "promptTranslation": "Who came?",
+     "options": [
+      "が",
+      "は",
+      "を",
+      "の"
+     ],
+     "answerIndex": 0,
+     "explanation": "Question words like だれ take が, not は."
+    },
+    {
+     "prompt": "音___聞こえます。",
+     "promptTranslation": "A sound can be heard.",
+     "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+     ],
+     "answerIndex": 0,
+     "explanation": "Perception verbs like 聞こえる take が."
+    }
+   ]
+  },
+  {
+   "id": "object-particle-wo",
+   "title": "Object Particle を",
+   "level": "Beginner",
+   "summary": "を marks the direct object of a verb, pronounced \"o\".",
+   "explanation": "を marks the direct object, the thing an action is done to. It is written を but pronounced \"o\". The pattern is \"[object] を [verb]\".",
+   "examples": [
+    {
+     "text": "手紙を書きます。",
+     "romanization": "tegami o kakimasu.",
+     "translation": "I write a letter."
+    },
+    {
+     "text": "音楽を聞きます。",
+     "romanization": "ongaku o kikimasu.",
+     "translation": "I listen to music."
+    },
+    {
+     "text": "お茶を飲みます。",
+     "romanization": "ocha o nomimasu.",
+     "translation": "I drink tea."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "彼は手紙___書きました。",
+     "promptTranslation": "He wrote a letter.",
+     "options": [
+      "を",
+      "は",
+      "が",
+      "に"
+     ],
+     "answerIndex": 0,
+     "explanation": "を marks 手紙 as the object of 書く."
+    },
+    {
+     "prompt": "私は音楽___聞きます。",
+     "promptTranslation": "I listen to music.",
+     "options": [
+      "を",
+      "が",
+      "に",
+      "で"
+     ],
+     "answerIndex": 0,
+     "explanation": "を marks 音楽 as the object of 聞く."
+    },
+    {
+     "prompt": "子供がお菓子___食べた。",
+     "promptTranslation": "The child ate sweets.",
+     "options": [
+      "を",
+      "は",
+      "が",
+      "の"
+     ],
+     "answerIndex": 0,
+     "explanation": "を marks お菓子 as the object of 食べる."
+    },
+    {
+     "prompt": "毎朝コーヒー___飲みます。",
+     "promptTranslation": "I drink coffee every morning.",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "は"
+     ],
+     "answerIndex": 0,
+     "explanation": "を marks コーヒー as the object of 飲む."
+    }
+   ]
+  },
+  {
+   "id": "copula-desu",
+   "title": "The Copula です",
+   "level": "Beginner",
+   "summary": "です is the polite copula meaning “to be,” and its negative form is じゃありません.",
+   "explanation": "In polite Japanese, you attach です after a noun or adjective to say something is that thing. To make it negative, replace です with じゃありません. The sentence ends with the copula, so no extra verb is needed.",
+   "examples": [
+    {
+     "text": "これは本です。",
+     "romanization": "Kore wa hon desu.",
+     "translation": "This is a book."
+    },
+    {
+     "text": "彼は学生です。",
+     "romanization": "Kare wa gakusei desu.",
+     "translation": "He is a student."
+    },
+    {
+     "text": "それは高くありません。",
+     "romanization": "Sore wa takaku arimasen.",
+     "translation": "That is not expensive."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "これはペン___。",
+     "promptTranslation": "This is a pen ___ .",
+     "options": [
+      "です",
+      "だ",
+      "ですか",
+      "では"
+     ],
+     "answerIndex": 0,
+     "explanation": "In polite speech, the copula is です."
+    },
+    {
+     "prompt": "私の名前はマリ___。",
+     "promptTranslation": "My name is Mari ___ .",
+     "options": [
+      "です",
+      "だ",
+      "ですか",
+      "では"
+     ],
+     "answerIndex": 0,
+     "explanation": "Use です after a noun for polite introduction."
+    },
+    {
+     "prompt": "今日は雨___。",
+     "promptTranslation": "It is rainy today ___ .",
+     "options": [
+      "です",
+      "だ",
+      "ですか",
+      "では"
+     ],
+     "answerIndex": 0,
+     "explanation": "The adjective 雨です is expressed with the polite copula です."
+    },
+    {
+     "prompt": "それは本___。",
+     "promptTranslation": "That is not a book ___ .",
+     "options": [
+      "じゃありません",
+      "です",
+      "だ",
+      "ですか"
+     ],
+     "answerIndex": 0,
+     "explanation": "The negative polite copula is じゃありません."
+    }
+   ]
+  },
+  {
+   "id": "masu-form",
+   "title": "Polite Verbs -ます",
+   "level": "Beginner",
+   "summary": "Learn how to use the polite -ます form and its negative -ません in Japanese.",
+   "explanation": "The -ます ending makes a verb polite and is used in present/future statements. To make it negative, change -ます to -ません. Both forms are attached directly to the verb stem. Use them in everyday conversation to sound respectful.",
+   "examples": [
+    {
+     "text": "食べます",
+     "romanization": "tabemasu",
+     "translation": "(I) eat / will eat (polite)"
+    },
+    {
+     "text": "飲みません",
+     "romanization": "nomimasen",
+     "translation": "(I) do not drink (polite)"
+    },
+    {
+     "text": "行きます",
+     "romanization": "ikimasu",
+     "translation": "(I) go (polite)"
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "毎朝コーヒーを___。",
+     "promptTranslation": "I drink coffee every morning (polite).",
+     "options": [
+      "飲みます",
+      "飲みません",
+      "飲みました",
+      "飲みませんでした"
+     ],
+     "answerIndex": 0,
+     "explanation": "Use the polite present form -ます for a regular habit."
+    },
+    {
+     "prompt": "昨日は映画を___。",
+     "promptTranslation": "I did not watch a movie yesterday (polite).",
+     "options": [
+      "見ません",
+      "見ました",
+      "見ます",
+      "見ませんでした"
+     ],
+     "answerIndex": 0,
+     "explanation": "The negative polite form for past statements is -ませんでした, but for a simple negative past you need -ません after the past auxiliary, so the correct simple negative is -ません."
+    },
+    {
+     "prompt": "先生に質問を___。",
+     "promptTranslation": "I will ask the teacher a question (polite).",
+     "options": [
+      "聞きます",
+      "聞きません",
+      "聞きました",
+      "聞きませんでした"
+     ],
+     "answerIndex": 0,
+     "explanation": "Use the polite present form -ます for a future/intended action."
+    },
+    {
+     "prompt": "今、宿題を___。",
+     "promptTranslation": "I am not doing homework now (polite).",
+     "options": [
+      "しません",
+      "します",
+      "しました",
+      "しませんでした"
+     ],
+     "answerIndex": 0,
+     "explanation": "The negative polite present -ません expresses a current negative action."
+    }
+   ]
+  },
+  {
+   "id": "past-tense",
+   "title": "Past Tense -ました / でした",
+   "level": "Beginner",
+   "summary": "Polite past tense in Japanese uses ました for verbs and でした for nouns/adjectives.",
+   "explanation": "To talk about something that happened, add ました to the verb stem. For negative past, use ませんでした. When describing nouns or adjectives in the past, replace です with でした. These forms are used in formal situations.",
+   "examples": [
+    {
+     "text": "私は昨日本を読みました。",
+     "romanization": "Watashi wa kinō hon o yomimashita.",
+     "translation": "I read a book yesterday."
+    },
+    {
+     "text": "彼は日本へ行きませんでした。",
+     "romanization": "Kare wa Nihon e ikimasen deshita.",
+     "translation": "He did not go to Japan."
+    },
+    {
+     "text": "その映画は面白かったです。",
+     "romanization": "Sono eiga wa omoshirokatta desu.",
+     "translation": "That movie was interesting."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "昨日、友達とカフェでコーヒーを___。",
+     "promptTranslation": "Yesterday, I ___ coffee at a cafe with a friend.",
+     "options": [
+      "飲みました",
+      "飲みませんでした",
+      "です",
+      "でした"
+     ],
+     "answerIndex": 0,
+     "explanation": "飲みました is the correct polite past form of 飲む."
+    },
+    {
+     "prompt": "彼女は日本語が上手___。",
+     "promptTranslation": "She ___ good at Japanese.",
+     "options": [
+      "です",
+      "でした",
+      "ます",
+      "ませんでした"
+     ],
+     "answerIndex": 1,
+     "explanation": "でした is used to put the adjective 上手 in past polite form."
+    },
+    {
+     "prompt": "私はその本をまだ読___。",
+     "promptTranslation": "I haven't read that book yet.",
+     "options": [
+      "みました",
+      "みませんでした",
+      "です",
+      "でした"
+     ],
+     "answerIndex": 1,
+     "explanation": "みませんでした is the negative past polite form of 読む."
+    },
+    {
+     "prompt": "昨日の試合はとても楽しく___。",
+     "promptTranslation": "Yesterday's game was very fun.",
+     "options": [
+      "です",
+      "でした",
+      "ます",
+      "ませんでした"
+     ],
+     "answerIndex": 1,
+     "explanation": "でした is the past polite form of です for describing the game."
+    }
+   ]
+  },
+  {
+   "id": "existence",
+   "title": "Existence あります / います",
+   "level": "Beginner",
+   "summary": "Use あります for non‑living things and います for living things.",
+   "explanation": "Both verbs mean “to exist.” あります is used with objects, places, and ideas that are not alive. います is used with people, animals, and other living beings. The particle に marks the location where something exists. The verb comes after the location phrase.",
+   "examples": [
+    {
+     "text": "部屋に机があります。",
+     "romanization": "Heya ni tsukue ga arimasu.",
+     "translation": "There is a desk in the room."
+    },
+    {
+     "text": "公園に犬がいます。",
+     "romanization": "Kōen ni inu ga imasu.",
+     "translation": "There is a dog in the park."
+    },
+    {
+     "text": "机の上に本があります。",
+     "romanization": "Tsukue no ue ni hon ga arimasu.",
+     "translation": "There is a book on the desk."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "机の上にペンが___。",
+     "promptTranslation": "There is a pen on the desk.",
+     "options": [
+      "あります",
+      "います",
+      "ある",
+      "いる"
+     ],
+     "answerIndex": 0,
+     "explanation": "Pen is inanimate, so あります is used."
+    },
+    {
+     "prompt": "庭に猫が___。",
+     "promptTranslation": "There is a cat in the garden.",
+     "options": [
+      "あります",
+      "います",
+      "ある",
+      "いる"
+     ],
+     "answerIndex": 1,
+     "explanation": "Cat is a living animal, so います is used."
+    },
+    {
+     "prompt": "教室に先生が___。",
+     "promptTranslation": "There is a teacher in the classroom.",
+     "options": [
+      "あります",
+      "います",
+      "ある",
+      "いる"
+     ],
+     "answerIndex": 1,
+     "explanation": "Teacher is a person, thus います."
+    },
+    {
+     "prompt": "机の中に紙が___。",
+     "promptTranslation": "There is paper inside the desk.",
+     "options": [
+      "あります",
+      "います",
+      "ある",
+      "いる"
+     ],
+     "answerIndex": 0,
+     "explanation": "Paper is inanimate, so あります is correct."
+    }
+   ]
+  },
+  {
+   "id": "particles-ni-de",
+   "title": "Particles に and で",
+   "level": "Beginner",
+   "summary": "Use に for destinations, time points, and existence; use で for where an action happens.",
+   "explanation": "に marks a destination (東京に行く), a point in time (9時に), or where something exists (机の上に). で marks the place where an action occurs (カフェで食べる) and the means used. Relative time words like 明日 take no particle.",
+   "examples": [
+    {
+     "text": "学校に行きます。",
+     "romanization": "gakkō ni ikimasu.",
+     "translation": "I go to school."
+    },
+    {
+     "text": "カフェで昼ごはんを食べます。",
+     "romanization": "kafe de hirugohan o tabemasu.",
+     "translation": "I eat lunch at a cafe."
+    },
+    {
+     "text": "9時に始まります。",
+     "romanization": "kuji ni hajimarimasu.",
+     "translation": "It starts at 9 o’clock."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "駅___待っています。",
+     "promptTranslation": "I am waiting at the station.",
+     "options": [
+      "で",
+      "に",
+      "を",
+      "は"
+     ],
+     "answerIndex": 0,
+     "explanation": "Waiting is an action at the station, so で."
+    },
+    {
+     "prompt": "東京___行きます。",
+     "promptTranslation": "I go to Tokyo.",
+     "options": [
+      "に",
+      "で",
+      "を",
+      "は"
+     ],
+     "answerIndex": 0,
+     "explanation": "に marks 東京 as the destination of 行く."
+    },
+    {
+     "prompt": "図書館___本を読みます。",
+     "promptTranslation": "I read a book at the library.",
+     "options": [
+      "で",
+      "に",
+      "を",
+      "へ"
+     ],
+     "answerIndex": 0,
+     "explanation": "Reading happens at the library, so で."
+    },
+    {
+     "prompt": "7時___起きます。",
+     "promptTranslation": "I get up at 7 o’clock.",
+     "options": [
+      "に",
+      "で",
+      "を",
+      "は"
+     ],
+     "answerIndex": 0,
+     "explanation": "に marks the clock time 7時."
+    }
+   ]
+  },
+  {
+   "id": "possessive-no",
+   "title": "Possessive の",
+   "level": "Beginner",
+   "summary": "の links two nouns, showing possession or relationship (A の B = B of A).",
+   "explanation": "の connects nouns: the first noun modifies the second. It shows possession (私の本 = my book), origin, or type (日本語の先生 = Japanese teacher). The pattern is A の B.",
+   "examples": [
+    {
+     "text": "これは私の本です。",
+     "romanization": "kore wa watashi no hon desu.",
+     "translation": "This is my book."
+    },
+    {
+     "text": "田中さんの車です。",
+     "romanization": "Tanaka-san no kuruma desu.",
+     "translation": "It is Mr. Tanaka’s car."
+    },
+    {
+     "text": "東京の天気はいいです。",
+     "romanization": "Tōkyō no tenki wa ii desu.",
+     "translation": "Tokyo’s weather is good."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "これは私___ペンです。",
+     "promptTranslation": "This is my pen.",
+     "options": [
+      "の",
+      "は",
+      "が",
+      "を"
+     ],
+     "answerIndex": 0,
+     "explanation": "の links 私 and ペン: \"my pen.\""
+    },
+    {
+     "prompt": "田中さん___車は新しいです。",
+     "promptTranslation": "Mr. Tanaka's car is new.",
+     "options": [
+      "の",
+      "を",
+      "に",
+      "で"
+     ],
+     "answerIndex": 0,
+     "explanation": "の shows possession: \"Mr. Tanaka’s car.\""
+    },
+    {
+     "prompt": "日本語___先生です。",
+     "promptTranslation": "He is a Japanese teacher.",
+     "options": [
+      "の",
+      "は",
+      "が",
+      "を"
+     ],
+     "answerIndex": 0,
+     "explanation": "の links 日本語 and 先生: \"Japanese teacher.\""
+    },
+    {
+     "prompt": "彼___名前は田中です。",
+     "promptTranslation": "His name is Tanaka.",
+     "options": [
+      "の",
+      "が",
+      "を",
+      "は"
+     ],
+     "answerIndex": 0,
+     "explanation": "の shows \"his name.\""
+    }
+   ]
+  },
+  {
+   "id": "te-form",
+   "title": "The て-form",
+   "level": "Intermediate",
+   "summary": "The て-form connects actions and makes polite requests with -てください.",
+   "explanation": "The て-form is made by changing the verb ending to て (or で). It can link two actions, showing sequence or simultaneity. Adding ください after the て-form makes a polite request. Use it after the verb stem, not after a noun.",
+   "examples": [
+    {
+     "text": "本を読んで、寝ました。",
+     "romanization": "Hon o yonde, nemashita.",
+     "translation": "I read a book and then slept."
+    },
+    {
+     "text": "窓を開けてください。",
+     "romanization": "Mado o akete kudasai.",
+     "translation": "Please open the window."
+    },
+    {
+     "text": "音楽を聴いて、料理します。",
+     "romanization": "Ongaku o kiite, ryouri shimasu.",
+     "translation": "I listen to music while cooking."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "朝ごはんを食べ___ください。",
+     "promptTranslation": "Please ___ breakfast.",
+     "options": [
+      "て",
+      "た",
+      "で",
+      "に"
+     ],
+     "answerIndex": 0,
+     "explanation": "The verb 食べ needs the て-form 食べて before ください."
+    },
+    {
+     "prompt": "宿題を終わら___、テレビを見ます。",
+     "promptTranslation": "After finishing homework, I watch TV.",
+     "options": [
+      "し",
+      "しで",
+      "せ",
+      "せて"
+     ],
+     "answerIndex": 3,
+     "explanation": "The verb 終わる becomes 終わらせて to link actions."
+    },
+    {
+     "prompt": "駅まで歩い___。",
+     "promptTranslation": "I walk to the station.",
+     "options": [
+      "て",
+      "で",
+      "た",
+      "に"
+     ],
+     "answerIndex": 0,
+     "explanation": "歩く changes to 歩いて to connect to the following clause or end the sentence."
+    },
+    {
+     "prompt": "友達に手紙を書___、郵便局へ行きました。",
+     "promptTranslation": "I wrote a letter to a friend and went to the post office.",
+     "options": [
+      "いて",
+      "いてで",
+      "いで",
+      "い"
+     ],
+     "answerIndex": 0,
+     "explanation": "書く becomes 書いて to link the two actions."
+    }
+   ]
+  },
+  {
+   "id": "want-to-tai",
+   "title": "Want to -たい",
+   "level": "Intermediate",
+   "summary": "Use the -たい form to say you want to do something.",
+   "explanation": "Take the verb stem and add たい. It works like an adjective, so it can be used with です or ですか. It only expresses the speaker's desire. For polite speech, attach です after たい.",
+   "examples": [
+    {
+     "text": "寿司が食べたいです。",
+     "romanization": "Sushi ga tabetai desu.",
+     "translation": "I want to eat sushi."
+    },
+    {
+     "text": "日本へ行きたいです。",
+     "romanization": "Nihon e ikitai desu.",
+     "translation": "I want to go to Japan."
+    },
+    {
+     "text": "映画を見たいですか。",
+     "romanization": "Eiga o mitai desu ka?",
+     "translation": "Do you want to watch a movie?"
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "週末に海へ___。",
+     "promptTranslation": "I want to go to the sea this weekend.",
+     "options": [
+      "行きたい",
+      "行きます",
+      "行った",
+      "行って"
+     ],
+     "answerIndex": 0,
+     "explanation": "Add たい to the verb stem 行き to express desire."
+    },
+    {
+     "prompt": "新しい本を___。",
+     "promptTranslation": "I want to read a new book.",
+     "options": [
+      "読みたい",
+      "読みます",
+      "読んだ",
+      "読んで"
+     ],
+     "answerIndex": 0,
+     "explanation": "Reading desire is expressed with 読みたい."
+    },
+    {
+     "prompt": "友達とカラオケを___。",
+     "promptTranslation": "I want to sing karaoke with friends.",
+     "options": [
+      "歌いたい",
+      "歌います",
+      "歌った",
+      "歌って"
+     ],
+     "answerIndex": 0,
+     "explanation": "Attach たい to the verb stem 歌い to show you want to sing."
+    },
+    {
+     "prompt": "日本語をもっと___。",
+     "promptTranslation": "I want to study Japanese more.",
+     "options": [
+      "勉強したい",
+      "勉強します",
+      "勉強した",
+      "勉強して"
+     ],
+     "answerIndex": 0,
+     "explanation": "Use 勉強したい to express the desire to study."
+    }
+   ]
+  },
+  {
+   "id": "adjectives",
+   "title": "い and な Adjectives",
+   "level": "Intermediate",
+   "summary": "Japanese adjectives are divided into い‑adjectives and な‑adjectives, each with its own attachment and conjugation rules.",
+   "explanation": "い‑adjectives end with い and can directly modify nouns (e.g., 高い山). To make them negative, replace い with くない. な‑adjectives need the particle な before a noun (e.g., 静かな部屋) and use ではない for the negative form. Both types change similarly for past and polite forms.",
+   "examples": [
+    {
+     "text": "この山は高いです。",
+     "romanization": "Kono yama wa takai desu.",
+     "translation": "This mountain is tall."
+    },
+    {
+     "text": "彼は元気な学生です。",
+     "romanization": "Kare wa genki na gakusei desu.",
+     "translation": "He is a lively student."
+    },
+    {
+     "text": "この部屋は静かです。",
+     "romanization": "Kono heya wa shizuka desu.",
+     "translation": "This room is quiet."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "この山は高___ないです。",
+     "promptTranslation": "This mountain is not tall.",
+     "options": [
+      "く",
+      "さ",
+      "な",
+      "い"
+     ],
+     "answerIndex": 0,
+     "explanation": "The negative of an い‑adjective is formed by replacing い with くない."
+    },
+    {
+     "prompt": "彼は ___ 学生です。",
+     "promptTranslation": "He is a ___ student.",
+     "options": [
+      "元気な",
+      "元気の",
+      "元気で",
+      "元気"
+     ],
+     "answerIndex": 0,
+     "explanation": "な‑adjectives attach to nouns with な."
+    },
+    {
+     "prompt": "今日は ___ 天気です。",
+     "promptTranslation": "The weather today is ___ .",
+     "options": [
+      "いい",
+      "よい",
+      "よく",
+      "いいく"
+     ],
+     "answerIndex": 0,
+     "explanation": "い‑adjectives directly modify nouns without additional particles."
+    },
+    {
+     "prompt": "この部屋は静か___ないです。",
+     "promptTranslation": "This room is not quiet.",
+     "options": [
+      "で",
+      "な",
+      "が",
+      "は"
+     ],
+     "answerIndex": 0,
+     "explanation": "The negative of a な‑adjective uses ではない."
+    }
+   ]
+  }
+ ]
+}
