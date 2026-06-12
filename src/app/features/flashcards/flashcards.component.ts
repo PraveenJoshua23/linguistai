@@ -1,5 +1,5 @@
 import {
-  Component, inject, signal, computed, OnDestroy, OnInit,
+  Component, inject, signal, computed, effect, OnDestroy, OnInit,
 } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FlashcardsService, Flashcard, ReviewInput } from './flashcards.service';
@@ -91,21 +91,23 @@ const DECK_FLAGS: Record<string, string> = {
           <span class="text-[11px] text-gray-400 normal-case">— doesn't change your due dates</span>
         </div>
 
-        <!-- Study source: own cards vs prebuilt decks -->
+        <!-- Study source: per-language own decks + prebuilt decks -->
         <div class="flex flex-col gap-2">
           <p class="text-xs font-bold tracking-wider text-gray-400 uppercase">Deck</p>
           <div class="flex flex-wrap gap-2">
-            <button (click)="selectSource('mine')"
-              class="px-4 py-1.5 rounded-full text-sm font-medium border transition-colors"
-              [class]="selectedSource() === 'mine'
-                ? 'bg-blue-600 text-white border-blue-600'
-                : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600'">
-              My Cards
-            </button>
+            @for (lang of myLanguages(); track lang) {
+              <button (click)="selectSource('mine:' + lang)"
+                class="px-4 py-1.5 rounded-full text-sm font-medium border transition-colors"
+                [class]="currentSource() === 'mine:' + lang
+                  ? 'bg-blue-600 text-white border-blue-600'
+                  : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600'">
+                {{ deckFlag(lang) }} My {{ lang }} Cards
+              </button>
+            }
             @for (deck of decks(); track deck.id) {
               <button (click)="selectSource(deck.id)"
                 class="px-4 py-1.5 rounded-full text-sm font-medium border transition-colors"
-                [class]="selectedSource() === deck.id
+                [class]="currentSource() === deck.id
                   ? 'bg-blue-600 text-white border-blue-600'
                   : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600'">
                 {{ deckFlag(deck.language) }} {{ deck.name }}
@@ -114,37 +116,18 @@ const DECK_FLAGS: Record<string, string> = {
           </div>
         </div>
 
-        @if (selectedSource() === 'mine') {
-
-          @if (cards().length === 0) {
-            <div class="rounded-2xl border border-dashed border-gray-200 bg-gray-50/60 p-6 flex flex-col items-center gap-2 text-center">
-              <p class="text-sm font-semibold text-gray-600">No cards of your own yet</p>
-              <p class="text-xs text-gray-400 max-w-xs">
-                Save words from the breakdown panel while translating, create your own card, or practice a prebuilt deck above.
-              </p>
-              <a routerLink="/translate" class="mt-1 text-sm font-semibold text-blue-600 hover:text-blue-700">
-                Start Translating →
-              </a>
-            </div>
-          } @else {
-            <!-- Language tabs -->
-            <div class="flex flex-col gap-2">
-              <p class="text-xs font-bold tracking-wider text-gray-400 uppercase">Language</p>
-              <div class="flex flex-wrap gap-2">
-                @for (lang of availableLanguages(); track lang) {
-                  <button (click)="selectLang(lang)"
-                    class="px-4 py-1.5 rounded-full text-sm font-medium border transition-colors"
-                    [class]="selectedLang() === lang
-                      ? 'bg-blue-600 text-white border-blue-600'
-                      : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600'">
-                    {{ lang }}
-                  </button>
-                }
-              </div>
-            </div>
-          }
-
-        } @else if (selectedDeck(); as deck) {
+        @if (cards().length === 0) {
+          <div class="rounded-2xl border border-dashed border-gray-200 bg-gray-50/60 p-6 flex flex-col items-center gap-2 text-center">
+            <p class="text-sm font-semibold text-gray-600">No cards of your own yet</p>
+            <p class="text-xs text-gray-400 max-w-xs">
+              Save words from the breakdown panel while translating, create your own card, or practice a prebuilt deck above.
+            </p>
+            <a routerLink="/translate" class="mt-1 text-sm font-semibold text-blue-600 hover:text-blue-700">
+              Start Translating →
+            </a>
+          </div>
+        }
+        @if (currentDeck(); as deck) {
           <p class="text-sm text-gray-500 -mt-2">{{ deck.description }} · {{ deck.count }} words</p>
         }
 
@@ -167,7 +150,7 @@ const DECK_FLAGS: Record<string, string> = {
         }
 
         <!-- Card count + start -->
-        @if (selectedSource() !== 'mine' || cards().length > 0) {
+        @if (currentSource()) {
           <div class="flex items-center gap-4 pt-2">
             <div class="flex-1 bg-gray-50 rounded-xl p-4 text-center border border-gray-100">
               @if (deckLoading()) {
@@ -450,46 +433,74 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
 
   readonly showCreateModal = signal(false);
 
-  /** 'mine' = the user's own cards, otherwise a prebuilt deck id. */
-  readonly selectedSource = signal<string>('mine');
-  readonly selectedLang = signal<string>('All');
+  /**
+   * The selected study source: '' until resolved, 'mine:<language>' for one
+   * of the user's own per-language decks, or a prebuilt deck id.
+   */
+  readonly selectedSource = signal<string>('');
   readonly selectedCategory = signal<string>('All');
 
-  readonly selectedDeck = computed(() =>
-    this.decks().find(d => d.id === this.selectedSource()) ?? null
-  );
-  readonly deckLoading = computed(() =>
-    this.prebuiltSvc.loadingDeck() === this.selectedSource()
+  /** Languages the user has saved cards in — each becomes its own deck. */
+  readonly myLanguages = computed(() =>
+    [...new Set(this.cards().map(c => c.language))].sort()
   );
 
-  readonly availableLanguages = computed(() => {
-    const langs = [...new Set(this.cards().map(c => c.language))].sort();
-    return ['All', ...langs];
+  /**
+   * Resolved source with a sensible default: the user's first language, else
+   * the first prebuilt deck once the manifest loads.
+   */
+  readonly currentSource = computed(() => {
+    const sel = this.selectedSource();
+    if (sel) return sel;
+    const langs = this.myLanguages();
+    if (langs.length) return `mine:${langs[0]}`;
+    const decks = this.decks();
+    return decks.length ? decks[0].id : '';
   });
 
+  readonly currentDeck = computed(() =>
+    this.decks().find(d => d.id === this.currentSource()) ?? null
+  );
+  readonly isMine = computed(() => this.currentSource().startsWith('mine:'));
+  readonly currentLang = computed(() =>
+    this.isMine() ? this.currentSource().slice(5) : (this.currentDeck()?.language ?? '')
+  );
+  readonly deckLoading = computed(() =>
+    this.prebuiltSvc.loadingDeck() === this.currentSource()
+  );
+
   readonly availableCategories = computed(() => {
-    const deck = this.selectedDeck();
+    const deck = this.currentDeck();
     if (deck) {
       return ['All', ...[...deck.categories].sort()];
     }
-    const base = this.cards().filter(
-      c => this.selectedLang() === 'All' || c.language === this.selectedLang()
-    );
-    const cats = [...new Set(base.map(c => c.category).filter(Boolean))].sort();
+    const lang = this.currentLang();
+    const cats = [...new Set(
+      this.cards().filter(c => c.language === lang).map(c => c.category).filter(Boolean)
+    )].sort();
     return ['All', ...cats];
   });
 
   readonly filteredCards = computed(() => {
-    const deck = this.selectedDeck();
+    const deck = this.currentDeck();
     const source = deck
       ? this.prebuiltSvc.deckCards()[deck.id] ?? []
-      : this.cards();
-    return source.filter(c => {
-      const langMatch = deck || this.selectedLang() === 'All' || c.language === this.selectedLang();
-      const catMatch = this.selectedCategory() === 'All' || c.category === this.selectedCategory();
-      return langMatch && catMatch;
-    });
+      : this.cards().filter(c => c.language === this.currentLang());
+    return source.filter(c =>
+      this.selectedCategory() === 'All' || c.category === this.selectedCategory()
+    );
   });
+
+  constructor() {
+    // Auto-load a prebuilt deck's cards whenever it becomes the active source
+    // (covers the default selection for users with no cards of their own).
+    effect(() => {
+      const src = this.currentSource();
+      if (src && !src.startsWith('mine:')) {
+        this.prebuiltSvc.ensureDeckLoaded(src);
+      }
+    });
+  }
 
   readonly inSession = signal(false);
   readonly sessionMode = signal<SessionMode>('due');
@@ -502,13 +513,9 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
   readonly reviewedCardIds = signal<string[]>([]);
 
   readonly sessionTitle = computed(() =>
-    this.selectedDeck()?.name ?? 'My Flashcards'
+    this.currentDeck()?.name ?? `My ${this.currentLang()} Cards`
   );
-  readonly sessionLangLabel = computed(() => {
-    const deck = this.selectedDeck();
-    if (deck) return deck.language;
-    return this.selectedLang() === 'All' ? 'All Languages' : this.selectedLang();
-  });
+  readonly sessionLangLabel = computed(() => this.currentLang());
 
   readonly isPrebuiltCard = computed(() =>
     this.currentCard()?.card.id.startsWith('prebuilt:') ?? false
@@ -658,14 +665,9 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
   selectSource(source: string): void {
     this.selectedSource.set(source);
     this.selectedCategory.set('All');
-    if (source !== 'mine') {
+    if (!source.startsWith('mine:')) {
       this.prebuiltSvc.ensureDeckLoaded(source);
     }
-  }
-
-  selectLang(lang: string): void {
-    this.selectedLang.set(lang);
-    this.selectedCategory.set('All');
   }
 
   selectCategory(cat: string): void {
