@@ -104,6 +104,33 @@ router.post('/review-batch', async (req, res) => {
   }
 });
 
+// Bulk-assign cards to a custom deck, or pass deckId: null to un-assign.
+router.post('/assign-deck', async (req, res) => {
+  const { userId, cardIds, deckId } = req.body;
+
+  if (!userId || !Array.isArray(cardIds) || cardIds.length === 0) {
+    return res.status(400).json({ error: 'userId and a non-empty cardIds array are required' });
+  }
+
+  try {
+    // When assigning (not un-assigning), make sure the deck is the user's.
+    if (deckId) {
+      const [deck] = await sql`select id from decks where id = ${deckId} and user_id = ${userId}`;
+      if (!deck) return res.status(404).json({ error: 'Deck not found' });
+    }
+
+    const rows = await sql`
+      update saved_words set deck_id = ${deckId ?? null}
+      where user_id = ${userId} and id in ${sql(cardIds)}
+      returning *
+    `;
+    res.json(rows);
+  } catch (err) {
+    console.error('Assign deck error:', err.message);
+    res.status(500).json({ error: 'Could not assign cards to deck' });
+  }
+});
+
 router.post('/', async (req, res) => {
   const { userId, word, language, meaning, explanation, examples, pos } = req.body;
 

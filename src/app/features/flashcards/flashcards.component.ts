@@ -4,7 +4,9 @@ import {
 import { RouterLink } from '@angular/router';
 import { FlashcardsService, Flashcard, ReviewInput } from './flashcards.service';
 import { PrebuiltDecksService } from './prebuilt-decks.service';
+import { DecksService } from './decks.service';
 import { CreateCardModalComponent } from './create-card-modal.component';
+import { ManageCardsModalComponent } from './manage-cards-modal.component';
 import { PreferencesService } from '../../core/preferences/preferences.service';
 
 type Rating = 'still-learning' | 'getting-there' | 'mastered';
@@ -31,7 +33,7 @@ const DECK_FLAGS: Record<string, string> = {
 @Component({
   selector: 'app-flashcards',
   standalone: true,
-  imports: [RouterLink, CreateCardModalComponent],
+  imports: [RouterLink, CreateCardModalComponent, ManageCardsModalComponent],
   styles: [`
     .card-scene { perspective: 1000px; }
     .card-inner {
@@ -61,13 +63,24 @@ const DECK_FLAGS: Record<string, string> = {
               }
             </p>
           </div>
-          <button (click)="showCreateModal.set(true)"
-            class="flex items-center gap-1.5 px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors shrink-0">
-            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-            </svg>
-            Create Card
-          </button>
+          <div class="flex items-center gap-2 shrink-0">
+            @if (cards().length > 0) {
+              <button (click)="showManageModal.set(true)"
+                class="flex items-center gap-1.5 px-4 py-2 border border-gray-200 text-gray-700 text-sm font-semibold rounded-lg hover:bg-gray-50 transition-colors">
+                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                Manage
+              </button>
+            }
+            <button (click)="showCreateModal.set(true)"
+              class="flex items-center gap-1.5 px-4 py-2 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+              </svg>
+              Create Card
+            </button>
+          </div>
         </div>
 
         <!-- Review Due (spaced repetition over the user's own cards) -->
@@ -115,6 +128,33 @@ const DECK_FLAGS: Record<string, string> = {
             }
           </div>
         </div>
+
+        <!-- Your custom decks -->
+        @if (customDecks().length > 0) {
+          <div class="flex flex-col gap-2">
+            <p class="text-xs font-bold tracking-wider text-gray-400 uppercase">Your Decks</p>
+            <div class="flex flex-wrap gap-2">
+              @for (deck of customDecks(); track deck.id) {
+                <div class="flex items-center rounded-full text-sm font-medium border transition-colors overflow-hidden"
+                  [class]="currentSource() === 'deck:' + deck.id
+                    ? 'bg-blue-600 text-white border-blue-600'
+                    : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300'">
+                  <button (click)="selectSource('deck:' + deck.id)" class="pl-4 pr-2 py-1.5">
+                    📁 {{ deck.name }}
+                    <span class="opacity-70">({{ deckCardCount(deck.id) }})</span>
+                  </button>
+                  <button (click)="deleteDeck(deck.id, deck.name)"
+                    class="pr-3 pl-1 py-1.5 opacity-60 hover:opacity-100"
+                    [attr.aria-label]="'Delete ' + deck.name">
+                    <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+              }
+            </div>
+          </div>
+        }
 
         @if (cards().length === 0) {
           <div class="rounded-2xl border border-dashed border-gray-200 bg-gray-50/60 p-6 flex flex-col items-center gap-2 text-center">
@@ -234,9 +274,11 @@ const DECK_FLAGS: Record<string, string> = {
             <div class="flex flex-col gap-1.5">
               <h1 class="text-xl font-bold text-gray-900">{{ sessionTitle() }}</h1>
               <div class="flex items-center gap-1.5 flex-wrap">
-                <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-700">
-                  {{ sessionLangLabel() }}
-                </span>
+                @if (sessionLangLabel()) {
+                  <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-100 text-blue-700">
+                    {{ sessionLangLabel() }}
+                  </span>
+                }
                 @if (selectedCategory() !== 'All') {
                   <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-100 text-indigo-700">
                     {{ selectedCategory() }}
@@ -420,30 +462,44 @@ const DECK_FLAGS: Record<string, string> = {
     @if (showCreateModal()) {
       <app-create-card-modal (closed)="showCreateModal.set(false)" />
     }
+    @if (showManageModal()) {
+      <app-manage-cards-modal (closed)="showManageModal.set(false)" />
+    }
   `,
 })
 export class FlashcardsComponent implements OnInit, OnDestroy {
   private readonly flashcardsSvc = inject(FlashcardsService);
   private readonly prebuiltSvc = inject(PrebuiltDecksService);
+  private readonly decksSvc = inject(DecksService);
   private readonly prefsSvc = inject(PreferencesService);
 
   readonly cards = this.flashcardsSvc.cards;
   readonly decks = this.prebuiltSvc.decks;
+  readonly customDecks = this.decksSvc.decks;
   readonly dueCount = computed(() => this.flashcardsSvc.dueCards().length);
 
   readonly showCreateModal = signal(false);
+  readonly showManageModal = signal(false);
 
   /**
-   * The selected study source: '' until resolved, 'mine:<language>' for one
-   * of the user's own per-language decks, or a prebuilt deck id.
+   * The selected study source: '' until resolved, 'mine:<language>' for the
+   * user's unassigned cards in a language, 'deck:<id>' for a custom deck, or a
+   * prebuilt deck id.
    */
   readonly selectedSource = signal<string>('');
   readonly selectedCategory = signal<string>('All');
 
-  /** Languages the user has saved cards in — each becomes its own deck. */
+  /**
+   * Languages with unassigned cards — each becomes its own "My <Lang> Cards"
+   * deck. Cards moved into a custom deck leave their language bucket.
+   */
   readonly myLanguages = computed(() =>
-    [...new Set(this.cards().map(c => c.language))].sort()
+    [...new Set(this.cards().filter(c => !c.deckId).map(c => c.language))].sort()
   );
+
+  deckCardCount(deckId: string): number {
+    return this.cards().filter(c => c.deckId === deckId).length;
+  }
 
   /**
    * Resolved source with a sensible default: the user's first language, else
@@ -462,21 +518,42 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
     this.decks().find(d => d.id === this.currentSource()) ?? null
   );
   readonly isMine = computed(() => this.currentSource().startsWith('mine:'));
-  readonly currentLang = computed(() =>
-    this.isMine() ? this.currentSource().slice(5) : (this.currentDeck()?.language ?? '')
+  readonly isCustom = computed(() => this.currentSource().startsWith('deck:'));
+  readonly customDeck = computed(() =>
+    this.isCustom()
+      ? this.customDecks().find(d => d.id === this.currentSource().slice(5)) ?? null
+      : null
   );
+  /** Language label for the session badge — empty for custom decks. */
+  readonly currentLang = computed(() => {
+    if (this.isMine()) return this.currentSource().slice(5);
+    if (this.isCustom()) return '';
+    return this.currentDeck()?.language ?? '';
+  });
   readonly deckLoading = computed(() =>
     this.prebuiltSvc.loadingDeck() === this.currentSource()
   );
+
+  /** The user's own cards backing the active 'mine:' or 'deck:' source. */
+  private readonly ownSourceCards = computed(() => {
+    if (this.isCustom()) {
+      const id = this.currentSource().slice(5);
+      return this.cards().filter(c => c.deckId === id);
+    }
+    if (this.isMine()) {
+      const lang = this.currentSource().slice(5);
+      return this.cards().filter(c => c.language === lang && !c.deckId);
+    }
+    return [];
+  });
 
   readonly availableCategories = computed(() => {
     const deck = this.currentDeck();
     if (deck) {
       return ['All', ...[...deck.categories].sort()];
     }
-    const lang = this.currentLang();
     const cats = [...new Set(
-      this.cards().filter(c => c.language === lang).map(c => c.category).filter(Boolean)
+      this.ownSourceCards().map(c => c.category).filter(Boolean)
     )].sort();
     return ['All', ...cats];
   });
@@ -485,7 +562,7 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
     const deck = this.currentDeck();
     const source = deck
       ? this.prebuiltSvc.deckCards()[deck.id] ?? []
-      : this.cards().filter(c => c.language === this.currentLang());
+      : this.ownSourceCards();
     return source.filter(c =>
       this.selectedCategory() === 'All' || c.category === this.selectedCategory()
     );
@@ -512,9 +589,11 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
   readonly currentTip = signal(TIPS[0]);
   readonly reviewedCardIds = signal<string[]>([]);
 
-  readonly sessionTitle = computed(() =>
-    this.currentDeck()?.name ?? `My ${this.currentLang()} Cards`
-  );
+  readonly sessionTitle = computed(() => {
+    if (this.currentDeck()) return this.currentDeck()!.name;
+    if (this.customDeck()) return this.customDeck()!.name;
+    return `My ${this.currentLang()} Cards`;
+  });
   readonly sessionLangLabel = computed(() => this.currentLang());
 
   readonly isPrebuiltCard = computed(() =>
@@ -665,9 +744,21 @@ export class FlashcardsComponent implements OnInit, OnDestroy {
   selectSource(source: string): void {
     this.selectedSource.set(source);
     this.selectedCategory.set('All');
-    if (!source.startsWith('mine:')) {
+    // Only prebuilt deck ids (bare, e.g. 'korean') need an async load.
+    if (!source.startsWith('mine:') && !source.startsWith('deck:')) {
       this.prebuiltSvc.ensureDeckLoaded(source);
     }
+  }
+
+  deleteDeck(id: string, name: string): void {
+    if (!confirm(`Delete the "${name}" deck? Its cards return to your library.`)) return;
+    // If the deleted deck is selected, drop back to the default source.
+    if (this.currentSource() === `deck:${id}`) {
+      this.selectedSource.set('');
+      this.selectedCategory.set('All');
+    }
+    this.flashcardsSvc.onDeckDeleted(id);
+    this.decksSvc.deleteDeck(id);
   }
 
   selectCategory(cat: string): void {

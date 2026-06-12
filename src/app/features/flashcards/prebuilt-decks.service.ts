@@ -95,6 +95,7 @@ export class PrebuiltDecksService {
       repetitions: 0,
       dueAt: new Date().toISOString(),
       lastReviewedAt: null,
+      deckId: null,
     };
   }
 }
