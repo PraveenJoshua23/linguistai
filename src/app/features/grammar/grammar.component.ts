@@ -3,12 +3,6 @@ import { GrammarService, GrammarTopic } from './grammar.service';
 
 type View = 'list' | 'lesson' | 'practice' | 'done';
 
-const LANG_FLAGS: Record<string, string> = {
-  Korean: '🇰🇷',
-  Japanese: '🇯🇵',
-  English: '🇬🇧',
-};
-
 @Component({
   selector: 'app-grammar',
   standalone: true,
@@ -36,7 +30,7 @@ const LANG_FLAGS: Record<string, string> = {
               [class]="selectedLang() === lang.id
                 ? 'bg-blue-600 text-white border-blue-600'
                 : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300 hover:text-blue-600'">
-              {{ flag(lang.language) }} {{ lang.language }}
+              {{ lang.flag }} {{ lang.language }}
             </button>
           }
         </div>
@@ -88,7 +82,8 @@ const LANG_FLAGS: Record<string, string> = {
           </span>
         </div>
 
-        <p class="text-[15px] text-gray-700 leading-relaxed">{{ topic.explanation }}</p>
+        <div class="text-[15px] text-gray-700 leading-relaxed [&_p]:mb-3 [&_p:last-child]:mb-0 [&_strong]:font-semibold [&_em]:italic [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:my-2 [&_li]:mb-1 [&_code]:bg-gray-100 [&_code]:px-1 [&_code]:rounded"
+          [innerHTML]="topic.explanation"></div>
 
         @if (topic.examples.length > 0) {
           <div class="flex flex-col gap-2">
@@ -261,10 +256,6 @@ export class GrammarComponent implements OnInit {
 
   ngOnInit(): void {
     this.grammarSvc.loadManifest();
-  }
-
-  flag(language: string): string {
-    return LANG_FLAGS[language] ?? '🌐';
   }
 
   selectLang(id: string): void {

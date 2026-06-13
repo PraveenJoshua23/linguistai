@@ -1,4 +1,5 @@
 {
+ "id": "japanese",
  "language": "Japanese",
  "name": "Japanese Grammar",
  "topics": [
@@ -7,7 +8,7 @@
    "title": "Topic Particle は",
    "level": "Beginner",
    "summary": "は marks the topic of a sentence — written は but pronounced \"wa\".",
-   "explanation": "は marks the topic, what the sentence is about. It is written with the hiragana は but pronounced \"wa\". The basic pattern is \"A は B です\" (As for A, it is B).",
+   "explanation": "<p>は marks the topic, what the sentence is about. It is written with the hiragana は but pronounced &quot;wa&quot;. The basic pattern is &quot;A は B です&quot; (As for A, it is B).</p>",
    "examples": [
     {
      "text": "私は学生です。",
@@ -81,7 +82,7 @@
    "title": "Subject Particle が",
    "level": "Beginner",
    "summary": "が marks the grammatical subject, often introducing new or identifying information.",
-   "explanation": "が marks the subject that performs an action or is newly introduced. Use it (rather than は) to answer \"who/what\" or to point out specific information. Verbs of existence, perception, and ability also take が.",
+   "explanation": "<p>が marks the subject that performs an action or is newly introduced. Use it (rather than は) to answer &quot;who/what&quot; or to point out specific information. Verbs of existence, perception, and ability also take が.</p>",
    "examples": [
     {
      "text": "犬が走っています。",
@@ -155,7 +156,7 @@
    "title": "Object Particle を",
    "level": "Beginner",
    "summary": "を marks the direct object of a verb, pronounced \"o\".",
-   "explanation": "を marks the direct object, the thing an action is done to. It is written を but pronounced \"o\". The pattern is \"[object] を [verb]\".",
+   "explanation": "<p>を marks the direct object, the thing an action is done to. It is written を but pronounced &quot;o&quot;. The pattern is &quot;[object] を [verb]&quot;.</p>",
    "examples": [
     {
      "text": "手紙を書きます。",
@@ -229,7 +230,7 @@
    "title": "The Copula です",
    "level": "Beginner",
    "summary": "です is the polite copula meaning “to be,” and its negative form is じゃありません.",
-   "explanation": "In polite Japanese, you attach です after a noun or adjective to say something is that thing. To make it negative, replace です with じゃありません. The sentence ends with the copula, so no extra verb is needed.",
+   "explanation": "<p>In polite Japanese, you attach です after a noun or adjective to say something is that thing. To make it negative, replace です with じゃありません. The sentence ends with the copula, so no extra verb is needed.</p>",
    "examples": [
     {
      "text": "これは本です。",
@@ -303,7 +304,7 @@
    "title": "Polite Verbs -ます",
    "level": "Beginner",
    "summary": "Learn how to use the polite -ます form and its negative -ません in Japanese.",
-   "explanation": "The -ます ending makes a verb polite and is used in present/future statements. To make it negative, change -ます to -ません. Both forms are attached directly to the verb stem. Use them in everyday conversation to sound respectful.",
+   "explanation": "<p>The -ます ending makes a verb polite and is used in present/future statements. To make it negative, change -ます to -ません. Both forms are attached directly to the verb stem. Use them in everyday conversation to sound respectful.</p>",
    "examples": [
     {
      "text": "食べます",
@@ -377,7 +378,7 @@
    "title": "Past Tense -ました / でした",
    "level": "Beginner",
    "summary": "Polite past tense in Japanese uses ました for verbs and でした for nouns/adjectives.",
-   "explanation": "To talk about something that happened, add ました to the verb stem. For negative past, use ませんでした. When describing nouns or adjectives in the past, replace です with でした. These forms are used in formal situations.",
+   "explanation": "<p>To talk about something that happened, add ました to the verb stem. For negative past, use ませんでした. When describing nouns or adjectives in the past, replace です with でした. These forms are used in formal situations.</p>",
    "examples": [
     {
      "text": "私は昨日本を読みました。",
@@ -451,7 +452,7 @@
    "title": "Existence あります / います",
    "level": "Beginner",
    "summary": "Use あります for non‑living things and います for living things.",
-   "explanation": "Both verbs mean “to exist.” あります is used with objects, places, and ideas that are not alive. います is used with people, animals, and other living beings. The particle に marks the location where something exists. The verb comes after the location phrase.",
+   "explanation": "<p>Both verbs mean “to exist.” あります is used with objects, places, and ideas that are not alive. います is used with people, animals, and other living beings. The particle に marks the location where something exists. The verb comes after the location phrase.</p>",
    "examples": [
     {
      "text": "部屋に机があります。",
@@ -525,7 +526,7 @@
    "title": "Particles に and で",
    "level": "Beginner",
    "summary": "Use に for destinations, time points, and existence; use で for where an action happens.",
-   "explanation": "に marks a destination (東京に行く), a point in time (9時に), or where something exists (机の上に). で marks the place where an action occurs (カフェで食べる) and the means used. Relative time words like 明日 take no particle.",
+   "explanation": "<p>に marks a destination (東京に行く), a point in time (9時に), or where something exists (机の上に). で marks the place where an action occurs (カフェで食べる) and the means used. Relative time words like 明日 take no particle.</p>",
    "examples": [
     {
      "text": "学校に行きます。",
@@ -599,7 +600,7 @@
    "title": "Possessive の",
    "level": "Beginner",
    "summary": "の links two nouns, showing possession or relationship (A の B = B of A).",
-   "explanation": "の connects nouns: the first noun modifies the second. It shows possession (私の本 = my book), origin, or type (日本語の先生 = Japanese teacher). The pattern is A の B.",
+   "explanation": "<p>の connects nouns: the first noun modifies the second. It shows possession (私の本 = my book), origin, or type (日本語の先生 = Japanese teacher). The pattern is A の B.</p>",
    "examples": [
     {
      "text": "これは私の本です。",
@@ -673,7 +674,7 @@
    "title": "The て-form",
    "level": "Intermediate",
    "summary": "The て-form connects actions and makes polite requests with -てください.",
-   "explanation": "The て-form is made by changing the verb ending to て (or で). It can link two actions, showing sequence or simultaneity. Adding ください after the て-form makes a polite request. Use it after the verb stem, not after a noun.",
+   "explanation": "<p>The て-form is made by changing the verb ending to て (or で). It can link two actions, showing sequence or simultaneity. Adding ください after the て-form makes a polite request. Use it after the verb stem, not after a noun.</p>",
    "examples": [
     {
      "text": "本を読んで、寝ました。",
@@ -747,7 +748,7 @@
    "title": "Want to -たい",
    "level": "Intermediate",
    "summary": "Use the -たい form to say you want to do something.",
-   "explanation": "Take the verb stem and add たい. It works like an adjective, so it can be used with です or ですか. It only expresses the speaker's desire. For polite speech, attach です after たい.",
+   "explanation": "<p>Take the verb stem and add たい. It works like an adjective, so it can be used with です or ですか. It only expresses the speaker&#39;s desire. For polite speech, attach です after たい.</p>",
    "examples": [
     {
      "text": "寿司が食べたいです。",
@@ -821,7 +822,7 @@
    "title": "い and な Adjectives",
    "level": "Intermediate",
    "summary": "Japanese adjectives are divided into い‑adjectives and な‑adjectives, each with its own attachment and conjugation rules.",
-   "explanation": "い‑adjectives end with い and can directly modify nouns (e.g., 高い山). To make them negative, replace い with くない. な‑adjectives need the particle な before a noun (e.g., 静かな部屋) and use ではない for the negative form. Both types change similarly for past and polite forms.",
+   "explanation": "<p>い‑adjectives end with い and can directly modify nouns (e.g., 高い山). To make them negative, replace い with くない. な‑adjectives need the particle な before a noun (e.g., 静かな部屋) and use ではない for the negative form. Both types change similarly for past and polite forms.</p>",
    "examples": [
     {
      "text": "この山は高いです。",

@@ -7,6 +7,7 @@ export interface GrammarLanguageInfo {
   name: string;
   file: string;
   topicCount: number;
+  flag: string;
 }
 
 export interface GrammarExample {

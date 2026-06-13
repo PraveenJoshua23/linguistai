@@ -1,4 +1,5 @@
 {
+ "id": "korean",
  "language": "Korean",
  "name": "Korean Grammar",
  "topics": [
@@ -7,7 +8,7 @@
    "title": "Topic Particle 은/는",
    "level": "Beginner",
    "summary": "The topic particle 은/는 marks what a sentence is about — use 은 after a consonant and 는 after a vowel.",
-   "explanation": "은/는 marks the topic, the thing the sentence is commenting on, often with a sense of contrast. Attach 은 to a noun ending in a consonant and 는 to a noun ending in a vowel. It differs from the subject particle 이/가, which simply marks the grammatical subject.",
+   "explanation": "<p>은/는 marks the topic, the thing the sentence is commenting on, often with a sense of contrast. Attach 은 to a noun ending in a consonant and 는 to a noun ending in a vowel. It differs from the subject particle 이/가, which simply marks the grammatical subject.</p>",
    "examples": [
     {
      "text": "저는 학생이에요.",
@@ -81,7 +82,7 @@
    "title": "Subject Particle 이/가",
    "level": "Beginner",
    "summary": "The subject particle 이/가 marks the grammatical subject — use 이 after a consonant and 가 after a vowel.",
-   "explanation": "이/가 marks the subject that performs the action or is described. Attach 이 to a noun ending in a consonant and 가 to a noun ending in a vowel. Compared with 은/는, 이/가 often introduces new or specific information.",
+   "explanation": "<p>이/가 marks the subject that performs the action or is described. Attach 이 to a noun ending in a consonant and 가 to a noun ending in a vowel. Compared with 은/는, 이/가 often introduces new or specific information.</p>",
    "examples": [
     {
      "text": "친구가 왔어요.",
@@ -155,7 +156,7 @@
    "title": "Object Particle 을/를",
    "level": "Beginner",
    "summary": "The object particle 을/를 marks the direct object — use 을 after a consonant and 를 after a vowel.",
-   "explanation": "을/를 marks the direct object, the thing the action is done to. Attach 을 to a noun ending in a consonant and 를 to a noun ending in a vowel.",
+   "explanation": "<p>을/를 marks the direct object, the thing the action is done to. Attach 을 to a noun ending in a consonant and 를 to a noun ending in a vowel.</p>",
    "examples": [
     {
      "text": "사과를 먹어요.",
@@ -229,7 +230,7 @@
    "title": "The Copula 이다 (to be)",
    "level": "Beginner",
    "summary": "Use 이에요/예요 to say \"A is B\" in polite Korean.",
-   "explanation": "Place the copula after the noun that describes something. If the noun ends with a consonant, use 이에요; if it ends with a vowel, use 예요. This form is polite and works in everyday sentences. The ending stays attached directly to the noun.",
+   "explanation": "<p>Place the copula after the noun that describes something. If the noun ends with a consonant, use 이에요; if it ends with a vowel, use 예요. This form is polite and works in everyday sentences. The ending stays attached directly to the noun.</p>",
    "examples": [
     {
      "text": "저는 학생이에요.",
@@ -303,7 +304,7 @@
    "title": "Present Tense -아요/어요",
    "level": "Beginner",
    "summary": "Polite present tense adds -아요 to ㅏ/ㅗ stems, -어요 to other stems, and -해요 to 하다 verbs.",
-   "explanation": "To make the polite present tense, attach -아요 to verb stems whose last vowel is ㅏ or ㅗ, and -어요 to other stems. Verbs ending in 하다 become 해요. For example 가다 → 가요, 먹다 → 먹어요, 공부하다 → 공부해요.",
+   "explanation": "<p>To make the polite present tense, attach -아요 to verb stems whose last vowel is ㅏ or ㅗ, and -어요 to other stems. Verbs ending in 하다 become 해요. For example 가다 → 가요, 먹다 → 먹어요, 공부하다 → 공부해요.</p>",
    "examples": [
     {
      "text": "저는 매일 운동해요.",
@@ -377,7 +378,7 @@
    "title": "Past Tense -았/었어요",
    "level": "Beginner",
    "summary": "Polite past tense in Korean is formed with -았어요, -었어요, or -했어요.",
-   "explanation": "To make a verb polite past, add -았어요 after a vowel, -었어요 after a consonant, and -했어요 after 하다. The choice depends on the verb stem's final sound. This form is used in everyday conversation. Remember the vowel harmony: 아 afterㅏ orㅗ, 어 after other vowels.",
+   "explanation": "<p>To make a verb polite past, add -았어요 after a vowel, -었어요 after a consonant, and -했어요 after 하다. The choice depends on the verb stem&#39;s final sound. This form is used in everyday conversation. Remember the vowel harmony: 아 afterㅏ orㅗ, 어 after other vowels.</p>",
    "examples": [
     {
      "text": "나는 어제 책을 읽었어요.",
@@ -451,7 +452,7 @@
    "title": "Negation 안 and -지 않다",
    "level": "Beginner",
    "summary": "Negate a verb with 안 before it, or by attaching -지 않다 to the stem.",
-   "explanation": "There are two ways to negate. Put 안 directly before the verb (안 가요 = \"don’t go\"), or attach -지 않다 to the verb stem (가지 않아요). Both mean the same thing; 안 is more colloquial.",
+   "explanation": "<p>There are two ways to negate. Put 안 directly before the verb (안 가요 = &quot;don’t go&quot;), or attach -지 않다 to the verb stem (가지 않아요). Both mean the same thing; 안 is more colloquial.</p>",
    "examples": [
     {
      "text": "저는 안 가요.",
@@ -525,7 +526,7 @@
    "title": "Existence 있다 / 없다",
    "level": "Beginner",
    "summary": "Use 있다 and 없어요 to say something exists or does not exist.",
-   "explanation": "있다 means \"to exist\" or \"to have\" and is used with the polite ending 있어요. 없어요 is the negative form meaning \"does not exist\" or \"does not have.\" Place the verb after the location or object you are talking about. The sentence ends with the verb, not a particle.",
+   "explanation": "<p>있다 means &quot;to exist&quot; or &quot;to have&quot; and is used with the polite ending 있어요. 없어요 is the negative form meaning &quot;does not exist&quot; or &quot;does not have.&quot; Place the verb after the location or object you are talking about. The sentence ends with the verb, not a particle.</p>",
    "examples": [
     {
      "text": "책상 위에 책이 있어요.",
@@ -599,7 +600,7 @@
    "title": "Location Particles 에 / 에서",
    "level": "Beginner",
    "summary": "Use 에 for a destination or static location, and 에서 for the place where an action happens.",
-   "explanation": "에 marks a destination (가다/오다) or where something exists (있다/없다). 에서 marks the place where an action takes place. So you go 학교에 (to school) but study 학교에서 (at school).",
+   "explanation": "<p>에 marks a destination (가다/오다) or where something exists (있다/없다). 에서 marks the place where an action takes place. So you go 학교에 (to school) but study 학교에서 (at school).</p>",
    "examples": [
     {
      "text": "학교에 가요.",
@@ -673,7 +674,7 @@
    "title": "Want to -고 싶다",
    "level": "Intermediate",
    "summary": "Use -고 싶다 after a verb stem to say you want to do something.",
-   "explanation": "Take the verb stem and add 고 싶다 to express desire. In polite speech, change 싶다 to 싶어요. The construction works with any action verb. Use the appropriate verb stem before 고.",
+   "explanation": "<p>Take the verb stem and add 고 싶다 to express desire. In polite speech, change 싶다 to 싶어요. The construction works with any action verb. Use the appropriate verb stem before 고.</p>",
    "examples": [
     {
      "text": "나는 책을 읽고 싶어요.",
@@ -747,7 +748,7 @@
    "title": "Connective -고 (and / then)",
    "level": "Intermediate",
    "summary": "-고 connects two actions or clauses in sequence, meaning “and then”.",
-   "explanation": "Place -고 after the verb stem to link it with the next action. It shows that the second action happens after the first. The two clauses share the same subject unless otherwise marked. Use -고 in informal and formal speech alike.",
+   "explanation": "<p>Place -고 after the verb stem to link it with the next action. It shows that the second action happens after the first. The two clauses share the same subject unless otherwise marked. Use -고 in informal and formal speech alike.</p>",
    "examples": [
     {
      "text": "아침에 일어나고 커피를 마셨어요.",
@@ -821,7 +822,7 @@
    "title": "Honorifics -(으)시-",
    "level": "Intermediate",
    "summary": "-(으)시- is added to verb stems to honorify the subject of the sentence.",
-   "explanation": "Attach -(으)시- directly after the verb stem when the subject is someone you respect. It works with all verb endings, including -아요/어요 and -습니다. The honorific does not change the meaning of the verb, only shows respect.",
+   "explanation": "<p>Attach -(으)시- directly after the verb stem when the subject is someone you respect. It works with all verb endings, including -아요/어요 and -습니다. The honorific does not change the meaning of the verb, only shows respect.</p>",
    "examples": [
     {
      "text": "할머니께서 차를 ___ 마셨어요.",
