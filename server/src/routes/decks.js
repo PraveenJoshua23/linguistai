@@ -5,11 +5,11 @@ const router = Router();
 
 // List a user's custom decks (newest first). Card counts are computed
 // client-side from the already-loaded saved words.
-router.get('/:userId', async (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const rows = await sql`
       select * from decks
-      where user_id = ${req.params.userId}
+      where user_id = ${req.userId}
       order by created_at desc
     `;
     res.json(rows);
@@ -20,10 +20,11 @@ router.get('/:userId', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
-  const { userId, name } = req.body;
+  const { name } = req.body;
+  const { userId } = req;
 
-  if (!userId || !name || !String(name).trim()) {
-    return res.status(400).json({ error: 'userId and name are required' });
+  if (!name || !String(name).trim()) {
+    return res.status(400).json({ error: 'name is required' });
   }
 
   try {
@@ -41,7 +42,7 @@ router.post('/', async (req, res) => {
 
 // Deleting a deck un-assigns its cards via the deck_id FK (on delete set null).
 router.delete('/:id', async (req, res) => {
-  const { userId } = req.body;
+  const { userId } = req;
 
   try {
     await sql`

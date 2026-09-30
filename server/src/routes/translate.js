@@ -31,7 +31,6 @@ router.post('/', validateTranslateRequest, async (req, res) => {
     targetLang,
     context = 'General',
     tone = 'Neutral',
-    userId = null,
   } = req.body;
 
   try {
@@ -52,12 +51,10 @@ Text: "${text}"`,
 
     const result = JSON.parse(chat.choices[0].message.content);
 
-    if (userId) {
-      await sql`
-        insert into translations (user_id, source_text, source_lang, target_lang, result_json)
-        values (${userId}, ${text}, ${sourceLang}, ${targetLang}, ${sql.json(result)})
-      `;
-    }
+    await sql`
+      insert into translations (user_id, source_text, source_lang, target_lang, result_json)
+      values (${req.userId}, ${text}, ${sourceLang}, ${targetLang}, ${sql.json(result)})
+    `;
 
     res.json(result);
   } catch (err) {

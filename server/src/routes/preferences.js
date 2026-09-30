@@ -16,19 +16,19 @@ const DEFAULTS = {
   display_name: '',
 };
 
-router.get('/:userId', async (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const [row] = await sql`
-      select * from user_preferences where user_id = ${req.params.userId}
+      select * from user_preferences where user_id = ${req.userId}
     `;
-    res.json(row ?? { user_id: req.params.userId, ...DEFAULTS });
+    res.json(row ?? { user_id: req.userId, ...DEFAULTS });
   } catch (err) {
     console.error('Preferences fetch error:', err.message);
     res.status(500).json({ error: 'Could not fetch preferences' });
   }
 });
 
-router.put('/:userId', async (req, res) => {
+router.put('/', async (req, res) => {
   const {
     source_lang, target_lang, default_context, default_tone,
     sidebar_collapsed, show_breakdown, show_transliteration,
@@ -42,7 +42,7 @@ router.put('/:userId', async (req, res) => {
         sidebar_collapsed, show_breakdown, show_transliteration,
         flashcard_shuffle, flashcard_auto_advance, display_name
       ) values (
-        ${req.params.userId}, ${source_lang}, ${target_lang}, ${default_context}, ${default_tone},
+        ${req.userId}, ${source_lang}, ${target_lang}, ${default_context}, ${default_tone},
         ${sidebar_collapsed}, ${show_breakdown}, ${show_transliteration},
         ${flashcard_shuffle}, ${flashcard_auto_advance}, ${display_name}
       )

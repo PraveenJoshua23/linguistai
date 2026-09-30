@@ -58,13 +58,13 @@ export class FlashcardsService {
     effect(() => {
       const user = this.supabase.currentUser();
       if (user && !this.loaded()) {
-        this.loadFromDb(user.id);
+        this.loadFromDb();
       }
     });
   }
 
-  private loadFromDb(userId: string): void {
-    this.http.get<any[]>(`${environment.apiBase}/saved-words/${userId}`)
+  private loadFromDb(): void {
+    this.http.get<any[]>(`${environment.apiBase}/saved-words`)
       .subscribe({
         next: (rows) => {
           const cards: Flashcard[] = rows.map(r => this.toCard(r));
@@ -97,8 +97,6 @@ export class FlashcardsService {
     const exists = this.cards().some(c => c.word === input.word && c.language === input.language);
     if (exists) return false;
 
-    const userId = this.supabase.currentUser()?.id;
-
     // Optimistically add to local state — new cards are due immediately.
     const tempCard: Flashcard = {
       id: crypto.randomUUID(),
@@ -118,9 +116,8 @@ export class FlashcardsService {
     };
     this.cards.update(cards => [...cards, tempCard]);
 
-    if (userId) {
+    if (this.supabase.currentUser()) {
       this.http.post<any>(`${environment.apiBase}/saved-words`, {
-        userId,
         word: input.word,
         language: input.language,
         meaning: input.meaning,
@@ -143,11 +140,8 @@ export class FlashcardsService {
   removeCard(id: string): void {
     this.cards.update(cards => cards.filter(c => c.id !== id));
 
-    const userId = this.supabase.currentUser()?.id;
-    if (userId) {
-      this.http.delete(`${environment.apiBase}/saved-words/${id}`, {
-        body: { userId },
-      }).subscribe({ error: (e) => console.warn('Could not delete flashcard:', e.message) });
+    if (this.supabase.currentUser()) {
+      this.http.delete(`${environment.apiBase}/saved-words/${id}`).subscribe({ error: (e) => console.warn('Could not delete flashcard:', e.message) });
     }
   }
 
@@ -161,13 +155,9 @@ export class FlashcardsService {
    */
   submitReviews(reviews: ReviewInput[]): void {
     if (reviews.length === 0) return;
-    const userId = this.supabase.currentUser()?.id;
-    if (!userId) return;
+    if (!this.supabase.currentUser()) return;
 
-    this.http.post<any[]>(`${environment.apiBase}/saved-words/review-batch`, {
-      userId,
-      reviews,
-    }).subscribe({
+    this.http.post<any[]>(`${environment.apiBase}/saved-words/review-batch`, { reviews }).subscribe({
       next: (rows) => {
         const updated = new Map(rows.map(r => [r.id, this.toCard(r)]));
         this.cards.update(cards => cards.map(c => updated.get(c.id) ?? c));
@@ -204,12 +194,9 @@ export class FlashcardsService {
     const idSet = new Set(cardIds);
     this.cards.update(cards => cards.map(c => idSet.has(c.id) ? { ...c, deckId } : c));
 
-    const userId = this.supabase.currentUser()?.id;
-    if (!userId) return;
+    if (!this.supabase.currentUser()) return;
 
-    this.http.post<any[]>(`${environment.apiBase}/saved-words/assign-deck`, {
-      userId, cardIds, deckId,
-    }).subscribe({
+    this.http.post<any[]>(`${environment.apiBase}/saved-words/assign-deck`, { cardIds, deckId }).subscribe({
       next: (rows) => {
         const updated = new Map(rows.map(r => [r.id, this.toCard(r)]));
         this.cards.update(cards => cards.map(c => updated.get(c.id) ?? c));

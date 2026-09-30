@@ -1,6 +1,3 @@
-const SUPABASE_URL = 'https://jkhzzojucazfgepqnevi.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpraHp6b2p1Y2F6ZmdlcHFuZXZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwMDM4NzUsImV4cCI6MjA5NjU3OTg3NX0.wpI-5_qIuuwXsZUDMaJOY5GhVs3U2Q4-FM83DDhdiMA';
-
 const LANGUAGES = [
   { code: 'en', name: 'English' },
   { code: 'es', name: 'Spanish' },
@@ -39,8 +36,8 @@ const clearBtn    = document.getElementById('clear-btn');
 
 populateSelects();
 
-chrome.storage.local.get(['userId', 'userEmail', 'sourceLang', 'targetLang'], (data) => {
-  if (data.userId) {
+chrome.storage.local.get(['session', 'userEmail', 'sourceLang', 'targetLang'], (data) => {
+  if (data.session) {
     showMain(data.userEmail, data);
   } else {
     showLogin();
@@ -76,9 +73,9 @@ async function handleLogin() {
     const data = await res.json();
     if (!res.ok) throw new Error(data.error_description || data.msg || 'Login failed');
 
-    const userId = data.user.id;
     const userEmail = data.user.email;
-    await chrome.storage.local.set({ userId, userEmail });
+    await chrome.storage.local.set({ session: toSession(data), userEmail });
+    await chrome.storage.local.remove('userId');
     showMain(userEmail, {});
   } catch (err) {
     showError(err.message);
@@ -89,7 +86,7 @@ async function handleLogin() {
 }
 
 signoutBtn.addEventListener('click', async () => {
-  await chrome.storage.local.remove(['userId', 'userEmail']);
+  await chrome.storage.local.remove(['session', 'userEmail']);
   await chrome.runtime.sendMessage({ type: 'CLEAR_RECENT' });
   passwordEl.value = '';
   showLogin();

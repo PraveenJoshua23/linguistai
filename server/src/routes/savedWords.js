@@ -31,18 +31,18 @@ async function classifyWord(word, pos, meaning, language) {
   }
 }
 
-router.get('/:userId', async (req, res) => {
+router.get('/', async (req, res) => {
   const dueOnly = req.query.due === 'true';
   try {
     const rows = dueOnly
       ? await sql`
           select * from saved_words
-          where user_id = ${req.params.userId} and due_at <= now()
+          where user_id = ${req.userId} and due_at <= now()
           order by due_at asc
         `
       : await sql`
           select * from saved_words
-          where user_id = ${req.params.userId}
+          where user_id = ${req.userId}
           order by created_at desc
         `;
     res.json(rows);
@@ -54,10 +54,11 @@ router.get('/:userId', async (req, res) => {
 
 // Batch-apply SM-2 reviews collected over a study session.
 router.post('/review-batch', async (req, res) => {
-  const { userId, reviews } = req.body;
+  const { reviews } = req.body;
+  const { userId } = req;
 
-  if (!userId || !Array.isArray(reviews) || reviews.length === 0) {
-    return res.status(400).json({ error: 'userId and a non-empty reviews array are required' });
+  if (!Array.isArray(reviews) || reviews.length === 0) {
+    return res.status(400).json({ error: 'A non-empty reviews array is required' });
   }
 
   const valid = reviews.filter(
@@ -106,10 +107,11 @@ router.post('/review-batch', async (req, res) => {
 
 // Bulk-assign cards to a custom deck, or pass deckId: null to un-assign.
 router.post('/assign-deck', async (req, res) => {
-  const { userId, cardIds, deckId } = req.body;
+  const { cardIds, deckId } = req.body;
+  const { userId } = req;
 
-  if (!userId || !Array.isArray(cardIds) || cardIds.length === 0) {
-    return res.status(400).json({ error: 'userId and a non-empty cardIds array are required' });
+  if (!Array.isArray(cardIds) || cardIds.length === 0) {
+    return res.status(400).json({ error: 'A non-empty cardIds array is required' });
   }
 
   try {
@@ -132,10 +134,11 @@ router.post('/assign-deck', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
-  const { userId, word, language, meaning, explanation, examples, pos } = req.body;
+  const { word, language, meaning, explanation, examples, pos } = req.body;
+  const { userId } = req;
 
-  if (!userId || !word || !language) {
-    return res.status(400).json({ error: 'userId, word, and language are required' });
+  if (!word || !language) {
+    return res.status(400).json({ error: 'word and language are required' });
   }
 
   try {
@@ -162,7 +165,7 @@ router.post('/', async (req, res) => {
 });
 
 router.delete('/:id', async (req, res) => {
-  const { userId } = req.body;
+  const { userId } = req;
 
   try {
     await sql`

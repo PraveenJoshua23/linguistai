@@ -21,13 +21,13 @@ export class DecksService {
     effect(() => {
       const user = this.supabase.currentUser();
       if (user && !this.loaded()) {
-        this.loadFromDb(user.id);
+        this.loadFromDb();
       }
     });
   }
 
-  private loadFromDb(userId: string): void {
-    this.http.get<any[]>(`${environment.apiBase}/decks/${userId}`).subscribe({
+  private loadFromDb(): void {
+    this.http.get<any[]>(`${environment.apiBase}/decks`).subscribe({
       next: (rows) => {
         this.decks.set(rows.map(r => this.toDeck(r)));
         this.loaded.set(true);
@@ -41,11 +41,10 @@ export class DecksService {
 
   /** Create a deck and return it (or null on failure) so callers can chain. */
   createDeck(name: string): Promise<UserDeck | null> {
-    const userId = this.supabase.currentUser()?.id;
-    if (!userId) return Promise.resolve(null);
+    if (!this.supabase.currentUser()) return Promise.resolve(null);
 
     return new Promise((resolve) => {
-      this.http.post<any>(`${environment.apiBase}/decks`, { userId, name }).subscribe({
+      this.http.post<any>(`${environment.apiBase}/decks`, { name }).subscribe({
         next: (row) => {
           const deck = this.toDeck(row);
           this.decks.update(ds => [deck, ...ds]);
@@ -62,9 +61,8 @@ export class DecksService {
   deleteDeck(id: string): void {
     this.decks.update(ds => ds.filter(d => d.id !== id));
 
-    const userId = this.supabase.currentUser()?.id;
-    if (!userId) return;
-    this.http.delete(`${environment.apiBase}/decks/${id}`, { body: { userId } })
+    if (!this.supabase.currentUser()) return;
+    this.http.delete(`${environment.apiBase}/decks/${id}`)
       .subscribe({ error: (e) => console.warn('Could not delete deck:', e.message) });
   }
 
