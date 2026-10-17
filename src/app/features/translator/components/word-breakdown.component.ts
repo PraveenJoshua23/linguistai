@@ -6,7 +6,7 @@ import { FlashcardsService } from '../../flashcards/flashcards.service';
   selector: 'app-word-breakdown',
   standalone: true,
   template: `
-    @if (svc.breakdown().length > 0) {
+    @if (svc.translation()) {
       <div class="flex flex-col gap-4">
         <div class="flex items-center justify-between">
           <h2 class="text-sm font-bold text-gray-700 flex items-center gap-2">
@@ -16,9 +16,35 @@ import { FlashcardsService } from '../../flashcards/flashcards.service';
             </svg>
             Word-by-Word Breakdown
           </h2>
-          <span class="text-xs text-gray-400">{{ svc.breakdown().length }} words</span>
+          @if (svc.breakdownLoaded()) {
+            <span class="text-xs text-gray-400">{{ svc.breakdown().length }} words</span>
+          }
         </div>
 
+        @if (!svc.breakdownLoaded()) {
+          <!-- Lazy trigger: the breakdown is generated only when requested -->
+          <button
+            (click)="svc.loadBreakdown()"
+            [disabled]="svc.breakdownLoading()"
+            class="self-start flex items-center gap-2 px-4 py-2.5 rounded-xl border border-blue-200 text-blue-600 text-sm font-semibold hover:bg-blue-50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+            @if (svc.breakdownLoading()) {
+              <svg class="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"/>
+              </svg>
+              Analyzing…
+            } @else {
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6Z" />
+              </svg>
+              Break it down word-by-word
+            }
+          </button>
+          @if (svc.breakdownError()) {
+            <p class="text-xs text-red-500">{{ svc.breakdownError() }}</p>
+          }
+        } @else {
         <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
           @for (word of svc.breakdown(); track word.word) {
             <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4 flex flex-col gap-2">
@@ -55,6 +81,7 @@ import { FlashcardsService } from '../../flashcards/flashcards.service';
             </div>
           }
         </div>
+        }
       </div>
     }
   `,
