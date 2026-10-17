@@ -3,7 +3,7 @@ import {
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
-import { TranslationResult } from '../../shared/models/translation.model';
+import { SentenceTranslation } from '../../shared/models/translation.model';
 import { FlashcardsService } from '../flashcards/flashcards.service';
 import { PhrasesService } from '../glossary/phrases.service';
 import { PreferencesService } from '../../core/preferences/preferences.service';
@@ -28,7 +28,7 @@ interface TranscriptResponse {
 
 interface SentenceResult {
   sentence: Sentence;
-  result: TranslationResult;
+  result: SentenceTranslation;
 }
 
 function formatTime(seconds: number): string {
@@ -467,7 +467,7 @@ export class SubtitlesComponent implements OnDestroy {
     if (this.isTranslated(sentence) || this.isTranslating(sentence)) return;
     this.translating.update(s => new Set([...s, sentence.startTime]));
 
-    this.http.post<TranslationResult>(`${environment.apiBase}/transcript/translate-sentence`, {
+    this.http.post<SentenceTranslation>(`${environment.apiBase}/transcript/translate-sentence`, {
       text: sentence.text,
       targetLang: this.targetLang(),
       context: this.prefsSvc.prefs().default_context,
