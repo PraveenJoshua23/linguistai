@@ -105,7 +105,7 @@ export class HistoryComponent implements OnInit {
     this.translateSvc.sourceText.set(entry.source_text);
     this.translateSvc.sourceLang.set(entry.source_lang);
     this.translateSvc.targetLang.set(entry.target_lang);
-    this.translateSvc.result.set(entry.result_json);
+    this.translateSvc.setResult(entry.result_json);
     this.router.navigate(['/translate']);
   }
 }

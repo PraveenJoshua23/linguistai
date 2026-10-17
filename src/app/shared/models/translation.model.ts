@@ -13,6 +13,15 @@ export interface TranslationResult {
   translation: string;
   transliteration: string | null;
   accuracy: TranslationAccuracy;
+}
+
+export interface BreakdownResult {
+  breakdown: BreakdownWord[];
+}
+
+// Subtitle sentence translation includes its breakdown inline (the transcript
+// endpoint returns it in one call, unlike the on-demand main translator).
+export interface SentenceTranslation extends TranslationResult {
   breakdown: BreakdownWord[];
 }
 

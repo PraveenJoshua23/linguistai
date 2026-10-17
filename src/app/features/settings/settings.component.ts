@@ -208,8 +208,8 @@ export class SettingsComponent {
     },
     {
       key: 'show_breakdown',
-      label: 'Show word breakdown automatically',
-      description: 'Display the word-by-word breakdown after every translation',
+      label: 'Show word breakdown',
+      description: 'Offer a word-by-word breakdown below each translation',
     },
     {
       key: 'show_transliteration',
