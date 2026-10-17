@@ -51,13 +51,13 @@ export class PreferencesService {
     effect(() => {
       const user = this.supabase.currentUser();
       if (user && !this.loaded()) {
-        this.load(user.id);
+        this.load();
       }
     });
   }
 
-  private load(userId: string): void {
-    this.http.get<UserPreferences>(`${environment.apiBase}/preferences/${userId}`)
+  private load(): void {
+    this.http.get<UserPreferences>(`${environment.apiBase}/preferences`)
       .subscribe({
         next: (prefs) => {
           const merged = { ...DEFAULT_PREFERENCES, ...prefs };
@@ -74,11 +74,10 @@ export class PreferencesService {
     this.prefs.set(updated);
     localStorage.setItem(LS_KEY, JSON.stringify(updated));
 
-    const userId = this.supabase.currentUser()?.id;
-    if (!userId) return;
+    if (!this.supabase.currentUser()) return;
 
     this.saving.set(true);
-    this.http.put(`${environment.apiBase}/preferences/${userId}`, updated)
+    this.http.put(`${environment.apiBase}/preferences`, updated)
       .subscribe({
         next: () => this.saving.set(false),
         error: () => this.saving.set(false),

@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { DatePipe } from '@angular/common';
 import { Router } from '@angular/router';
 import { TranslateService } from '../translator/translate.service';
-import { SupabaseService } from '../../core/auth/supabase.service';
 import { TranslationResult } from '../../shared/models/translation.model';
 import { environment } from '../../../environments/environment';
 
@@ -84,17 +83,13 @@ interface HistoryEntry {
 export class HistoryComponent implements OnInit {
   private readonly http = inject(HttpClient);
   private readonly translateSvc = inject(TranslateService);
-  private readonly supabase = inject(SupabaseService);
   private readonly router = inject(Router);
 
   readonly entries = signal<HistoryEntry[]>([]);
   readonly loading = signal(true);
 
   ngOnInit(): void {
-    const userId = this.supabase.currentUser()?.id;
-    if (!userId) return;
-
-    this.http.get<HistoryEntry[]>(`${environment.apiBase}/history/${userId}`)
+    this.http.get<HistoryEntry[]>(`${environment.apiBase}/history`)
       .subscribe({
         next: (data) => { this.entries.set(data); this.loading.set(false); },
         error: () => this.loading.set(false),

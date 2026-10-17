@@ -26,12 +26,12 @@ export class PhrasesService {
   constructor() {
     effect(() => {
       const user = this.supabase.currentUser();
-      if (user && !this.loaded()) this.loadFromDb(user.id);
+      if (user && !this.loaded()) this.loadFromDb();
     });
   }
 
-  private loadFromDb(userId: string): void {
-    this.http.get<any[]>(`${environment.apiBase}/saved-phrases/${userId}`)
+  private loadFromDb(): void {
+    this.http.get<any[]>(`${environment.apiBase}/saved-phrases`)
       .subscribe({
         next: (rows) => {
           this.phrases.set(rows.map(r => ({
@@ -57,13 +57,11 @@ export class PhrasesService {
   savePhrase(data: Omit<SavedPhrase, 'id' | 'createdAt'>): void {
     if (this.isSaved(data.phrase, data.language)) return;
 
-    const userId = this.supabase.currentUser()?.id;
     const temp: SavedPhrase = { ...data, id: crypto.randomUUID() };
     this.phrases.update(ps => [temp, ...ps]);
 
-    if (userId) {
+    if (this.supabase.currentUser()) {
       this.http.post<any>(`${environment.apiBase}/saved-phrases`, {
-        userId,
         phrase: data.phrase,
         language: data.language,
         translation: data.translation,
@@ -84,11 +82,8 @@ export class PhrasesService {
 
   removePhrase(id: string): void {
     this.phrases.update(ps => ps.filter(p => p.id !== id));
-    const userId = this.supabase.currentUser()?.id;
-    if (userId) {
-      this.http.delete(`${environment.apiBase}/saved-phrases/${id}`, {
-        body: { userId },
-      }).subscribe({ error: (e) => console.warn('Could not delete phrase:', e.message) });
+    if (this.supabase.currentUser()) {
+      this.http.delete(`${environment.apiBase}/saved-phrases/${id}`).subscribe({ error: (e) => console.warn('Could not delete phrase:', e.message) });
     }
   }
 

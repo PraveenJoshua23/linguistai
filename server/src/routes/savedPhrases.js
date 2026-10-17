@@ -3,11 +3,11 @@ import sql from '../db.js';
 
 const router = Router();
 
-router.get('/:userId', async (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const rows = await sql`
       select * from saved_phrases
-      where user_id = ${req.params.userId}
+      where user_id = ${req.userId}
       order by created_at desc
     `;
     res.json(rows);
@@ -18,10 +18,11 @@ router.get('/:userId', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
-  const { userId, phrase, language, translation, transliteration, source, videoId, videoTitle } = req.body;
+  const { phrase, language, translation, transliteration, source, videoId, videoTitle } = req.body;
+  const { userId } = req;
 
-  if (!userId || !phrase || !language) {
-    return res.status(400).json({ error: 'userId, phrase, and language are required' });
+  if (!phrase || !language) {
+    return res.status(400).json({ error: 'phrase and language are required' });
   }
 
   try {
@@ -47,7 +48,7 @@ router.post('/', async (req, res) => {
 });
 
 router.delete('/:id', async (req, res) => {
-  const { userId } = req.body;
+  const { userId } = req;
   try {
     await sql`
       delete from saved_phrases

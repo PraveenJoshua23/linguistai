@@ -2,7 +2,6 @@ import { Injectable, signal, computed, inject, effect } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { catchError, EMPTY } from 'rxjs';
 import { TranslateRequest, TranslationResult, BreakdownResult, BreakdownWord } from '../../shared/models/translation.model';
-import { SupabaseService } from '../../core/auth/supabase.service';
 import { PreferencesService } from '../../core/preferences/preferences.service';
 import { environment } from '../../../environments/environment';
 
@@ -15,7 +14,6 @@ export const LANGUAGES = [
 @Injectable({ providedIn: 'root' })
 export class TranslateService {
   private readonly http = inject(HttpClient);
-  private readonly supabase = inject(SupabaseService);
   private readonly prefsSvc = inject(PreferencesService);
 
   readonly languages = LANGUAGES;
@@ -86,7 +84,6 @@ export class TranslateService {
       targetLang: this.targetLang(),
       context: this.context(),
       tone: this.tone(),
-      userId: this.supabase.currentUser()?.id,
     };
 
     this.http.post<TranslationResult>(`${environment.apiBase}/translate`, body)

@@ -3,8 +3,8 @@ import sql from '../db.js';
 
 const router = Router();
 
-router.get('/:userId', async (req, res) => {
-  const { userId } = req.params;
+router.get('/', async (req, res) => {
+  const { userId } = req;
   const limit = Math.min(parseInt(req.query.limit) || 20, 100);
   const offset = (parseInt(req.query.page) || 0) * limit;
 
@@ -25,7 +25,7 @@ router.get('/:userId', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   const { id } = req.params;
-  const { userId } = req.body;
+  const { userId } = req;
 
   try {
     await sql`

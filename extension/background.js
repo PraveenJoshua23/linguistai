@@ -1,3 +1,5 @@
+importScripts('supabase.js');
+
 const API_BASE = 'http://localhost:3000';
 
 const LANG_NAMES = {
@@ -65,31 +67,55 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
 });
 
 async function getSettings() {
-  const data = await chrome.storage.local.get(['targetLang', 'sourceLang', 'userId']);
+  const data = await chrome.storage.local.get(['targetLang', 'sourceLang']);
   return {
     targetLang: data.targetLang || 'en',
-    sourceLang: data.sourceLang || 'es',
-    userId: data.userId || null
+    sourceLang: data.sourceLang || 'es'
   };
 }
 
-async function translateText(text, sourceLang, targetLang) {
-  const res = await fetch(`${API_BASE}/api/translate`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      text,
-      sourceLang: LANG_NAMES[sourceLang] ?? sourceLang,
-      targetLang: LANG_NAMES[targetLang] ?? targetLang
-    })
-  });
+// Returns a valid Supabase access token, refreshing it when it is about to expire.
+async function getAccessToken() {
+  const { session } = await chrome.storage.local.get('session');
+  if (!session) throw new Error('Not signed in. Sign in from the LinguistAI extension popup.');
+  if (Date.now() / 1000 < session.expires_at - 60) return session.access_token;
 
+  const res = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=refresh_token`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', apikey: SUPABASE_ANON_KEY },
+    body: JSON.stringify({ refresh_token: session.refresh_token })
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) {
+    await chrome.storage.local.remove('session');
+    throw new Error('Session expired. Sign in again from the LinguistAI extension popup.');
+  }
+  await chrome.storage.local.set({ session: toSession(data) });
+  return data.access_token;
+}
+
+async function apiPost(path, body) {
+  const res = await fetch(`${API_BASE}${path}`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${await getAccessToken()}`
+    },
+    body: JSON.stringify(body)
+  });
   if (!res.ok) {
     const err = await res.json().catch(() => ({}));
     throw new Error(err.error || `Server error ${res.status}`);
   }
+  return res.json();
+}
 
-  const data = await res.json();
+async function translateText(text, sourceLang, targetLang) {
+  const data = await apiPost('/api/translate', {
+    text,
+    sourceLang: LANG_NAMES[sourceLang] ?? sourceLang,
+    targetLang: LANG_NAMES[targetLang] ?? targetLang
+  });
   return {
     original: text,
     sourceLang,
@@ -101,56 +127,32 @@ async function translateText(text, sourceLang, targetLang) {
   };
 }
 
-async function saveWord(text, { sourceLang, targetLang, userId }) {
-  if (!userId) throw new Error('User ID not set — add it in the extension popup settings.');
-
+async function saveWord(text, { sourceLang, targetLang }) {
   const result = await translateText(text, sourceLang, targetLang);
   const info = result.breakdown[0] ?? {};
 
-  const res = await fetch(`${API_BASE}/api/saved-words`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      userId,
-      word: text,
-      language: LANG_NAMES[sourceLang] ?? sourceLang,
-      meaning: info.meaning ?? result.translation,
-      explanation: info.explanation ?? null,
-      examples: info.examples ?? [],
-      pos: info.pos ?? null
-    })
+  await apiPost('/api/saved-words', {
+    word: text,
+    language: LANG_NAMES[sourceLang] ?? sourceLang,
+    meaning: info.meaning ?? result.translation,
+    explanation: info.explanation ?? null,
+    examples: info.examples ?? [],
+    pos: info.pos ?? null
   });
-
-  if (!res.ok) {
-    const err = await res.json().catch(() => ({}));
-    throw new Error(err.error || `Server error ${res.status}`);
-  }
 
   await pushRecent({ type: 'word', front: text, back: result.translation, sourceLang, targetLang });
 }
 
-async function savePhrase(text, sourceUrl, { sourceLang, targetLang, userId }) {
-  if (!userId) throw new Error('User ID not set — add it in the extension popup settings.');
-
+async function savePhrase(text, sourceUrl, { sourceLang, targetLang }) {
   const result = await translateText(text, sourceLang, targetLang);
 
-  const res = await fetch(`${API_BASE}/api/saved-phrases`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      userId,
-      phrase: text,
-      language: LANG_NAMES[sourceLang] ?? sourceLang,
-      translation: result.translation,
-      transliteration: result.transliteration,
-      source: sourceUrl ?? null
-    })
+  await apiPost('/api/saved-phrases', {
+    phrase: text,
+    language: LANG_NAMES[sourceLang] ?? sourceLang,
+    translation: result.translation,
+    transliteration: result.transliteration,
+    source: sourceUrl ?? null
   });
-
-  if (!res.ok) {
-    const err = await res.json().catch(() => ({}));
-    throw new Error(err.error || `Server error ${res.status}`);
-  }
 
   await pushRecent({ type: 'phrase', front: text, back: result.translation, sourceLang, targetLang });
 }

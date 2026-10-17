@@ -8,6 +8,7 @@ import decksRouter from './routes/decks.js';
 import savedPhrasesRouter from './routes/savedPhrases.js';
 import preferencesRouter from './routes/preferences.js';
 import transcriptRouter from './routes/transcript.js';
+import { requireAuth } from './middleware/auth.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -24,6 +25,7 @@ app.use(cors({
 app.use(express.json());
 
 app.get('/health', (_req, res) => res.json({ status: 'ok' }));
+app.use('/api', requireAuth);
 app.use('/api/translate', translateRouter);
 app.use('/api/history', historyRouter);
 app.use('/api/saved-words', savedWordsRouter);

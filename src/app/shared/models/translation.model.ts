@@ -31,5 +31,4 @@ export interface TranslateRequest {
   targetLang: string;
   context?: string;
   tone?: string;
-  userId?: string;
 }
