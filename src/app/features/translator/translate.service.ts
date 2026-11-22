@@ -4,19 +4,14 @@ import { catchError, EMPTY } from 'rxjs';
 import { TranslateRequest, TranslationResult, BreakdownResult, BreakdownWord } from '../../shared/models/translation.model';
 import { PreferencesService } from '../../core/preferences/preferences.service';
 import { environment } from '../../../environments/environment';
-
-export const LANGUAGES = [
-  'English', 'Spanish', 'French', 'German', 'Italian',
-  'Portuguese', 'Dutch', 'Russian', 'Chinese', 'Japanese',
-  'Korean', 'Arabic', 'Hindi', 'Turkish', 'Polish',
-];
+import { LANGUAGE_NAMES, AUTO_DETECT } from '../../shared/languages';
 
 @Injectable({ providedIn: 'root' })
 export class TranslateService {
   private readonly http = inject(HttpClient);
   private readonly prefsSvc = inject(PreferencesService);
 
-  readonly languages = LANGUAGES;
+  readonly languages = LANGUAGE_NAMES;
 
   readonly sourceLang = signal('English');
   readonly targetLang = signal('Spanish');
@@ -49,13 +44,16 @@ export class TranslateService {
 
   readonly translation = computed(() => this.result()?.translation ?? '');
   readonly transliteration = computed(() => this.result()?.transliteration ?? null);
-  readonly accuracy = computed(() => this.result()?.accuracy ?? null);
+  /** The real source language: the picked one, or the detected one under auto-detect. */
+  readonly effectiveSourceLang = computed(() =>
+    this.sourceLang() === AUTO_DETECT ? this.result()?.detectedLang ?? null : this.sourceLang(),
+  );
 
   /**
-   * Show a translation and clear any breakdown from the previous one. Older
-   * history rows still carry an inline breakdown, so reuse it when present.
+   * Show a translation and clear any breakdown from the previous one. History
+   * rows carry the breakdown once it has been fetched, so reuse it when present.
    */
-  setResult(res: (TranslationResult & { breakdown?: BreakdownWord[] }) | null): void {
+  setResult(res: TranslationResult | null): void {
     this.result.set(res);
     const saved = res?.breakdown ?? [];
     this.breakdown.set(saved);
@@ -65,9 +63,10 @@ export class TranslateService {
   }
 
   swapLanguages(): void {
-    const tmp = this.sourceLang();
+    const src = this.effectiveSourceLang();
+    if (!src) return; // auto-detect with nothing detected yet
     this.sourceLang.set(this.targetLang());
-    this.targetLang.set(tmp);
+    this.targetLang.set(src);
     this.setResult(null);
   }
 
@@ -111,6 +110,7 @@ export class TranslateService {
     this.http.post<BreakdownResult>(`${environment.apiBase}/translate/breakdown`, {
       text: translation,
       language: this.targetLang(),
+      translationId: this.result()?.id,
     })
       .pipe(
         catchError((err) => {
@@ -123,6 +123,8 @@ export class TranslateService {
         if (this.translation() !== translation) return; // result changed while loading
         this.breakdown.set(res.breakdown ?? []);
         this.breakdownLoaded.set(true);
+        // The server saved it on the history row; keep our copy in step.
+        this.result.update(r => r && { ...r, breakdown: res.breakdown ?? [] });
         this.breakdownLoading.set(false);
       });
   }

@@ -125,7 +125,6 @@ router.post('/translate-sentence', async (req, res) => {
 {
   "translation": string,
   "transliteration": string | null,
-  "accuracy": "high" | "medium" | "low",
   "breakdown": [{ "word": string, "pos": string, "meaning": string, "explanation": string, "examples": string[] }]
 }
 transliteration: romanised pronunciation of the translation only. null if target language uses Latin alphabet.

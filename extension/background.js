@@ -122,7 +122,6 @@ async function translateText(text, sourceLang, targetLang) {
     targetLang,
     translation: data.translation,
     transliteration: data.transliteration ?? null,
-    accuracy: data.accuracy,
     breakdown: data.breakdown ?? []
   };
 }

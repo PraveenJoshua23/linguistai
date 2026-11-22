@@ -1,6 +1,6 @@
 import { Component, inject, output, signal } from '@angular/core';
 import { FlashcardsService } from './flashcards.service';
-import { LANGUAGES } from '../translator/translate.service';
+import { LANGUAGE_NAMES } from '../../shared/languages';
 import { WordPos } from '../../shared/models/translation.model';
 
 const POS_OPTIONS: { value: WordPos; label: string }[] = [
@@ -111,7 +111,7 @@ export class CreateCardModalComponent {
   readonly closed = output<void>();
   readonly created = output<void>();
 
-  readonly languages = LANGUAGES;
+  readonly languages = LANGUAGE_NAMES;
   readonly posOptions = POS_OPTIONS;
 
   readonly word = signal('');

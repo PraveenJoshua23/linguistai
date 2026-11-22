@@ -91,11 +91,9 @@ export class WordBreakdownComponent {
   protected readonly flashcards = inject(FlashcardsService);
 
   toggleFlashcard(word: any): void {
-    if (this.flashcards.isAdded(word.word, this.svc.targetLang())) {
-      const card = this.flashcards.cards().find(
-        c => c.word === word.word && c.language === this.svc.targetLang()
-      );
-      if (card) this.flashcards.removeCard(card.id);
+    const card = this.flashcards.findCard(word.word, this.svc.targetLang());
+    if (card) {
+      this.flashcards.removeCard(card.id);
     } else {
       this.flashcards.addWord(word, this.svc.targetLang());
     }

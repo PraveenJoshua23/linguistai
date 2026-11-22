@@ -23,8 +23,11 @@ create table if not exists saved_words (
   -- Optional custom deck assignment (one deck per card). See decks below.
   deck_id uuid references decks(id) on delete set null,
 
-  unique (user_id, word, language)
+  -- Trimmed, single-spaced; unique case-insensitively (migrations/002).
+  constraint saved_words_word_normalized check (word = regexp_replace(btrim(word), '\s+', ' ', 'g'))
 );
+
+create unique index if not exists saved_words_user_lang_word_ci on saved_words (user_id, language, lower(word));
 
 -- Fast lookup of cards due for review.
 create index if not exists saved_words_due_idx on saved_words (user_id, due_at);
