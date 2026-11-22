@@ -41,7 +41,7 @@ function formatTime(seconds: number): string {
 
 const LANG_OPTIONS = LANGUAGES.map(l => ({ code: l.code, label: l.name }));
 
-// Hand-picked videos with Korean captions (checked 2026-11-23). Keyed by subtitle language code.
+// Hand-picked videos with captions in that language (checked 2026-11-23). Keyed by subtitle language code.
 // ponytail: static list, move to DB/API if more languages or rotation is wanted.
 const RECOMMENDED: Record<string, { category: string; videos: { id: string; title: string; channel: string }[] }[]> = {
   ko: [
@@ -59,6 +59,23 @@ const RECOMMENDED: Record<string, { category: string; videos: { id: string; titl
       { id: 'IVBQ5EIbRQs', title: '“대화 이어갈 것”…미중러 회담? [9시 뉴스]', channel: 'KBS News' },
       { id: 'ibd38DPBjos', title: "[비하인드+] 이국종, 여야 후보 모두에 '이유 있는' 지지", channel: 'JTBC News' },
       { id: 'ekX64PHkog4', title: '[날씨] 내일, 전국 비나 눈…도로 살얼음 주의', channel: 'KBS News' },
+    ]},
+  ],
+  ja: [
+    { category: 'Shows', videos: [
+      { id: '1bisRNbcfTg', title: '【大食いYouTuber集結】20kg超のデカ盛り中華を１時間で食べきれるか!?', channel: '内村のツボる動画【テレ東公式】' },
+      { id: 'Oz2mow5n5Uo', title: '【大食い】大東文化大学ラグビー部vsはらぺこツインズ！', channel: 'デカ盛りハンター【テレ東公式】' },
+      { id: 'k2sxwvAK6Jw', title: 'KEY TO LIT【いきなり…プライベート旅】', channel: 'ジュニアCHANNEL' },
+    ]},
+    { category: 'Car reviews', videos: [
+      { id: 'xMKwKCv_jHE', title: '【新型ハリアー試乗!】ガソリンモデルの走りの評価は？', channel: 'ワンソクTube' },
+      { id: 'HGzgPvm3nmU', title: 'レクサスUX300h 試乗レビュー!', channel: 'ゆちいチャンネル' },
+      { id: 'NlOMMnsHG-8', title: 'トヨタ新型アクア マイチェン後を初試乗！', channel: 'DJ チョミヤ Car Life Channel' },
+    ]},
+    { category: 'News', videos: [
+      { id: 'g9HU1qVP7Nk', title: '【トランプ大統領の本気度は？】ホルムズ海峡を“トランプ海峡”に改名？', channel: 'TBS NEWS DIG' },
+      { id: '0Lgq3e-2GaM', title: '【ニッポンの魅力】お好み焼き＆つけ麺に挑戦！外国人観光客の日本滞在記', channel: '日テレNEWS' },
+      { id: 'Xn3t96L8vUQ', title: '「ろうの世界に“音”を！」ＣＯＤＡ俳優の知られざる葛藤【テレメンタリー】', channel: 'ANNnewsCH' },
     ]},
   ],
 };
