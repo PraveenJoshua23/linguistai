@@ -37,13 +37,9 @@ export const routes: Routes = [
       {
         path: 'saved',
         loadComponent: () =>
-          import('./features/saved/saved.component').then(m => m.SavedComponent),
+          import('./features/saved/saved-page.component').then(m => m.SavedPageComponent),
       },
-      {
-        path: 'glossary',
-        loadComponent: () =>
-          import('./features/glossary/glossary.component').then(m => m.GlossaryComponent),
-      },
+      { path: 'glossary', redirectTo: '/saved?tab=phrases' },
       {
         path: 'flashcards',
         loadComponent: () =>

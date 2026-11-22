@@ -1,3 +1,4 @@
+import { LANGUAGES } from '../../shared/languages';
 import {
   Component, inject, signal, computed, OnDestroy, ElementRef, ViewChild, AfterViewInit,
 } from '@angular/core';
@@ -37,19 +38,7 @@ function formatTime(seconds: number): string {
   return `${m}:${s}`;
 }
 
-const LANG_OPTIONS = [
-  { code: 'en', label: 'English' },
-  { code: 'es', label: 'Spanish' },
-  { code: 'fr', label: 'French' },
-  { code: 'de', label: 'German' },
-  { code: 'ja', label: 'Japanese' },
-  { code: 'ko', label: 'Korean' },
-  { code: 'zh', label: 'Chinese' },
-  { code: 'ar', label: 'Arabic' },
-  { code: 'hi', label: 'Hindi' },
-  { code: 'pt', label: 'Portuguese' },
-  { code: 'ru', label: 'Russian' },
-];
+const LANG_OPTIONS = LANGUAGES.map(l => ({ code: l.code, label: l.name }));
 
 @Component({
   selector: 'app-subtitles',

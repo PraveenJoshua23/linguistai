@@ -1,25 +1,7 @@
 import { Injectable, computed, inject } from '@angular/core';
 import { PreferencesService } from '../core/preferences/preferences.service';
 import { FlashcardsService } from '../features/flashcards/flashcards.service';
-
-/** Native name + short code per language name the API stores. Unknown names fall back to the name itself. */
-const NATIVE: Record<string, { native: string; code: string }> = {
-  English: { native: 'English', code: 'en' },
-  Spanish: { native: 'Español', code: 'es' },
-  French: { native: 'Français', code: 'fr' },
-  German: { native: 'Deutsch', code: 'de' },
-  Italian: { native: 'Italiano', code: 'it' },
-  Portuguese: { native: 'Português', code: 'pt' },
-  Dutch: { native: 'Nederlands', code: 'nl' },
-  Russian: { native: 'Русский', code: 'ru' },
-  Chinese: { native: '中文', code: 'zh' },
-  Japanese: { native: '日本語', code: 'ja' },
-  Korean: { native: '한국어', code: 'ko' },
-  Arabic: { native: 'العربية', code: 'ar' },
-  Hindi: { native: 'हिन्दी', code: 'hi' },
-  Turkish: { native: 'Türkçe', code: 'tr' },
-  Polish: { native: 'Polski', code: 'pl' },
-};
+import { LANGUAGES } from './languages';
 
 export interface StudyLanguage {
   name: string;
@@ -69,6 +51,8 @@ export class StudyLanguageService {
   }
 }
 
-export function describe(name: string): { native: string; code: string } {
-  return NATIVE[name] ?? { native: name, code: name.slice(0, 2).toLowerCase() };
+/** Unknown names (e.g. old rows) fall back to the name itself. */
+function describe(name: string): { native: string; code: string } {
+  const l = LANGUAGES.find(x => x.name === name);
+  return l ? { native: l.native, code: l.code } : { native: name, code: name.slice(0, 2).toLowerCase() };
 }

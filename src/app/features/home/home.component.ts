@@ -1,4 +1,4 @@
-import { Component, computed, inject, signal, OnInit } from '@angular/core';
+import { Component, computed, effect, inject, signal, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { DatePipe } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
@@ -207,7 +207,7 @@ export class HomeComponent implements OnInit {
     return this.cardsSvc.cards().filter(c => c.lastReviewedAt && new Date(c.lastReviewedAt).getTime() >= start).length;
   });
 
-  // ponytail: filters the latest 50 rows client-side; add a lang param to /history if older items matter.
+  // /history?lang matches source or target; keep translations *into* the studied language.
   readonly recent = computed(() => this.history().filter(h => h.target_lang === this.cur().name).slice(0, 4));
 
   readonly actions = computed(() => [
@@ -217,12 +217,21 @@ export class HomeComponent implements OnInit {
     { title: 'Saved words', sub: 'Words and phrases', route: '/saved', icon: ICONS.saved },
   ]);
 
+  constructor() {
+    // Refetch recent translations whenever the studied language changes.
+    effect(onCleanup => {
+      const lang = this.cur().name;
+      this.historyLoaded.set(false);
+      const sub = this.http.get<HistoryEntry[]>(`${environment.apiBase}/history`, { params: { lang, limit: '20' } }).subscribe({
+        next: rows => { this.history.set(rows); this.historyLoaded.set(true); },
+        error: () => { this.history.set([]); this.historyLoaded.set(true); },
+      });
+      onCleanup(() => sub.unsubscribe());
+    });
+  }
+
   ngOnInit(): void {
     this.grammarSvc.loadManifest();
-    this.http.get<HistoryEntry[]>(`${environment.apiBase}/history`, { params: { limit: '50' } }).subscribe({
-      next: rows => { this.history.set(rows); this.historyLoaded.set(true); },
-      error: () => this.historyLoaded.set(true),
-    });
   }
 
   grammarCount(language: string): number {
@@ -233,7 +242,8 @@ export class HomeComponent implements OnInit {
     this.translateSvc.sourceText.set(entry.source_text);
     this.translateSvc.sourceLang.set(entry.source_lang);
     this.translateSvc.targetLang.set(entry.target_lang);
-    this.translateSvc.setResult(entry.result_json);
+    // id lets a breakdown fetched from here be saved back onto this row.
+    this.translateSvc.setResult({ ...entry.result_json, id: entry.id });
     this.router.navigate(['/translate']);
   }
 }

@@ -7,12 +7,16 @@ router.get('/', async (req, res) => {
   const { userId } = req;
   const limit = Math.min(parseInt(req.query.limit) || 20, 100);
   const offset = (parseInt(req.query.page) || 0) * limit;
+  const q = typeof req.query.q === 'string' ? req.query.q.trim() : '';
+  const lang = typeof req.query.lang === 'string' ? req.query.lang : '';
 
   try {
     const rows = await sql`
       select id, source_text, source_lang, target_lang, result_json, created_at
       from translations
       where user_id = ${userId}
+        ${q ? sql`and (source_text ilike ${'%' + q + '%'} or result_json->>'translation' ilike ${'%' + q + '%'})` : sql``}
+        ${lang ? sql`and (source_lang = ${lang} or target_lang = ${lang})` : sql``}
       order by created_at desc
       limit ${limit} offset ${offset}
     `;

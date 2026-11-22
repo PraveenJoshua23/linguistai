@@ -1,5 +1,4 @@
 export type WordPos = 'NOUN' | 'VERB' | 'ADJ' | 'ADV' | 'PRON' | 'PREP' | 'CONJ' | 'DET' | 'INTJ';
-export type TranslationAccuracy = 'high' | 'medium' | 'low';
 
 export interface BreakdownWord {
   word: string;
@@ -12,7 +11,12 @@ export interface BreakdownWord {
 export interface TranslationResult {
   translation: string;
   transliteration: string | null;
-  accuracy: TranslationAccuracy;
+  /** History row id; sent back with the breakdown request so it gets saved. */
+  id?: string;
+  /** Set when the source language was auto-detected. */
+  detectedLang?: string | null;
+  /** Saved word breakdown, once it has been fetched. */
+  breakdown?: BreakdownWord[];
 }
 
 export interface BreakdownResult {
