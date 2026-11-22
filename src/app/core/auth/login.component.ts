@@ -131,7 +131,7 @@ export class LoginComponent {
       if (error) {
         this.error.set(error.message);
       } else {
-        this.router.navigate(['/translate']);
+        this.router.navigate(['/home']);
       }
     }
   }
