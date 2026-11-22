@@ -13,7 +13,12 @@ export const routes: Routes = [
       import('./layout/shell/shell.component').then(m => m.ShellComponent),
     canActivate: [authGuard],
     children: [
-      { path: '', redirectTo: 'translate', pathMatch: 'full' },
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      {
+        path: 'home',
+        loadComponent: () =>
+          import('./features/home/home.component').then(m => m.HomeComponent),
+      },
       {
         path: 'settings',
         loadComponent: () =>

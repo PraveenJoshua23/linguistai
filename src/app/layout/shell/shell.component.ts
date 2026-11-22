@@ -1,18 +1,16 @@
 import { Component, inject, signal, effect } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { SidebarComponent } from '../sidebar/sidebar.component';
-import { TopNavComponent } from '../top-nav/top-nav.component';
 import { PreferencesService } from '../../core/preferences/preferences.service';
 
 @Component({
   selector: 'app-shell',
   standalone: true,
-  imports: [RouterOutlet, SidebarComponent, TopNavComponent],
+  imports: [RouterOutlet, SidebarComponent],
   template: `
     <div class="flex h-screen overflow-hidden bg-[#f8f9ff]">
       <app-sidebar [collapsed]="collapsed()" (toggleCollapse)="toggleCollapse()" />
       <div class="flex flex-col flex-1 overflow-hidden">
-        <app-top-nav />
         <main class="flex-1 min-h-0 flex flex-col overflow-y-auto">
           <router-outlet />
         </main>
