@@ -1,6 +1,6 @@
 import { LANGUAGES } from '../../shared/languages';
 import {
-  Component, inject, signal, computed, OnDestroy, ElementRef, ViewChild, AfterViewInit,
+  Component, inject, signal, computed, linkedSignal, OnDestroy, ElementRef, ViewChild, AfterViewInit,
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
@@ -8,6 +8,7 @@ import { SentenceTranslation } from '../../shared/models/translation.model';
 import { FlashcardsService } from '../flashcards/flashcards.service';
 import { PhrasesService } from '../glossary/phrases.service';
 import { PreferencesService } from '../../core/preferences/preferences.service';
+import { StudyLanguageService } from '../../shared/study-language.service';
 import { environment } from '../../../environments/environment';
 
 declare const YT: any;
@@ -39,6 +40,45 @@ function formatTime(seconds: number): string {
 }
 
 const LANG_OPTIONS = LANGUAGES.map(l => ({ code: l.code, label: l.name }));
+
+// Hand-picked videos with captions in that language (checked 2026-11-23). Keyed by subtitle language code.
+// ponytail: static list, move to DB/API if more languages or rotation is wanted.
+const RECOMMENDED: Record<string, { category: string; videos: { id: string; title: string; channel: string }[] }[]> = {
+  ko: [
+    { category: 'Shows', videos: [
+      { id: 'HqcIU4YIFn4', title: '텃(엄청)세', channel: '런닝맨' },
+      { id: 'T5ZRFuVL5RY', title: '아이브 장원영의 솔직한 심정은?', channel: '유 퀴즈 온 더 블럭' },
+      { id: 'sZRqO1OqnWI', title: '코첼라 막 끝내고 온 슈퍼스타 제니', channel: '유 퀴즈 온 더 블럭' },
+    ]},
+    { category: 'Car reviews', videos: [
+      { id: 'nbxX_N5ms6o', title: '폭망에서 살아난 불사조! 기아 THE K9 리뷰', channel: '모트라인 MOTline' },
+      { id: 'drVVCm6XJVw', title: 'BMW iX3 50 M 스포츠 시승기', channel: '앗차가와 (ATCAR)' },
+      { id: 'Ts6ojyivgg0', title: '신형 아반떼 하이브리드! 하체 전문가 시승!', channel: '신차정보 연못구름' },
+    ]},
+    { category: 'News', videos: [
+      { id: 'IVBQ5EIbRQs', title: '“대화 이어갈 것”…미중러 회담? [9시 뉴스]', channel: 'KBS News' },
+      { id: 'ibd38DPBjos', title: "[비하인드+] 이국종, 여야 후보 모두에 '이유 있는' 지지", channel: 'JTBC News' },
+      { id: 'ekX64PHkog4', title: '[날씨] 내일, 전국 비나 눈…도로 살얼음 주의', channel: 'KBS News' },
+    ]},
+  ],
+  ja: [
+    { category: 'Shows', videos: [
+      { id: '1bisRNbcfTg', title: '【大食いYouTuber集結】20kg超のデカ盛り中華を１時間で食べきれるか!?', channel: '内村のツボる動画【テレ東公式】' },
+      { id: 'Oz2mow5n5Uo', title: '【大食い】大東文化大学ラグビー部vsはらぺこツインズ！', channel: 'デカ盛りハンター【テレ東公式】' },
+      { id: 'k2sxwvAK6Jw', title: 'KEY TO LIT【いきなり…プライベート旅】', channel: 'ジュニアCHANNEL' },
+    ]},
+    { category: 'Car reviews', videos: [
+      { id: 'xMKwKCv_jHE', title: '【新型ハリアー試乗!】ガソリンモデルの走りの評価は？', channel: 'ワンソクTube' },
+      { id: 'HGzgPvm3nmU', title: 'レクサスUX300h 試乗レビュー!', channel: 'ゆちいチャンネル' },
+      { id: 'NlOMMnsHG-8', title: 'トヨタ新型アクア マイチェン後を初試乗！', channel: 'DJ チョミヤ Car Life Channel' },
+    ]},
+    { category: 'News', videos: [
+      { id: 'g9HU1qVP7Nk', title: '【トランプ大統領の本気度は？】ホルムズ海峡を“トランプ海峡”に改名？', channel: 'TBS NEWS DIG' },
+      { id: '0Lgq3e-2GaM', title: '【ニッポンの魅力】お好み焼き＆つけ麺に挑戦！外国人観光客の日本滞在記', channel: '日テレNEWS' },
+      { id: 'Xn3t96L8vUQ', title: '「ろうの世界に“音”を！」ＣＯＤＡ俳優の知られざる葛藤【テレメンタリー】', channel: 'ANNnewsCH' },
+    ]},
+  ],
+};
 
 @Component({
   selector: 'app-subtitles',
@@ -119,7 +159,7 @@ const LANG_OPTIONS = LANGUAGES.map(l => ({ code: l.code, label: l.name }));
               <div class="flex-1 min-w-0">
                 <p class="font-semibold text-gray-900 truncate">{{ transcript()!.title }}</p>
                 <p class="text-xs text-gray-400 mt-0.5">
-                  {{ transcript()!.sentences.length }} sentences · {{ lang.toUpperCase() }} subtitles
+                  {{ transcript()!.sentences.length }} sentences · {{ lang().toUpperCase() }} subtitles
                   @if (transcript()!.origLang) { · + {{ transcript()!.origLang!.toUpperCase() }} }
                 </p>
                 <div class="flex items-center gap-2 mt-2">
@@ -153,6 +193,30 @@ const LANG_OPTIONS = LANGUAGES.map(l => ({ code: l.code, label: l.name }));
             </div>
           }
         </div>
+
+        <!-- Recommended videos for the selected subtitle language -->
+        @if (!transcript() && !fetching() && recommended[lang()]; as groups) {
+          <div class="flex-1 overflow-y-auto p-6 flex flex-col gap-6">
+            @for (g of groups; track g.category) {
+              <section class="flex flex-col gap-3">
+                <h2 class="text-sm font-semibold text-gray-700">Recommended · {{ g.category }}</h2>
+                <div class="grid grid-cols-[repeat(auto-fill,minmax(14rem,1fr))] gap-3">
+                  @for (v of g.videos; track v.id) {
+                    <button (click)="pickVideo(v.id)"
+                      class="text-left bg-white rounded-xl border border-gray-100 overflow-hidden hover:border-red-300 hover:shadow-sm transition-all">
+                      <img [src]="'https://img.youtube.com/vi/' + v.id + '/mqdefault.jpg'" [alt]="v.title"
+                        class="w-full aspect-video object-cover" loading="lazy" />
+                      <div class="p-3">
+                        <p class="text-sm font-medium text-gray-900 line-clamp-2">{{ v.title }}</p>
+                        <p class="text-xs text-gray-400 mt-1">{{ v.channel }}</p>
+                      </div>
+                    </button>
+                  }
+                </div>
+              </section>
+            }
+          </div>
+        }
 
         <!-- Sentences list -->
         @if (transcript()) {
@@ -306,12 +370,15 @@ export class SubtitlesComponent implements OnDestroy {
   private readonly flashcardsSvc = inject(FlashcardsService);
   readonly phraseSvc = inject(PhrasesService);
   private readonly prefsSvc = inject(PreferencesService);
+  private readonly study = inject(StudyLanguageService);
 
   readonly formatTime = formatTime;
   readonly langOptions = LANG_OPTIONS;
+  readonly recommended = RECOMMENDED;
 
   url = '';
-  lang = 'en';
+  // Follows the study language; picking another one here overrides it until the study language changes.
+  readonly lang = linkedSignal(() => this.study.current().code);
   origLang = '';
 
   readonly transcript = signal<TranscriptResponse | null>(null);
@@ -360,8 +427,8 @@ export class SubtitlesComponent implements OnDestroy {
     this.playerOpen.set(false);
     this.stopPolling();
 
-    const params = new URLSearchParams({ url: this.url, lang: this.lang });
-    if (this.origLang && this.origLang !== this.lang) params.set('origLang', this.origLang);
+    const params = new URLSearchParams({ url: this.url, lang: this.lang() });
+    if (this.origLang && this.origLang !== this.lang()) params.set('origLang', this.origLang);
 
     this.http.get<TranscriptResponse>(`${environment.apiBase}/transcript?${params}`)
       .subscribe({
@@ -371,6 +438,11 @@ export class SubtitlesComponent implements OnDestroy {
           this.fetching.set(false);
         },
       });
+  }
+
+  pickVideo(id: string): void {
+    this.url = `https://www.youtube.com/watch?v=${id}`;
+    this.fetchTranscript();
   }
 
   togglePlayer(): void {
@@ -480,7 +552,7 @@ export class SubtitlesComponent implements OnDestroy {
   isWordSaved(word: string): boolean { return this.flashcardsSvc.isAdded(word, this.targetLang()); }
 
   langLabel(): string {
-    return LANG_OPTIONS.find(l => l.code === this.lang)?.label ?? this.lang;
+    return LANG_OPTIONS.find(l => l.code === this.lang())?.label ?? this.lang();
   }
 
   savePhrase(sentence: Sentence): void {
