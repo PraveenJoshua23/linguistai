@@ -1,8 +1,13 @@
 import { Injectable, signal, computed, inject, effect } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { retry } from 'rxjs';
 import { BreakdownWord } from '../../shared/models/translation.model';
 import { SupabaseService } from '../../core/auth/supabase.service';
 import { environment } from '../../../environments/environment';
+import { ToastService } from '../../shared/ui/toast/toast.service';
+
+/** Dedup key: "Casa", "casa " and "casa" are one card (the DB enforces the same rule). */
+export const normalizeWord = (w: string) => w.trim().replace(/\s+/g, ' ').toLowerCase();
 
 export type Grade = 'still-learning' | 'getting-there' | 'mastered';
 
@@ -43,6 +48,7 @@ export interface NewCardInput {
 export class FlashcardsService {
   private readonly http = inject(HttpClient);
   private readonly supabase = inject(SupabaseService);
+  private readonly toast = inject(ToastService);
 
   readonly cards = signal<Flashcard[]>([]);
   readonly loaded = signal(false);
@@ -94,8 +100,8 @@ export class FlashcardsService {
    * user's own form). Returns false if the word already exists for that language.
    */
   createCard(input: NewCardInput): boolean {
-    const exists = this.cards().some(c => c.word === input.word && c.language === input.language);
-    if (exists) return false;
+    if (this.isAdded(input.word, input.language)) return false;
+    input = { ...input, word: input.word.trim().replace(/\s+/g, ' ') };
 
     // Optimistically add to local state — new cards are due immediately.
     const tempCard: Flashcard = {
@@ -131,22 +137,37 @@ export class FlashcardsService {
             cards.map(c => c.id === tempCard.id ? this.toCard(row) : c)
           );
         },
-        error: (e) => console.warn('Could not persist flashcard:', e.message),
+        error: () => {
+          this.cards.update(cards => cards.filter(c => c.id !== tempCard.id));
+          this.toast.error(`Couldn't save "${input.word}" to your flashcards. Please try again.`);
+        },
       });
     }
     return true;
   }
 
   removeCard(id: string): void {
+    const removed = this.cards().find(c => c.id === id);
+    if (!removed) return;
     this.cards.update(cards => cards.filter(c => c.id !== id));
 
     if (this.supabase.currentUser()) {
-      this.http.delete(`${environment.apiBase}/saved-words/${id}`).subscribe({ error: (e) => console.warn('Could not delete flashcard:', e.message) });
+      this.http.delete(`${environment.apiBase}/saved-words/${id}`).subscribe({
+        error: () => {
+          this.cards.update(cards => [...cards, removed]);
+          this.toast.error(`Couldn't remove "${removed.word}". Please try again.`);
+        },
+      });
     }
   }
 
+  findCard(word: string, language: string): Flashcard | undefined {
+    const key = normalizeWord(word);
+    return this.cards().find(c => c.language === language && normalizeWord(c.word) === key);
+  }
+
   isAdded(word: string, language: string): boolean {
-    return this.cards().some(c => c.word === word && c.language === language);
+    return !!this.findCard(word, language);
   }
 
   /**
@@ -157,12 +178,14 @@ export class FlashcardsService {
     if (reviews.length === 0) return;
     if (!this.supabase.currentUser()) return;
 
-    this.http.post<any[]>(`${environment.apiBase}/saved-words/review-batch`, { reviews }).subscribe({
+    this.http.post<any[]>(`${environment.apiBase}/saved-words/review-batch`, { reviews })
+      .pipe(retry({ count: 2, delay: 1000 }))
+      .subscribe({
       next: (rows) => {
         const updated = new Map(rows.map(r => [r.id, this.toCard(r)]));
         this.cards.update(cards => cards.map(c => updated.get(c.id) ?? c));
       },
-      error: (e) => console.warn('Could not save reviews:', e.message),
+      error: () => this.toast.error("Couldn't save this session's review results, so those cards keep their old schedule."),
     });
   }
 
@@ -192,6 +215,7 @@ export class FlashcardsService {
   assignToDeck(cardIds: string[], deckId: string | null): void {
     if (cardIds.length === 0) return;
     const idSet = new Set(cardIds);
+    const before = new Map(this.cards().filter(c => idSet.has(c.id)).map(c => [c.id, c.deckId]));
     this.cards.update(cards => cards.map(c => idSet.has(c.id) ? { ...c, deckId } : c));
 
     if (!this.supabase.currentUser()) return;
@@ -201,7 +225,10 @@ export class FlashcardsService {
         const updated = new Map(rows.map(r => [r.id, this.toCard(r)]));
         this.cards.update(cards => cards.map(c => updated.get(c.id) ?? c));
       },
-      error: (e) => console.warn('Could not assign cards to deck:', e.message),
+      error: () => {
+        this.cards.update(cards => cards.map(c => before.has(c.id) ? { ...c, deckId: before.get(c.id)! } : c));
+        this.toast.error("Couldn't move those cards. Please try again.");
+      },
     });
   }
 

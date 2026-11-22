@@ -1,14 +1,14 @@
 import { Component, inject } from '@angular/core';
-import { TitleCasePipe } from '@angular/common';
 import { ButtonComponent } from '../../../shared/ui/button/button.component';
 import { TranslateService } from '../translate.service';
 import { PreferencesService } from '../../../core/preferences/preferences.service';
 import { PhrasesService } from '../../glossary/phrases.service';
+import { AUTO_DETECT } from '../../../shared/languages';
 
 @Component({
   selector: 'app-translation-panel',
   standalone: true,
-  imports: [ButtonComponent, TitleCasePipe],
+  imports: [ButtonComponent],
   template: `
     <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden">
 
@@ -19,16 +19,22 @@ import { PhrasesService } from '../../glossary/phrases.service';
           <select
             (change)="svc.sourceLang.set($any($event.target).value)"
             class="text-sm font-medium text-gray-800 bg-transparent border-none focus:outline-none cursor-pointer">
+            <option [value]="AUTO" [selected]="svc.sourceLang() === AUTO">Auto-detect</option>
             @for (lang of svc.languages; track lang) {
               <option [value]="lang" [selected]="lang === svc.sourceLang()">{{ lang }}</option>
             }
           </select>
+          @if (svc.sourceLang() === AUTO && svc.result()?.detectedLang) {
+            <span class="text-xs text-gray-400">Detected: {{ svc.result()?.detectedLang }}</span>
+          }
         </div>
 
         <!-- Swap button -->
         <button
           (click)="svc.swapLanguages()"
-          class="p-2 mx-2 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors flex-shrink-0">
+          [disabled]="!svc.effectiveSourceLang()"
+          title="Swap languages"
+          class="disabled:opacity-30 disabled:pointer-events-none p-2 mx-2 text-gray-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors flex-shrink-0">
           <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round"
               d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
@@ -97,15 +103,6 @@ import { PhrasesService } from '../../glossary/phrases.service';
           <div class="flex items-center justify-between min-h-[28px]">
             @if (svc.error()) {
               <span class="text-xs text-red-500">{{ svc.error() }}</span>
-            } @else if (svc.accuracy()) {
-              <div class="flex items-center gap-1.5 text-xs"
-                [class]="svc.accuracy() === 'high' ? 'text-green-600' : svc.accuracy() === 'medium' ? 'text-yellow-600' : 'text-red-500'">
-                <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
-                </svg>
-                {{ svc.accuracy() | titlecase }} translation accuracy
-              </div>
             } @else {
               <span></span>
             }
@@ -121,12 +118,12 @@ import { PhrasesService } from '../../glossary/phrases.service';
                 <!-- Save phrase -->
                 <button
                   (click)="savePhrase()"
-                  [title]="phraseSvc.isSaved(svc.sourceText(), svc.sourceLang()) ? 'Phrase saved' : 'Save phrase'"
+                  [title]="phraseSvc.isSaved(svc.sourceText(), svc.effectiveSourceLang() ?? '') ? 'Phrase saved' : 'Save phrase'"
                   class="p-1.5 rounded-lg transition-colors"
-                  [class]="phraseSvc.isSaved(svc.sourceText(), svc.sourceLang())
+                  [class]="phraseSvc.isSaved(svc.sourceText(), svc.effectiveSourceLang() ?? '')
                     ? 'text-blue-600 bg-blue-50'
                     : 'text-gray-400 hover:text-blue-600 hover:bg-blue-50'">
-                  @if (phraseSvc.isSaved(svc.sourceText(), svc.sourceLang())) {
+                  @if (phraseSvc.isSaved(svc.sourceText(), svc.effectiveSourceLang() ?? '')) {
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M17.593 3.322c1.1.128 1.907 1.032 1.907 2.277v14.401l-7.5-2.5-7.5 2.5V5.599c0-1.245.907-2.15 1.907-2.277a48.507 48.507 0 0 1 11.186 0Z" />
                     </svg>
@@ -148,6 +145,7 @@ export class TranslationPanelComponent {
   protected readonly svc = inject(TranslateService);
   protected readonly prefs = inject(PreferencesService);
   protected readonly phraseSvc = inject(PhrasesService);
+  protected readonly AUTO = AUTO_DETECT;
 
   onKeyDown(event: KeyboardEvent): void {
     if (event.key === 'Enter' && !event.shiftKey) {
@@ -165,7 +163,7 @@ export class TranslationPanelComponent {
   savePhrase(): void {
     this.phraseSvc.savePhrase({
       phrase: this.svc.sourceText().trim(),
-      language: this.svc.sourceLang(),
+      language: this.svc.effectiveSourceLang() ?? 'Unknown',
       translation: this.svc.translation(),
       transliteration: this.svc.transliteration() ?? undefined,
       source: 'translator',

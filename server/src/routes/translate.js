@@ -29,31 +29,28 @@ async function groqTranslate(text, sourceLang, targetLang, context, tone) {
   return chat.choices[0].message.content.trim();
 }
 
-// Romanise the translated output and rate accuracy. Small best-effort JSON call;
-// if it fails we still return the translation (transliteration null).
-const TRANSLIT_PROMPT = `You are a linguistics assistant. Return ONLY a valid JSON object: {"transliteration": string | null, "accuracy": "high" | "medium" | "low"}.
+// Romanise the translated output and name the source language (used when the
+// user picked auto-detect). Small best-effort JSON call; if it fails we still
+// return the translation.
+const TRANSLIT_PROMPT = `You are a linguistics assistant. Return ONLY a valid JSON object: {"transliteration": string | null, "sourceLang": string}.
 transliteration: the romanised pronunciation of the TRANSLATION text, transliterated character-by-character into Latin script (for Arabic, Chinese, Japanese, Korean, Hindi, Russian, etc.). Set to null if the translation already uses the Latin alphabet.
-accuracy: your confidence that the translation is accurate and natural for the target language.`;
+sourceLang: the English name of the SOURCE text's language, e.g. "Spanish".`;
 
-async function transliterateAndRate(translation, sourceText, sourceLang, targetLang) {
+async function transliterate(translation, sourceText, targetLang) {
   try {
     const chat = await groq.chat.completions.create({
       model: GROQ_MODEL,
       response_format: { type: 'json_object' },
       messages: [
         { role: 'system', content: TRANSLIT_PROMPT },
-        {
-          role: 'user',
-          content: `Source (${sourceLang}): "${sourceText}"\nTranslation (${targetLang}): "${translation}"`,
-        },
+        { role: 'user', content: `Source: "${sourceText}"\nTranslation (${targetLang}): "${translation}"` },
       ],
     });
     const parsed = JSON.parse(chat.choices[0].message.content);
-    const accuracy = ['high', 'medium', 'low'].includes(parsed.accuracy) ? parsed.accuracy : 'medium';
-    return { transliteration: parsed.transliteration ?? null, accuracy };
+    return { transliteration: parsed.transliteration ?? null, detectedLang: parsed.sourceLang ?? null };
   } catch (err) {
     console.warn('Transliteration step failed (returning translation only):', err.message);
-    return { transliteration: null, accuracy: 'medium' };
+    return { transliteration: null, detectedLang: null };
   }
 }
 
@@ -65,9 +62,10 @@ router.post('/', validateTranslateRequest, async (req, res) => {
     context = 'General',
     tone = 'Neutral',
   } = req.body;
+  const auto = sourceLang === 'auto';
 
   try {
-    const viaGroq = () => groqTranslate(text, sourceLang, targetLang, context, tone);
+    const viaGroq = () => groqTranslate(text, auto ? 'the detected source language' : sourceLang, targetLang, context, tone);
     const translation = hasQwen()
       ? await qwenTranslate(text, sourceLang, targetLang).catch((err) => {
           console.warn('Qwen-MT failed, falling back to Groq:', err.message);
@@ -75,18 +73,19 @@ router.post('/', validateTranslateRequest, async (req, res) => {
         })
       : await viaGroq();
 
-    const { transliteration, accuracy } = await transliterateAndRate(translation, text, sourceLang, targetLang);
+    const { transliteration, detectedLang } = await transliterate(translation, text, targetLang);
+    const savedSourceLang = auto ? detectedLang ?? 'auto' : sourceLang;
 
-    // breakdown is loaded on demand via POST /translate/breakdown; keep the key
-    // present (empty) so saved history rows have a stable shape.
-    const result = { translation, transliteration, accuracy, breakdown: [] };
+    // breakdown is filled in later by POST /translate/breakdown (with translationId).
+    const result = { translation, transliteration, breakdown: [] };
 
-    await sql`
+    const [row] = await sql`
       insert into translations (user_id, source_text, source_lang, target_lang, result_json)
-      values (${req.userId}, ${text}, ${sourceLang}, ${targetLang}, ${sql.json(result)})
+      values (${req.userId}, ${text}, ${savedSourceLang}, ${targetLang}, ${sql.json(result)})
+      returning id
     `;
 
-    res.json(result);
+    res.json({ ...result, id: row.id, detectedLang: auto ? detectedLang : null });
   } catch (err) {
     console.error('Translation error:', err.message);
     res.status(500).json({ error: 'Translation failed' });
@@ -99,7 +98,7 @@ const BREAKDOWN_PROMPT = `You are a precise language tutor. Return ONLY a valid 
 Each item is one word from the provided text, in the given language. pos values: NOUN, VERB, ADJ, ADV, PRON, PREP, CONJ, DET, INTJ.`;
 
 router.post('/breakdown', async (req, res) => {
-  const { text, language } = req.body;
+  const { text, language, translationId } = req.body;
 
   if (!text || typeof text !== 'string' || !language) {
     return res.status(400).json({ error: 'text and language are required' });
@@ -115,7 +114,18 @@ router.post('/breakdown', async (req, res) => {
       ],
     });
     const parsed = JSON.parse(chat.choices[0].message.content);
-    res.json({ breakdown: Array.isArray(parsed.breakdown) ? parsed.breakdown : [] });
+    const breakdown = Array.isArray(parsed.breakdown) ? parsed.breakdown : [];
+
+    // Save onto the history row so reusing it later doesn't pay for this again.
+    if (translationId && breakdown.length) {
+      await sql`
+        update translations
+        set result_json = jsonb_set(result_json, '{breakdown}', ${sql.json(breakdown)})
+        where id = ${translationId} and user_id = ${req.userId}
+      `.catch((err) => console.warn('Could not save breakdown to history:', err.message));
+    }
+
+    res.json({ breakdown });
   } catch (err) {
     if (err instanceof SyntaxError) {
       console.error('Breakdown returned non-JSON:', err.message);

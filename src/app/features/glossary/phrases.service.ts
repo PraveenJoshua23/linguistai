@@ -2,6 +2,7 @@ import { Injectable, signal, inject, effect } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { SupabaseService } from '../../core/auth/supabase.service';
 import { environment } from '../../../environments/environment';
+import { ToastService } from '../../shared/ui/toast/toast.service';
 
 export interface SavedPhrase {
   id: string;
@@ -19,6 +20,7 @@ export interface SavedPhrase {
 export class PhrasesService {
   private readonly http = inject(HttpClient);
   private readonly supabase = inject(SupabaseService);
+  private readonly toast = inject(ToastService);
 
   readonly phrases = signal<SavedPhrase[]>([]);
   readonly loaded = signal(false);
@@ -75,15 +77,25 @@ export class PhrasesService {
             ps.map(p => p.id === temp.id ? { ...temp, id: row.id } : p)
           );
         },
-        error: (e) => console.warn('Could not persist phrase:', e.message),
+        error: () => {
+          this.phrases.update(ps => ps.filter(p => p.id !== temp.id));
+          this.toast.error("Couldn't save that phrase. Please try again.");
+        },
       });
     }
   }
 
   removePhrase(id: string): void {
+    const removed = this.phrases().find(p => p.id === id);
+    if (!removed) return;
     this.phrases.update(ps => ps.filter(p => p.id !== id));
     if (this.supabase.currentUser()) {
-      this.http.delete(`${environment.apiBase}/saved-phrases/${id}`).subscribe({ error: (e) => console.warn('Could not delete phrase:', e.message) });
+      this.http.delete(`${environment.apiBase}/saved-phrases/${id}`).subscribe({
+        error: () => {
+          this.phrases.update(ps => [removed, ...ps]);
+          this.toast.error("Couldn't remove that phrase. Please try again.");
+        },
+      });
     }
   }
 

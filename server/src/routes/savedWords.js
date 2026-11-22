@@ -134,22 +134,28 @@ router.post('/assign-deck', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
-  const { word, language, meaning, explanation, examples, pos } = req.body;
+  const { language, meaning, explanation, examples, pos } = req.body;
   const { userId } = req;
+  // Same rule as the DB check constraint: trimmed, single spaces.
+  const word = typeof req.body.word === 'string' ? req.body.word.trim().replace(/\s+/g, ' ') : '';
 
   if (!word || !language) {
     return res.status(400).json({ error: 'word and language are required' });
   }
 
   try {
-    const [row] = await sql`
+    // Case-insensitive upsert. The unique index from migrations/002 backs this
+    // up against concurrent double-saves.
+    const [existing] = await sql`
+      update saved_words
+      set meaning = ${meaning ?? null}, explanation = ${explanation ?? null},
+          examples = ${sql.json(examples ?? [])}, pos = ${pos ?? null}
+      where user_id = ${userId} and language = ${language} and lower(word) = lower(${word})
+      returning *
+    `;
+    const [row] = existing ? [existing] : await sql`
       insert into saved_words (user_id, word, language, meaning, explanation, examples, pos)
-      values (${userId}, ${word}, ${language}, ${meaning}, ${explanation}, ${sql.json(examples ?? [])}, ${pos ?? null})
-      on conflict (user_id, word, language) do update
-        set meaning = excluded.meaning,
-            explanation = excluded.explanation,
-            examples = excluded.examples,
-            pos = excluded.pos
+      values (${userId}, ${word}, ${language}, ${meaning ?? null}, ${explanation ?? null}, ${sql.json(examples ?? [])}, ${pos ?? null})
       returning *
     `;
     res.status(201).json(row);
