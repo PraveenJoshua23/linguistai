@@ -1,0 +1,61 @@
+/**
+ * Curated grammar topic list per language, ordered Beginner -> Intermediate -> Advanced.
+ * `video` is a YouTube id shown at the top of the lesson — each one was checked
+ * to exist and allow embedding (youtube.com/oembed returns 200, not 401).
+ */
+export const LANGUAGES = {
+  korean: {
+    language: 'Korean',
+    name: 'Korean Grammar',
+    romanizationLabel: 'Revised Romanization',
+    topics: [
+      { id: 'topic-particle', video: 'yizmAxZLKNg', title: 'Topic Particle 은/는', level: 'Beginner', focus: 'Marking the topic of a sentence; 은 after a consonant, 는 after a vowel; contrast vs new information.' },
+      { id: 'subject-particle', video: 'MGv016hstnw', title: 'Subject Particle 이/가', level: 'Beginner', focus: 'Marking the grammatical subject; 이 after a consonant, 가 after a vowel; 은/는 vs 이/가.' },
+      { id: 'object-particle', video: 'Btq5KGFxuac', title: 'Object Particle 을/를', level: 'Beginner', focus: 'Marking the direct object; 을 after a consonant, 를 after a vowel.' },
+      { id: 'copula-ida', video: 'jy1TWg876qM', title: 'The Copula 이다 (to be)', level: 'Beginner', focus: 'Saying "A is B" with 이에요/예요 in polite speech.' },
+      { id: 'present-tense', video: 'Gh7ESFhtcoI', title: 'Present Tense -아요/어요', level: 'Beginner', focus: 'Polite present tense verb conjugation and vowel harmony (-아요 vs -어요 vs -해요).' },
+      { id: 'past-tense', video: 'at0lx_1Xveg', title: 'Past Tense -았/었어요', level: 'Beginner', focus: 'Polite past tense conjugation with -았어요/-었어요/-했어요.' },
+      { id: 'negation', video: '1mkBJAwvh6Q', title: 'Negation 안 and -지 않다', level: 'Beginner', focus: 'Short negation 안 before the verb vs long negation -지 않다.' },
+      { id: 'existence', video: 'SB-HV3cDo14', title: 'Existence 있다 / 없다', level: 'Beginner', focus: 'Expressing there is/has (있어요) and there is not/has not (없어요).' },
+      { id: 'location-particles', video: 'DfDCZDiyqBo', title: 'Location Particles 에 / 에서', level: 'Beginner', focus: '에 for destination/static location, 에서 for the place an action happens.' },
+      { id: 'want-to', video: 'AIKmWn6P3pM', title: 'Want to -고 싶다', level: 'Intermediate', focus: 'Expressing desire with the -고 싶다 construction.' },
+      { id: 'connective-go', video: 'uXkK0mI6n8s', title: 'Connective -고 (and / then)', level: 'Intermediate', focus: 'Linking clauses/actions in sequence with -고.' },
+      { id: 'honorifics', video: 'lEKEApWl5S4', title: 'Honorifics -(으)시-', level: 'Intermediate', focus: 'Subject honorific -(으)시- to show respect to the person being talked about.' },
+      { id: 'can-could', video: 'nFhYTo9r3wY', title: 'Can / Cannot -(으)ㄹ 수 있다/없다', level: 'Intermediate', focus: 'Ability and possibility with -(으)ㄹ 수 있다/없다.' },
+      { id: 'must', video: 'x0Ste88yfH0', title: 'Must -아/어야 하다', level: 'Intermediate', focus: 'Obligation with -아/어야 하다 (and the spoken -아/어야 되다).' },
+      { id: 'because', video: 'dKAIod3LP6Y', title: 'Because -아서/어서', level: 'Intermediate', focus: 'Giving reasons with -아서/어서, and why it cannot be used with commands or past tense.' },
+      { id: 'if-myeon', video: 'F4AMJkXArL4', title: 'If -(으)면', level: 'Intermediate', focus: 'Conditions with -(으)면; -으면 after a consonant, -면 after a vowel or ㄹ.' },
+      { id: 'indirect-speech', video: 'XxBy5sWulp0', title: 'Indirect Speech -다고 하다', level: 'Advanced', focus: 'Reporting statements with -ㄴ/는다고, -다고 and -(이)라고 하다.' },
+      { id: 'deorago', video: 'r1TadsyZRjM', title: 'Recalling Experience -더라고요', level: 'Advanced', focus: 'Sharing something you personally saw or felt in the past with -더라고요.' },
+      { id: 'l-tende', video: 'Z8yKrDDDvjU', title: 'Expectation -(으)ㄹ 텐데', level: 'Advanced', focus: 'Expressing an assumption or expectation as background with -(으)ㄹ 텐데.' },
+      { id: 'passive', video: 'n__z6m_-6Bg', title: 'Passive Verbs -이/히/리/기-', level: 'Advanced', focus: 'Forming passive verbs with the suffixes -이-, -히-, -리-, -기- (보이다, 닫히다, 열리다, 안기다).' },
+    ],
+  },
+  japanese: {
+    language: 'Japanese',
+    name: 'Japanese Grammar',
+    romanizationLabel: 'Romaji',
+    topics: [
+      { id: 'topic-particle-wa', video: 'mTws1GwXcx8', title: 'Topic Particle は', level: 'Beginner', focus: 'Marking the topic; written は but read "wa"; A は B です.' },
+      { id: 'subject-particle-ga', video: 'FknmUij6ZIk', title: 'Subject Particle が', level: 'Beginner', focus: 'Marking the subject; は vs が (topic vs new/identifying information).' },
+      { id: 'object-particle-wo', video: 'x_VK4qUQWok', title: 'Object Particle を', level: 'Beginner', focus: 'Marking the direct object; read "o".' },
+      { id: 'copula-desu', video: 'MQD8Y_Q0nIM', title: 'The Copula です', level: 'Beginner', focus: 'Polite "to be" with です and the negative じゃありません.' },
+      { id: 'masu-form', video: '-_BZBgLsUAU', title: 'Polite Verbs -ます', level: 'Beginner', focus: 'The polite -ます form and its negative -ません.' },
+      { id: 'past-tense', video: 'ZM_62jMKBz4', title: 'Past Tense -ました / でした', level: 'Beginner', focus: 'Polite past -ました/-ませんでした and でした for nouns/adjectives.' },
+      { id: 'existence', video: 'X3SvXHsEXu0', title: 'Existence あります / います', level: 'Beginner', focus: 'あります for inanimate things, います for living things.' },
+      { id: 'particles-ni-de', video: 'API_zgpaelE', title: 'Particles に and で', level: 'Beginner', focus: 'に for destination/time/static location, で for where an action occurs and means.' },
+      { id: 'possessive-no', video: 't6ZNzYvQ5Qs', title: 'Possessive の', level: 'Beginner', focus: 'Linking nouns and showing possession with の (A の B).' },
+      { id: 'te-form', video: 'jL62m0XLgsU', title: 'The て-form', level: 'Intermediate', focus: 'Forming and using the て-form to connect actions and make requests (-てください).' },
+      { id: 'want-to-tai', video: 'SuFoA_A16_g', title: 'Want to -たい', level: 'Intermediate', focus: 'Expressing desire to do something with the -たい form.' },
+      { id: 'adjectives', video: 'ztJSKEM1xDc', title: 'い and な Adjectives', level: 'Intermediate', focus: 'The two adjective classes and how they attach to nouns and conjugate.' },
+      { id: 'plain-form', video: 'p_23oY2Og24', title: 'Plain Form (Casual Speech)', level: 'Intermediate', focus: 'Dictionary, ない, た and なかった forms used in casual speech.' },
+      { id: 'potential-form', video: 'bSvU5zMDd-0', title: 'Potential Form (can)', level: 'Intermediate', focus: 'Saying "can" with -える (godan) and -られる (ichidan), and が marking the object.' },
+      { id: 'must-nakereba', video: 'iFFa2nFi1Is', title: 'Must -なければならない', level: 'Intermediate', focus: 'Obligation with -なければならない/いけない and casual -なきゃ.' },
+      { id: 'conditional-tara', video: '-A0jr21n4ZU', title: 'If / When -たら', level: 'Intermediate', focus: 'Conditions and "once X happens" with the -たら form.' },
+      { id: 'passive', video: 's100KM9yrT8', title: 'Passive Form -れる/られる', level: 'Advanced', focus: 'Passive voice with -れる/-られる and the agent marked by に, including the suffering passive.' },
+      { id: 'causative', video: '8iz4UufO3aE', title: 'Causative Form -せる/させる', level: 'Advanced', focus: 'Making or letting someone do something with -せる/-させる.' },
+      { id: 'keigo', video: 'Mtw_FZdXh14', title: 'Honorific Speech (Keigo)', level: 'Advanced', focus: 'Respectful (尊敬語) vs humble (謙譲語) verbs: いらっしゃる, 召し上がる, 参る, いただく.' },
+      { id: 'you-ni-naru', video: 'WvlY-BoTyPI', title: 'Change -ようになる / ようにする', level: 'Advanced', focus: 'Describing a gradual change (ようになる) and a conscious effort (ようにする).' },
+    ],
+  },
+};

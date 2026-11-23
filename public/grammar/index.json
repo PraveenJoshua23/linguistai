@@ -4,13 +4,13 @@
     "language": "Korean",
     "name": "Korean Grammar",
     "file": "korean.json",
-    "topicCount": 12
+    "topicCount": 20
   },
   {
     "id": "japanese",
     "language": "Japanese",
     "name": "Japanese Grammar",
     "file": "japanese.json",
-    "topicCount": 12
+    "topicCount": 20
   }
 ]

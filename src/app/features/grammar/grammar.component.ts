@@ -1,4 +1,5 @@
 import { Component, computed, effect, inject, signal, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 import { GrammarService, GrammarTopic } from './grammar.service';
 
 type View = 'list' | 'lesson' | 'practice' | 'done';
@@ -53,9 +54,7 @@ const LANG_FLAGS: Record<string, string> = {
                   <div class="flex items-center gap-2 mb-1">
                     <h3 class="text-base font-bold text-gray-900">{{ topic.title }}</h3>
                     <span class="px-2 py-0.5 rounded-full text-[11px] font-semibold"
-                      [class]="topic.level === 'Beginner'
-                        ? 'bg-green-100 text-green-700'
-                        : 'bg-amber-100 text-amber-700'">
+                      [class]="levelClass(topic.level)">
                       {{ topic.level }}
                     </span>
                   </div>
@@ -83,10 +82,17 @@ const LANG_FLAGS: Record<string, string> = {
         <div class="flex items-center gap-2">
           <h1 class="text-xl font-bold text-gray-900">{{ topic.title }}</h1>
           <span class="px-2 py-0.5 rounded-full text-[11px] font-semibold"
-            [class]="topic.level === 'Beginner' ? 'bg-green-100 text-green-700' : 'bg-amber-100 text-amber-700'">
+            [class]="levelClass(topic.level)">
             {{ topic.level }}
           </span>
         </div>
+
+        @if (videoUrl(); as url) {
+          <div class="aspect-video w-full rounded-2xl overflow-hidden bg-black">
+            <iframe class="w-full h-full" [src]="url" [title]="topic.title + ' video lesson'" loading="lazy"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        }
 
         <p class="text-[15px] text-gray-700 leading-relaxed">{{ topic.explanation }}</p>
 
@@ -221,6 +227,7 @@ const LANG_FLAGS: Record<string, string> = {
 })
 export class GrammarComponent implements OnInit {
   private readonly grammarSvc = inject(GrammarService);
+  private readonly sanitizer = inject(DomSanitizer);
 
   readonly languages = this.grammarSvc.languages;
   readonly loadingLang = computed(() => this.grammarSvc.loadingLang() === this.selectedLang());
@@ -235,6 +242,11 @@ export class GrammarComponent implements OnInit {
   readonly correctCount = signal(0);
 
   readonly topics = computed(() => this.grammarSvc.topicsByLang()[this.selectedLang()] ?? []);
+  // Ids come from our own curated JSON, not user input, so trusting the embed URL is safe.
+  readonly videoUrl = computed(() => {
+    const id = this.currentTopic()?.video;
+    return id ? this.sanitizer.bypassSecurityTrustResourceUrl(`https://www.youtube-nocookie.com/embed/${id}?rel=0`) : null;
+  });
   readonly currentExercise = computed(() => this.currentTopic()?.exercises[this.exerciseIndex()] ?? null);
   readonly score = computed(() => this.correctCount());
   readonly progressPct = computed(() => {
@@ -261,6 +273,12 @@ export class GrammarComponent implements OnInit {
 
   ngOnInit(): void {
     this.grammarSvc.loadManifest();
+  }
+
+  levelClass(level: string): string {
+    if (level === 'Beginner') return 'bg-green-100 text-green-700';
+    if (level === 'Advanced') return 'bg-rose-100 text-rose-700';
+    return 'bg-amber-100 text-amber-700';
   }
 
   flag(language: string): string {

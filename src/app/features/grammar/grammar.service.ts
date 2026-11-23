@@ -27,6 +27,8 @@ export interface GrammarTopic {
   id: string;
   title: string;
   level: string;
+  /** YouTube video id shown at the top of the lesson. */
+  video?: string;
   summary: string;
   explanation: string;
   examples: GrammarExample[];

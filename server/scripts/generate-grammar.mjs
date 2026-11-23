@@ -5,7 +5,7 @@
  *   node scripts/generate-grammar.mjs            # all languages
  *   node scripts/generate-grammar.mjs korean     # one language
  *
- * The topic list per language is curated here (ordered beginner -> intermediate);
+ * The topic list per language is curated here (ordered beginner -> advanced) in grammar-topics.mjs;
  * the model only fills each topic's explanation, examples, and MCQ exercises.
  */
 import 'dotenv/config';
@@ -14,52 +14,13 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CURATED } from './grammar-curated.mjs';
+import { LANGUAGES } from './grammar-topics.mjs';
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const MODEL = 'openai/gpt-oss-120b';
 const OUT_DIR = join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'public', 'grammar');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const LANGUAGES = {
-  korean: {
-    language: 'Korean',
-    name: 'Korean Grammar',
-    romanizationLabel: 'Revised Romanization',
-    topics: [
-      { id: 'topic-particle', title: 'Topic Particle 은/는', level: 'Beginner', focus: 'Marking the topic of a sentence; 은 after a consonant, 는 after a vowel; contrast vs new information.' },
-      { id: 'subject-particle', title: 'Subject Particle 이/가', level: 'Beginner', focus: 'Marking the grammatical subject; 이 after a consonant, 가 after a vowel; 은/는 vs 이/가.' },
-      { id: 'object-particle', title: 'Object Particle 을/를', level: 'Beginner', focus: 'Marking the direct object; 을 after a consonant, 를 after a vowel.' },
-      { id: 'copula-ida', title: 'The Copula 이다 (to be)', level: 'Beginner', focus: 'Saying "A is B" with 이에요/예요 in polite speech.' },
-      { id: 'present-tense', title: 'Present Tense -아요/어요', level: 'Beginner', focus: 'Polite present tense verb conjugation and vowel harmony (-아요 vs -어요 vs -해요).' },
-      { id: 'past-tense', title: 'Past Tense -았/었어요', level: 'Beginner', focus: 'Polite past tense conjugation with -았어요/-었어요/-했어요.' },
-      { id: 'negation', title: 'Negation 안 and -지 않다', level: 'Beginner', focus: 'Short negation 안 before the verb vs long negation -지 않다.' },
-      { id: 'existence', title: 'Existence 있다 / 없다', level: 'Beginner', focus: 'Expressing there is/has (있어요) and there is not/has not (없어요).' },
-      { id: 'location-particles', title: 'Location Particles 에 / 에서', level: 'Beginner', focus: '에 for destination/static location, 에서 for the place an action happens.' },
-      { id: 'want-to', title: 'Want to -고 싶다', level: 'Intermediate', focus: 'Expressing desire with the -고 싶다 construction.' },
-      { id: 'connective-go', title: 'Connective -고 (and / then)', level: 'Intermediate', focus: 'Linking clauses/actions in sequence with -고.' },
-      { id: 'honorifics', title: 'Honorifics -(으)시-', level: 'Intermediate', focus: 'Subject honorific -(으)시- to show respect to the person being talked about.' },
-    ],
-  },
-  japanese: {
-    language: 'Japanese',
-    name: 'Japanese Grammar',
-    romanizationLabel: 'Romaji',
-    topics: [
-      { id: 'topic-particle-wa', title: 'Topic Particle は', level: 'Beginner', focus: 'Marking the topic; written は but read "wa"; A は B です.' },
-      { id: 'subject-particle-ga', title: 'Subject Particle が', level: 'Beginner', focus: 'Marking the subject; は vs が (topic vs new/identifying information).' },
-      { id: 'object-particle-wo', title: 'Object Particle を', level: 'Beginner', focus: 'Marking the direct object; read "o".' },
-      { id: 'copula-desu', title: 'The Copula です', level: 'Beginner', focus: 'Polite "to be" with です and the negative じゃありません.' },
-      { id: 'masu-form', title: 'Polite Verbs -ます', level: 'Beginner', focus: 'The polite -ます form and its negative -ません.' },
-      { id: 'past-tense', title: 'Past Tense -ました / でした', level: 'Beginner', focus: 'Polite past -ました/-ませんでした and でした for nouns/adjectives.' },
-      { id: 'existence', title: 'Existence あります / います', level: 'Beginner', focus: 'あります for inanimate things, います for living things.' },
-      { id: 'particles-ni-de', title: 'Particles に and で', level: 'Beginner', focus: 'に for destination/time/static location, で for where an action occurs and means.' },
-      { id: 'possessive-no', title: 'Possessive の', level: 'Beginner', focus: 'Linking nouns and showing possession with の (A の B).' },
-      { id: 'te-form', title: 'The て-form', level: 'Intermediate', focus: 'Forming and using the て-form to connect actions and make requests (-てください).' },
-      { id: 'want-to-tai', title: 'Want to -たい', level: 'Intermediate', focus: 'Expressing desire to do something with the -たい form.' },
-      { id: 'adjectives', title: 'い and な Adjectives', level: 'Intermediate', focus: 'The two adjective classes and how they attach to nouns and conjugate.' },
-    ],
-  },
-};
 
 async function generateTopic(lang, topic) {
   const chat = await groq.chat.completions.create({
@@ -113,7 +74,7 @@ async function buildLanguage(key) {
     // Deterministic / high-error topics are hand-authored — skip the model.
     const curated = CURATED[key]?.[topic.id];
     if (curated) {
-      topics.push({ id: topic.id, title: topic.title, level: topic.level, ...curated });
+      topics.push({ id: topic.id, title: topic.title, level: topic.level, video: topic.video, ...curated });
       console.log(`  [${key}] ${topics.length}/${lang.topics.length} ${topic.title} (curated)`);
       continue;
     }
@@ -138,6 +99,7 @@ async function buildLanguage(key) {
       id: topic.id,
       title: topic.title,
       level: topic.level,
+      video: topic.video,
       summary: typeof content.summary === 'string' ? content.summary.trim() : '',
       explanation: content.explanation.trim(),
       examples: content.examples
