@@ -6,6 +6,7 @@
    "id": "topic-particle-wa",
    "title": "Topic Particle は",
    "level": "Beginner",
+   "video": "mTws1GwXcx8",
    "summary": "は marks the topic of a sentence — written は but pronounced \"wa\".",
    "explanation": "は marks the topic, what the sentence is about. It is written with the hiragana は but pronounced \"wa\". The basic pattern is \"A は B です\" (As for A, it is B).",
    "examples": [
@@ -80,6 +81,7 @@
    "id": "subject-particle-ga",
    "title": "Subject Particle が",
    "level": "Beginner",
+   "video": "FknmUij6ZIk",
    "summary": "が marks the grammatical subject, often introducing new or identifying information.",
    "explanation": "が marks the subject that performs an action or is newly introduced. Use it (rather than は) to answer \"who/what\" or to point out specific information. Verbs of existence, perception, and ability also take が.",
    "examples": [
@@ -154,6 +156,7 @@
    "id": "object-particle-wo",
    "title": "Object Particle を",
    "level": "Beginner",
+   "video": "x_VK4qUQWok",
    "summary": "を marks the direct object of a verb, pronounced \"o\".",
    "explanation": "を marks the direct object, the thing an action is done to. It is written を but pronounced \"o\". The pattern is \"[object] を [verb]\".",
    "examples": [
@@ -228,6 +231,7 @@
    "id": "copula-desu",
    "title": "The Copula です",
    "level": "Beginner",
+   "video": "MQD8Y_Q0nIM",
    "summary": "です is the polite copula meaning “to be,” and its negative form is じゃありません.",
    "explanation": "In polite Japanese, you attach です after a noun or adjective to say something is that thing. To make it negative, replace です with じゃありません. The sentence ends with the copula, so no extra verb is needed.",
    "examples": [
@@ -302,6 +306,7 @@
    "id": "masu-form",
    "title": "Polite Verbs -ます",
    "level": "Beginner",
+   "video": "-_BZBgLsUAU",
    "summary": "Learn how to use the polite -ます form and its negative -ません in Japanese.",
    "explanation": "The -ます ending makes a verb polite and is used in present/future statements. To make it negative, change -ます to -ません. Both forms are attached directly to the verb stem. Use them in everyday conversation to sound respectful.",
    "examples": [
@@ -376,6 +381,7 @@
    "id": "past-tense",
    "title": "Past Tense -ました / でした",
    "level": "Beginner",
+   "video": "ZM_62jMKBz4",
    "summary": "Polite past tense in Japanese uses ました for verbs and でした for nouns/adjectives.",
    "explanation": "To talk about something that happened, add ました to the verb stem. For negative past, use ませんでした. When describing nouns or adjectives in the past, replace です with でした. These forms are used in formal situations.",
    "examples": [
@@ -450,6 +456,7 @@
    "id": "existence",
    "title": "Existence あります / います",
    "level": "Beginner",
+   "video": "X3SvXHsEXu0",
    "summary": "Use あります for non‑living things and います for living things.",
    "explanation": "Both verbs mean “to exist.” あります is used with objects, places, and ideas that are not alive. います is used with people, animals, and other living beings. The particle に marks the location where something exists. The verb comes after the location phrase.",
    "examples": [
@@ -524,6 +531,7 @@
    "id": "particles-ni-de",
    "title": "Particles に and で",
    "level": "Beginner",
+   "video": "API_zgpaelE",
    "summary": "Use に for destinations, time points, and existence; use で for where an action happens.",
    "explanation": "に marks a destination (東京に行く), a point in time (9時に), or where something exists (机の上に). で marks the place where an action occurs (カフェで食べる) and the means used. Relative time words like 明日 take no particle.",
    "examples": [
@@ -598,6 +606,7 @@
    "id": "possessive-no",
    "title": "Possessive の",
    "level": "Beginner",
+   "video": "t6ZNzYvQ5Qs",
    "summary": "の links two nouns, showing possession or relationship (A の B = B of A).",
    "explanation": "の connects nouns: the first noun modifies the second. It shows possession (私の本 = my book), origin, or type (日本語の先生 = Japanese teacher). The pattern is A の B.",
    "examples": [
@@ -672,6 +681,7 @@
    "id": "te-form",
    "title": "The て-form",
    "level": "Intermediate",
+   "video": "jL62m0XLgsU",
    "summary": "The て-form connects actions and makes polite requests with -てください.",
    "explanation": "The て-form is made by changing the verb ending to て (or で). It can link two actions, showing sequence or simultaneity. Adding ください after the て-form makes a polite request. Use it after the verb stem, not after a noun.",
    "examples": [
@@ -746,6 +756,7 @@
    "id": "want-to-tai",
    "title": "Want to -たい",
    "level": "Intermediate",
+   "video": "SuFoA_A16_g",
    "summary": "Use the -たい form to say you want to do something.",
    "explanation": "Take the verb stem and add たい. It works like an adjective, so it can be used with です or ですか. It only expresses the speaker's desire. For polite speech, attach です after たい.",
    "examples": [
@@ -820,6 +831,7 @@
    "id": "adjectives",
    "title": "い and な Adjectives",
    "level": "Intermediate",
+   "video": "ztJSKEM1xDc",
    "summary": "Japanese adjectives are divided into い‑adjectives and な‑adjectives, each with its own attachment and conjugation rules.",
    "explanation": "い‑adjectives end with い and can directly modify nouns (e.g., 高い山). To make them negative, replace い with くない. な‑adjectives need the particle な before a noun (e.g., 静かな部屋) and use ではない for the negative form. Both types change similarly for past and polite forms.",
    "examples": [
@@ -887,6 +899,606 @@
      ],
      "answerIndex": 0,
      "explanation": "The negative of a な‑adjective uses ではない."
+    }
+   ]
+  },
+  {
+   "id": "plain-form",
+   "title": "Plain Form (Casual Speech)",
+   "level": "Intermediate",
+   "video": "p_23oY2Og24",
+   "summary": "The plain form is the casual version of a verb — dictionary form, ない (not), た (did) and なかった (did not).",
+   "explanation": "Casual speech swaps the -ます forms for plain forms: 食べます → 食べる, 食べません → 食べない, 食べました → 食べた, 食べませんでした → 食べなかった. です becomes だ (often dropped), and い-adjectives simply drop です. Plain forms are also required before many patterns, such as と思う.",
+   "examples": [
+    {
+     "text": "明日、映画を見る？",
+     "romanization": "ashita, eiga o miru?",
+     "translation": "Are you going to see a movie tomorrow?"
+    },
+    {
+     "text": "昨日は何も食べなかった。",
+     "romanization": "kinō wa nani mo tabenakatta.",
+     "translation": "I didn't eat anything yesterday."
+    },
+    {
+     "text": "今日は忙しい。",
+     "romanization": "kyō wa isogashii.",
+     "translation": "I'm busy today."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "今日は学校に___。",
+     "promptTranslation": "I'm not going to school today.",
+     "options": [
+      "行かない",
+      "行く",
+      "行った",
+      "行きます"
+     ],
+     "answerIndex": 0,
+     "explanation": "The plain negative of 行く is 行かない."
+    },
+    {
+     "prompt": "昨日、友達と映画を___。",
+     "promptTranslation": "I saw a movie with a friend yesterday.",
+     "options": [
+      "見る",
+      "見た",
+      "見ない",
+      "見ます"
+     ],
+     "answerIndex": 1,
+     "explanation": "A past action in casual speech uses the た form: 見た."
+    },
+    {
+     "prompt": "ご飯、もう___？",
+     "promptTranslation": "Have you eaten already?",
+     "options": [
+      "食べる",
+      "食べない",
+      "食べた",
+      "食べます"
+     ],
+     "answerIndex": 2,
+     "explanation": "もう with a completed action takes the た form: 食べた."
+    },
+    {
+     "prompt": "先週は雨が___。",
+     "promptTranslation": "It didn't rain last week.",
+     "options": [
+      "降る",
+      "降った",
+      "降らない",
+      "降らなかった"
+     ],
+     "answerIndex": 3,
+     "explanation": "Past negative in plain form is なかった: 降らなかった."
+    }
+   ]
+  },
+  {
+   "id": "potential-form",
+   "title": "Potential Form (can)",
+   "level": "Intermediate",
+   "video": "bSvU5zMDd-0",
+   "summary": "The potential form says \"can do\": godan verbs change -u to -eru, and ichidan verbs swap る for られる.",
+   "explanation": "For godan verbs, change the final -u sound to -e and add る: 書く → 書ける, 話す → 話せる, 飲む → 飲める. For ichidan verbs, replace る with られる: 食べる → 食べられる, 見る → 見られる. The irregulars are する → できる and 来る → 来られる. The thing you can do is often marked with が instead of を.",
+   "examples": [
+    {
+     "text": "日本語が話せます。",
+     "romanization": "nihongo ga hanasemasu.",
+     "translation": "I can speak Japanese."
+    },
+    {
+     "text": "納豆が食べられません。",
+     "romanization": "nattō ga taberaremasen.",
+     "translation": "I can't eat natto."
+    },
+    {
+     "text": "明日来られますか。",
+     "romanization": "ashita koraremasu ka.",
+     "translation": "Can you come tomorrow?"
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "一人で___か。",
+     "promptTranslation": "Can you go by yourself?",
+     "options": [
+      "行けます",
+      "行きます",
+      "行かせます",
+      "行きたいです"
+     ],
+     "answerIndex": 0,
+     "explanation": "行く is godan: -u → -eru gives 行ける → 行けます."
+    },
+    {
+     "prompt": "漢字が___。",
+     "promptTranslation": "I can write kanji.",
+     "options": [
+      "書きます",
+      "書けます",
+      "書かせます",
+      "書きたいです"
+     ],
+     "answerIndex": 1,
+     "explanation": "書く is godan: 書ける → 書けます."
+    },
+    {
+     "prompt": "刺身が___。",
+     "promptTranslation": "I can eat sashimi.",
+     "options": [
+      "食べます",
+      "食べさせます",
+      "食べられます",
+      "食べけます"
+     ],
+     "answerIndex": 2,
+     "explanation": "食べる is ichidan: replace る with られる → 食べられます."
+    },
+    {
+     "prompt": "ピアノが___。",
+     "promptTranslation": "I can play the piano.",
+     "options": [
+      "弾きます",
+      "弾かせます",
+      "弾きたいです",
+      "弾けます"
+     ],
+     "answerIndex": 3,
+     "explanation": "弾く is godan: 弾ける → 弾けます."
+    }
+   ]
+  },
+  {
+   "id": "must-nakereba",
+   "title": "Must -なければならない",
+   "level": "Intermediate",
+   "video": "iFFa2nFi1Is",
+   "summary": "-なければならない means \"must / have to\" — take the ない form, drop ない, and add なければならない.",
+   "explanation": "Replace the ない of the negative form with なければならない (or なければいけない): 行かない → 行かなければならない, 食べない → 食べなければならない, しない → しなければならない. In polite speech say なければなりません/いけません; in casual speech it shortens to なきゃ or なくちゃ.",
+   "examples": [
+    {
+     "text": "明日は早く起きなければなりません。",
+     "romanization": "ashita wa hayaku okinakereba narimasen.",
+     "translation": "I have to get up early tomorrow."
+    },
+    {
+     "text": "宿題をしなければいけない。",
+     "romanization": "shukudai o shinakereba ikenai.",
+     "translation": "I have to do my homework."
+    },
+    {
+     "text": "もう帰らなきゃ。",
+     "romanization": "mō kaeranakya.",
+     "translation": "I have to go home now."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "薬を___なりません。",
+     "promptTranslation": "I have to take medicine.",
+     "options": [
+      "飲まなければ",
+      "飲めなければ",
+      "飲みなければ",
+      "飲むなければ"
+     ],
+     "answerIndex": 0,
+     "explanation": "飲む → 飲まない → 飲まなければ."
+    },
+    {
+     "prompt": "毎日日本語を___いけません。",
+     "promptTranslation": "I must study Japanese every day.",
+     "options": [
+      "勉強するなければ",
+      "勉強しなければ",
+      "勉強さなければ",
+      "勉強しないければ"
+     ],
+     "answerIndex": 1,
+     "explanation": "する → しない → しなければ."
+    },
+    {
+     "prompt": "八時までに会社に___なりません。",
+     "promptTranslation": "I have to get to the office by eight.",
+     "options": [
+      "行きなければ",
+      "行けなければ",
+      "行かなければ",
+      "行くなければ"
+     ],
+     "answerIndex": 2,
+     "explanation": "行く → 行かない → 行かなければ."
+    },
+    {
+     "prompt": "このレポートを今日中に___なりません。",
+     "promptTranslation": "I have to write this report today.",
+     "options": [
+      "書きなければ",
+      "書くなければ",
+      "書けなければ",
+      "書かなければ"
+     ],
+     "answerIndex": 3,
+     "explanation": "書く → 書かない → 書かなければ."
+    }
+   ]
+  },
+  {
+   "id": "conditional-tara",
+   "title": "If / When -たら",
+   "level": "Intermediate",
+   "video": "-A0jr21n4ZU",
+   "summary": "-たら means \"if\" or \"when / once\" — add ら to the plain past た form.",
+   "explanation": "Make the plain past form and add ら: 行った → 行ったら, 食べた → 食べたら, 安かった → 安かったら, 雨だった → 雨だったら. It marks a condition, or something that happens first before the main clause. The main clause can be a request, a plan or a past discovery.",
+   "examples": [
+    {
+     "text": "雨が降ったら、家にいます。",
+     "romanization": "ame ga futtara, ie ni imasu.",
+     "translation": "If it rains, I'll stay home."
+    },
+    {
+     "text": "駅に着いたら、電話してください。",
+     "romanization": "eki ni tsuitara, denwa shite kudasai.",
+     "translation": "Please call me when you get to the station."
+    },
+    {
+     "text": "安かったら、買います。",
+     "romanization": "yasukattara, kaimasu.",
+     "translation": "If it's cheap, I'll buy it."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "時間が___、遊びに来てください。",
+     "promptTranslation": "If you have time, please come over.",
+     "options": [
+      "あったら",
+      "あるたら",
+      "ありたら",
+      "あたら"
+     ],
+     "answerIndex": 0,
+     "explanation": "ある → あった → あったら."
+    },
+    {
+     "prompt": "___、窓を開けてください。",
+     "promptTranslation": "If it's hot, please open the window.",
+     "options": [
+      "暑いたら",
+      "暑かったら",
+      "暑くたら",
+      "暑だったら"
+     ],
+     "answerIndex": 1,
+     "explanation": "い-adjectives use the past かった + ら: 暑かったら."
+    },
+    {
+     "prompt": "家に___、すぐ寝ます。",
+     "promptTranslation": "Once I get home, I'll go straight to bed.",
+     "options": [
+      "帰るたら",
+      "帰りたら",
+      "帰ったら",
+      "帰たら"
+     ],
+     "answerIndex": 2,
+     "explanation": "帰る is godan: 帰った → 帰ったら."
+    },
+    {
+     "prompt": "宿題が___、テレビを見てもいいです。",
+     "promptTranslation": "Once your homework is done, you can watch TV.",
+     "options": [
+      "終わるたら",
+      "終わりたら",
+      "終わたら",
+      "終わったら"
+     ],
+     "answerIndex": 3,
+     "explanation": "終わる → 終わった → 終わったら."
+    }
+   ]
+  },
+  {
+   "id": "passive",
+   "title": "Passive Form -れる/られる",
+   "level": "Advanced",
+   "video": "s100KM9yrT8",
+   "summary": "The passive form -れる/-られる shows something is done to the subject, with the doer marked by に.",
+   "explanation": "For godan verbs change -u to -a and add れる: 読む → 読まれる, 言う → 言われる, 盗む → 盗まれる. For ichidan verbs replace る with られる: 食べる → 食べられる. する becomes される and 来る becomes 来られる. Japanese also uses a \"suffering passive\" when the speaker is negatively affected, as in 雨に降られた (I got caught in the rain).",
+   "examples": [
+    {
+     "text": "先生に褒められました。",
+     "romanization": "sensei ni homeraremashita.",
+     "translation": "I was praised by the teacher."
+    },
+    {
+     "text": "財布を盗まれました。",
+     "romanization": "saifu o nusumaremashita.",
+     "translation": "I had my wallet stolen."
+    },
+    {
+     "text": "この本は多くの人に読まれています。",
+     "romanization": "kono hon wa ōku no hito ni yomarete imasu.",
+     "translation": "This book is read by many people."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "母に___。",
+     "promptTranslation": "I was scolded by my mother.",
+     "options": [
+      "叱られました",
+      "叱りました",
+      "叱らせました",
+      "叱れました"
+     ],
+     "answerIndex": 0,
+     "explanation": "叱る is godan: 叱ら + れる → 叱られました."
+    },
+    {
+     "prompt": "電車で足を___。",
+     "promptTranslation": "Someone stepped on my foot on the train.",
+     "options": [
+      "踏みました",
+      "踏まれました",
+      "踏ませました",
+      "踏めました"
+     ],
+     "answerIndex": 1,
+     "explanation": "踏む is godan: 踏ま + れる → 踏まれました (suffering passive)."
+    },
+    {
+     "prompt": "弟にケーキを___。",
+     "promptTranslation": "My cake was eaten by my little brother.",
+     "options": [
+      "食べました",
+      "食べさせました",
+      "食べられました",
+      "食べたいです"
+     ],
+     "answerIndex": 2,
+     "explanation": "食べる is ichidan: 食べ + られる → 食べられました."
+    },
+    {
+     "prompt": "このお寺は八百年前に___。",
+     "promptTranslation": "This temple was built 800 years ago.",
+     "options": [
+      "建てました",
+      "建てさせました",
+      "建てたいです",
+      "建てられました"
+     ],
+     "answerIndex": 3,
+     "explanation": "建てる is ichidan: 建て + られる → 建てられました."
+    }
+   ]
+  },
+  {
+   "id": "causative",
+   "title": "Causative Form -せる/させる",
+   "level": "Advanced",
+   "video": "8iz4UufO3aE",
+   "summary": "The causative form -せる/-させる means \"make\" or \"let\" someone do something.",
+   "explanation": "For godan verbs change -u to -a and add せる: 行く → 行かせる, 待つ → 待たせる, 飲む → 飲ませる. For ichidan verbs replace る with させる: 食べる → 食べさせる. する becomes させる and 来る becomes 来させる. The person made to act is marked with に (or を with verbs that take no object), and -させてください politely asks \"let me…\".",
+   "examples": [
+    {
+     "text": "母は子供に野菜を食べさせました。",
+     "romanization": "haha wa kodomo ni yasai o tabesasemashita.",
+     "translation": "The mother made her child eat vegetables."
+    },
+    {
+     "text": "待たせてすみません。",
+     "romanization": "matasete sumimasen.",
+     "translation": "Sorry to keep you waiting."
+    },
+    {
+     "text": "私にやらせてください。",
+     "romanization": "watashi ni yarasete kudasai.",
+     "translation": "Please let me do it."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "先生は学生に本を___。",
+     "promptTranslation": "The teacher made the students read a book.",
+     "options": [
+      "読ませました",
+      "読まれました",
+      "読みました",
+      "読めました"
+     ],
+     "answerIndex": 0,
+     "explanation": "読む is godan: 読ま + せる → 読ませました."
+    },
+    {
+     "prompt": "父は私を一人で旅行に___。",
+     "promptTranslation": "My father let me travel alone.",
+     "options": [
+      "行かれました",
+      "行かせました",
+      "行けました",
+      "行きました"
+     ],
+     "answerIndex": 1,
+     "explanation": "行く is godan: 行か + せる → 行かせました."
+    },
+    {
+     "prompt": "部長は私に残業を___。",
+     "promptTranslation": "The manager made me work overtime.",
+     "options": [
+      "しました",
+      "されました",
+      "させました",
+      "できました"
+     ],
+     "answerIndex": 2,
+     "explanation": "The causative of する is させる → させました."
+    },
+    {
+     "prompt": "少し___ください。",
+     "promptTranslation": "Please let me rest a little.",
+     "options": [
+      "休んで",
+      "休まれて",
+      "休めて",
+      "休ませて"
+     ],
+     "answerIndex": 3,
+     "explanation": "休む → 休ませる; -させてください asks for permission: 休ませてください."
+    }
+   ]
+  },
+  {
+   "id": "keigo",
+   "title": "Honorific Speech (Keigo)",
+   "level": "Advanced",
+   "video": "Mtw_FZdXh14",
+   "summary": "Keigo uses respectful verbs (尊敬語) to raise others and humble verbs (謙譲語) to lower yourself.",
+   "explanation": "Use 尊敬語 for the actions of customers, bosses or guests: いる/行く/来る → いらっしゃる, 食べる → 召し上がる, 言う → おっしゃる, 見る → ご覧になる. Use 謙譲語 for your own actions toward them: 行く/来る → 参る, 食べる/もらう → いただく, 言う → 申す, 見る → 拝見する. Most other verbs follow お〜になる (respectful) and お〜する (humble).",
+   "examples": [
+    {
+     "text": "社長は会議室にいらっしゃいます。",
+     "romanization": "shachō wa kaigishitsu ni irasshaimasu.",
+     "translation": "The company president is in the meeting room."
+    },
+    {
+     "text": "私は田中と申します。",
+     "romanization": "watashi wa Tanaka to mōshimasu.",
+     "translation": "My name is Tanaka."
+    },
+    {
+     "text": "何を召し上がりますか。",
+     "romanization": "nani o meshiagarimasu ka.",
+     "translation": "What would you like to eat?"
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "先生は明日大阪へ___。",
+     "promptTranslation": "The teacher is going to Osaka tomorrow.",
+     "options": [
+      "いらっしゃいます",
+      "参ります",
+      "おります",
+      "いただきます"
+     ],
+     "answerIndex": 0,
+     "explanation": "The teacher's action needs respectful 尊敬語: いらっしゃいます."
+    },
+    {
+     "prompt": "明日、私がそちらに___。",
+     "promptTranslation": "I'll come to your office tomorrow.",
+     "options": [
+      "いらっしゃいます",
+      "参ります",
+      "おっしゃいます",
+      "召し上がります"
+     ],
+     "answerIndex": 1,
+     "explanation": "Your own action toward others uses humble 謙譲語: 参ります."
+    },
+    {
+     "prompt": "お客様、こちらのケーキを___か。",
+     "promptTranslation": "Would you like to try this cake?",
+     "options": [
+      "いただきます",
+      "申します",
+      "召し上がります",
+      "拝見します"
+     ],
+     "answerIndex": 2,
+     "explanation": "The customer's eating uses 尊敬語: 召し上がります."
+    },
+    {
+     "prompt": "では、資料を___。",
+     "promptTranslation": "Then I'll take a look at the documents.",
+     "options": [
+      "ご覧になります",
+      "召し上がります",
+      "いらっしゃいます",
+      "拝見します"
+     ],
+     "answerIndex": 3,
+     "explanation": "Your own looking is humble: 拝見します."
+    }
+   ]
+  },
+  {
+   "id": "you-ni-naru",
+   "title": "Change -ようになる / ようにする",
+   "level": "Advanced",
+   "video": "WvlY-BoTyPI",
+   "summary": "ようになる describes a gradual change (\"come to / become able to\"), while ようにする describes a conscious effort (\"make sure to\").",
+   "explanation": "Attach ようになる to a dictionary or potential form to show a change over time: 話せるようになった (I became able to speak). Attach ようにする to a dictionary or ない form to show you try to make something a habit: 毎日運動するようにしている (I make a point of exercising daily), 遅れないようにする (I make sure not to be late).",
+   "examples": [
+    {
+     "text": "日本語が話せるようになりました。",
+     "romanization": "nihongo ga hanaseru yō ni narimashita.",
+     "translation": "I became able to speak Japanese."
+    },
+    {
+     "text": "毎朝早く起きるようにしています。",
+     "romanization": "maiasa hayaku okiru yō ni shite imasu.",
+     "translation": "I make a point of getting up early every morning."
+    },
+    {
+     "text": "最近、子供が野菜を食べるようになった。",
+     "romanization": "saikin, kodomo ga yasai o taberu yō ni natta.",
+     "translation": "Recently my child started eating vegetables."
+    }
+   ],
+   "exercises": [
+    {
+     "prompt": "健康のために、毎日野菜を食べるように___。",
+     "promptTranslation": "For my health, I make sure to eat vegetables every day.",
+     "options": [
+      "しています",
+      "なっています",
+      "なりました",
+      "できます"
+     ],
+     "answerIndex": 0,
+     "explanation": "A conscious habit uses ようにする: ようにしています."
+    },
+    {
+     "prompt": "一年勉強して、漢字が読めるように___。",
+     "promptTranslation": "After studying for a year, I became able to read kanji.",
+     "options": [
+      "しました",
+      "なりました",
+      "しています",
+      "させました"
+     ],
+     "answerIndex": 1,
+     "explanation": "A change in ability uses ようになる: ようになりました."
+    },
+    {
+     "prompt": "忘れない___メモを書きます。",
+     "promptTranslation": "I write notes so that I don't forget.",
+     "options": [
+      "ために",
+      "そうに",
+      "ように",
+      "ような"
+     ],
+     "answerIndex": 2,
+     "explanation": "ように after the ない form means \"so that … not\"."
+    },
+    {
+     "prompt": "夜遅く食べない___しています。",
+     "promptTranslation": "I try not to eat late at night.",
+     "options": [
+      "ようで",
+      "ようと",
+      "そうに",
+      "ように"
+     ],
+     "answerIndex": 3,
+     "explanation": "ないようにする means \"make sure not to\"."
     }
    ]
   }
